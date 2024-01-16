@@ -1,0 +1,716 @@
+{
+    "publisher": {
+        "publisherId": "2cf5b1c4-c090-487c-881b-040c485280b6",
+        "publisherName": "crhistianr",
+        "displayName": "Crhistian Ramirez",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "7c284da1-32a9-45f0-b824-67b9cb80fa95",
+    "extensionName": "jira-issues",
+    "displayName": "Jira Issues",
+    "flags": "validated, public",
+    "lastUpdated": "2019-07-10T01:45:33.677Z",
+    "publishedDate": "2018-11-28T04:12:49.567Z",
+    "releaseDate": "2018-11-28T04:12:49.567Z",
+    "shortDescription": "Create a custom filter to view Jira issues in the Explorer viewlet",
+    "versions": [
+        {
+            "version": "1.2.1",
+            "flags": "validated",
+            "lastUpdated": "2019-07-10T01:47:52.837Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.1/1562723133683/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.1/1562723133683/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.1/1562723133683/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.1/1562723133683/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.1/1562723133683/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.1/1562723133683/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.1/1562723133683/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.1/1562723133683/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.1/1562723133683/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#eff1f3"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/crhistianramirez/jiraIssues/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/crhistianramirez/jiraIssues/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.16.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.1/1562723133683",
+            "fallbackAssetUri": "https://crhistianr.gallery.vsassets.io/_apis/public/gallery/publisher/crhistianr/extension/jira-issues/1.2.1/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2019-07-10T00:07:54.26Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.0/1562717135858/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.0/1562717135858/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.0/1562717135858/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.0/1562717135858/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.0/1562717135858/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.0/1562717135858/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.0/1562717135858/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.0/1562717135858/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#eff1f3"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/crhistianramirez/jiraIssues/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/crhistianramirez/jiraIssues/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.16.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.2.0/1562717135858",
+            "fallbackAssetUri": "https://crhistianr.gallery.vsassets.io/_apis/public/gallery/publisher/crhistianr/extension/jira-issues/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2019-04-22T19:23:18.63Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.1.0/1555960732094/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.1.0/1555960732094/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.1.0/1555960732094/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.1.0/1555960732094/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.1.0/1555960732094/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.1.0/1555960732094/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.1.0/1555960732094/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.1.0/1555960732094/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#eff1f3"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/crhistianramirez/jiraIssues/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/crhistianramirez/jiraIssues/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.16.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.1.0/1555960732094",
+            "fallbackAssetUri": "https://crhistianr.gallery.vsassets.io/_apis/public/gallery/publisher/crhistianr/extension/jira-issues/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.3",
+            "flags": "validated",
+            "lastUpdated": "2018-12-01T20:14:16.643Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.3/1543695111369/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.3/1543695111369/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.3/1543695111369/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.3/1543695111369/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.3/1543695111369/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.3/1543695111369/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.3/1543695111369/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.3/1543695111369/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#eff1f3"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/crhistianramirez/jiraIssues/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/crhistianramirez/jiraIssues/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.16.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.3/1543695111369",
+            "fallbackAssetUri": "https://crhistianr.gallery.vsassets.io/_apis/public/gallery/publisher/crhistianr/extension/jira-issues/1.0.3/assetbyname"
+        },
+        {
+            "version": "1.0.2",
+            "flags": "validated",
+            "lastUpdated": "2018-12-01T17:30:04.56Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.2/1543685261205/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.2/1543685261205/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.2/1543685261205/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.2/1543685261205/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.2/1543685261205/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.2/1543685261205/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.2/1543685261205/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.2/1543685261205/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#eff1f3"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/crhistianramirez/jiraIssues/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/crhistianramirez/jiraIssues/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.16.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.2/1543685261205",
+            "fallbackAssetUri": "https://crhistianr.gallery.vsassets.io/_apis/public/gallery/publisher/crhistianr/extension/jira-issues/1.0.2/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2018-11-28T04:57:41.787Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.1/1543380916370/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.1/1543380916370/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.1/1543380916370/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.1/1543380916370/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.1/1543380916370/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.1/1543380916370/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.1/1543380916370/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.1/1543380916370/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#eff1f3"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/crhistianramirez/jiraIssues/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/crhistianramirez/jiraIssues/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.16.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.1/1543380916370",
+            "fallbackAssetUri": "https://crhistianr.gallery.vsassets.io/_apis/public/gallery/publisher/crhistianr/extension/jira-issues/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2018-11-28T04:15:12.86Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.0/1543378369628/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.0/1543378369628/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.0/1543378369628/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.0/1543378369628/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.0/1543378369628/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.0/1543378369628/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.0/1543378369628/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.0/1543378369628/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#eff1f3"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/crhistianramirez/jiraIssues/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/crhistianramirez/jiraIssues/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/crhistianramirez/jiraIssues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.15.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://crhistianr.gallerycdn.vsassets.io/extensions/crhistianr/jira-issues/1.0.0/1543378369628",
+            "fallbackAssetUri": "https://crhistianr.gallery.vsassets.io/_apis/public/gallery/publisher/crhistianr/extension/jira-issues/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "bugs",
+        "issues",
+        "jira",
+        "list",
+        "tracking"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 8053.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.7881534831739723
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.5463802309698249
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 302.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 68.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

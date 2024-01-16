@@ -1,0 +1,883 @@
+{
+    "publisher": {
+        "publisherId": "451af444-80a3-433c-93b8-07bdd6d8d02a",
+        "publisherName": "NICT",
+        "displayName": "NICT",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "eed55182-2fd5-4ff9-91df-375359c51e9b",
+    "extensionName": "nicttextra",
+    "displayName": "TexTra",
+    "flags": "validated, public",
+    "lastUpdated": "2021-07-06T04:09:18.82Z",
+    "publishedDate": "2021-03-03T02:18:06.43Z",
+    "releaseDate": "2021-03-03T02:18:06.43Z",
+    "shortDescription": "Translates texts on VSCode editor utilizing Minna no Jido Hon'yaku.",
+    "versions": [
+        {
+            "version": "0.0.13",
+            "flags": "validated",
+            "lastUpdated": "2021-07-06T04:09:18.82Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.13/1625544399883/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.13/1625544399883/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.13/1625544399883/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.13/1625544399883/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.13/1625544399883/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.13/1625544399883/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.13/1625544399883/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.13/1625544399883/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.13/1625544399883",
+            "fallbackAssetUri": "https://nict.gallery.vsassets.io/_apis/public/gallery/publisher/NICT/extension/nicttextra/0.0.13/assetbyname"
+        },
+        {
+            "version": "0.0.12",
+            "flags": "validated",
+            "lastUpdated": "2021-06-17T03:03:53.89Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.12/1623898873607/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.12/1623898873607/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.12/1623898873607/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.12/1623898873607/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.12/1623898873607/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.12/1623898873607/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.12/1623898873607/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.12/1623898873607",
+            "fallbackAssetUri": "https://nict.gallery.vsassets.io/_apis/public/gallery/publisher/NICT/extension/nicttextra/0.0.12/assetbyname"
+        },
+        {
+            "version": "0.0.11",
+            "flags": "validated",
+            "lastUpdated": "2021-06-15T00:54:38.6Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.11/1623718319169/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.11/1623718319169/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.11/1623718319169/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.11/1623718319169/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.11/1623718319169/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.11/1623718319169/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.11/1623718319169/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.11/1623718319169",
+            "fallbackAssetUri": "https://nict.gallery.vsassets.io/_apis/public/gallery/publisher/NICT/extension/nicttextra/0.0.11/assetbyname"
+        },
+        {
+            "version": "0.0.10",
+            "flags": "validated",
+            "lastUpdated": "2021-06-10T06:13:43.27Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.10/1623305462795/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.10/1623305462795/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.10/1623305462795/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.10/1623305462795/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.10/1623305462795/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.10/1623305462795/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.10/1623305462795/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.10/1623305462795",
+            "fallbackAssetUri": "https://nict.gallery.vsassets.io/_apis/public/gallery/publisher/NICT/extension/nicttextra/0.0.10/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2021-06-07T06:54:18.95Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.9/1623048577639/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.9/1623048577639/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.9/1623048577639/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.9/1623048577639/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.9/1623048577639/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.9/1623048577639/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.9/1623048577639/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.9/1623048577639",
+            "fallbackAssetUri": "https://nict.gallery.vsassets.io/_apis/public/gallery/publisher/NICT/extension/nicttextra/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2021-03-26T01:09:16.8Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.8/1616720546923/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.8/1616720546923/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.8/1616720546923/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.8/1616720546923/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.8/1616720546923/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.8/1616720546923/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.8/1616720546923/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.8/1616720546923",
+            "fallbackAssetUri": "https://nict.gallery.vsassets.io/_apis/public/gallery/publisher/NICT/extension/nicttextra/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2021-03-26T00:43:47.703Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.7/1616719144143/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.7/1616719144143/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.7/1616719144143/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.7/1616719144143/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.7/1616719144143/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.7/1616719144143/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.7/1616719144143/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.7/1616719144143",
+            "fallbackAssetUri": "https://nict.gallery.vsassets.io/_apis/public/gallery/publisher/NICT/extension/nicttextra/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2021-03-18T02:23:10.593Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.6/1616033788100/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.6/1616033788100/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.6/1616033788100/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.6/1616033788100/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.6/1616033788100/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.6/1616033788100/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.6/1616033788100/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.6/1616033788100",
+            "fallbackAssetUri": "https://nict.gallery.vsassets.io/_apis/public/gallery/publisher/NICT/extension/nicttextra/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2021-03-18T02:10:41.04Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.5/1616033157705/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.5/1616033157705/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.5/1616033157705/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.5/1616033157705/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.5/1616033157705/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.5/1616033157705/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.5/1616033157705/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.5/1616033157705",
+            "fallbackAssetUri": "https://nict.gallery.vsassets.io/_apis/public/gallery/publisher/NICT/extension/nicttextra/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2021-03-08T04:27:57.177Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.4/1615177393273/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.4/1615177393273/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.4/1615177393273/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.4/1615177393273/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.4/1615177393273/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.4/1615177393273/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.4/1615177393273/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.4/1615177393273",
+            "fallbackAssetUri": "https://nict.gallery.vsassets.io/_apis/public/gallery/publisher/NICT/extension/nicttextra/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2021-03-05T03:38:27.743Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.3/1614915223766/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.3/1614915223766/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.3/1614915223766/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.3/1614915223766/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.3/1614915223766/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.3/1614915223766/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.3/1614915223766/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.3/1614915223766",
+            "fallbackAssetUri": "https://nict.gallery.vsassets.io/_apis/public/gallery/publisher/NICT/extension/nicttextra/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2021-03-03T04:58:49.317Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.2/1614747245739/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.2/1614747245739/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.2/1614747245739/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.2/1614747245739/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.2/1614747245739/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.2/1614747245739/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.2/1614747245739/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.2/1614747245739",
+            "fallbackAssetUri": "https://nict.gallery.vsassets.io/_apis/public/gallery/publisher/NICT/extension/nicttextra/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2021-03-03T02:22:51.337Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.1/1614737886434/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.1/1614737886434/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.1/1614737886434/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.1/1614737886434/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.1/1614737886434/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.1/1614737886434/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.1/1614737886434/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://nict.gallerycdn.vsassets.io/extensions/nict/nicttextra/0.0.1/1614737886434",
+            "fallbackAssetUri": "https://nict.gallery.vsassets.io/_apis/public/gallery/publisher/NICT/extension/nicttextra/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 877.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 3.30672748004561
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.1402508551881414
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 37.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 40.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

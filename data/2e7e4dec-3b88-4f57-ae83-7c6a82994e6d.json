@@ -1,0 +1,896 @@
+{
+    "publisher": {
+        "publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
+        "publisherName": "ms-toolsai",
+        "displayName": "Microsoft",
+        "flags": "verified",
+        "domain": "https://microsoft.com",
+        "isDomainVerified": true
+    },
+    "extensionId": "2e7e4dec-3b88-4f57-ae83-7c6a82994e6d",
+    "extensionName": "vscode-jupyter-powertoys",
+    "displayName": "Jupyter PowerToys",
+    "flags": "validated, public, preview",
+    "lastUpdated": "2023-11-13T21:28:09.97Z",
+    "publishedDate": "2022-05-06T05:59:19.613Z",
+    "releaseDate": "2022-05-06T05:59:19.613Z",
+    "shortDescription": "Experimental features for Jupyter notebook support in VS Code.",
+    "versions": [
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-11-13T21:28:09.967Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.1.0/1699910742030/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.1.0/1699910742030/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.1.0/1699910742030/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.1.0/1699910742030/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.1.0/1699910742030/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.1.0/1699910742030/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.1.0/1699910742030/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.1.0/1699910742030/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.1.0/1699910742030/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.85.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-toolsai.jupyter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/microsoft/vscode-jupyter-powertoys/discussions"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.1.0/1699910742030",
+            "fallbackAssetUri": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/vscode-jupyter-powertoys/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2023-05-04T23:42:55.12Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.8/1683243582777/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.8/1683243582777/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.8/1683243582777/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.8/1683243582777/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.8/1683243582777/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.8/1683243582777/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.8/1683243582777/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.8/1683243582777/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.8/1683243582777/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.78.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-toolsai.jupyter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/microsoft/vscode-jupyter-powertoys/discussions"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.8/1683243582777",
+            "fallbackAssetUri": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/vscode-jupyter-powertoys/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2023-04-11T00:03:01.407Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.7/1681171176208/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.7/1681171176208/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.7/1681171176208/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.7/1681171176208/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.7/1681171176208/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.7/1681171176208/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.7/1681171176208/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.7/1681171176208/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.7/1681171176208/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.78.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-toolsai.jupyter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/microsoft/vscode-jupyter-powertoys/discussions"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.7/1681171176208",
+            "fallbackAssetUri": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/vscode-jupyter-powertoys/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2022-08-17T23:20:16.527Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.6/1660778274397/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.6/1660778274397/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.6/1660778274397/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.6/1660778274397/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.6/1660778274397/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.6/1660778274397/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.6/1660778274397/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.6/1660778274397/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.6/1660778274397/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.70.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-toolsai.jupyter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/microsoft/vscode-jupyter-powertoys/discussions"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                }
+            ],
+            "assetUri": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.6/1660778274397",
+            "fallbackAssetUri": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/vscode-jupyter-powertoys/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2022-07-12T17:49:39.25Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.5/1657648040347/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.5/1657648040347/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.5/1657648040347/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.5/1657648040347/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.5/1657648040347/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.5/1657648040347/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.5/1657648040347/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.5/1657648040347/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.67.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-toolsai.jupyter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/microsoft/vscode-jupyter-powertoys/discussions"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                }
+            ],
+            "assetUri": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.5/1657648040347",
+            "fallbackAssetUri": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/vscode-jupyter-powertoys/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2022-06-29T18:45:18.263Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.4/1656528178792/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.4/1656528178792/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.4/1656528178792/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.4/1656528178792/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.4/1656528178792/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.4/1656528178792/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.4/1656528178792/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.4/1656528178792/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.67.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-toolsai.jupyter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/microsoft/vscode-jupyter-powertoys/discussions"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                }
+            ],
+            "assetUri": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.4/1656528178792",
+            "fallbackAssetUri": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/vscode-jupyter-powertoys/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2022-05-17T20:00:48.693Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.3/1652817508851/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.3/1652817508851/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.3/1652817508851/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.3/1652817508851/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.3/1652817508851/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.3/1652817508851/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.3/1652817508851/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.3/1652817508851/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.67.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-toolsai.jupyter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/microsoft/vscode-jupyter-powertoys/discussions"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                }
+            ],
+            "assetUri": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.3/1652817508851",
+            "fallbackAssetUri": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/vscode-jupyter-powertoys/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2022-05-06T06:01:41.997Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.2/1651816759677/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.2/1651816759677/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.2/1651816759677/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.2/1651816759677/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.2/1651816759677/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.2/1651816759677/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.2/1651816759677/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.2/1651816759677/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-jupyter-powertoys"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.67.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-toolsai.jupyter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/microsoft/vscode-jupyter-powertoys/discussions"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-jupyter-powertoys/0.0.2/1651816759677",
+            "fallbackAssetUri": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/vscode-jupyter-powertoys/0.0.2/assetbyname"
+        }
+    ],
+    "categories": [
+        "Data Science",
+        "Machine Learning",
+        "Visualization",
+        "Notebooks"
+    ],
+    "tags": [
+        "__web_extension",
+        "execution",
+        "ipynb",
+        "json",
+        "jupyter",
+        "notebook",
+        "notebookKernelJupyterNotebook"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 225796.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 4.75
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 4.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0062035014334519386
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 6.567292481799369
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.5685996481728475
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 108491.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.502289092363766
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 1781.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

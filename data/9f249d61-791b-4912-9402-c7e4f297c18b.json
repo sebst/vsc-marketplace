@@ -1,0 +1,859 @@
+{
+    "publisher": {
+        "publisherId": "02b39faf-2fcd-4886-bb3f-0a63facec75c",
+        "publisherName": "Zazmic",
+        "displayName": "Zazmic",
+        "flags": "verified",
+        "domain": "https://zazmic.com",
+        "isDomainVerified": true
+    },
+    "extensionId": "9f249d61-791b-4912-9402-c7e4f297c18b",
+    "extensionName": "palm-api-test-generator",
+    "displayName": "PaLM API Unit Test Generator",
+    "flags": "validated, public",
+    "lastUpdated": "2023-08-15T17:38:08.367Z",
+    "publishedDate": "2023-08-07T21:27:40.63Z",
+    "releaseDate": "2023-08-07T21:27:40.63Z",
+    "shortDescription": "Easily generate high-quality unit tests for your code using the power of the PaLM Language Model. This extension empowers developers to automate the creation of unit tests, ensuring code quality and reliability.",
+    "versions": [
+        {
+            "version": "0.0.10",
+            "flags": "validated",
+            "lastUpdated": "2023-08-15T17:38:08.367Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.10/1692120868552/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.10/1692120868552/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.10/1692120868552/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.10/1692120868552/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.10/1692120868552/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.10/1692120868552/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.10/1692120868552/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.10/1692120868552/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.10/1692120868552/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#0b0009"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/zazmicinc/palm-api-code-review.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/zazmicinc/palm-api-code-review/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/zazmicinc/palm-api-code-review#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/zazmicinc/palm-api-code-review.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/zazmicinc/palm-api-code-review.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.80.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.10/1692120868552",
+            "fallbackAssetUri": "https://zazmic.gallery.vsassets.io/_apis/public/gallery/publisher/Zazmic/extension/palm-api-test-generator/0.0.10/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2023-08-10T10:52:42.18Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.9/1691664547676/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.9/1691664547676/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.9/1691664547676/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.9/1691664547676/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.9/1691664547676/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.9/1691664547676/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.9/1691664547676/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.9/1691664547676/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#0b0009"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.80.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.9/1691664547676",
+            "fallbackAssetUri": "https://zazmic.gallery.vsassets.io/_apis/public/gallery/publisher/Zazmic/extension/palm-api-test-generator/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2023-08-10T10:10:20.13Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.8/1691661937772/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.8/1691661937772/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.8/1691661937772/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.8/1691661937772/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.8/1691661937772/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.8/1691661937772/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.8/1691661937772/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.8/1691661937772/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#0b0009"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.80.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.8/1691661937772",
+            "fallbackAssetUri": "https://zazmic.gallery.vsassets.io/_apis/public/gallery/publisher/Zazmic/extension/palm-api-test-generator/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2023-08-08T12:55:17.313Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.7/1691499095774/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.7/1691499095774/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.7/1691499095774/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.7/1691499095774/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.7/1691499095774/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.7/1691499095774/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.7/1691499095774/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.7/1691499095774/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.80.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.7/1691499095774",
+            "fallbackAssetUri": "https://zazmic.gallery.vsassets.io/_apis/public/gallery/publisher/Zazmic/extension/palm-api-test-generator/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2023-08-08T11:09:25.653Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.6/1691492742063/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.6/1691492742063/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.6/1691492742063/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.6/1691492742063/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.6/1691492742063/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.6/1691492742063/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.6/1691492742063/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.6/1691492742063/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.80.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.6/1691492742063",
+            "fallbackAssetUri": "https://zazmic.gallery.vsassets.io/_apis/public/gallery/publisher/Zazmic/extension/palm-api-test-generator/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2023-08-08T10:35:35.777Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.5/1691490711495/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.5/1691490711495/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.5/1691490711495/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.5/1691490711495/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.5/1691490711495/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.5/1691490711495/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.5/1691490711495/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.5/1691490711495/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.80.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.5/1691490711495",
+            "fallbackAssetUri": "https://zazmic.gallery.vsassets.io/_apis/public/gallery/publisher/Zazmic/extension/palm-api-test-generator/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2023-08-08T10:25:00.88Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.4/1691490111256/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.4/1691490111256/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.4/1691490111256/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.4/1691490111256/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.4/1691490111256/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.4/1691490111256/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.4/1691490111256/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.4/1691490111256/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.80.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.4/1691490111256",
+            "fallbackAssetUri": "https://zazmic.gallery.vsassets.io/_apis/public/gallery/publisher/Zazmic/extension/palm-api-test-generator/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2023-08-08T09:52:17.353Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.3/1691488146740/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.3/1691488146740/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.3/1691488146740/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.3/1691488146740/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.3/1691488146740/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.3/1691488146740/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.3/1691488146740/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.3/1691488146740/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.80.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.3/1691488146740",
+            "fallbackAssetUri": "https://zazmic.gallery.vsassets.io/_apis/public/gallery/publisher/Zazmic/extension/palm-api-test-generator/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2023-08-07T22:08:54.44Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.2/1691445905598/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.2/1691445905598/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.2/1691445905598/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.2/1691445905598/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.2/1691445905598/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.2/1691445905598/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.2/1691445905598/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.2/1691445905598/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.80.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.2/1691445905598",
+            "fallbackAssetUri": "https://zazmic.gallery.vsassets.io/_apis/public/gallery/publisher/Zazmic/extension/palm-api-test-generator/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-08-07T21:30:53.803Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.1/1691443661271/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.1/1691443661271/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.1/1691443661271/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.1/1691443661271/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.1/1691443661271/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.1/1691443661271/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.1/1691443661271/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.1/1691443661271/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.80.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://zazmic.gallerycdn.vsassets.io/extensions/zazmic/palm-api-test-generator/0.0.1/1691443661271",
+            "fallbackAssetUri": "https://zazmic.gallery.vsassets.io/_apis/public/gallery/publisher/Zazmic/extension/palm-api-test-generator/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages",
+        "Debuggers",
+        "Machine Learning",
+        "Testing"
+    ],
+    "tags": [
+        "ai",
+        "auto tests",
+        "ava",
+        "chai",
+        "cucumber",
+        "cypress",
+        "enzyme",
+        "ginkgo",
+        "jasmine",
+        "jest",
+        "junit",
+        "karma",
+        "machine learning",
+        "mocha",
+        "nunit",
+        "palm api",
+        "phpunit",
+        "playwright",
+        "protractor",
+        "pytest",
+        "qunit",
+        "robot framework",
+        "rspec",
+        "selenium",
+        "test framework",
+        "testng",
+        "tests",
+        "unit tests"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 1133.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 2.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 14.2226148409894
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 3.53356890459364
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 66.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.502670607757727
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 20.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

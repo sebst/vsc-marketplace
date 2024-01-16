@@ -1,0 +1,819 @@
+{
+    "publisher": {
+        "publisherId": "1d96d932-a286-4121-b8b2-ed387c3742ef",
+        "publisherName": "itayadler",
+        "displayName": "itayadler",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "e3e7428b-4db6-4ac9-b40b-0238b997a8b2",
+    "extensionName": "terraform-ssm",
+    "displayName": "VSCode Terraform AWS SSM",
+    "flags": "validated, public",
+    "lastUpdated": "2019-08-14T12:56:46.887Z",
+    "publishedDate": "2018-10-24T12:13:14.64Z",
+    "releaseDate": "2018-10-24T12:13:14.64Z",
+    "shortDescription": "VSCode extension to easily view/edit AWS SSM keys",
+    "versions": [
+        {
+            "version": "0.3.6",
+            "flags": "validated",
+            "lastUpdated": "2019-08-14T13:01:12.29Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.6/1565787406892/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.6/1565787406892/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.6/1565787406892/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.6/1565787406892/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.6/1565787406892/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.6/1565787406892/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.6/1565787406892",
+            "fallbackAssetUri": "https://itayadler.gallery.vsassets.io/_apis/public/gallery/publisher/itayadler/extension/terraform-ssm/0.3.6/assetbyname"
+        },
+        {
+            "version": "0.3.5",
+            "flags": "validated",
+            "lastUpdated": "2019-08-14T11:53:04.88Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.5/1565783318665/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.5/1565783318665/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.5/1565783318665/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.5/1565783318665/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.5/1565783318665/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.5/1565783318665",
+            "fallbackAssetUri": "https://itayadler.gallery.vsassets.io/_apis/public/gallery/publisher/itayadler/extension/terraform-ssm/0.3.5/assetbyname"
+        },
+        {
+            "version": "0.3.4",
+            "flags": "validated",
+            "lastUpdated": "2019-07-02T09:45:33.307Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.4/1562060589591/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.4/1562060589591/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.4/1562060589591/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.4/1562060589591/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.4/1562060589591/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.4/1562060589591",
+            "fallbackAssetUri": "https://itayadler.gallery.vsassets.io/_apis/public/gallery/publisher/itayadler/extension/terraform-ssm/0.3.4/assetbyname"
+        },
+        {
+            "version": "0.3.3",
+            "flags": "validated",
+            "lastUpdated": "2018-12-24T12:40:20.367Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.3/1545655068092/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.3/1545655068092/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.3/1545655068092/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.3/1545655068092/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.3/1545655068092/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.3/1545655068092",
+            "fallbackAssetUri": "https://itayadler.gallery.vsassets.io/_apis/public/gallery/publisher/itayadler/extension/terraform-ssm/0.3.3/assetbyname"
+        },
+        {
+            "version": "0.3.2",
+            "flags": "validated",
+            "lastUpdated": "2018-12-24T12:16:32.777Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.2/1545653643838/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.2/1545653643838/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.2/1545653643838/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.2/1545653643838/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.2/1545653643838/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.2/1545653643838",
+            "fallbackAssetUri": "https://itayadler.gallery.vsassets.io/_apis/public/gallery/publisher/itayadler/extension/terraform-ssm/0.3.2/assetbyname"
+        },
+        {
+            "version": "0.3.1",
+            "flags": "validated",
+            "lastUpdated": "2018-10-29T22:04:30.95Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.1/1540850527134/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.1/1540850527134/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.1/1540850527134/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.1/1540850527134/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.1/1540850527134/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.1/1540850527134",
+            "fallbackAssetUri": "https://itayadler.gallery.vsassets.io/_apis/public/gallery/publisher/itayadler/extension/terraform-ssm/0.3.1/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2018-10-29T21:59:59.183Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.0/1540850256054/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.0/1540850256054/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.0/1540850256054/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.0/1540850256054/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.0/1540850256054/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.3.0/1540850256054",
+            "fallbackAssetUri": "https://itayadler.gallery.vsassets.io/_apis/public/gallery/publisher/itayadler/extension/terraform-ssm/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.5",
+            "flags": "validated",
+            "lastUpdated": "2018-10-29T01:33:30.597Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.5/1540776667831/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.5/1540776667831/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.5/1540776667831/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.5/1540776667831/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.5/1540776667831/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.5/1540776667831",
+            "fallbackAssetUri": "https://itayadler.gallery.vsassets.io/_apis/public/gallery/publisher/itayadler/extension/terraform-ssm/0.2.5/assetbyname"
+        },
+        {
+            "version": "0.2.2",
+            "flags": "validated",
+            "lastUpdated": "2018-10-24T19:21:25.573Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.2/1540408732995/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.2/1540408732995/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.2/1540408732995/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.2/1540408732995/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.2/1540408732995/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.2/1540408732995",
+            "fallbackAssetUri": "https://itayadler.gallery.vsassets.io/_apis/public/gallery/publisher/itayadler/extension/terraform-ssm/0.2.2/assetbyname"
+        },
+        {
+            "version": "0.2.1",
+            "flags": "validated",
+            "lastUpdated": "2018-10-24T16:59:17.27Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.1/1540400204539/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.1/1540400204539/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.1/1540400204539/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.1/1540400204539/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.1/1540400204539/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.1/1540400204539",
+            "fallbackAssetUri": "https://itayadler.gallery.vsassets.io/_apis/public/gallery/publisher/itayadler/extension/terraform-ssm/0.2.1/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2018-10-24T16:25:50.763Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.0/1540398207144/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.0/1540398207144/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.0/1540398207144/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.0/1540398207144/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.0/1540398207144/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.2.0/1540398207144",
+            "fallbackAssetUri": "https://itayadler.gallery.vsassets.io/_apis/public/gallery/publisher/itayadler/extension/terraform-ssm/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2018-10-24T12:15:49.193Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.1.0/1540383194701/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.1.0/1540383194701/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.1.0/1540383194701/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.1.0/1540383194701/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/itayadler/vscode-terraform-aws-ssm"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://itayadler.gallerycdn.vsassets.io/extensions/itayadler/terraform-ssm/0.1.0/1540383194701",
+            "fallbackAssetUri": "https://itayadler.gallery.vsassets.io/_apis/public/gallery/publisher/itayadler/extension/terraform-ssm/0.1.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages"
+    ],
+    "tags": [
+        "terraform"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 24483.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.372492953719211
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.3594624402597933
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 4542.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 95.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

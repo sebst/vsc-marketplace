@@ -1,0 +1,969 @@
+{
+    "publisher": {
+        "publisherId": "d0cc863d-db86-44f6-92ad-3d363713d0a0",
+        "publisherName": "BazelBuild",
+        "displayName": "The Bazel Team",
+        "flags": "verified",
+        "domain": "https://bazel.build",
+        "isDomainVerified": true
+    },
+    "extensionId": "e21a6113-833a-4583-b519-869fd1c1c384",
+    "extensionName": "vscode-bazel",
+    "displayName": "Bazel",
+    "flags": "validated, public",
+    "lastUpdated": "2023-12-19T12:35:20.367Z",
+    "publishedDate": "2018-11-28T15:45:32.033Z",
+    "releaseDate": "2018-11-28T15:45:32.033Z",
+    "shortDescription": "Bazel BUILD integration",
+    "versions": [
+        {
+            "version": "0.8.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-19T12:35:20.363Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.8.0/1702989074462/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.8.0/1702989074462/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.8.0/1702989074462/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.8.0/1702989074462/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.8.0/1702989074462/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.8.0/1702989074462/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.8.0/1702989074462/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.8.0/1702989074462/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.8.0/1702989074462/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/bazelbuild/vscode-bazel/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/bazelbuild/vscode-bazel#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.8.0/1702989074462",
+            "fallbackAssetUri": "https://bazelbuild.gallery.vsassets.io/_apis/public/gallery/publisher/BazelBuild/extension/vscode-bazel/0.8.0/assetbyname"
+        },
+        {
+            "version": "0.7.0",
+            "flags": "validated",
+            "lastUpdated": "2022-12-09T17:37:18.917Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.7.0/1670607159805/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.7.0/1670607159805/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.7.0/1670607159805/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.7.0/1670607159805/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.7.0/1670607159805/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.7.0/1670607159805/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.7.0/1670607159805/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.7.0/1670607159805/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.7.0/1670607159805/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/bazelbuild/vscode-bazel/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/bazelbuild/vscode-bazel#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.7.0/1670607159805",
+            "fallbackAssetUri": "https://bazelbuild.gallery.vsassets.io/_apis/public/gallery/publisher/BazelBuild/extension/vscode-bazel/0.7.0/assetbyname"
+        },
+        {
+            "version": "0.6.0",
+            "flags": "validated",
+            "lastUpdated": "2022-10-07T16:51:01.933Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.6.0/1665161320612/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.6.0/1665161320612/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.6.0/1665161320612/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.6.0/1665161320612/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.6.0/1665161320612/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.6.0/1665161320612/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.6.0/1665161320612/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.6.0/1665161320612/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/bazelbuild/vscode-bazel/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/bazelbuild/vscode-bazel#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.6.0/1665161320612",
+            "fallbackAssetUri": "https://bazelbuild.gallery.vsassets.io/_apis/public/gallery/publisher/BazelBuild/extension/vscode-bazel/0.6.0/assetbyname"
+        },
+        {
+            "version": "0.5.0",
+            "flags": "validated",
+            "lastUpdated": "2021-10-29T14:45:56.25Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.5.0/1635518615369/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.5.0/1635518615369/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.5.0/1635518615369/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.5.0/1635518615369/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.5.0/1635518615369/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.5.0/1635518615369/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.5.0/1635518615369/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.5.0/1635518615369/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/bazelbuild/vscode-bazel/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/bazelbuild/vscode-bazel#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.5.0/1635518615369",
+            "fallbackAssetUri": "https://bazelbuild.gallery.vsassets.io/_apis/public/gallery/publisher/BazelBuild/extension/vscode-bazel/0.5.0/assetbyname"
+        },
+        {
+            "version": "0.4.1",
+            "flags": "validated",
+            "lastUpdated": "2021-04-14T18:03:14.97Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.1/1618423255549/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.1/1618423255549/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.1/1618423255549/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.1/1618423255549/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.1/1618423255549/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.1/1618423255549/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.1/1618423255549/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.1/1618423255549/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.1/1618423255549",
+            "fallbackAssetUri": "https://bazelbuild.gallery.vsassets.io/_apis/public/gallery/publisher/BazelBuild/extension/vscode-bazel/0.4.1/assetbyname"
+        },
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2020-08-21T15:53:50.733Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.0/1598025091135/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.0/1598025091135/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.0/1598025091135/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.0/1598025091135/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.0/1598025091135/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.0/1598025091135/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.0/1598025091135/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.0/1598025091135/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.4.0/1598025091135",
+            "fallbackAssetUri": "https://bazelbuild.gallery.vsassets.io/_apis/public/gallery/publisher/BazelBuild/extension/vscode-bazel/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2019-09-19T21:28:09.423Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.3.0/1568928350231/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.3.0/1568928350231/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.3.0/1568928350231/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.3.0/1568928350231/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.3.0/1568928350231/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.3.0/1568928350231/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.3.0/1568928350231/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.3.0/1568928350231/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.3.0/1568928350231",
+            "fallbackAssetUri": "https://bazelbuild.gallery.vsassets.io/_apis/public/gallery/publisher/BazelBuild/extension/vscode-bazel/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2019-05-15T22:31:41.633Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.2.0/1557959358295/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.2.0/1557959358295/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.2.0/1557959358295/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.2.0/1557959358295/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.2.0/1557959358295/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.2.0/1557959358295/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.2.0/1557959358295/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.2.0/1557959358295/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.27.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.2.0/1557959358295",
+            "fallbackAssetUri": "https://bazelbuild.gallery.vsassets.io/_apis/public/gallery/publisher/BazelBuild/extension/vscode-bazel/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2019-01-23T17:27:18.303Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.1.0/1548264299485/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.1.0/1548264299485/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.1.0/1548264299485/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.1.0/1548264299485/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.1.0/1548264299485/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.1.0/1548264299485/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.1.0/1548264299485/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.1.0/1548264299485/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.27.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.1.0/1548264299485",
+            "fallbackAssetUri": "https://bazelbuild.gallery.vsassets.io/_apis/public/gallery/publisher/BazelBuild/extension/vscode-bazel/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2018-11-28T18:58:12.983Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.2/1543431349246/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.2/1543431349246/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.2/1543431349246/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.2/1543431349246/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.2/1543431349246/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.2/1543431349246/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.2/1543431349246/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.2/1543431349246/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.27.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.2/1543431349246",
+            "fallbackAssetUri": "https://bazelbuild.gallery.vsassets.io/_apis/public/gallery/publisher/BazelBuild/extension/vscode-bazel/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2018-11-28T15:47:55.103Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.1/1543419932034/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.1/1543419932034/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.1/1543419932034/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.1/1543419932034/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.1/1543419932034/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.1/1543419932034/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.1/1543419932034/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.1/1543419932034/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bazelbuild/vscode-bazel.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.27.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bazelbuild.gallerycdn.vsassets.io/extensions/bazelbuild/vscode-bazel/0.0.1/1543419932034",
+            "fallbackAssetUri": "https://bazelbuild.gallery.vsassets.io/_apis/public/gallery/publisher/BazelBuild/extension/vscode-bazel/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages"
+    ],
+    "tags": [
+        "__ext_bazel",
+        "__ext_BUILD",
+        "__ext_bzl",
+        "__ext_bzlmod",
+        "__ext_sky",
+        "__ext_star",
+        "__ext_WORKSPACE",
+        "Bazel",
+        "debuggers",
+        "starlark"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 359686.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 2.7142856121063232
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 7.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.004453611461369095
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 2.382118799755052
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.5823080777153037
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 252706.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 3.707767445755117
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 1106.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

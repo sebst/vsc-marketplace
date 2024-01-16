@@ -1,0 +1,680 @@
+{
+    "publisher": {
+        "publisherId": "b25adef8-611d-4f68-aa8c-af8827691fcd",
+        "publisherName": "visualprogrammingx",
+        "displayName": "visualprogrammingx",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "fde65cdd-ed6e-4f9e-953b-d0f721a0ba68",
+    "extensionName": "SourceCodeVisualizer",
+    "displayName": "Source Code Visualizer",
+    "flags": "validated, public",
+    "lastUpdated": "2022-05-27T03:53:53.4Z",
+    "publishedDate": "2022-01-21T08:09:46.17Z",
+    "releaseDate": "2022-01-21T08:09:46.17Z",
+    "shortDescription": "Visualize the calling structure of source code in a class diagram-like fashion",
+    "versions": [
+        {
+            "version": "0.1.6",
+            "flags": "validated",
+            "lastUpdated": "2022-05-27T03:53:53.397Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.6/1653623494783/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.6/1653623494783/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.6/1653623494783/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.6/1653623494783/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.6/1653623494783/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.6/1653623494783/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.6/1653623494783/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.6/1653623494783/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.6/1653623494783/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.6/1653623494783",
+            "fallbackAssetUri": "https://visualprogrammingx.gallery.vsassets.io/_apis/public/gallery/publisher/visualprogrammingx/extension/SourceCodeVisualizer/0.1.6/assetbyname"
+        },
+        {
+            "version": "0.1.4",
+            "flags": "validated",
+            "lastUpdated": "2022-01-22T14:12:25.537Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.4/1642860606376/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.4/1642860606376/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.4/1642860606376/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.4/1642860606376/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.4/1642860606376/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.4/1642860606376/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.4/1642860606376/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.4/1642860606376/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.4/1642860606376",
+            "fallbackAssetUri": "https://visualprogrammingx.gallery.vsassets.io/_apis/public/gallery/publisher/visualprogrammingx/extension/SourceCodeVisualizer/0.1.4/assetbyname"
+        },
+        {
+            "version": "0.1.3",
+            "flags": "validated",
+            "lastUpdated": "2022-01-21T13:45:45Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.3/1642772606596/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.3/1642772606596/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.3/1642772606596/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.3/1642772606596/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.3/1642772606596/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.3/1642772606596/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.3/1642772606596/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.3/1642772606596/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.3/1642772606596",
+            "fallbackAssetUri": "https://visualprogrammingx.gallery.vsassets.io/_apis/public/gallery/publisher/visualprogrammingx/extension/SourceCodeVisualizer/0.1.3/assetbyname"
+        },
+        {
+            "version": "0.1.2",
+            "flags": "validated",
+            "lastUpdated": "2022-01-21T13:19:14.263Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.2/1642771017038/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.2/1642771017038/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.2/1642771017038/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.2/1642771017038/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.2/1642771017038/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.2/1642771017038/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.2/1642771017038/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.2/1642771017038/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer/vscodeextension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer/vscodeextension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer/vscodeextension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.2/1642771017038",
+            "fallbackAssetUri": "https://visualprogrammingx.gallery.vsassets.io/_apis/public/gallery/publisher/visualprogrammingx/extension/SourceCodeVisualizer/0.1.2/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2022-01-21T08:40:24.75Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.1/1642754281298/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.1/1642754281298/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.1/1642754281298/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.1/1642754281298/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.1/1642754281298/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.1/1642754281298/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.1/1642754281298/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.1/1642754281298/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer/src/vscodeextension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer/src/vscodeextension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer/src/vscodeextension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.1/1642754281298",
+            "fallbackAssetUri": "https://visualprogrammingx.gallery.vsassets.io/_apis/public/gallery/publisher/visualprogrammingx/extension/SourceCodeVisualizer/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2022-01-21T08:32:58.7Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.0/1642753840219/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.0/1642753840219/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.0/1642753840219/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.0/1642753840219/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.0/1642753840219/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.0/1642753840219/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.0/1642753840219/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.0/1642753840219/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.1.0/1642753840219",
+            "fallbackAssetUri": "https://visualprogrammingx.gallery.vsassets.io/_apis/public/gallery/publisher/visualprogrammingx/extension/SourceCodeVisualizer/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2022-01-21T08:12:04.803Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.0.1/1642752586189/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.0.1/1642752586189/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.0.1/1642752586189/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.0.1/1642752586189/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.0.1/1642752586189/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.0.1/1642752586189/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.0.1/1642752586189/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.0.1/1642752586189/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/DarkTrick/SourceCodeVisualizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://visualprogrammingx.gallerycdn.vsassets.io/extensions/visualprogrammingx/sourcecodevisualizer/0.0.1/1642752586189",
+            "fallbackAssetUri": "https://visualprogrammingx.gallery.vsassets.io/_apis/public/gallery/publisher/visualprogrammingx/extension/SourceCodeVisualizer/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "diagram",
+        "program comprehension",
+        "software exploration",
+        "visualization",
+        "visualize"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 3918.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 4.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 2.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 6.355283307810107
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.4293006636038794
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 154.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.33600394109106
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 75.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

@@ -1,0 +1,909 @@
+{
+    "publisher": {
+        "publisherId": "8135cf24-ea84-49d2-892e-4c3260496a33",
+        "publisherName": "CamileSing",
+        "displayName": "CamileSing",
+        "flags": "verified",
+        "domain": "https://github.com/",
+        "isDomainVerified": false
+    },
+    "extensionId": "5f00a2a1-79fc-4131-a880-30b7ffa31b50",
+    "extensionName": "hive-sql-helper",
+    "displayName": "Hive & Spark SQL Helper",
+    "flags": "validated, public",
+    "lastUpdated": "2024-01-15T00:32:05.71Z",
+    "publishedDate": "2023-10-18T00:25:43.367Z",
+    "releaseDate": "2023-10-18T00:25:43.367Z",
+    "shortDescription": "Help you efficiently and focus on Hive & Spark SQL development. support Hive & Spark SQL error grammar check, syntax highlighting, complete keywords, rename, find all references and code format.",
+    "versions": [
+        {
+            "version": "1.4.1",
+            "flags": "validated",
+            "lastUpdated": "2024-01-15T00:32:05.71Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.1/1705278538327/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.1/1705278538327/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.1/1705278538327/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.1/1705278538327/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.1/1705278538327/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.1/1705278538327/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.1/1705278538327/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.1/1705278538327/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.1/1705278538327/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#F2C45A"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.1/1705278538327",
+            "fallbackAssetUri": "https://camilesing.gallery.vsassets.io/_apis/public/gallery/publisher/CamileSing/extension/hive-sql-helper/1.4.1/assetbyname"
+        },
+        {
+            "version": "1.4.0",
+            "flags": "validated",
+            "lastUpdated": "2024-01-12T00:32:08.053Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.0/1705019334941/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.0/1705019334941/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.0/1705019334941/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.0/1705019334941/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.0/1705019334941/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.0/1705019334941/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.0/1705019334941/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.0/1705019334941/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.0/1705019334941/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#F2C45A"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.4.0/1705019334941",
+            "fallbackAssetUri": "https://camilesing.gallery.vsassets.io/_apis/public/gallery/publisher/CamileSing/extension/hive-sql-helper/1.4.0/assetbyname"
+        },
+        {
+            "version": "1.3.2",
+            "flags": "validated",
+            "lastUpdated": "2023-12-18T13:52:46.83Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.2/1702907412278/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.2/1702907412278/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.2/1702907412278/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.2/1702907412278/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.2/1702907412278/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.2/1702907412278/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.2/1702907412278/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.2/1702907412278/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.2/1702907412278/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#F2C45A"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.2/1702907412278",
+            "fallbackAssetUri": "https://camilesing.gallery.vsassets.io/_apis/public/gallery/publisher/CamileSing/extension/hive-sql-helper/1.3.2/assetbyname"
+        },
+        {
+            "version": "1.3.1",
+            "flags": "validated",
+            "lastUpdated": "2023-12-01T03:09:24.09Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.1/1701399939872/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.1/1701399939872/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.1/1701399939872/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.1/1701399939872/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.1/1701399939872/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.1/1701399939872/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.1/1701399939872/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.1/1701399939872/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.1/1701399939872/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#F2C45A"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.1/1701399939872",
+            "fallbackAssetUri": "https://camilesing.gallery.vsassets.io/_apis/public/gallery/publisher/CamileSing/extension/hive-sql-helper/1.3.1/assetbyname"
+        },
+        {
+            "version": "1.3.0",
+            "flags": "validated",
+            "lastUpdated": "2023-11-18T22:49:23.807Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.0/1700347612389/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.0/1700347612389/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.0/1700347612389/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.0/1700347612389/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.0/1700347612389/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.0/1700347612389/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.0/1700347612389/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.0/1700347612389/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.0/1700347612389/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#F2C45A"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/camilesing/Hive-Spark-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.3.0/1700347612389",
+            "fallbackAssetUri": "https://camilesing.gallery.vsassets.io/_apis/public/gallery/publisher/CamileSing/extension/hive-sql-helper/1.3.0/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-11-14T00:33:39.073Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.2.0/1699921865129/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.2.0/1699921865129/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.2.0/1699921865129/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.2.0/1699921865129/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.2.0/1699921865129/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.2.0/1699921865129/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.2.0/1699921865129/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.2.0/1699921865129/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.2.0/1699921865129/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#F2C45A"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/camilesing/Hive-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/camilesing/Hive-SQL-Helper-VSCode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/camilesing/Hive-SQL-Helper-VSCode/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/camilesing/Hive-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/camilesing/Hive-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.2.0/1699921865129",
+            "fallbackAssetUri": "https://camilesing.gallery.vsassets.io/_apis/public/gallery/publisher/CamileSing/extension/hive-sql-helper/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-10-30T00:34:24.153Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.1.0/1698625909046/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.1.0/1698625909046/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.1.0/1698625909046/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.1.0/1698625909046/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.1.0/1698625909046/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.1.0/1698625909046/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.1.0/1698625909046/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.1.0/1698625909046/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.1.0/1698625909046/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#F2C45A"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/camilesing/Hive-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/camilesing/Hive-SQL-Helper-VSCode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/camilesing/Hive-SQL-Helper-VSCode/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/camilesing/Hive-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/camilesing/Hive-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.1.0/1698625909046",
+            "fallbackAssetUri": "https://camilesing.gallery.vsassets.io/_apis/public/gallery/publisher/CamileSing/extension/hive-sql-helper/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-10-18T00:29:19.19Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.0.0/1697588744319/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.0.0/1697588744319/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.0.0/1697588744319/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.0.0/1697588744319/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.0.0/1697588744319/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.0.0/1697588744319/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.0.0/1697588744319/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.0.0/1697588744319/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.0.0/1697588744319/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#F2C45A"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/camilesing/Hive-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/camilesing/Hive-SQL-Helper-VSCode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/camilesing/Hive-SQL-Helper-VSCode/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/camilesing/Hive-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/camilesing/Hive-SQL-Helper-VSCode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://camilesing.gallerycdn.vsassets.io/extensions/camilesing/hive-sql-helper/1.0.0/1697588744319",
+            "fallbackAssetUri": "https://camilesing.gallery.vsassets.io/_apis/public/gallery/publisher/CamileSing/extension/hive-sql-helper/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages",
+        "Formatters"
+    ],
+    "tags": [
+        "__ext_hive_sql",
+        "__ext_hql",
+        "__ext_spark_sql",
+        "__ext_ssql",
+        "__web_extension",
+        "Formatter",
+        "Hive SQL",
+        "HiveSQL",
+        "hive-sql",
+        "HQL",
+        "snippet",
+        "SparkSQL",
+        "spark-sql",
+        "sql"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 443.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 36.281179138321995
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 7.709750566893423
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 617.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 36.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

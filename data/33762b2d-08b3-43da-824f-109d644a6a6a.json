@@ -1,0 +1,998 @@
+{
+    "publisher": {
+        "publisherId": "694bf93c-933e-4a74-b8b1-0c92ef5d1a01",
+        "publisherName": "Fooxly",
+        "displayName": "Fooxly",
+        "flags": "verified",
+        "domain": "https://fooxly.com",
+        "isDomainVerified": false
+    },
+    "extensionId": "33762b2d-08b3-43da-824f-109d644a6a6a",
+    "extensionName": "provision-syntax",
+    "displayName": "ProVision: Syntax",
+    "flags": "validated, public",
+    "lastUpdated": "2021-10-19T11:53:18.153Z",
+    "publishedDate": "2019-07-13T11:29:18.747Z",
+    "releaseDate": "2019-07-13T11:29:18.747Z",
+    "shortDescription": "Providing a simple way to view all notes in your workspace based on keywords.",
+    "versions": [
+        {
+            "version": "4.0.1",
+            "flags": "validated",
+            "lastUpdated": "2021-10-19T11:53:18.153Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.1/1634644261577/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.1/1634644261577/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.1/1634644261577/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.1/1634644261577/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.1/1634644261577/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.1/1634644261577/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.1/1634644261577/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.1/1634644261577/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.1/1634644261577/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#272729"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.1/1634644261577",
+            "fallbackAssetUri": "https://fooxly.gallery.vsassets.io/_apis/public/gallery/publisher/Fooxly/extension/provision-syntax/4.0.1/assetbyname"
+        },
+        {
+            "version": "4.0.0",
+            "flags": "validated",
+            "lastUpdated": "2021-10-19T11:39:33.503Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.0/1634643437150/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.0/1634643437150/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.0/1634643437150/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.0/1634643437150/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.0/1634643437150/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.0/1634643437150/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.0/1634643437150/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.0/1634643437150/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#272729"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/4.0.0/1634643437150",
+            "fallbackAssetUri": "https://fooxly.gallery.vsassets.io/_apis/public/gallery/publisher/Fooxly/extension/provision-syntax/4.0.0/assetbyname"
+        },
+        {
+            "version": "3.0.5",
+            "flags": "validated",
+            "lastUpdated": "2021-06-09T13:48:44.257Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.5/1623246387916/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.5/1623246387916/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.5/1623246387916/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.5/1623246387916/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.5/1623246387916/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.5/1623246387916/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.5/1623246387916/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.5/1623246387916/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#272729"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": ">=1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.5/1623246387916",
+            "fallbackAssetUri": "https://fooxly.gallery.vsassets.io/_apis/public/gallery/publisher/Fooxly/extension/provision-syntax/3.0.5/assetbyname"
+        },
+        {
+            "version": "3.0.4",
+            "flags": "validated",
+            "lastUpdated": "2021-05-29T16:33:04.46Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.4/1622305846960/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.4/1622305846960/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.4/1622305846960/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.4/1622305846960/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.4/1622305846960/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.4/1622305846960/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.4/1622305846960/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.4/1622305846960/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#272729"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": ">=1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.4/1622305846960",
+            "fallbackAssetUri": "https://fooxly.gallery.vsassets.io/_apis/public/gallery/publisher/Fooxly/extension/provision-syntax/3.0.4/assetbyname"
+        },
+        {
+            "version": "3.0.3",
+            "flags": "validated",
+            "lastUpdated": "2019-11-07T10:37:50.593Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.3/1573122931870/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.3/1573122931870/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.3/1573122931870/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.3/1573122931870/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.3/1573122931870/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.3/1573122931870/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.3/1573122931870/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.3/1573122931870/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#272729"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.3/1573122931870",
+            "fallbackAssetUri": "https://fooxly.gallery.vsassets.io/_apis/public/gallery/publisher/Fooxly/extension/provision-syntax/3.0.3/assetbyname"
+        },
+        {
+            "version": "3.0.2",
+            "flags": "validated",
+            "lastUpdated": "2019-11-07T10:06:21.817Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.2/1573120865113/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.2/1573120865113/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.2/1573120865113/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.2/1573120865113/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.2/1573120865113/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.2/1573120865113/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.2/1573120865113/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.2/1573120865113/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#272729"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.2/1573120865113",
+            "fallbackAssetUri": "https://fooxly.gallery.vsassets.io/_apis/public/gallery/publisher/Fooxly/extension/provision-syntax/3.0.2/assetbyname"
+        },
+        {
+            "version": "3.0.1",
+            "flags": "validated",
+            "lastUpdated": "2019-11-04T11:18:00.047Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.1/1572866142518/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.1/1572866142518/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.1/1572866142518/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.1/1572866142518/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.1/1572866142518/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.1/1572866142518/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.1/1572866142518/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.1/1572866142518/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#272729"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.1/1572866142518",
+            "fallbackAssetUri": "https://fooxly.gallery.vsassets.io/_apis/public/gallery/publisher/Fooxly/extension/provision-syntax/3.0.1/assetbyname"
+        },
+        {
+            "version": "3.0.0",
+            "flags": "validated",
+            "lastUpdated": "2019-11-03T22:03:23.33Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.0/1572818466599/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.0/1572818466599/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.0/1572818466599/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.0/1572818466599/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.0/1572818466599/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.0/1572818466599/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.0/1572818466599/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.0/1572818466599/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#272729"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/3.0.0/1572818466599",
+            "fallbackAssetUri": "https://fooxly.gallery.vsassets.io/_apis/public/gallery/publisher/Fooxly/extension/provision-syntax/3.0.0/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2019-07-13T16:59:20Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.1/1563037016926/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.1/1563037016926/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.1/1563037016926/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.1/1563037016926/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.1/1563037016926/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.1/1563037016926/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.1/1563037016926/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.1/1563037016926/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#272729"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.1/1563037016926",
+            "fallbackAssetUri": "https://fooxly.gallery.vsassets.io/_apis/public/gallery/publisher/Fooxly/extension/provision-syntax/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2019-07-13T11:31:36.497Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.0/1563017358748/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.0/1563017358748/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.0/1563017358748/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.0/1563017358748/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.0/1563017358748/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.0/1563017358748/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.0/1563017358748/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.0/1563017358748/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#272729"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Fooxly/vscode-provision-syntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fooxly.gallerycdn.vsassets.io/extensions/fooxly/provision-syntax/1.0.0/1563017358748",
+            "fallbackAssetUri": "https://fooxly.gallery.vsassets.io/_apis/public/gallery/publisher/Fooxly/extension/provision-syntax/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 989.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 3.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.40444893832153694
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 370.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.540926714853287
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 29.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

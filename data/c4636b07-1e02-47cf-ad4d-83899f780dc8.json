@@ -1,0 +1,1238 @@
+{
+    "publisher": {
+        "publisherId": "b2e8e36a-85ab-4c45-863c-627fd008f8b0",
+        "publisherName": "verydanny",
+        "displayName": "verydanny",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "c4636b07-1e02-47cf-ad4d-83899f780dc8",
+    "extensionName": "smart-goto",
+    "displayName": "Smart JS GoTo",
+    "flags": "validated, public",
+    "lastUpdated": "2020-11-10T19:35:02.64Z",
+    "publishedDate": "2020-11-03T20:12:56.087Z",
+    "releaseDate": "2020-11-03T20:12:56.087Z",
+    "shortDescription": "This extension lets you jump to your files, even if they're aliased through webpack, typescript, or other tools. If you don't specify aliases in your vscode workspace config, then it attempts to deduce them by building a virtual directory structure.",
+    "versions": [
+        {
+            "version": "0.12.0",
+            "flags": "validated",
+            "lastUpdated": "2020-11-10T19:37:37.88Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.12.0/1605036902644/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.12.0/1605036902644/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.12.0/1605036902644/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.12.0/1605036902644/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.12.0/1605036902644/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.12.0/1605036902644/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.12.0/1605036902644/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.12.0/1605036902644/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.12.0/1605036902644/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#fbfbfb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": ">=1.51.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.12.0/1605036902644",
+            "fallbackAssetUri": "https://verydanny.gallery.vsassets.io/_apis/public/gallery/publisher/verydanny/extension/smart-goto/0.12.0/assetbyname"
+        },
+        {
+            "version": "0.11.0",
+            "flags": "validated",
+            "lastUpdated": "2020-11-10T19:04:37.01Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.11.0/1605034939565/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.11.0/1605034939565/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.11.0/1605034939565/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.11.0/1605034939565/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.11.0/1605034939565/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.11.0/1605034939565/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.11.0/1605034939565/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.11.0/1605034939565/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#fbfbfb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": ">=1.51.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.11.0/1605034939565",
+            "fallbackAssetUri": "https://verydanny.gallery.vsassets.io/_apis/public/gallery/publisher/verydanny/extension/smart-goto/0.11.0/assetbyname"
+        },
+        {
+            "version": "0.10.0",
+            "flags": "validated",
+            "lastUpdated": "2020-11-10T18:55:20.92Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.10.0/1605034384227/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.10.0/1605034384227/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.10.0/1605034384227/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.10.0/1605034384227/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.10.0/1605034384227/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.10.0/1605034384227/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.10.0/1605034384227/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.10.0/1605034384227/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#fbfbfb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": ">=1.51.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.10.0/1605034384227",
+            "fallbackAssetUri": "https://verydanny.gallery.vsassets.io/_apis/public/gallery/publisher/verydanny/extension/smart-goto/0.10.0/assetbyname"
+        },
+        {
+            "version": "0.9.0",
+            "flags": "validated",
+            "lastUpdated": "2020-11-05T01:27:52.83Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.9.0/1604539536511/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.9.0/1604539536511/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.9.0/1604539536511/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.9.0/1604539536511/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.9.0/1604539536511/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.9.0/1604539536511/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.9.0/1604539536511/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.9.0/1604539536511/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#fbfbfb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.9.0/1604539536511",
+            "fallbackAssetUri": "https://verydanny.gallery.vsassets.io/_apis/public/gallery/publisher/verydanny/extension/smart-goto/0.9.0/assetbyname"
+        },
+        {
+            "version": "0.8.0",
+            "flags": "validated",
+            "lastUpdated": "2020-11-05T01:08:16.083Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.8.0/1604538355316/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.8.0/1604538355316/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.8.0/1604538355316/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.8.0/1604538355316/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.8.0/1604538355316/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.8.0/1604538355316/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.8.0/1604538355316/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.8.0/1604538355316/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#fbfbfb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.8.0/1604538355316",
+            "fallbackAssetUri": "https://verydanny.gallery.vsassets.io/_apis/public/gallery/publisher/verydanny/extension/smart-goto/0.8.0/assetbyname"
+        },
+        {
+            "version": "0.7.0",
+            "flags": "validated",
+            "lastUpdated": "2020-11-05T00:25:25.27Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.7.0/1604535787679/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.7.0/1604535787679/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.7.0/1604535787679/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.7.0/1604535787679/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.7.0/1604535787679/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.7.0/1604535787679/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.7.0/1604535787679/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.7.0/1604535787679/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#fbfbfb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.7.0/1604535787679",
+            "fallbackAssetUri": "https://verydanny.gallery.vsassets.io/_apis/public/gallery/publisher/verydanny/extension/smart-goto/0.7.0/assetbyname"
+        },
+        {
+            "version": "0.6.0",
+            "flags": "validated",
+            "lastUpdated": "2020-11-04T19:46:31.327Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.6.0/1604519052785/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.6.0/1604519052785/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.6.0/1604519052785/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.6.0/1604519052785/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.6.0/1604519052785/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.6.0/1604519052785/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.6.0/1604519052785/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.6.0/1604519052785/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#fbfbfb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.6.0/1604519052785",
+            "fallbackAssetUri": "https://verydanny.gallery.vsassets.io/_apis/public/gallery/publisher/verydanny/extension/smart-goto/0.6.0/assetbyname"
+        },
+        {
+            "version": "0.5.0",
+            "flags": "validated",
+            "lastUpdated": "2020-11-04T18:35:56.227Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.5.0/1604514818487/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.5.0/1604514818487/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.5.0/1604514818487/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.5.0/1604514818487/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.5.0/1604514818487/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.5.0/1604514818487/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.5.0/1604514818487/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.5.0/1604514818487/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#fbfbfb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.5.0/1604514818487",
+            "fallbackAssetUri": "https://verydanny.gallery.vsassets.io/_apis/public/gallery/publisher/verydanny/extension/smart-goto/0.5.0/assetbyname"
+        },
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2020-11-04T18:33:52.55Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.4.0/1604514684482/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.4.0/1604514684482/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.4.0/1604514684482/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.4.0/1604514684482/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.4.0/1604514684482/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.4.0/1604514684482/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.4.0/1604514684482/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.4.0/1604514684482/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#fbfbfb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.4.0/1604514684482",
+            "fallbackAssetUri": "https://verydanny.gallery.vsassets.io/_apis/public/gallery/publisher/verydanny/extension/smart-goto/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2020-11-04T18:12:52.233Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.3.0/1604513434281/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.3.0/1604513434281/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.3.0/1604513434281/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.3.0/1604513434281/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.3.0/1604513434281/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.3.0/1604513434281/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.3.0/1604513434281/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.3.0/1604513434281/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#fbfbfb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.3.0/1604513434281",
+            "fallbackAssetUri": "https://verydanny.gallery.vsassets.io/_apis/public/gallery/publisher/verydanny/extension/smart-goto/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2020-11-03T20:22:55.06Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.2.0/1604434837388/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.2.0/1604434837388/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.2.0/1604434837388/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.2.0/1604434837388/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.2.0/1604434837388/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.2.0/1604434837388/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.2.0/1604434837388/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.2.0/1604434837388/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#fbfbfb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.2.0/1604434837388",
+            "fallbackAssetUri": "https://verydanny.gallery.vsassets.io/_apis/public/gallery/publisher/verydanny/extension/smart-goto/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2020-11-03T20:18:23.91Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.1.0/1604434566098/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.1.0/1604434566098/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.1.0/1604434566098/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.1.0/1604434566098/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.1.0/1604434566098/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.1.0/1604434566098/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.1.0/1604434566098/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#fbfbfb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.1.0/1604434566098",
+            "fallbackAssetUri": "https://verydanny.gallery.vsassets.io/_apis/public/gallery/publisher/verydanny/extension/smart-goto/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2020-11-03T20:15:15.667Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.0.2/1604434376091/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.0.2/1604434376091/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.0.2/1604434376091/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.0.2/1604434376091/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.0.2/1604434376091/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.0.2/1604434376091/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.0.2/1604434376091/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#fbfbfb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/verydanny/vscode-js-hyperclick"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://verydanny.gallerycdn.vsassets.io/extensions/verydanny/smart-goto/0.0.2/1604434376091",
+            "fallbackAssetUri": "https://verydanny.gallery.vsassets.io/_apis/public/gallery/publisher/verydanny/extension/smart-goto/0.0.2/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "definitions",
+        "goto",
+        "hyperclick",
+        "intellisense",
+        "js-hyperclick"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 893.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.007838745800672
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 82.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 28.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

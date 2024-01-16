@@ -1,0 +1,825 @@
+{
+    "publisher": {
+        "publisherId": "5471fa25-6664-4952-9345-1a9987a27beb",
+        "publisherName": "dullptr",
+        "displayName": "dullptr",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "cafd761f-0d17-4553-9c40-fb5f2ec115be",
+    "extensionName": "fen-lense",
+    "displayName": "fen lense",
+    "flags": "validated, public",
+    "lastUpdated": "2023-09-04T02:13:38.957Z",
+    "publishedDate": "2023-04-03T03:34:16.437Z",
+    "releaseDate": "2023-04-03T03:34:16.437Z",
+    "shortDescription": "Preview a chess position when hovering above a valid FEN string",
+    "versions": [
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2023-09-04T02:13:38.957Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.4.0/1693793404499/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.4.0/1693793404499/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.4.0/1693793404499/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.4.0/1693793404499/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.4.0/1693793404499/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.4.0/1693793404499/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.4.0/1693793404499/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.4.0/1693793404499/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.4.0/1693793404499/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/PatrickTorgerson/fenlense/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/PatrickTorgerson/fenlense#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.4.0/1693793404499",
+            "fallbackAssetUri": "https://dullptr.gallery.vsassets.io/_apis/public/gallery/publisher/dullptr/extension/fen-lense/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2023-09-03T22:51:38.383Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.3.0/1693781286896/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.3.0/1693781286896/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.3.0/1693781286896/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.3.0/1693781286896/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.3.0/1693781286896/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.3.0/1693781286896/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.3.0/1693781286896/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.3.0/1693781286896/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.3.0/1693781286896/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/PatrickTorgerson/fenlense/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/PatrickTorgerson/fenlense#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.3.0/1693781286896",
+            "fallbackAssetUri": "https://dullptr.gallery.vsassets.io/_apis/public/gallery/publisher/dullptr/extension/fen-lense/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.1",
+            "flags": "validated",
+            "lastUpdated": "2023-09-02T02:08:54.977Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.1/1693620153707/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.1/1693620153707/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.1/1693620153707/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.1/1693620153707/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.1/1693620153707/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.1/1693620153707/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.1/1693620153707/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.1/1693620153707/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.1/1693620153707/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/PatrickTorgerson/fenlense/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/PatrickTorgerson/fenlense#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.1/1693620153707",
+            "fallbackAssetUri": "https://dullptr.gallery.vsassets.io/_apis/public/gallery/publisher/dullptr/extension/fen-lense/0.2.1/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-09-02T01:18:12.537Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.0/1693616685246/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.0/1693616685246/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.0/1693616685246/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.0/1693616685246/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.0/1693616685246/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.0/1693616685246/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.0/1693616685246/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.0/1693616685246/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.0/1693616685246/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/PatrickTorgerson/fenlense/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/PatrickTorgerson/fenlense#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.2.0/1693616685246",
+            "fallbackAssetUri": "https://dullptr.gallery.vsassets.io/_apis/public/gallery/publisher/dullptr/extension/fen-lense/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.4",
+            "flags": "validated",
+            "lastUpdated": "2023-09-02T00:50:33.097Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.4/1693615312594/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.4/1693615312594/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.4/1693615312594/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.4/1693615312594/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.4/1693615312594/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.4/1693615312594/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.4/1693615312594/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.4/1693615312594/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.4/1693615312594/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/PatrickTorgerson/fenlense/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/PatrickTorgerson/fenlense#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.4/1693615312594",
+            "fallbackAssetUri": "https://dullptr.gallery.vsassets.io/_apis/public/gallery/publisher/dullptr/extension/fen-lense/0.1.4/assetbyname"
+        },
+        {
+            "version": "0.1.3",
+            "flags": "validated",
+            "lastUpdated": "2023-09-01T05:13:14.007Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.3/1693544946652/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.3/1693544946652/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.3/1693544946652/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.3/1693544946652/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.3/1693544946652/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.3/1693544946652/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.3/1693544946652/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.3/1693544946652/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.3/1693544946652/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/PatrickTorgerson/fenlense/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/PatrickTorgerson/fenlense#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.3/1693544946652",
+            "fallbackAssetUri": "https://dullptr.gallery.vsassets.io/_apis/public/gallery/publisher/dullptr/extension/fen-lense/0.1.3/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2023-04-03T03:50:34.257Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.1/1680493527592/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.1/1680493527592/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.1/1680493527592/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.1/1680493527592/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.1/1680493527592/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.1/1680493527592/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.1/1680493527592/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.1/1680493527592/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.1/1680493527592/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/PatrickTorgerson/fenlense/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/PatrickTorgerson/fenlense#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.1/1680493527592",
+            "fallbackAssetUri": "https://dullptr.gallery.vsassets.io/_apis/public/gallery/publisher/dullptr/extension/fen-lense/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-04-03T03:37:16.12Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.0/1680492858842/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.0/1680492858842/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.0/1680492858842/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.0/1680492858842/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.0/1680492858842/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.0/1680492858842/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.0/1680492858842/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/PatrickTorgerson/fenlense/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/PatrickTorgerson/fenlense#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/PatrickTorgerson/fenlense.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://dullptr.gallerycdn.vsassets.io/extensions/dullptr/fen-lense/0.1.0/1680492858842",
+            "fallbackAssetUri": "https://dullptr.gallery.vsassets.io/_apis/public/gallery/publisher/dullptr/extension/fen-lense/0.1.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Visualization"
+    ],
+    "tags": [
+        "chess",
+        "fen",
+        "hover"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 156.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 4.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 8.333333333333332
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 2.564102564102564
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 60.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.3665497539175195
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 15.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

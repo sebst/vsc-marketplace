@@ -1,0 +1,2436 @@
+{
+    "publisher": {
+        "publisherId": "d3d209cd-0420-4c0b-bb94-ebd78d727176",
+        "publisherName": "tobiaswaelde",
+        "displayName": "Tobias W\u00e4lde",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "a8d2e185-88e5-4834-89af-bc9e8f4c89c8",
+    "extensionName": "clockify-tracker",
+    "displayName": "Clockify",
+    "flags": "validated, public",
+    "lastUpdated": "2023-03-22T09:00:19.367Z",
+    "publishedDate": "2019-09-13T19:06:25.393Z",
+    "releaseDate": "2019-09-13T19:06:25.393Z",
+    "shortDescription": "Implements Clockify time tracker (https://clockify.me/) in VSCode.",
+    "versions": [
+        {
+            "version": "4.0.3",
+            "flags": "validated",
+            "lastUpdated": "2023-03-22T09:00:19.367Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.3/1679475450545/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.3/1679475450545/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.3/1679475450545/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.3/1679475450545/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.3/1679475450545/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.3/1679475450545/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.3/1679475450545/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.3/1679475450545/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.3/1679475450545/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.3/1679475450545",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/4.0.3/assetbyname"
+        },
+        {
+            "version": "4.0.2",
+            "flags": "validated",
+            "lastUpdated": "2023-02-25T19:52:50.723Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.2/1677354564948/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.2/1677354564948/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.2/1677354564948/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.2/1677354564948/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.2/1677354564948/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.2/1677354564948/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.2/1677354564948/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.2/1677354564948/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.2/1677354564948/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.2/1677354564948",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/4.0.2/assetbyname"
+        },
+        {
+            "version": "4.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-02-23T02:21:06.243Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.1/1677118652250/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.1/1677118652250/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.1/1677118652250/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.1/1677118652250/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.1/1677118652250/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.1/1677118652250/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.1/1677118652250/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.1/1677118652250/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.1/1677118652250/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.1/1677118652250",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/4.0.1/assetbyname"
+        },
+        {
+            "version": "4.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-02-23T01:10:21.87Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.0/1677114343344/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.0/1677114343344/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.0/1677114343344/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.0/1677114343344/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.0/1677114343344/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.0/1677114343344/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.0/1677114343344/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.0/1677114343344/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.0/1677114343344/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/4.0.0/1677114343344",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/4.0.0/assetbyname"
+        },
+        {
+            "version": "3.0.12",
+            "flags": "validated",
+            "lastUpdated": "2020-11-18T17:25:33.71Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.12/1605720071919/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.12/1605720071919/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.12/1605720071919/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.12/1605720071919/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.12/1605720071919/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.12/1605720071919/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.12/1605720071919/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.12/1605720071919/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.12/1605720071919/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.12/1605720071919",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/3.0.12/assetbyname"
+        },
+        {
+            "version": "3.0.11",
+            "flags": "validated",
+            "lastUpdated": "2019-09-20T08:53:01.373Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.11/1568969315467/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.11/1568969315467/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.11/1568969315467/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.11/1568969315467/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.11/1568969315467/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.11/1568969315467/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.11/1568969315467/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.11/1568969315467/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.11/1568969315467",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/3.0.11/assetbyname"
+        },
+        {
+            "version": "3.0.10",
+            "flags": "validated",
+            "lastUpdated": "2019-09-19T17:03:45.397Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.10/1568912484825/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.10/1568912484825/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.10/1568912484825/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.10/1568912484825/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.10/1568912484825/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.10/1568912484825/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.10/1568912484825/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.10/1568912484825/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.10/1568912484825",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/3.0.10/assetbyname"
+        },
+        {
+            "version": "3.0.9",
+            "flags": "validated",
+            "lastUpdated": "2019-09-19T02:23:29.88Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.9/1568859670386/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.9/1568859670386/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.9/1568859670386/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.9/1568859670386/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.9/1568859670386/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.9/1568859670386/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.9/1568859670386/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.9/1568859670386/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.9/1568859670386",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/3.0.9/assetbyname"
+        },
+        {
+            "version": "3.0.8",
+            "flags": "validated",
+            "lastUpdated": "2019-09-19T00:00:47.583Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.8/1568851092493/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.8/1568851092493/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.8/1568851092493/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.8/1568851092493/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.8/1568851092493/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.8/1568851092493/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.8/1568851092493/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.8/1568851092493/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.8/1568851092493",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/3.0.8/assetbyname"
+        },
+        {
+            "version": "3.0.7",
+            "flags": "validated",
+            "lastUpdated": "2019-09-18T21:29:35.273Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.7/1568842035260/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.7/1568842035260/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.7/1568842035260/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.7/1568842035260/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.7/1568842035260/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.7/1568842035260/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.7/1568842035260/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.7/1568842035260/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.7/1568842035260",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/3.0.7/assetbyname"
+        },
+        {
+            "version": "3.0.6",
+            "flags": "validated",
+            "lastUpdated": "2019-09-18T16:32:35.953Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.6/1568824090445/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.6/1568824090445/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.6/1568824090445/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.6/1568824090445/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.6/1568824090445/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.6/1568824090445/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.6/1568824090445/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.6/1568824090445/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.6/1568824090445",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/3.0.6/assetbyname"
+        },
+        {
+            "version": "3.0.5",
+            "flags": "validated",
+            "lastUpdated": "2019-09-18T16:16:20.203Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.5/1568823239816/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.5/1568823239816/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.5/1568823239816/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.5/1568823239816/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.5/1568823239816/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.5/1568823239816/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.5/1568823239816/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.5/1568823239816/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.5/1568823239816",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/3.0.5/assetbyname"
+        },
+        {
+            "version": "3.0.4",
+            "flags": "validated",
+            "lastUpdated": "2019-09-18T15:43:31.397Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.4/1568821270412/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.4/1568821270412/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.4/1568821270412/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.4/1568821270412/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.4/1568821270412/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.4/1568821270412/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.4/1568821270412/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.4/1568821270412/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.4/1568821270412",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/3.0.4/assetbyname"
+        },
+        {
+            "version": "3.0.3",
+            "flags": "validated",
+            "lastUpdated": "2019-09-18T15:34:55.613Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.3/1568820629464/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.3/1568820629464/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.3/1568820629464/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.3/1568820629464/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.3/1568820629464/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.3/1568820629464/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.3/1568820629464/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.3/1568820629464/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.3/1568820629464",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/3.0.3/assetbyname"
+        },
+        {
+            "version": "3.0.2",
+            "flags": "validated",
+            "lastUpdated": "2019-09-18T15:20:41.623Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.2/1568819897944/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.2/1568819897944/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.2/1568819897944/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.2/1568819897944/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.2/1568819897944/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.2/1568819897944/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.2/1568819897944/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.2/1568819897944/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.2/1568819897944",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/3.0.2/assetbyname"
+        },
+        {
+            "version": "3.0.1",
+            "flags": "validated",
+            "lastUpdated": "2019-09-18T14:58:01.797Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.1/1568818419090/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.1/1568818419090/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.1/1568818419090/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.1/1568818419090/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.1/1568818419090/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.1/1568818419090/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.1/1568818419090/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.1/1568818419090/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.1/1568818419090",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/3.0.1/assetbyname"
+        },
+        {
+            "version": "3.0.0",
+            "flags": "validated",
+            "lastUpdated": "2019-09-18T14:44:35.55Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.0/1568817611327/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.0/1568817611327/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.0/1568817611327/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.0/1568817611327/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.0/1568817611327/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.0/1568817611327/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.0/1568817611327/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.0/1568817611327/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/3.0.0/1568817611327",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/3.0.0/assetbyname"
+        },
+        {
+            "version": "2.1.1",
+            "flags": "validated",
+            "lastUpdated": "2019-09-17T02:10:28.217Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.1/1568686087144/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.1/1568686087144/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.1/1568686087144/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.1/1568686087144/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.1/1568686087144/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.1/1568686087144/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.1/1568686087144/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.1/1568686087144/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.1/1568686087144",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/2.1.1/assetbyname"
+        },
+        {
+            "version": "2.1.0",
+            "flags": "validated",
+            "lastUpdated": "2019-09-17T02:07:42.293Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.0/1568685922986/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.0/1568685922986/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.0/1568685922986/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.0/1568685922986/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.0/1568685922986/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.0/1568685922986/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.0/1568685922986/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.0/1568685922986/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.1.0/1568685922986",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/2.1.0/assetbyname"
+        },
+        {
+            "version": "2.0.6",
+            "flags": "validated",
+            "lastUpdated": "2019-09-16T15:48:14.95Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.6/1568648755155/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.6/1568648755155/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.6/1568648755155/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.6/1568648755155/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.6/1568648755155/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.6/1568648755155/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.6/1568648755155/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.6/1568648755155/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ffffff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.6/1568648755155",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/2.0.6/assetbyname"
+        },
+        {
+            "version": "2.0.5",
+            "flags": "validated",
+            "lastUpdated": "2019-09-16T14:38:50.38Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.5/1568644591117/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.5/1568644591117/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.5/1568644591117/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.5/1568644591117/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.5/1568644591117/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.5/1568644591117/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.5/1568644591117/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.5/1568644591117/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1840D0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.5/1568644591117",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/2.0.5/assetbyname"
+        },
+        {
+            "version": "2.0.4",
+            "flags": "validated",
+            "lastUpdated": "2019-09-15T23:26:40.6Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.4/1568589859948/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.4/1568589859948/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.4/1568589859948/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.4/1568589859948/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.4/1568589859948/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.4/1568589859948/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.4/1568589859948/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1840D0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tobiaswaelde/vscode-clockify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.4/1568589859948",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/2.0.4/assetbyname"
+        },
+        {
+            "version": "2.0.1",
+            "flags": "validated",
+            "lastUpdated": "2019-09-15T22:54:57.32Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.1/1568587955680/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.1/1568587955680/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.1/1568587955680/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.1/1568587955680/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.1/1568587955680/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.1/1568587955680/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.1/1568587955680/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1840D0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.1/1568587955680",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/2.0.1/assetbyname"
+        },
+        {
+            "version": "2.0.0",
+            "flags": "validated",
+            "lastUpdated": "2019-09-15T22:48:13.24Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.0/1568587552029/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.0/1568587552029/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.0/1568587552029/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.0/1568587552029/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.0/1568587552029/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.0/1568587552029/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.0/1568587552029/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1840D0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/2.0.0/1568587552029",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/2.0.0/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2019-09-14T12:31:02.137Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/1.1.0/1568464095082/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/1.1.0/1568464095082/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/1.1.0/1568464095082/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/1.1.0/1568464095082/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/1.1.0/1568464095082/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/1.1.0/1568464095082/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/1.1.0/1568464095082/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1840D0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/1.1.0/1568464095082",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/1.1.0/assetbyname"
+        },
+        {
+            "version": "0.7.2",
+            "flags": "validated",
+            "lastUpdated": "2019-09-13T19:15:31.56Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.2/1568401991832/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.2/1568401991832/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.2/1568401991832/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.2/1568401991832/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.2/1568401991832/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.2/1568401991832/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.2/1568401991832/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1840D0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.2/1568401991832",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/0.7.2/assetbyname"
+        },
+        {
+            "version": "0.7.1",
+            "flags": "validated",
+            "lastUpdated": "2019-09-13T19:11:46.597Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.1/1568401767133/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.1/1568401767133/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.1/1568401767133/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.1/1568401767133/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.1/1568401767133/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.1/1568401767133/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.1/1568401767133/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.1/1568401767133",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/0.7.1/assetbyname"
+        },
+        {
+            "version": "0.7.0",
+            "flags": "validated",
+            "lastUpdated": "2019-09-13T19:08:46.133Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.0/1568401585398/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.0/1568401585398/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.0/1568401585398/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.0/1568401585398/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.0/1568401585398/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.0/1568401585398/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.0/1568401585398/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitlab.com/custom-extensions/clockify-tracker.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.38.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tobiaswaelde.gallerycdn.vsassets.io/extensions/tobiaswaelde/clockify-tracker/0.7.0/1568401585398",
+            "fallbackAssetUri": "https://tobiaswaelde.gallery.vsassets.io/_apis/public/gallery/publisher/tobiaswaelde/extension/clockify-tracker/0.7.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 16401.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 4.75
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 4.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.176757514785684
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.2560819462227913
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 6534.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.502289092363766
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 172.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

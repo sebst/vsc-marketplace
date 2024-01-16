@@ -1,0 +1,2165 @@
+{
+    "publisher": {
+        "publisherId": "f65d3d78-d977-4f9f-94a4-d0cf3b8fe1c1",
+        "publisherName": "YevhenCherkes",
+        "displayName": "Yevhen Cherkes",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "661b0280-629e-4958-9925-587e38aeace5",
+    "extensionName": "object-dumper",
+    "displayName": "Object Dumper",
+    "flags": "validated, public",
+    "lastUpdated": "2024-01-08T16:20:10.777Z",
+    "publishedDate": "2022-11-11T15:50:36.027Z",
+    "releaseDate": "2022-11-11T15:50:36.027Z",
+    "shortDescription": "Extension for exporting in-memory objects during debugging to C#, JSON, VB, XML, and YAML string.",
+    "versions": [
+        {
+            "version": "0.0.22",
+            "flags": "validated",
+            "lastUpdated": "2024-01-08T16:20:10.773Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.22/1704730525480/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.22/1704730525480/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.22/1704730525480/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.22/1704730525480/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.22/1704730525480/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.22/1704730525480/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.22/1704730525480/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.22/1704730525480/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.22/1704730525480/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.22/1704730525480",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.22/assetbyname"
+        },
+        {
+            "version": "0.0.21",
+            "flags": "validated",
+            "lastUpdated": "2023-12-30T20:24:53.923Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.21/1703967644120/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.21/1703967644120/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.21/1703967644120/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.21/1703967644120/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.21/1703967644120/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.21/1703967644120/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.21/1703967644120/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.21/1703967644120/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.21/1703967644120/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.21/1703967644120",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.21/assetbyname"
+        },
+        {
+            "version": "0.0.20",
+            "flags": "validated",
+            "lastUpdated": "2023-09-09T20:46:39.12Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.20/1694292199178/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.20/1694292199178/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.20/1694292199178/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.20/1694292199178/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.20/1694292199178/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.20/1694292199178/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.20/1694292199178/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.20/1694292199178/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.20/1694292199178/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.20/1694292199178",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.20/assetbyname"
+        },
+        {
+            "version": "0.0.19",
+            "flags": "validated",
+            "lastUpdated": "2023-07-29T12:44:28.057Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.19/1690634487179/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.19/1690634487179/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.19/1690634487179/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.19/1690634487179/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.19/1690634487179/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.19/1690634487179/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.19/1690634487179/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.19/1690634487179/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.19/1690634487179/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.19/1690634487179",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.19/assetbyname"
+        },
+        {
+            "version": "0.0.18",
+            "flags": "validated",
+            "lastUpdated": "2023-07-19T10:20:38.69Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.18/1689761846179/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.18/1689761846179/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.18/1689761846179/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.18/1689761846179/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.18/1689761846179/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.18/1689761846179/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.18/1689761846179/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.18/1689761846179/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.18/1689761846179/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.18/1689761846179",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.18/assetbyname"
+        },
+        {
+            "version": "0.0.17",
+            "flags": "validated",
+            "lastUpdated": "2023-07-03T10:01:36.647Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.17/1688378332016/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.17/1688378332016/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.17/1688378332016/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.17/1688378332016/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.17/1688378332016/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.17/1688378332016/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.17/1688378332016/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.17/1688378332016/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.17/1688378332016/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.17/1688378332016",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.17/assetbyname"
+        },
+        {
+            "version": "0.0.16",
+            "flags": "validated",
+            "lastUpdated": "2023-07-02T10:24:14.55Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.16/1688293251471/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.16/1688293251471/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.16/1688293251471/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.16/1688293251471/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.16/1688293251471/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.16/1688293251471/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.16/1688293251471/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.16/1688293251471/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.16/1688293251471/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.16/1688293251471",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.16/assetbyname"
+        },
+        {
+            "version": "0.0.15",
+            "flags": "validated",
+            "lastUpdated": "2023-07-01T11:51:06.74Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.15/1688212071467/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.15/1688212071467/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.15/1688212071467/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.15/1688212071467/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.15/1688212071467/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.15/1688212071467/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.15/1688212071467/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.15/1688212071467/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.15/1688212071467/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.15/1688212071467",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.15/assetbyname"
+        },
+        {
+            "version": "0.0.14",
+            "flags": "validated",
+            "lastUpdated": "2023-04-17T14:57:58.13Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.14/1681743290834/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.14/1681743290834/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.14/1681743290834/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.14/1681743290834/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.14/1681743290834/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.14/1681743290834/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.14/1681743290834/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.14/1681743290834/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.14/1681743290834/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.14/1681743290834",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.14/assetbyname"
+        },
+        {
+            "version": "0.0.13",
+            "flags": "validated",
+            "lastUpdated": "2023-04-03T15:23:17.467Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.13/1680535182944/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.13/1680535182944/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.13/1680535182944/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.13/1680535182944/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.13/1680535182944/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.13/1680535182944/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.13/1680535182944/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.13/1680535182944/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.13/1680535182944/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.13/1680535182944",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.13/assetbyname"
+        },
+        {
+            "version": "0.0.12",
+            "flags": "validated",
+            "lastUpdated": "2023-03-05T13:52:15.767Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.12/1678024011348/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.12/1678024011348/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.12/1678024011348/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.12/1678024011348/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.12/1678024011348/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.12/1678024011348/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.12/1678024011348/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.12/1678024011348/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.12/1678024011348/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.12/1678024011348",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.12/assetbyname"
+        },
+        {
+            "version": "0.0.11",
+            "flags": "validated",
+            "lastUpdated": "2023-02-27T16:52:32.603Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.11/1677516507518/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.11/1677516507518/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.11/1677516507518/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.11/1677516507518/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.11/1677516507518/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.11/1677516507518/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.11/1677516507518/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.11/1677516507518/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.11/1677516507518/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.11/1677516507518",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.11/assetbyname"
+        },
+        {
+            "version": "0.0.10",
+            "flags": "validated",
+            "lastUpdated": "2023-02-13T19:49:08.493Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.10/1676317488788/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.10/1676317488788/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.10/1676317488788/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.10/1676317488788/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.10/1676317488788/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.10/1676317488788/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.10/1676317488788/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.10/1676317488788/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.10/1676317488788/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.10/1676317488788",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.10/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2023-01-20T15:20:57.533Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.9/1674227881975/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.9/1674227881975/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.9/1674227881975/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.9/1674227881975/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.9/1674227881975/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.9/1674227881975/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.9/1674227881975/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.9/1674227881975/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.9/1674227881975/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.9/1674227881975",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2023-01-11T10:44:38.123Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.8/1673433560028/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.8/1673433560028/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.8/1673433560028/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.8/1673433560028/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.8/1673433560028/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.8/1673433560028/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.8/1673433560028/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.8/1673433560028/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.8/1673433560028/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.8/1673433560028",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2022-12-31T18:31:47.797Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.7/1672511229115/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.7/1672511229115/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.7/1672511229115/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.7/1672511229115/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.7/1672511229115/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.7/1672511229115/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.7/1672511229115/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.7/1672511229115/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.7/1672511229115/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.7/1672511229115",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2022-12-26T14:47:26.09Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.6/1672065876698/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.6/1672065876698/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.6/1672065876698/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.6/1672065876698/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.6/1672065876698/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.6/1672065876698/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.6/1672065876698/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.6/1672065876698/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.6/1672065876698/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.6/1672065876698",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2022-12-22T11:39:30.373Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.5/1671708964522/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.5/1671708964522/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.5/1671708964522/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.5/1671708964522/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.5/1671708964522/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.5/1671708964522/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.5/1671708964522/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.5/1671708964522/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.5/1671708964522/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.5/1671708964522",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2022-11-14T08:31:12.353Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.4/1668414432507/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.4/1668414432507/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.4/1668414432507/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.4/1668414432507/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.4/1668414432507/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.4/1668414432507/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.4/1668414432507/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.4/1668414432507/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.4/1668414432507/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.4/1668414432507",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2022-11-11T16:41:19.31Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.3/1668184641178/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.3/1668184641178/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.3/1668184641178/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.3/1668184641178/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.3/1668184641178/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.3/1668184641178/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.3/1668184641178/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.3/1668184641178/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.3/1668184641178/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.3/1668184641178",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2022-11-11T16:22:56.77Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.2/1668183496954/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.2/1668183496954/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.2/1668183496954/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.2/1668183496954/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.2/1668183496954/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.2/1668183496954/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.2/1668183496954/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.2/1668183496954/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.2/1668183496954/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.2/1668183496954",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2022-11-11T15:54:33.807Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.1/1668181836402/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.1/1668181836402/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.1/1668181836402/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.1/1668181836402/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.1/1668181836402/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.1/1668181836402/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.1/1668181836402/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.1/1668181836402/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.1/1668181836402/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ycherkes/ObjectDumper/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ycherkes/ObjectDumper/tree/main#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ycherkes/ObjectDumper.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://yevhencherkes.gallerycdn.vsassets.io/extensions/yevhencherkes/object-dumper/0.0.1/1668181836402",
+            "fallbackAssetUri": "https://yevhencherkes.gallery.vsassets.io/_apis/public/gallery/publisher/YevhenCherkes/extension/object-dumper/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "c#",
+        "csharp",
+        "fsharp",
+        "keybindings",
+        "xml"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 767.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 3.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 6.657963446475196
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.3054830287206265
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 1441.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.540926714853287
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 58.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

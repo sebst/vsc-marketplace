@@ -1,0 +1,875 @@
+{
+    "publisher": {
+        "publisherId": "128db666-746a-4243-bc4e-eea3e29af7a7",
+        "publisherName": "imgildev",
+        "displayName": "Manuel Gil",
+        "flags": "verified",
+        "domain": "https://imgil.dev/",
+        "isDomainVerified": true
+    },
+    "extensionId": "12c6ea5e-c0db-439e-b4fb-dc46f0f54371",
+    "extensionName": "vscode-nestjs-generator",
+    "displayName": "NestJS File Generator for VSCode",
+    "flags": "validated, public",
+    "lastUpdated": "2023-12-31T03:54:59.927Z",
+    "publishedDate": "2023-09-13T20:16:13.027Z",
+    "releaseDate": "2023-09-13T20:16:13.027Z",
+    "shortDescription": "Generate NestJS files from the command palette or explorer context menu (right click). It also provides a terminal to start the server in different modes (dev, debug, prod). It is based on the NestJS CLI.",
+    "versions": [
+        {
+            "version": "1.4.2",
+            "flags": "validated",
+            "lastUpdated": "2023-12-31T03:54:59.923Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.2/1703994748162/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.2/1703994748162/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.2/1703994748162/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.2/1703994748162/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.2/1703994748162/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.2/1703994748162/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.2/1703994748162/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.2/1703994748162/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.2/1703994748162/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": "imgildev.vscode-nestjs-snippets-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.2/1703994748162",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nestjs-generator/1.4.2/assetbyname"
+        },
+        {
+            "version": "1.4.1",
+            "flags": "validated",
+            "lastUpdated": "2023-12-23T04:05:26.463Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.1/1703304090544/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.1/1703304090544/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.1/1703304090544/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.1/1703304090544/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.1/1703304090544/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.1/1703304090544/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.1/1703304090544/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.1/1703304090544/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.1/1703304090544/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": "imgildev.vscode-nestjs-snippets-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.1/1703304090544",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nestjs-generator/1.4.1/assetbyname"
+        },
+        {
+            "version": "1.4.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-23T03:38:39.78Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.0/1703302487284/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.0/1703302487284/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.0/1703302487284/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.0/1703302487284/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.0/1703302487284/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.0/1703302487284/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.0/1703302487284/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.0/1703302487284/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.0/1703302487284/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": "imgildev.vscode-nestjs-snippets-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.4.0/1703302487284",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nestjs-generator/1.4.0/assetbyname"
+        },
+        {
+            "version": "1.3.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-15T16:42:04.427Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.3.0/1702658311928/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.3.0/1702658311928/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.3.0/1702658311928/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.3.0/1702658311928/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.3.0/1702658311928/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.3.0/1702658311928/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.3.0/1702658311928/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.3.0/1702658311928/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.3.0/1702658311928/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": "imgildev.vscode-nestjs-snippets-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.3.0/1702658311928",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nestjs-generator/1.3.0/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-09-16T01:45:09.153Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.2.0/1694828555016/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.2.0/1694828555016/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.2.0/1694828555016/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.2.0/1694828555016/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.2.0/1694828555016/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.2.0/1694828555016/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.2.0/1694828555016/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.2.0/1694828555016/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.2.0/1694828555016/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.2.0/1694828555016",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nestjs-generator/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-09-14T16:38:43.24Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.1.0/1694709305782/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.1.0/1694709305782/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.1.0/1694709305782/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.1.0/1694709305782/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.1.0/1694709305782/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.1.0/1694709305782/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.1.0/1694709305782/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.1.0/1694709305782/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.1.0/1694709305782/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.1.0/1694709305782",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nestjs-generator/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-09-13T20:35:54.47Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.1/1694637098943/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.1/1694637098943/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.1/1694637098943/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.1/1694637098943/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.1/1694637098943/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.1/1694637098943/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.1/1694637098943/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.1/1694637098943/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.1/1694637098943/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.1/1694637098943",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nestjs-generator/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-09-13T20:19:51.147Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.0/1694636174026/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.0/1694636174026/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.0/1694636174026/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.0/1694636174026/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.0/1694636174026/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.0/1694636174026/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.0/1694636174026/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.0/1694636174026/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.0/1694636174026/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nestjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nestjs-generator/1.0.0/1694636174026",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nestjs-generator/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "__sponsor_extension",
+        "autocomplete",
+        "autocomplete-functionality",
+        "boilerplate",
+        "commands",
+        "express",
+        "extension",
+        "generator",
+        "grammars",
+        "grammars-utility",
+        "javascript",
+        "js",
+        "nest",
+        "nestjs",
+        "node",
+        "nodejs",
+        "terminal",
+        "ts",
+        "typescript",
+        "vscode",
+        "vscode-extension"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 841.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.2457002457002457
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 55.8968058968059
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 19.533169533169534
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 659.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 19.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

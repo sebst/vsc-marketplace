@@ -1,0 +1,741 @@
+{
+    "publisher": {
+        "publisherId": "89a13257-a6d7-4df7-99eb-23b1e982ab0a",
+        "publisherName": "AdamWulkiewicz",
+        "displayName": "Adam Wulkiewicz",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "c6472879-c473-4faa-9b65-c85f2ab9428f",
+    "extensionName": "graphicaldebugging-vscode",
+    "displayName": "Graphical Debugging",
+    "flags": "validated, public",
+    "lastUpdated": "2023-03-28T17:42:19.43Z",
+    "publishedDate": "2022-01-31T11:55:33.217Z",
+    "releaseDate": "2022-01-31T11:55:33.217Z",
+    "shortDescription": "Visualization of variables during debugging, e.g. Boost.Geometry models, containers of values, arrays of points, etc.",
+    "versions": [
+        {
+            "version": "0.8.0",
+            "flags": "validated",
+            "lastUpdated": "2023-03-28T17:42:19.43Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.8.0/1680025089082/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.8.0/1680025089082/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.8.0/1680025089082/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.8.0/1680025089082/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.8.0/1680025089082/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.8.0/1680025089082/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.8.0/1680025089082/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.8.0/1680025089082/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.8.0/1680025089082/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.8.0/1680025089082",
+            "fallbackAssetUri": "https://adamwulkiewicz.gallery.vsassets.io/_apis/public/gallery/publisher/AdamWulkiewicz/extension/graphicaldebugging-vscode/0.8.0/assetbyname"
+        },
+        {
+            "version": "0.7.0",
+            "flags": "validated",
+            "lastUpdated": "2023-03-08T22:29:14.993Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.7.0/1678314312718/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.7.0/1678314312718/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.7.0/1678314312718/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.7.0/1678314312718/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.7.0/1678314312718/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.7.0/1678314312718/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.7.0/1678314312718/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.7.0/1678314312718/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.7.0/1678314312718/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.7.0/1678314312718",
+            "fallbackAssetUri": "https://adamwulkiewicz.gallery.vsassets.io/_apis/public/gallery/publisher/AdamWulkiewicz/extension/graphicaldebugging-vscode/0.7.0/assetbyname"
+        },
+        {
+            "version": "0.6.0",
+            "flags": "validated",
+            "lastUpdated": "2023-02-12T16:22:06.38Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.6.0/1676218723217/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.6.0/1676218723217/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.6.0/1676218723217/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.6.0/1676218723217/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.6.0/1676218723217/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.6.0/1676218723217/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.6.0/1676218723217/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.6.0/1676218723217/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.6.0/1676218723217/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.6.0/1676218723217",
+            "fallbackAssetUri": "https://adamwulkiewicz.gallery.vsassets.io/_apis/public/gallery/publisher/AdamWulkiewicz/extension/graphicaldebugging-vscode/0.6.0/assetbyname"
+        },
+        {
+            "version": "0.5.1",
+            "flags": "validated",
+            "lastUpdated": "2022-02-22T14:36:13.663Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.1/1645540435030/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.1/1645540435030/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.1/1645540435030/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.1/1645540435030/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.1/1645540435030/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.1/1645540435030/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.1/1645540435030/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.1/1645540435030/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.1/1645540435030",
+            "fallbackAssetUri": "https://adamwulkiewicz.gallery.vsassets.io/_apis/public/gallery/publisher/AdamWulkiewicz/extension/graphicaldebugging-vscode/0.5.1/assetbyname"
+        },
+        {
+            "version": "0.5.0",
+            "flags": "validated",
+            "lastUpdated": "2022-02-11T19:12:40.897Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.0/1644606617212/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.0/1644606617212/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.0/1644606617212/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.0/1644606617212/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.0/1644606617212/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.0/1644606617212/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.0/1644606617212/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.0/1644606617212/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.5.0/1644606617212",
+            "fallbackAssetUri": "https://adamwulkiewicz.gallery.vsassets.io/_apis/public/gallery/publisher/AdamWulkiewicz/extension/graphicaldebugging-vscode/0.5.0/assetbyname"
+        },
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2022-02-03T16:07:51.513Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.4.0/1643904334128/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.4.0/1643904334128/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.4.0/1643904334128/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.4.0/1643904334128/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.4.0/1643904334128/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.4.0/1643904334128/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.4.0/1643904334128/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.4.0/1643904334128/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.4.0/1643904334128",
+            "fallbackAssetUri": "https://adamwulkiewicz.gallery.vsassets.io/_apis/public/gallery/publisher/AdamWulkiewicz/extension/graphicaldebugging-vscode/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2022-01-31T11:57:51.643Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.3.0/1643630133248/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.3.0/1643630133248/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.3.0/1643630133248/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.3.0/1643630133248/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.3.0/1643630133248/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.3.0/1643630133248/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.3.0/1643630133248/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.3.0/1643630133248/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/awulkiew/graphical-debugging-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://adamwulkiewicz.gallerycdn.vsassets.io/extensions/adamwulkiewicz/graphicaldebugging-vscode/0.3.0/1643630133248",
+            "fallbackAssetUri": "https://adamwulkiewicz.gallery.vsassets.io/_apis/public/gallery/publisher/AdamWulkiewicz/extension/graphicaldebugging-vscode/0.3.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Debuggers",
+        "Visualization"
+    ],
+    "tags": [
+        "2d",
+        "array",
+        "boost",
+        "box",
+        "c",
+        "c++",
+        "cartesian",
+        "chart",
+        "complex",
+        "container",
+        "curve",
+        "debug",
+        "debugging",
+        "deque",
+        "geographic",
+        "geometry",
+        "gis",
+        "graphical",
+        "javascript",
+        "linestring",
+        "list",
+        "plot",
+        "point",
+        "polygon",
+        "python",
+        "rgeo",
+        "ring",
+        "ruby",
+        "segment",
+        "shapely",
+        "spherical",
+        "std",
+        "stl",
+        "tuple",
+        "vector",
+        "visualization",
+        "visualize"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 9455.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 4.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.010584250635055038
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 4.3924640135478406
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.9949195596951735
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 3973.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.3665497539175195
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 126.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

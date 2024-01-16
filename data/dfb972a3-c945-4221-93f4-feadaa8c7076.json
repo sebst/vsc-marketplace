@@ -1,0 +1,820 @@
+{
+    "publisher": {
+        "publisherId": "5974241b-8e23-4e07-8594-030d96ff3e7e",
+        "publisherName": "tfenster",
+        "displayName": "Tobias Fenster",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "dfb972a3-c945-4221-93f4-feadaa8c7076",
+    "extensionName": "azdevops-vscode-simplify",
+    "displayName": "Azure DevOps Simplify",
+    "flags": "validated, public",
+    "lastUpdated": "2023-04-05T15:31:03.34Z",
+    "publishedDate": "2022-11-19T15:18:51.71Z",
+    "releaseDate": "2022-11-19T15:18:51.71Z",
+    "shortDescription": "An Extension to make working with Azure DevOps in VS Code more efficient",
+    "versions": [
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2023-04-05T15:31:03.337Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.8/1680708459556/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.8/1680708459556/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.8/1680708459556/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.8/1680708459556/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.8/1680708459556/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.8/1680708459556/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.8/1680708459556/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.8/1680708459556/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.8/1680708459556/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.8/1680708459556",
+            "fallbackAssetUri": "https://tfenster.gallery.vsassets.io/_apis/public/gallery/publisher/tfenster/extension/azdevops-vscode-simplify/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2022-12-22T08:24:27.35Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.7/1671697269057/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.7/1671697269057/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.7/1671697269057/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.7/1671697269057/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.7/1671697269057/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.7/1671697269057/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.7/1671697269057/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.7/1671697269057/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.7/1671697269057/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.7/1671697269057",
+            "fallbackAssetUri": "https://tfenster.gallery.vsassets.io/_apis/public/gallery/publisher/tfenster/extension/azdevops-vscode-simplify/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2022-11-29T20:47:59.45Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.6/1669754637126/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.6/1669754637126/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.6/1669754637126/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.6/1669754637126/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.6/1669754637126/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.6/1669754637126/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.6/1669754637126/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.6/1669754637126/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.6/1669754637126/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.6/1669754637126",
+            "fallbackAssetUri": "https://tfenster.gallery.vsassets.io/_apis/public/gallery/publisher/tfenster/extension/azdevops-vscode-simplify/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2022-11-29T11:05:57.88Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.5/1669719715384/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.5/1669719715384/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.5/1669719715384/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.5/1669719715384/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.5/1669719715384/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.5/1669719715384/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.5/1669719715384/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.5/1669719715384/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.5/1669719715384/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.5/1669719715384",
+            "fallbackAssetUri": "https://tfenster.gallery.vsassets.io/_apis/public/gallery/publisher/tfenster/extension/azdevops-vscode-simplify/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2022-11-29T06:34:22.907Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.4/1669703419054/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.4/1669703419054/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.4/1669703419054/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.4/1669703419054/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.4/1669703419054/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.4/1669703419054/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.4/1669703419054/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.4/1669703419054/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.4/1669703419054/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.4/1669703419054",
+            "fallbackAssetUri": "https://tfenster.gallery.vsassets.io/_apis/public/gallery/publisher/tfenster/extension/azdevops-vscode-simplify/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2022-11-20T20:50:10.847Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.3/1668977247923/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.3/1668977247923/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.3/1668977247923/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.3/1668977247923/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.3/1668977247923/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.3/1668977247923/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.3/1668977247923/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.3/1668977247923/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.3/1668977247923/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.3/1668977247923",
+            "fallbackAssetUri": "https://tfenster.gallery.vsassets.io/_apis/public/gallery/publisher/tfenster/extension/azdevops-vscode-simplify/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2022-11-19T22:13:51.867Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.2/1668895829229/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.2/1668895829229/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.2/1668895829229/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.2/1668895829229/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.2/1668895829229/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.2/1668895829229/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.2/1668895829229/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.2/1668895829229/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.2/1668895829229/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.2/1668895829229",
+            "fallbackAssetUri": "https://tfenster.gallery.vsassets.io/_apis/public/gallery/publisher/tfenster/extension/azdevops-vscode-simplify/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2022-11-19T15:22:17.887Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.1/1668871131867/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.1/1668871131867/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.1/1668871131867/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.1/1668871131867/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.1/1668871131867/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.1/1668871131867/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.1/1668871131867/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.1/1668871131867/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.1/1668871131867/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfenster/azdevops-vscode-simplify.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tfenster.gallerycdn.vsassets.io/extensions/tfenster/azdevops-vscode-simplify/0.0.1/1668871131867",
+            "fallbackAssetUri": "https://tfenster.gallery.vsassets.io/_apis/public/gallery/publisher/tfenster/extension/azdevops-vscode-simplify/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 770.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 4.172099087353325
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.694915254237288
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 452.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 24.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

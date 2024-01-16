@@ -1,0 +1,1753 @@
+{
+    "publisher": {
+        "publisherId": "8c2c5b76-327e-4f46-aa72-3f70458509d1",
+        "publisherName": "openmainframeproject",
+        "displayName": "openmainframeproject",
+        "flags": "verified",
+        "domain": "https://www.openmainframeproject.org/",
+        "isDomainVerified": false
+    },
+    "extensionId": "228b6a9d-495b-4424-b48a-9c61b05fa60f",
+    "extensionName": "cobol-check-extension",
+    "displayName": "Cobol Check Extension",
+    "flags": "validated, public",
+    "lastUpdated": "2023-12-29T11:52:49.43Z",
+    "publishedDate": "2022-03-02T14:02:40.387Z",
+    "releaseDate": "2022-03-02T14:02:40.387Z",
+    "shortDescription": "Extension for running unit tests in Cobol",
+    "versions": [
+        {
+            "version": "0.4.3",
+            "flags": "validated",
+            "lastUpdated": "2023-12-29T11:52:49.427Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.3/1703850478977/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.3/1703850478977/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.3/1703850478977/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.3/1703850478977/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.3/1703850478977/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.3/1703850478977/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.3/1703850478977/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.3/1703850478977/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.3/1703850478977/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/openmainframeproject/cobol-check.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/openmainframeproject/cobol-check/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/openmainframeproject/cobol-check#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/openmainframeproject/cobol-check.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/openmainframeproject/cobol-check.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.3/1703850478977",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.4.3/assetbyname"
+        },
+        {
+            "version": "0.4.2",
+            "flags": "validated",
+            "lastUpdated": "2023-11-14T12:23:32.657Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.2/1699964400757/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.2/1699964400757/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.2/1699964400757/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.2/1699964400757/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.2/1699964400757/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.2/1699964400757/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.2/1699964400757/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.2/1699964400757/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.2/1699964400757/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/openmainframeproject/cobol-check.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/openmainframeproject/cobol-check/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/openmainframeproject/cobol-check#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/openmainframeproject/cobol-check.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/openmainframeproject/cobol-check.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.4.2/1699964400757",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.4.2/assetbyname"
+        },
+        {
+            "version": "0.3.9",
+            "flags": "validated",
+            "lastUpdated": "2023-01-03T09:51:32.817Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.9/1672739301149/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.9/1672739301149/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.9/1672739301149/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.9/1672739301149/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.9/1672739301149/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.9/1672739301149/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.9/1672739301149/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.9/1672739301149/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.9/1672739301149/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.9/1672739301149",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.3.9/assetbyname"
+        },
+        {
+            "version": "0.3.8",
+            "flags": "validated",
+            "lastUpdated": "2022-12-21T10:01:17.097Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.8/1671616646536/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.8/1671616646536/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.8/1671616646536/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.8/1671616646536/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.8/1671616646536/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.8/1671616646536/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.8/1671616646536/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.8/1671616646536/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.8/1671616646536/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.8/1671616646536",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.3.8/assetbyname"
+        },
+        {
+            "version": "0.3.7",
+            "flags": "validated",
+            "lastUpdated": "2022-12-21T07:52:20.523Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.7/1671608836882/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.7/1671608836882/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.7/1671608836882/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.7/1671608836882/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.7/1671608836882/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.7/1671608836882/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.7/1671608836882/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.7/1671608836882/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.7/1671608836882/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.7/1671608836882",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.3.7/assetbyname"
+        },
+        {
+            "version": "0.3.6",
+            "flags": "validated",
+            "lastUpdated": "2022-11-02T14:59:26.603Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.6/1667401028821/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.6/1667401028821/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.6/1667401028821/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.6/1667401028821/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.6/1667401028821/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.6/1667401028821/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.6/1667401028821/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.6/1667401028821/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.6/1667401028821",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.3.6/assetbyname"
+        },
+        {
+            "version": "0.3.5",
+            "flags": "validated",
+            "lastUpdated": "2022-10-28T13:14:35.167Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.5/1666962736338/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.5/1666962736338/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.5/1666962736338/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.5/1666962736338/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.5/1666962736338/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.5/1666962736338/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.5/1666962736338/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.5/1666962736338/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.5/1666962736338",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.3.5/assetbyname"
+        },
+        {
+            "version": "0.3.4",
+            "flags": "validated",
+            "lastUpdated": "2022-09-30T11:02:00.547Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.4/1664535583293/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.4/1664535583293/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.4/1664535583293/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.4/1664535583293/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.4/1664535583293/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.4/1664535583293/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.4/1664535583293/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.4/1664535583293/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.4/1664535583293",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.3.4/assetbyname"
+        },
+        {
+            "version": "0.3.3",
+            "flags": "validated",
+            "lastUpdated": "2022-08-18T07:44:02.53Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.3/1660808502354/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.3/1660808502354/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.3/1660808502354/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.3/1660808502354/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.3/1660808502354/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.3/1660808502354/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.3/1660808502354/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.3/1660808502354/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.3/1660808502354",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.3.3/assetbyname"
+        },
+        {
+            "version": "0.3.2",
+            "flags": "validated",
+            "lastUpdated": "2022-07-15T09:42:24.26Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.2/1657878004195/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.2/1657878004195/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.2/1657878004195/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.2/1657878004195/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.2/1657878004195/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.2/1657878004195/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.2/1657878004195/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.2/1657878004195/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.2/1657878004195",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.3.2/assetbyname"
+        },
+        {
+            "version": "0.3.1",
+            "flags": "validated",
+            "lastUpdated": "2022-07-04T13:32:11.31Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.1/1656941267163/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.1/1656941267163/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.1/1656941267163/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.1/1656941267163/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.1/1656941267163/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.1/1656941267163/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.1/1656941267163/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.1/1656941267163/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.1/1656941267163",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.3.1/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2022-06-24T08:55:47.757Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.0/1656060789321/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.0/1656060789321/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.0/1656060789321/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.0/1656060789321/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.0/1656060789321/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.0/1656060789321/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.0/1656060789321/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.0/1656060789321/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.3.0/1656060789321",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.9",
+            "flags": "validated",
+            "lastUpdated": "2022-06-22T12:08:59.317Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.9/1655899598768/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.9/1655899598768/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.9/1655899598768/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.9/1655899598768/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.9/1655899598768/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.9/1655899598768/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.9/1655899598768/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.9/1655899598768/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.9/1655899598768",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.2.9/assetbyname"
+        },
+        {
+            "version": "0.2.8",
+            "flags": "validated",
+            "lastUpdated": "2022-06-22T07:53:34.493Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.8/1655884150050/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.8/1655884150050/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.8/1655884150050/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.8/1655884150050/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.8/1655884150050/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.8/1655884150050/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.8/1655884150050/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.8/1655884150050/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.8/1655884150050",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.2.8/assetbyname"
+        },
+        {
+            "version": "0.2.7",
+            "flags": "validated",
+            "lastUpdated": "2022-06-16T13:11:10.223Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.7/1655384931391/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.7/1655384931391/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.7/1655384931391/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.7/1655384931391/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.7/1655384931391/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.7/1655384931391/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.7/1655384931391/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.7/1655384931391/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.7/1655384931391",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.2.7/assetbyname"
+        },
+        {
+            "version": "0.2.6",
+            "flags": "validated",
+            "lastUpdated": "2022-06-07T10:05:39.393Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.6/1654596076013/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.6/1654596076013/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.6/1654596076013/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.6/1654596076013/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.6/1654596076013/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.6/1654596076013/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.6/1654596076013/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.6/1654596076013/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.6/1654596076013",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.2.6/assetbyname"
+        },
+        {
+            "version": "0.2.5",
+            "flags": "validated",
+            "lastUpdated": "2022-06-01T13:37:54.88Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.5/1654090534679/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.5/1654090534679/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.5/1654090534679/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.5/1654090534679/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.5/1654090534679/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.5/1654090534679/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.5/1654090534679/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.5/1654090534679/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.5/1654090534679",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.2.5/assetbyname"
+        },
+        {
+            "version": "0.2.4",
+            "flags": "validated",
+            "lastUpdated": "2022-05-20T09:18:46.01Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.4/1653038188746/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.4/1653038188746/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.4/1653038188746/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.4/1653038188746/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.4/1653038188746/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.4/1653038188746/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.4/1653038188746/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.4/1653038188746/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.4/1653038188746",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.2.4/assetbyname"
+        },
+        {
+            "version": "0.2.3",
+            "flags": "validated",
+            "lastUpdated": "2022-05-20T08:44:10.71Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.3/1653036111590/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.3/1653036111590/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.3/1653036111590/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.3/1653036111590/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.3/1653036111590/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.3/1653036111590/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.3/1653036111590/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.3/1653036111590/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.3/1653036111590",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.2.3/assetbyname"
+        },
+        {
+            "version": "0.2.2",
+            "flags": "validated",
+            "lastUpdated": "2022-05-20T07:53:52.15Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.2/1653033093207/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.2/1653033093207/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.2/1653033093207/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.2/1653033093207/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.2/1653033093207/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.2/1653033093207/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.2/1653033093207/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.2/1653033093207/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.2/1653033093207",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.2.2/assetbyname"
+        },
+        {
+            "version": "0.2.1",
+            "flags": "validated",
+            "lastUpdated": "2022-05-19T14:41:54.73Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.1/1652971051605/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.1/1652971051605/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.1/1652971051605/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.1/1652971051605/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.1/1652971051605/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.1/1652971051605/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.1/1652971051605/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.1/1652971051605/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.1/1652971051605",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.2.1/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2022-05-19T13:24:45.323Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.0/1652966546126/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.0/1652966546126/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.0/1652966546126/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.0/1652966546126/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.0/1652966546126/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.0/1652966546126/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.0/1652966546126/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.0/1652966546126/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.2.0/1652966546126",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2022-03-04T08:14:41.843Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.1/1646381543092/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.1/1646381543092/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.1/1646381543092/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.1/1646381543092/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.1/1646381543092/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.1/1646381543092/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.1/1646381543092/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.1/1646381543092/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.1/1646381543092",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2022-03-02T14:05:00.123Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.0/1646229760416/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.0/1646229760416/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.0/1646229760416/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.0/1646229760416/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.0/1646229760416/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.0/1646229760416/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://openmainframeproject.gallerycdn.vsassets.io/extensions/openmainframeproject/cobol-check-extension/0.1.0/1646229760416",
+            "fallbackAssetUri": "https://openmainframeproject.gallery.vsassets.io/_apis/public/gallery/publisher/openmainframeproject/extension/cobol-check-extension/0.1.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages",
+        "Snippets",
+        "Testing"
+    ],
+    "tags": [
+        "__ext_UNITTEST",
+        "COBOL unit test",
+        "cut",
+        "keybindings",
+        "snippet"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 1532.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 2.8086218158066623
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.3919007184846506
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 1683.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 55.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

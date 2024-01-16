@@ -1,0 +1,773 @@
+{
+    "publisher": {
+        "publisherId": "384d8378-77b7-4ee3-9805-5eb96327487e",
+        "publisherName": "bluehymn",
+        "displayName": "Wu Jing",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "9fc93141-9533-4d48-85f1-346932127ca5",
+    "extensionName": "vscode-api-viewer",
+    "displayName": "API Viewer",
+    "flags": "validated, public",
+    "lastUpdated": "2021-12-15T02:32:41.043Z",
+    "publishedDate": "2020-06-09T05:47:08.267Z",
+    "releaseDate": "2020-06-09T05:47:08.267Z",
+    "shortDescription": "A VSCode extension for view api docs from Yapi or swagger, and insert code snippet",
+    "versions": [
+        {
+            "version": "0.1.9",
+            "flags": "validated",
+            "lastUpdated": "2021-12-15T02:32:41.043Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.9/1639535419157/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.9/1639535419157/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.9/1639535419157/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.9/1639535419157/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.9/1639535419157/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.9/1639535419157/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.9/1639535419157/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.9/1639535419157/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.9/1639535419157",
+            "fallbackAssetUri": "https://bluehymn.gallery.vsassets.io/_apis/public/gallery/publisher/bluehymn/extension/vscode-api-viewer/0.1.9/assetbyname"
+        },
+        {
+            "version": "0.1.8",
+            "flags": "validated",
+            "lastUpdated": "2020-08-17T06:48:28.54Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.8/1597646770596/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.8/1597646770596/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.8/1597646770596/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.8/1597646770596/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.8/1597646770596/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.8/1597646770596/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.8/1597646770596/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.8/1597646770596",
+            "fallbackAssetUri": "https://bluehymn.gallery.vsassets.io/_apis/public/gallery/publisher/bluehymn/extension/vscode-api-viewer/0.1.8/assetbyname"
+        },
+        {
+            "version": "0.1.7",
+            "flags": "validated",
+            "lastUpdated": "2020-08-03T09:37:56.023Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.7/1596447336227/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.7/1596447336227/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.7/1596447336227/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.7/1596447336227/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.7/1596447336227/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.7/1596447336227/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.7/1596447336227/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.7/1596447336227",
+            "fallbackAssetUri": "https://bluehymn.gallery.vsassets.io/_apis/public/gallery/publisher/bluehymn/extension/vscode-api-viewer/0.1.7/assetbyname"
+        },
+        {
+            "version": "0.1.6",
+            "flags": "validated",
+            "lastUpdated": "2020-07-22T15:11:38.953Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.6/1595430560995/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.6/1595430560995/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.6/1595430560995/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.6/1595430560995/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.6/1595430560995/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.6/1595430560995/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.6/1595430560995/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.6/1595430560995",
+            "fallbackAssetUri": "https://bluehymn.gallery.vsassets.io/_apis/public/gallery/publisher/bluehymn/extension/vscode-api-viewer/0.1.6/assetbyname"
+        },
+        {
+            "version": "0.1.5",
+            "flags": "validated",
+            "lastUpdated": "2020-06-28T09:46:48.417Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.5/1593337471863/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.5/1593337471863/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.5/1593337471863/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.5/1593337471863/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.5/1593337471863/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.5/1593337471863",
+            "fallbackAssetUri": "https://bluehymn.gallery.vsassets.io/_apis/public/gallery/publisher/bluehymn/extension/vscode-api-viewer/0.1.5/assetbyname"
+        },
+        {
+            "version": "0.1.4",
+            "flags": "validated",
+            "lastUpdated": "2020-06-17T00:25:43.623Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.4/1592353405133/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.4/1592353405133/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.4/1592353405133/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.4/1592353405133/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.4/1592353405133/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.4/1592353405133/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.4/1592353405133/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.4/1592353405133",
+            "fallbackAssetUri": "https://bluehymn.gallery.vsassets.io/_apis/public/gallery/publisher/bluehymn/extension/vscode-api-viewer/0.1.4/assetbyname"
+        },
+        {
+            "version": "0.1.3",
+            "flags": "validated",
+            "lastUpdated": "2020-06-16T16:05:50.68Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.3/1592323413317/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.3/1592323413317/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.3/1592323413317/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.3/1592323413317/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.3/1592323413317/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.3/1592323413317/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.3/1592323413317/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.3/1592323413317",
+            "fallbackAssetUri": "https://bluehymn.gallery.vsassets.io/_apis/public/gallery/publisher/bluehymn/extension/vscode-api-viewer/0.1.3/assetbyname"
+        },
+        {
+            "version": "0.1.2",
+            "flags": "validated",
+            "lastUpdated": "2020-06-13T15:44:16.563Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.2/1592062918079/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.2/1592062918079/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.2/1592062918079/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.2/1592062918079/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.2/1592062918079/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.2/1592062918079/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.2/1592062918079/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.2/1592062918079",
+            "fallbackAssetUri": "https://bluehymn.gallery.vsassets.io/_apis/public/gallery/publisher/bluehymn/extension/vscode-api-viewer/0.1.2/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2020-06-09T07:45:19.737Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.1/1591688559260/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.1/1591688559260/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.1/1591688559260/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.1/1591688559260/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.1/1591688559260/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.1/1591688559260/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.1/1591688559260/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.1/1591688559260",
+            "fallbackAssetUri": "https://bluehymn.gallery.vsassets.io/_apis/public/gallery/publisher/bluehymn/extension/vscode-api-viewer/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2020-06-09T05:49:29.39Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.0/1591681628272/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.0/1591681628272/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.0/1591681628272/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.0/1591681628272/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.0/1591681628272/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.0/1591681628272/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.0/1591681628272/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/bluehymn/api-viewer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://bluehymn.gallerycdn.vsassets.io/extensions/bluehymn/vscode-api-viewer/0.1.0/1591681628272",
+            "fallbackAssetUri": "https://bluehymn.gallery.vsassets.io/_apis/public/gallery/publisher/bluehymn/extension/vscode-api-viewer/0.1.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "angular",
+        "snippet",
+        "swagger",
+        "typescript",
+        "yapi"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 803.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.1207970112079702
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.37359900373599003
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 183.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 28.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

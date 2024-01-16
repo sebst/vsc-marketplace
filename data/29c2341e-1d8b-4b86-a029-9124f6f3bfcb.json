@@ -1,0 +1,925 @@
+{
+    "publisher": {
+        "publisherId": "22771f9c-bd2b-4f0f-b0ff-9b22c64b8cf0",
+        "publisherName": "sikilde",
+        "displayName": "sikilde",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "29c2341e-1d8b-4b86-a029-9124f6f3bfcb",
+    "extensionName": "vscode-siemens-scl",
+    "displayName": "Siemens SCL syntax highlight",
+    "flags": "validated, public",
+    "lastUpdated": "2023-08-16T16:28:00.13Z",
+    "publishedDate": "2023-08-14T11:57:29.4Z",
+    "releaseDate": "2023-08-14T11:57:29.4Z",
+    "shortDescription": "Siemens SCL language support for Visual Studio Code, based on Gunders89 code",
+    "versions": [
+        {
+            "version": "0.2.8",
+            "flags": "validated",
+            "lastUpdated": "2023-08-16T16:28:00.13Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.8/1692203026101/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.8/1692203026101/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.8/1692203026101/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.8/1692203026101/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.8/1692203026101/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.8/1692203026101/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.8/1692203026101/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.8/1692203026101/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.8/1692203026101/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/sikilde/vscode-scl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/sikilde/vscode-scl/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.8/1692203026101",
+            "fallbackAssetUri": "https://sikilde.gallery.vsassets.io/_apis/public/gallery/publisher/sikilde/extension/vscode-siemens-scl/0.2.8/assetbyname"
+        },
+        {
+            "version": "0.2.7",
+            "flags": "validated",
+            "lastUpdated": "2023-08-16T11:01:11.28Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.7/1692183512251/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.7/1692183512251/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.7/1692183512251/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.7/1692183512251/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.7/1692183512251/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.7/1692183512251/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.7/1692183512251/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.7/1692183512251/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.7/1692183512251/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/sikilde/vscode-scl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/sikilde/vscode-scl/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.7/1692183512251",
+            "fallbackAssetUri": "https://sikilde.gallery.vsassets.io/_apis/public/gallery/publisher/sikilde/extension/vscode-siemens-scl/0.2.7/assetbyname"
+        },
+        {
+            "version": "0.2.6",
+            "flags": "validated",
+            "lastUpdated": "2023-08-15T10:52:15.28Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.6/1692096512267/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.6/1692096512267/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.6/1692096512267/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.6/1692096512267/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.6/1692096512267/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.6/1692096512267/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.6/1692096512267/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.6/1692096512267/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.6/1692096512267/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/sikilde/vscode-scl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/sikilde/vscode-scl/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.6/1692096512267",
+            "fallbackAssetUri": "https://sikilde.gallery.vsassets.io/_apis/public/gallery/publisher/sikilde/extension/vscode-siemens-scl/0.2.6/assetbyname"
+        },
+        {
+            "version": "0.2.5",
+            "flags": "validated",
+            "lastUpdated": "2023-08-14T13:16:05.8Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.5/1692018778806/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.5/1692018778806/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.5/1692018778806/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.5/1692018778806/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.5/1692018778806/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.5/1692018778806/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.5/1692018778806/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.5/1692018778806/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.5/1692018778806/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/sikilde/vscode-scl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/sikilde/vscode-scl/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.5/1692018778806",
+            "fallbackAssetUri": "https://sikilde.gallery.vsassets.io/_apis/public/gallery/publisher/sikilde/extension/vscode-siemens-scl/0.2.5/assetbyname"
+        },
+        {
+            "version": "0.2.4",
+            "flags": "validated",
+            "lastUpdated": "2023-08-14T12:37:08.193Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.4/1692016436509/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.4/1692016436509/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.4/1692016436509/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.4/1692016436509/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.4/1692016436509/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.4/1692016436509/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.4/1692016436509/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.4/1692016436509/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.4/1692016436509/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/sikilde/vscode-scl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/sikilde/vscode-scl/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.4/1692016436509",
+            "fallbackAssetUri": "https://sikilde.gallery.vsassets.io/_apis/public/gallery/publisher/sikilde/extension/vscode-siemens-scl/0.2.4/assetbyname"
+        },
+        {
+            "version": "0.2.3",
+            "flags": "validated",
+            "lastUpdated": "2023-08-14T12:21:26.72Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.3/1692015461562/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.3/1692015461562/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.3/1692015461562/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.3/1692015461562/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.3/1692015461562/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.3/1692015461562/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.3/1692015461562/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.3/1692015461562/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.3/1692015461562/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/sikilde/vscode-scl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/sikilde/vscode-scl/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.3/1692015461562",
+            "fallbackAssetUri": "https://sikilde.gallery.vsassets.io/_apis/public/gallery/publisher/sikilde/extension/vscode-siemens-scl/0.2.3/assetbyname"
+        },
+        {
+            "version": "0.2.2",
+            "flags": "validated",
+            "lastUpdated": "2023-08-14T12:18:12.877Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.2/1692015234256/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.2/1692015234256/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.2/1692015234256/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.2/1692015234256/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.2/1692015234256/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.2/1692015234256/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.2/1692015234256/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.2/1692015234256/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.2/1692015234256/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/sikilde/vscode-scl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/sikilde/vscode-scl/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.2/1692015234256",
+            "fallbackAssetUri": "https://sikilde.gallery.vsassets.io/_apis/public/gallery/publisher/sikilde/extension/vscode-siemens-scl/0.2.2/assetbyname"
+        },
+        {
+            "version": "0.2.1",
+            "flags": "validated",
+            "lastUpdated": "2023-08-14T12:07:14.85Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.1/1692014609587/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.1/1692014609587/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.1/1692014609587/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.1/1692014609587/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.1/1692014609587/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.1/1692014609587/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.1/1692014609587/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.1/1692014609587/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.1/1692014609587/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/sikilde/vscode-scl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/sikilde/vscode-scl/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.1/1692014609587",
+            "fallbackAssetUri": "https://sikilde.gallery.vsassets.io/_apis/public/gallery/publisher/sikilde/extension/vscode-siemens-scl/0.2.1/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-08-14T12:00:04.913Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.0/1692014250040/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.0/1692014250040/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.0/1692014250040/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.0/1692014250040/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.0/1692014250040/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.0/1692014250040/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.0/1692014250040/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.0/1692014250040/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.0/1692014250040/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/sikilde/vscode-scl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/sikilde/vscode-scl/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/sikilde/vscode-scl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^2.0.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://sikilde.gallerycdn.vsassets.io/extensions/sikilde/vscode-siemens-scl/0.2.0/1692014250040",
+            "fallbackAssetUri": "https://sikilde.gallery.vsassets.io/_apis/public/gallery/publisher/sikilde/extension/vscode-siemens-scl/0.2.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages"
+    ],
+    "tags": [
+        "__ext_db",
+        "__ext_scl",
+        "__ext_udt",
+        "__web_extension",
+        "SCL",
+        "Siemens SCL",
+        "siemensscl",
+        "snippet"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 520.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 14.23076923076923
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 4.038461538461538
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 15.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 12.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

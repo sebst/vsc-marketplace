@@ -1,0 +1,737 @@
+{
+    "publisher": {
+        "publisherId": "ac6fc586-b763-4a69-a226-9fa54349c194",
+        "publisherName": "mcu-debug",
+        "displayName": "mcu-debug",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "e6f326b2-3602-4e64-9cd1-ebe454be1992",
+    "extensionName": "peripheral-viewer",
+    "displayName": "Peripheral Viewer",
+    "flags": "validated, public, preview",
+    "lastUpdated": "2023-06-09T17:02:02.473Z",
+    "publishedDate": "2023-03-05T18:52:22.913Z",
+    "releaseDate": "2023-03-05T18:52:22.913Z",
+    "shortDescription": "Standalone Peripheral(SVD) Viewer extension extracted from cortex-debug, now works with any debugger",
+    "versions": [
+        {
+            "version": "1.4.6",
+            "flags": "validated",
+            "lastUpdated": "2023-06-09T17:02:02.47Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.6/1686329924592/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.6/1686329924592/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.6/1686329924592/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.6/1686329924592/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.6/1686329924592/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.6/1686329924592/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.6/1686329924592/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.6/1686329924592/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.6/1686329924592/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,ui,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.6/1686329924592",
+            "fallbackAssetUri": "https://mcu-debug.gallery.vsassets.io/_apis/public/gallery/publisher/mcu-debug/extension/peripheral-viewer/1.4.6/assetbyname"
+        },
+        {
+            "version": "1.4.5",
+            "flags": "validated",
+            "lastUpdated": "2023-03-21T22:08:26.413Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.5/1679436337928/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.5/1679436337928/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.5/1679436337928/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.5/1679436337928/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.5/1679436337928/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.5/1679436337928/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.5/1679436337928/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.5/1679436337928/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.5/1679436337928/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,ui,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.5/1679436337928",
+            "fallbackAssetUri": "https://mcu-debug.gallery.vsassets.io/_apis/public/gallery/publisher/mcu-debug/extension/peripheral-viewer/1.4.5/assetbyname"
+        },
+        {
+            "version": "1.4.4",
+            "flags": "validated",
+            "lastUpdated": "2023-03-21T16:35:05.043Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.4/1679416199050/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.4/1679416199050/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.4/1679416199050/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.4/1679416199050/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.4/1679416199050/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.4/1679416199050/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.4/1679416199050/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.4/1679416199050/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.4/1679416199050/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,ui,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.4/1679416199050",
+            "fallbackAssetUri": "https://mcu-debug.gallery.vsassets.io/_apis/public/gallery/publisher/mcu-debug/extension/peripheral-viewer/1.4.4/assetbyname"
+        },
+        {
+            "version": "1.4.3",
+            "flags": "validated",
+            "lastUpdated": "2023-03-05T20:15:23.287Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.3/1678047116270/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.3/1678047116270/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.3/1678047116270/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.3/1678047116270/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.3/1678047116270/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.3/1678047116270/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.3/1678047116270/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.3/1678047116270/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.3/1678047116270/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.3/1678047116270",
+            "fallbackAssetUri": "https://mcu-debug.gallery.vsassets.io/_apis/public/gallery/publisher/mcu-debug/extension/peripheral-viewer/1.4.3/assetbyname"
+        },
+        {
+            "version": "1.4.2",
+            "flags": "none",
+            "lastUpdated": "2023-03-05T20:05:40.837Z",
+            "validationResultMessage": "Repository signing for extension file failed. Please retry the submission or contact VSMarketplace@microsoft.com.",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.2/1678046740225/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.2/1678046740225/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.2/1678046740225/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.2/1678046740225/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.2/1678046740225",
+            "fallbackAssetUri": "https://mcu-debug.gallery.vsassets.io/_apis/public/gallery/publisher/mcu-debug/extension/peripheral-viewer/1.4.2/assetbyname"
+        },
+        {
+            "version": "1.4.1",
+            "flags": "validated",
+            "lastUpdated": "2023-03-05T19:51:15.067Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.1/1678045671783/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.1/1678045671783/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.1/1678045671783/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.1/1678045671783/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.1/1678045671783/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.1/1678045671783/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.1/1678045671783/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.1/1678045671783/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.1/1678045671783/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.1/1678045671783",
+            "fallbackAssetUri": "https://mcu-debug.gallery.vsassets.io/_apis/public/gallery/publisher/mcu-debug/extension/peripheral-viewer/1.4.1/assetbyname"
+        },
+        {
+            "version": "1.4.0",
+            "flags": "validated",
+            "lastUpdated": "2023-03-05T18:56:39.023Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.0/1678042343708/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.0/1678042343708/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.0/1678042343708/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.0/1678042343708/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.0/1678042343708/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.0/1678042343708/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.0/1678042343708/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.0/1678042343708/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.0/1678042343708/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/mcu-debug/peripheral-viewer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://mcu-debug.gallerycdn.vsassets.io/extensions/mcu-debug/peripheral-viewer/1.4.0/1678042343708",
+            "fallbackAssetUri": "https://mcu-debug.gallery.vsassets.io/_apis/public/gallery/publisher/mcu-debug/extension/peripheral-viewer/1.4.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Debuggers"
+    ],
+    "tags": [
+        "__web_extension"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 238818.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.008798575468733635
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 7.573478579658531
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.853566565413219
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 13533.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 397.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

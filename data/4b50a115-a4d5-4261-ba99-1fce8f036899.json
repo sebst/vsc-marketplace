@@ -1,0 +1,705 @@
+{
+    "publisher": {
+        "publisherId": "48f6f07a-990a-4d77-8e34-6b5240110c0c",
+        "publisherName": "Cloud-pipelines",
+        "displayName": "Alexey Volkov",
+        "flags": "verified",
+        "domain": "https://cloud-pipelines.net",
+        "isDomainVerified": true
+    },
+    "extensionId": "4b50a115-a4d5-4261-ba99-1fce8f036899",
+    "extensionName": "pipeline-editor-vscode",
+    "displayName": "Pipeline Editor",
+    "flags": "validated, public, preview",
+    "lastUpdated": "2022-09-12T09:57:44.923Z",
+    "publishedDate": "2022-05-10T10:55:36.147Z",
+    "releaseDate": "2022-05-10T10:55:36.147Z",
+    "shortDescription": "Cloud Pipelines Editor is a web app that allows the users to build and run Machine Learning pipelines using drag and drop without having to set up development environment.",
+    "versions": [
+        {
+            "version": "0.1.20220911",
+            "flags": "validated",
+            "lastUpdated": "2022-09-12T09:57:44.92Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220911/1662976525859/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220911/1662976525859/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220911/1662976525859/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220911/1662976525859/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220911/1662976525859/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220911/1662976525859/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220911/1662976525859/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220911/1662976525859/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220911/1662976525859/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.57.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                }
+            ],
+            "assetUri": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220911/1662976525859",
+            "fallbackAssetUri": "https://cloud-pipelines.gallery.vsassets.io/_apis/public/gallery/publisher/Cloud-pipelines/extension/pipeline-editor-vscode/0.1.20220911/assetbyname"
+        },
+        {
+            "version": "0.1.20220718",
+            "flags": "validated",
+            "lastUpdated": "2022-07-18T09:23:12.86Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220718/1658136051207/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220718/1658136051207/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220718/1658136051207/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220718/1658136051207/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220718/1658136051207/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220718/1658136051207/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220718/1658136051207/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220718/1658136051207/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.66.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                }
+            ],
+            "assetUri": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220718/1658136051207",
+            "fallbackAssetUri": "https://cloud-pipelines.gallery.vsassets.io/_apis/public/gallery/publisher/Cloud-pipelines/extension/pipeline-editor-vscode/0.1.20220718/assetbyname"
+        },
+        {
+            "version": "0.1.20220717",
+            "flags": "validated",
+            "lastUpdated": "2022-07-17T20:48:52.643Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220717/1658090791373/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220717/1658090791373/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220717/1658090791373/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220717/1658090791373/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220717/1658090791373/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220717/1658090791373/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220717/1658090791373/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220717/1658090791373/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.66.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                }
+            ],
+            "assetUri": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220717/1658090791373",
+            "fallbackAssetUri": "https://cloud-pipelines.gallery.vsassets.io/_apis/public/gallery/publisher/Cloud-pipelines/extension/pipeline-editor-vscode/0.1.20220717/assetbyname"
+        },
+        {
+            "version": "0.1.20220710",
+            "flags": "validated",
+            "lastUpdated": "2022-07-11T09:14:02.257Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220710/1657530702827/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220710/1657530702827/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220710/1657530702827/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220710/1657530702827/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220710/1657530702827/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220710/1657530702827/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220710/1657530702827/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220710/1657530702827/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.66.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                }
+            ],
+            "assetUri": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220710/1657530702827",
+            "fallbackAssetUri": "https://cloud-pipelines.gallery.vsassets.io/_apis/public/gallery/publisher/Cloud-pipelines/extension/pipeline-editor-vscode/0.1.20220710/assetbyname"
+        },
+        {
+            "version": "0.1.20220522",
+            "flags": "validated",
+            "lastUpdated": "2022-05-23T09:43:07.55Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220522/1653298845721/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220522/1653298845721/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220522/1653298845721/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220522/1653298845721/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220522/1653298845721/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220522/1653298845721/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220522/1653298845721/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220522/1653298845721/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.66.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220522/1653298845721",
+            "fallbackAssetUri": "https://cloud-pipelines.gallery.vsassets.io/_apis/public/gallery/publisher/Cloud-pipelines/extension/pipeline-editor-vscode/0.1.20220522/assetbyname"
+        },
+        {
+            "version": "0.1.20220510",
+            "flags": "validated",
+            "lastUpdated": "2022-05-11T09:16:37.813Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220510/1652260458113/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220510/1652260458113/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220510/1652260458113/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220510/1652260458113/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220510/1652260458113/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220510/1652260458113/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220510/1652260458113/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220510/1652260458113/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.66.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220510/1652260458113",
+            "fallbackAssetUri": "https://cloud-pipelines.gallery.vsassets.io/_apis/public/gallery/publisher/Cloud-pipelines/extension/pipeline-editor-vscode/0.1.20220510/assetbyname"
+        },
+        {
+            "version": "0.1.20220509",
+            "flags": "validated",
+            "lastUpdated": "2022-05-10T10:57:56.093Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220509/1652180136194/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220509/1652180136194/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220509/1652180136194/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220509/1652180136194/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220509/1652180136194/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220509/1652180136194/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220509/1652180136194/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220509/1652180136194/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.66.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://cloud-pipelines.gallerycdn.vsassets.io/extensions/cloud-pipelines/pipeline-editor-vscode/0.1.20220509/1652180136194",
+            "fallbackAssetUri": "https://cloud-pipelines.gallery.vsassets.io/_apis/public/gallery/publisher/Cloud-pipelines/extension/pipeline-editor-vscode/0.1.20220509/assetbyname"
+        }
+    ],
+    "categories": [
+        "Data Science",
+        "Machine Learning",
+        "Visualization"
+    ],
+    "tags": [
+        "__web_extension",
+        "cloud",
+        "containers",
+        "Data Science",
+        "Kubernetes",
+        "Machine Learning",
+        "MLOps",
+        "pipelines"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 1835.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 6.267029972752043
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.2534059945504086
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 145.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 37.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

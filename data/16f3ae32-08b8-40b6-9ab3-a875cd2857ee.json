@@ -1,0 +1,939 @@
+{
+    "publisher": {
+        "publisherId": "05609381-4cdc-428f-89ab-f605852b09ef",
+        "publisherName": "tfehlmann",
+        "displayName": "tfehlmann",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "16f3ae32-08b8-40b6-9ab3-a875cd2857ee",
+    "extensionName": "snakefmt",
+    "displayName": "Snakefmt",
+    "flags": "validated, public, preview",
+    "lastUpdated": "2023-11-16T02:58:43.263Z",
+    "publishedDate": "2020-08-15T17:37:17.68Z",
+    "releaseDate": "2020-08-15T17:37:17.68Z",
+    "shortDescription": "Linting and formatting support for snakemake files using `snakefmt`.",
+    "versions": [
+        {
+            "version": "0.7.0",
+            "flags": "validated",
+            "lastUpdated": "2023-11-16T02:58:43.26Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.7.0/1700103311164/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.7.0/1700103311164/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.7.0/1700103311164/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.7.0/1700103311164/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.7.0/1700103311164/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.7.0/1700103311164/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.7.0/1700103311164/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.7.0/1700103311164/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.7.0/1700103311164/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e415e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-python.python,snakemake.snakemake-lang"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.7.0/1700103311164",
+            "fallbackAssetUri": "https://tfehlmann.gallery.vsassets.io/_apis/public/gallery/publisher/tfehlmann/extension/snakefmt/0.7.0/assetbyname"
+        },
+        {
+            "version": "0.6.0",
+            "flags": "validated",
+            "lastUpdated": "2023-02-21T01:44:22.827Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.6.0/1676943658946/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.6.0/1676943658946/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.6.0/1676943658946/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.6.0/1676943658946/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.6.0/1676943658946/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.6.0/1676943658946/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.6.0/1676943658946/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.6.0/1676943658946/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.6.0/1676943658946/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e415e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-python.python,snakemake.snakemake-lang"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.6.0/1676943658946",
+            "fallbackAssetUri": "https://tfehlmann.gallery.vsassets.io/_apis/public/gallery/publisher/tfehlmann/extension/snakefmt/0.6.0/assetbyname"
+        },
+        {
+            "version": "0.5.0",
+            "flags": "validated",
+            "lastUpdated": "2022-11-22T07:38:37.223Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.5.0/1669102398711/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.5.0/1669102398711/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.5.0/1669102398711/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.5.0/1669102398711/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.5.0/1669102398711/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.5.0/1669102398711/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.5.0/1669102398711/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.5.0/1669102398711/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.5.0/1669102398711/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e415e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-python.python,snakemake.snakemake-lang"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.5.0/1669102398711",
+            "fallbackAssetUri": "https://tfehlmann.gallery.vsassets.io/_apis/public/gallery/publisher/tfehlmann/extension/snakefmt/0.5.0/assetbyname"
+        },
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2022-09-25T00:28:58.27Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.4.0/1664065600236/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.4.0/1664065600236/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.4.0/1664065600236/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.4.0/1664065600236/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.4.0/1664065600236/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.4.0/1664065600236/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.4.0/1664065600236/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.4.0/1664065600236/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e415e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-python.python,snakemake.snakemake-lang"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.4.0/1664065600236",
+            "fallbackAssetUri": "https://tfehlmann.gallery.vsassets.io/_apis/public/gallery/publisher/tfehlmann/extension/snakefmt/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2022-09-23T04:44:03.667Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.3.0/1663908106306/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.3.0/1663908106306/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.3.0/1663908106306/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.3.0/1663908106306/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.3.0/1663908106306/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.3.0/1663908106306/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.3.0/1663908106306/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.3.0/1663908106306/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e415e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-python.python,snakemake.snakemake-lang"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.3.0/1663908106306",
+            "fallbackAssetUri": "https://tfehlmann.gallery.vsassets.io/_apis/public/gallery/publisher/tfehlmann/extension/snakefmt/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.2",
+            "flags": "validated",
+            "lastUpdated": "2022-09-13T09:17:58.75Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.2/1663060541729/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.2/1663060541729/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.2/1663060541729/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.2/1663060541729/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.2/1663060541729/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.2/1663060541729/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.2/1663060541729/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.2/1663060541729/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e415e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-python.python,snakemake.snakemake-lang"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.2/1663060541729",
+            "fallbackAssetUri": "https://tfehlmann.gallery.vsassets.io/_apis/public/gallery/publisher/tfehlmann/extension/snakefmt/0.2.2/assetbyname"
+        },
+        {
+            "version": "0.2.1",
+            "flags": "validated",
+            "lastUpdated": "2022-09-13T05:31:22.813Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.1/1663046943864/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.1/1663046943864/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.1/1663046943864/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.1/1663046943864/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.1/1663046943864/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.1/1663046943864/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.1/1663046943864/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.1/1663046943864/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e415e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-python.python,snakemake.snakemake-lang"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.1/1663046943864",
+            "fallbackAssetUri": "https://tfehlmann.gallery.vsassets.io/_apis/public/gallery/publisher/tfehlmann/extension/snakefmt/0.2.1/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2022-09-13T05:06:51.81Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.0/1663045472092/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.0/1663045472092/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.0/1663045472092/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.0/1663045472092/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.0/1663045472092/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.0/1663045472092/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.0/1663045472092/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.0/1663045472092/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e415e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-python.python,snakemake.snakemake-lang"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.2.0/1663045472092",
+            "fallbackAssetUri": "https://tfehlmann.gallery.vsassets.io/_apis/public/gallery/publisher/tfehlmann/extension/snakefmt/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2020-08-15T17:39:36.663Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.1.0/1597513037681/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.1.0/1597513037681/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.1.0/1597513037681/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.1.0/1597513037681/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.1.0/1597513037681/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.1.0/1597513037681/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.1.0/1597513037681/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.1.0/1597513037681/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tfehlmann/vscode-snakefmt-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tfehlmann.gallerycdn.vsassets.io/extensions/tfehlmann/snakefmt/0.1.0/1597513037681",
+            "fallbackAssetUri": "https://tfehlmann.gallery.vsassets.io/_apis/public/gallery/publisher/tfehlmann/extension/snakefmt/0.1.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages",
+        "Linters",
+        "Formatters"
+    ],
+    "tags": [
+        "formatting",
+        "linters",
+        "snakefmt",
+        "Snakemake"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 4644.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 3.6821705426356592
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.03359173126615
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 4698.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 59.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

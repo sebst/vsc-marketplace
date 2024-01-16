@@ -1,0 +1,787 @@
+{
+    "publisher": {
+        "publisherId": "eb661ad2-69c2-4d5d-be58-4e54eec791be",
+        "publisherName": "HoSiLuan",
+        "displayName": "Ho Si Luan",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "fef6d1cb-d48b-48d5-abc8-2f30a32bd7c8",
+    "extensionName": "clean-architect-generator",
+    "displayName": "Clean Architect Generator",
+    "flags": "validated, public",
+    "lastUpdated": "2022-06-16T08:42:00.753Z",
+    "publishedDate": "2022-06-13T09:14:42.823Z",
+    "releaseDate": "2022-06-13T09:14:42.823Z",
+    "shortDescription": "Library for generating package for clean architecture. It generates data, domain, presentation package. It also generates bloc, state and event class for bloc architecture.",
+    "versions": [
+        {
+            "version": "1.3.0",
+            "flags": "validated",
+            "lastUpdated": "2022-06-16T08:42:00.753Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.3.0/1655368780981/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.3.0/1655368780981/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.3.0/1655368780981/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.3.0/1655368780981/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.3.0/1655368780981/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.3.0/1655368780981/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.3.0/1655368780981",
+            "fallbackAssetUri": "https://hosiluan.gallery.vsassets.io/_apis/public/gallery/publisher/HoSiLuan/extension/clean-architect-generator/1.3.0/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2022-06-16T08:40:22.223Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.2.0/1655368683263/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.2.0/1655368683263/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.2.0/1655368683263/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.2.0/1655368683263/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.2.0/1655368683263/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.2.0/1655368683263",
+            "fallbackAssetUri": "https://hosiluan.gallery.vsassets.io/_apis/public/gallery/publisher/HoSiLuan/extension/clean-architect-generator/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2022-06-16T07:58:14.817Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.1.0/1655366155301/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.1.0/1655366155301/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.1.0/1655366155301/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.1.0/1655366155301/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.1.0/1655366155301/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.1.0/1655366155301",
+            "fallbackAssetUri": "https://hosiluan.gallery.vsassets.io/_apis/public/gallery/publisher/HoSiLuan/extension/clean-architect-generator/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2022-06-14T10:14:46.783Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.0.0/1655201549273/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.0.0/1655201549273/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.0.0/1655201549273/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.0.0/1655201549273/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.0.0/1655201549273/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/1.0.0/1655201549273",
+            "fallbackAssetUri": "https://hosiluan.gallery.vsassets.io/_apis/public/gallery/publisher/HoSiLuan/extension/clean-architect-generator/1.0.0/assetbyname"
+        },
+        {
+            "version": "0.0.10",
+            "flags": "validated",
+            "lastUpdated": "2022-06-14T09:53:50.637Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.10/1655200221834/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.10/1655200221834/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.10/1655200221834/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.10/1655200221834/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.10/1655200221834/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.10/1655200221834",
+            "fallbackAssetUri": "https://hosiluan.gallery.vsassets.io/_apis/public/gallery/publisher/HoSiLuan/extension/clean-architect-generator/0.0.10/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2022-06-14T09:40:24.473Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.9/1655199444033/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.9/1655199444033/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.9/1655199444033/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.9/1655199444033/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.9/1655199444033/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.9/1655199444033",
+            "fallbackAssetUri": "https://hosiluan.gallery.vsassets.io/_apis/public/gallery/publisher/HoSiLuan/extension/clean-architect-generator/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2022-06-14T07:56:44.81Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.8/1655193240329/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.8/1655193240329/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.8/1655193240329/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.8/1655193240329/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.8/1655193240329/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.8/1655193240329",
+            "fallbackAssetUri": "https://hosiluan.gallery.vsassets.io/_apis/public/gallery/publisher/HoSiLuan/extension/clean-architect-generator/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2022-06-14T07:36:39.44Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.7/1655192059263/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.7/1655192059263/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.7/1655192059263/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.7/1655192059263/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.7/1655192059263/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.7/1655192059263",
+            "fallbackAssetUri": "https://hosiluan.gallery.vsassets.io/_apis/public/gallery/publisher/HoSiLuan/extension/clean-architect-generator/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2022-06-14T07:29:18.983Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.6/1655191546890/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.6/1655191546890/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.6/1655191546890/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.6/1655191546890/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.6/1655191546890/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.6/1655191546890",
+            "fallbackAssetUri": "https://hosiluan.gallery.vsassets.io/_apis/public/gallery/publisher/HoSiLuan/extension/clean-architect-generator/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2022-06-14T07:11:04.96Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.5/1655190380336/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.5/1655190380336/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.5/1655190380336/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.5/1655190380336/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.5/1655190380336/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.67.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.5/1655190380336",
+            "fallbackAssetUri": "https://hosiluan.gallery.vsassets.io/_apis/public/gallery/publisher/HoSiLuan/extension/clean-architect-generator/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2022-06-14T03:28:33.497Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.3/1655177174930/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.3/1655177174930/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.3/1655177174930/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.3/1655177174930/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.3/1655177174930/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.67.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.3/1655177174930",
+            "fallbackAssetUri": "https://hosiluan.gallery.vsassets.io/_apis/public/gallery/publisher/HoSiLuan/extension/clean-architect-generator/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2022-06-13T09:29:02.683Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.2/1655112404081/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.2/1655112404081/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.2/1655112404081/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.2/1655112404081/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.2/1655112404081/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.67.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.2/1655112404081",
+            "fallbackAssetUri": "https://hosiluan.gallery.vsassets.io/_apis/public/gallery/publisher/HoSiLuan/extension/clean-architect-generator/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2022-06-13T09:17:01.523Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.1/1655111683292/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.1/1655111683292/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.1/1655111683292/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.1/1655111683292/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.1/1655111683292/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.67.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://hosiluan.gallerycdn.vsassets.io/extensions/hosiluan/clean-architect-generator/0.0.1/1655111683292",
+            "fallbackAssetUri": "https://hosiluan.gallery.vsassets.io/_apis/public/gallery/publisher/HoSiLuan/extension/clean-architect-generator/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 703.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 4.125177809388336
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.7112375533428165
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 10.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 13.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

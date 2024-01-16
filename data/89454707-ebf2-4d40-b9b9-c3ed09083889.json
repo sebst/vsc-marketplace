@@ -1,0 +1,985 @@
+{
+    "publisher": {
+        "publisherId": "ac6322a4-07c2-4ccb-8226-3b6c47d56f75",
+        "publisherName": "chamboug",
+        "displayName": "Gaetan C.",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "89454707-ebf2-4d40-b9b9-c3ed09083889",
+    "extensionName": "js-auto-backticks",
+    "displayName": "Javascript Auto Backticks",
+    "flags": "validated, public",
+    "lastUpdated": "2023-11-17T16:10:24.6Z",
+    "publishedDate": "2020-04-06T13:34:28.437Z",
+    "releaseDate": "2020-04-06T13:34:28.437Z",
+    "shortDescription": "Automatically converts single or double quotes to backticks when needed.",
+    "versions": [
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-11-17T16:10:24.597Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.1.0/1700237241410/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.1.0/1700237241410/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.1.0/1700237241410/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.1.0/1700237241410/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.1.0/1700237241410/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.1.0/1700237241410/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.1.0/1700237241410/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.1.0/1700237241410/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.1.0/1700237241410/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#CE9178"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.43.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.1.0/1700237241410",
+            "fallbackAssetUri": "https://chamboug.gallery.vsassets.io/_apis/public/gallery/publisher/chamboug/extension/js-auto-backticks/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-10-27T15:30:15.12Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.1/1698420425862/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.1/1698420425862/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.1/1698420425862/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.1/1698420425862/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.1/1698420425862/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.1/1698420425862/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.1/1698420425862/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.1/1698420425862/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.1/1698420425862/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#CE9178"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.43.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.1/1698420425862",
+            "fallbackAssetUri": "https://chamboug.gallery.vsassets.io/_apis/public/gallery/publisher/chamboug/extension/js-auto-backticks/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-07-29T08:58:35.64Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.0/1690620892801/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.0/1690620892801/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.0/1690620892801/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.0/1690620892801/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.0/1690620892801/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.0/1690620892801/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.0/1690620892801/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.0/1690620892801/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.0/1690620892801/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#CE9178"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.43.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/1.0.0/1690620892801",
+            "fallbackAssetUri": "https://chamboug.gallery.vsassets.io/_apis/public/gallery/publisher/chamboug/extension/js-auto-backticks/1.0.0/assetbyname"
+        },
+        {
+            "version": "0.1.4",
+            "flags": "validated",
+            "lastUpdated": "2022-07-25T07:46:31.753Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.4/1658734922915/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.4/1658734922915/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.4/1658734922915/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.4/1658734922915/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.4/1658734922915/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.4/1658734922915/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.4/1658734922915/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.4/1658734922915/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.4/1658734922915/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#CE9178"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.43.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.4/1658734922915",
+            "fallbackAssetUri": "https://chamboug.gallery.vsassets.io/_apis/public/gallery/publisher/chamboug/extension/js-auto-backticks/0.1.4/assetbyname"
+        },
+        {
+            "version": "0.1.3",
+            "flags": "validated",
+            "lastUpdated": "2022-06-03T13:41:51.597Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.3/1654263566727/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.3/1654263566727/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.3/1654263566727/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.3/1654263566727/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.3/1654263566727/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.3/1654263566727/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.3/1654263566727/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.3/1654263566727/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#CE9178"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.43.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.3/1654263566727",
+            "fallbackAssetUri": "https://chamboug.gallery.vsassets.io/_apis/public/gallery/publisher/chamboug/extension/js-auto-backticks/0.1.3/assetbyname"
+        },
+        {
+            "version": "0.1.2",
+            "flags": "validated",
+            "lastUpdated": "2022-05-16T10:59:42.55Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.2/1652698620620/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.2/1652698620620/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.2/1652698620620/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.2/1652698620620/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.2/1652698620620/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.2/1652698620620/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.2/1652698620620/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.2/1652698620620/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#CE9178"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.43.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.2/1652698620620",
+            "fallbackAssetUri": "https://chamboug.gallery.vsassets.io/_apis/public/gallery/publisher/chamboug/extension/js-auto-backticks/0.1.2/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2022-05-04T14:32:43.597Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.1/1651674618085/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.1/1651674618085/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.1/1651674618085/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.1/1651674618085/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.1/1651674618085/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.1/1651674618085/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.1/1651674618085/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.1/1651674618085/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#CE9178"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.43.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.1/1651674618085",
+            "fallbackAssetUri": "https://chamboug.gallery.vsassets.io/_apis/public/gallery/publisher/chamboug/extension/js-auto-backticks/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2022-05-04T14:09:55.53Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.0/1651673001130/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.0/1651673001130/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.0/1651673001130/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.0/1651673001130/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.0/1651673001130/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.0/1651673001130/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.43.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.1.0/1651673001130",
+            "fallbackAssetUri": "https://chamboug.gallery.vsassets.io/_apis/public/gallery/publisher/chamboug/extension/js-auto-backticks/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2022-05-04T13:35:56.907Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.0.2/1651671208770/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.0.2/1651671208770/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.0.2/1651671208770/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.0.2/1651671208770/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.0.2/1651671208770/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.43.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.0.2/1651671208770",
+            "fallbackAssetUri": "https://chamboug.gallery.vsassets.io/_apis/public/gallery/publisher/chamboug/extension/js-auto-backticks/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2020-04-06T13:36:46.357Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.0.1/1586180068435/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.0.1/1586180068435/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.0.1/1586180068435/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.0.1/1586180068435/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.0.1/1586180068435/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chamboug/vscode-extension-js-auto-backticks"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.43.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://chamboug.gallerycdn.vsassets.io/extensions/chamboug/js-auto-backticks/0.0.1/1586180068435",
+            "fallbackAssetUri": "https://chamboug.gallery.vsassets.io/_apis/public/gallery/publisher/chamboug/extension/js-auto-backticks/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "vue"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 15603.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 6.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.012854296548621375
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 5.180281509094415
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.1697409859245453
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 16739.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.627002955818295
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 119.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

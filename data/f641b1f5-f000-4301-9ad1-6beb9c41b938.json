@@ -1,0 +1,934 @@
+{
+    "publisher": {
+        "publisherId": "d02015b7-697f-473b-aa9e-551cea84c7a6",
+        "publisherName": "syphersamurai",
+        "displayName": "syphersamurai",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "f641b1f5-f000-4301-9ad1-6beb9c41b938",
+    "extensionName": "inputer",
+    "displayName": "inputer",
+    "flags": "validated, public",
+    "lastUpdated": "2023-04-23T14:44:05.047Z",
+    "publishedDate": "2021-01-21T14:02:08.88Z",
+    "releaseDate": "2021-01-21T14:02:08.88Z",
+    "shortDescription": "vscode extension for transforming text cases",
+    "versions": [
+        {
+            "version": "0.0.10",
+            "flags": "validated",
+            "lastUpdated": "2023-04-23T14:44:05.043Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.10/1682260840614/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.10/1682260840614/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.10/1682260840614/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.10/1682260840614/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.10/1682260840614/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.10/1682260840614/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.10/1682260840614/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.10/1682260840614/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.10/1682260840614/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#585858"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/syphersamurai/inputer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/syphersamurai/inputer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/syphersamurai/inputer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/syphersamurai/inputer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/syphersamurai/inputer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.54.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.10/1682260840614",
+            "fallbackAssetUri": "https://syphersamurai.gallery.vsassets.io/_apis/public/gallery/publisher/syphersamurai/extension/inputer/0.0.10/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2021-07-14T22:23:49.67Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.9/1626301291676/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.9/1626301291676/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.9/1626301291676/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.9/1626301291676/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.9/1626301291676/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.9/1626301291676/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.9/1626301291676/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.9/1626301291676/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.9/1626301291676/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#585858"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.54.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.9/1626301291676",
+            "fallbackAssetUri": "https://syphersamurai.gallery.vsassets.io/_apis/public/gallery/publisher/syphersamurai/extension/inputer/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2021-05-02T20:40:14.773Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.8/1619987876067/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.8/1619987876067/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.8/1619987876067/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.8/1619987876067/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.8/1619987876067/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.8/1619987876067/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.8/1619987876067/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.8/1619987876067/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#585858"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.54.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.8/1619987876067",
+            "fallbackAssetUri": "https://syphersamurai.gallery.vsassets.io/_apis/public/gallery/publisher/syphersamurai/extension/inputer/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2021-03-24T20:51:06.38Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.7/1616618929553/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.7/1616618929553/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.7/1616618929553/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.7/1616618929553/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.7/1616618929553/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.7/1616618929553/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.7/1616618929553/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.7/1616618929553/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#585858"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.7/1616618929553",
+            "fallbackAssetUri": "https://syphersamurai.gallery.vsassets.io/_apis/public/gallery/publisher/syphersamurai/extension/inputer/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2021-03-22T14:23:41.82Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.6/1616422882286/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.6/1616422882286/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.6/1616422882286/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.6/1616422882286/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.6/1616422882286/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.6/1616422882286/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.6/1616422882286/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.6/1616422882286/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#585858"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.54.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.6/1616422882286",
+            "fallbackAssetUri": "https://syphersamurai.gallery.vsassets.io/_apis/public/gallery/publisher/syphersamurai/extension/inputer/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2021-03-22T14:21:03.693Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.5/1616422727519/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.5/1616422727519/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.5/1616422727519/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.5/1616422727519/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.5/1616422727519/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.5/1616422727519/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.5/1616422727519/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.5/1616422727519/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#585858"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.54.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.5/1616422727519",
+            "fallbackAssetUri": "https://syphersamurai.gallery.vsassets.io/_apis/public/gallery/publisher/syphersamurai/extension/inputer/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2021-02-21T23:30:07.67Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.4/1613950068544/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.4/1613950068544/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.4/1613950068544/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.4/1613950068544/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.4/1613950068544/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.4/1613950068544/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.4/1613950068544/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#585858"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.4/1613950068544",
+            "fallbackAssetUri": "https://syphersamurai.gallery.vsassets.io/_apis/public/gallery/publisher/syphersamurai/extension/inputer/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2021-02-21T22:53:38.033Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.3/1613948004655/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.3/1613948004655/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.3/1613948004655/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.3/1613948004655/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.3/1613948004655/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.3/1613948004655/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.3/1613948004655/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#585858"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.3/1613948004655",
+            "fallbackAssetUri": "https://syphersamurai.gallery.vsassets.io/_apis/public/gallery/publisher/syphersamurai/extension/inputer/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2021-02-09T21:21:08.09Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.2/1612905529483/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.2/1612905529483/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.2/1612905529483/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.2/1612905529483/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.2/1612905529483/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.2/1612905529483/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.2/1612905529483/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#585858"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.2/1612905529483",
+            "fallbackAssetUri": "https://syphersamurai.gallery.vsassets.io/_apis/public/gallery/publisher/syphersamurai/extension/inputer/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2021-01-21T14:04:25.997Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.1/1611237728880/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.1/1611237728880/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.1/1611237728880/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.1/1611237728880/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.1/1611237728880/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/syphersamurai/inputer"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://syphersamurai.gallerycdn.vsassets.io/extensions/syphersamurai/inputer/0.0.1/1611237728880",
+            "fallbackAssetUri": "https://syphersamurai.gallery.vsassets.io/_apis/public/gallery/publisher/syphersamurai/extension/inputer/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "keybindings",
+        "lowercase",
+        "text",
+        "text to lowercase",
+        "text to uppercase",
+        "to UpperCase"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 886.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 2.144469525959368
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.1128668171557562
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 325.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 33.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

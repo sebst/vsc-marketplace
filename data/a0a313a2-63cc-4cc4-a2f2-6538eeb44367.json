@@ -1,0 +1,832 @@
+{
+    "publisher": {
+        "publisherId": "33815ee6-4f4c-4de2-b46b-68b05cb6367b",
+        "publisherName": "chiehyu",
+        "displayName": "Chieh Yu",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "a0a313a2-63cc-4cc4-a2f2-6538eeb44367",
+    "extensionName": "vscode-astyle",
+    "displayName": "Astyle",
+    "flags": "validated, public",
+    "lastUpdated": "2018-08-02T16:32:52.473Z",
+    "publishedDate": "2016-08-27T15:51:51.05Z",
+    "releaseDate": "2016-08-27T15:51:51.05Z",
+    "shortDescription": "Format C/C++/Obj-C/C#/Java code with Astyle in VSCode",
+    "versions": [
+        {
+            "version": "0.9.0",
+            "flags": "validated",
+            "lastUpdated": "2018-08-02T16:35:31.727Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.9.0/1533227572535/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.9.0/1533227572535/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.9.0/1533227572535/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.9.0/1533227572535/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.9.0/1533227572535/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.9.0/1533227572535/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.9.0/1533227572535/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.9.0/1533227572535",
+            "fallbackAssetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.9.0/assetbyname"
+        },
+        {
+            "version": "0.8.0",
+            "flags": "validated",
+            "lastUpdated": "2018-03-30T15:33:37.18Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.8.0/1522424004846/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.8.0/1522424004846/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.8.0/1522424004846/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.8.0/1522424004846/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.8.0/1522424004846/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.8.0/1522424004846/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.8.0/1522424004846/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.8.0/1522424004846",
+            "fallbackAssetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.8.0/assetbyname"
+        },
+        {
+            "version": "0.7.1",
+            "flags": "validated",
+            "lastUpdated": "2017-07-01T10:59:45.667Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.7.1/1498906785832/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.7.1/1498906785832/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.7.1/1498906785832/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.7.1/1498906785832/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.7.1/1498906785832/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.7.1/1498906785832/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.7.1/1498906785832",
+            "fallbackAssetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.7.1/assetbyname"
+        },
+        {
+            "version": "0.7.0",
+            "flags": "validated",
+            "lastUpdated": "2017-07-01T05:07:42.78Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.7.0/1498885661596/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.7.0/1498885661596/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.7.0/1498885661596/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.7.0/1498885661596/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.7.0/1498885661596/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.7.0/1498885661596/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.7.0/1498885661596",
+            "fallbackAssetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.7.0/assetbyname"
+        },
+        {
+            "version": "0.6.2",
+            "flags": "validated",
+            "lastUpdated": "2017-02-08T14:57:35.443Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.2/1486565853053/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.2/1486565853053/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.2/1486565853053/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.2/1486565853053/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.2/1486565853053/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.2/1486565853053/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.2/1486565853053",
+            "fallbackAssetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.6.2/assetbyname"
+        },
+        {
+            "version": "0.6.1",
+            "flags": "validated",
+            "lastUpdated": "2017-01-27T17:04:13.257Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.1/1485536650769/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.1/1485536650769/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.1/1485536650769/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.1/1485536650769/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.1/1485536650769/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                }
+            ],
+            "assetUri": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.1/1485536650769",
+            "fallbackAssetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.6.1/assetbyname"
+        },
+        {
+            "version": "0.6.0",
+            "flags": "validated",
+            "lastUpdated": "2017-01-27T16:30:31.823Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.0/1485534629746/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.0/1485534629746/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.0/1485534629746/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.0/1485534629746/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.0/1485534629746/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                }
+            ],
+            "assetUri": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.6.0/1485534629746",
+            "fallbackAssetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.6.0/assetbyname"
+        },
+        {
+            "version": "0.5.1",
+            "flags": "validated",
+            "lastUpdated": "2017-01-27T16:05:55.347Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.5.1/1485533153402/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.5.1/1485533153402/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.5.1/1485533153402/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.5.1/1485533153402/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.5.1/1485533153402/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                }
+            ],
+            "assetUri": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.5.1/1485533153402",
+            "fallbackAssetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.5.1/assetbyname"
+        },
+        {
+            "version": "0.5.0",
+            "flags": "validated",
+            "lastUpdated": "2017-01-27T15:49:25.897Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.5.0/1485532164399/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.5.0/1485532164399/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.5.0/1485532164399/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.5.0/1485532164399/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.5.0/1485532164399/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                }
+            ],
+            "assetUri": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.5.0/1485532164399",
+            "fallbackAssetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.5.0/assetbyname"
+        },
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2016-09-15T09:26:39.657Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.4.0/1474455383407/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.4.0/1474455383407/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.4.0/1474455383407/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.4.0/1474455383407/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.4.0/1474455383407/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                }
+            ],
+            "assetUri": "https://chiehyu.gallerycdn.vsassets.io/extensions/chiehyu/vscode-astyle/0.4.0/1474455383407",
+            "fallbackAssetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2016-08-30T17:07:26.18Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.3.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.3.0/assetbyname/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.3.0/assetbyname/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.3.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.3.0/assetbyname/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                }
+            ],
+            "assetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.3.0/assetbyname",
+            "fallbackAssetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.1",
+            "flags": "validated",
+            "lastUpdated": "2016-08-28T04:26:22.947Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.2.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.2.1/assetbyname/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.2.1/assetbyname/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.2.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.2.1/assetbyname/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                }
+            ],
+            "assetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.2.1/assetbyname",
+            "fallbackAssetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.2.1/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2016-08-27T16:45:09.68Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.2.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.2.0/assetbyname/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.2.0/assetbyname/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.2.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.2.0/assetbyname/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                }
+            ],
+            "assetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.2.0/assetbyname",
+            "fallbackAssetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2016-08-27T16:09:47.263Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.1.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.1.1/assetbyname/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.1.1/assetbyname/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.1.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.1.1/assetbyname/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                }
+            ],
+            "assetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.1.1/assetbyname",
+            "fallbackAssetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2016-08-27T15:51:53.08Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.1.0/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.1.0/assetbyname/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.1.0/assetbyname/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/welkineins/vscode-astyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                }
+            ],
+            "assetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.1.0/assetbyname",
+            "fallbackAssetUri": "https://chiehyu.gallery.vsassets.io/_apis/public/gallery/publisher/chiehyu/extension/vscode-astyle/0.1.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages"
+    ],
+    "tags": [
+        "C",
+        "C#",
+        "C++",
+        "Java",
+        "Objective-C"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 100719.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 2.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.003974404832876277
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.6126147609395494
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.40240848932872303
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 18256.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.502670607757727
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 826.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

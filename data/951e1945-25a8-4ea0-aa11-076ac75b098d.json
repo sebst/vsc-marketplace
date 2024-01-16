@@ -1,0 +1,3393 @@
+{
+    "publisher": {
+        "publisherId": "52b787f2-79a9-4f32-99b4-393afe3005d3",
+        "publisherName": "ms-azuretools",
+        "displayName": "Microsoft",
+        "flags": "verified",
+        "domain": "https://microsoft.com",
+        "isDomainVerified": true
+    },
+    "extensionId": "951e1945-25a8-4ea0-aa11-076ac75b098d",
+    "extensionName": "vscode-cosmosdb",
+    "displayName": "Azure Databases",
+    "flags": "validated, public, preview",
+    "lastUpdated": "2023-10-12T19:16:49.08Z",
+    "publishedDate": "2017-09-19T17:29:01.41Z",
+    "releaseDate": "2017-09-19T17:29:01.41Z",
+    "shortDescription": "Create, browse, and update globally distributed, multi-model databases in Azure.",
+    "versions": [
+        {
+            "version": "0.20.0",
+            "flags": "validated",
+            "lastUpdated": "2023-10-12T19:16:49.077Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.20.0/1697137958882/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.20.0/1697137958882/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.20.0/1697137958882/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.20.0/1697137958882/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.20.0/1697137958882/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.20.0/1697137958882/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.20.0/1697137958882/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.20.0/1697137958882/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.20.0/1697137958882/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.66.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,ms-azuretools.vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.20.0/1697137958882",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.20.0/assetbyname"
+        },
+        {
+            "version": "0.19.4",
+            "flags": "validated",
+            "lastUpdated": "2023-05-17T20:31:37.167Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.4/1684355165023/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.4/1684355165023/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.4/1684355165023/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.4/1684355165023/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.4/1684355165023/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.4/1684355165023/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.4/1684355165023/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.4/1684355165023/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.4/1684355165023/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.66.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,ms-azuretools.vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.4/1684355165023",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.19.4/assetbyname"
+        },
+        {
+            "version": "0.19.3",
+            "flags": "validated",
+            "lastUpdated": "2023-02-16T18:20:57.263Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.3/1676571335564/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.3/1676571335564/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.3/1676571335564/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.3/1676571335564/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.3/1676571335564/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.3/1676571335564/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.3/1676571335564/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.3/1676571335564/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.3/1676571335564/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.66.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,ms-azuretools.vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.3/1676571335564",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.19.3/assetbyname"
+        },
+        {
+            "version": "0.19.2",
+            "flags": "validated",
+            "lastUpdated": "2022-06-30T20:23:39.953Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.2/1656620354838/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.2/1656620354838/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.2/1656620354838/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.2/1656620354838/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.2/1656620354838/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.2/1656620354838/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.2/1656620354838/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.2/1656620354838/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.57.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,ms-azuretools.vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.2/1656620354838",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.19.2/assetbyname"
+        },
+        {
+            "version": "0.19.1",
+            "flags": "validated",
+            "lastUpdated": "2022-06-01T16:29:50.023Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.1/1654100721963/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.1/1654100721963/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.1/1654100721963/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.1/1654100721963/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.1/1654100721963/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.1/1654100721963/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.1/1654100721963/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.1/1654100721963/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.57.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,ms-azuretools.vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.1/1654100721963",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.19.1/assetbyname"
+        },
+        {
+            "version": "0.19.0",
+            "flags": "validated",
+            "lastUpdated": "2022-05-24T17:11:51.19Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.0/1653412048222/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.0/1653412048222/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.0/1653412048222/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.0/1653412048222/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.0/1653412048222/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.0/1653412048222/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.0/1653412048222/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.0/1653412048222/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.57.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,ms-azuretools.vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.19.0/1653412048222",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.19.0/assetbyname"
+        },
+        {
+            "version": "0.18.1",
+            "flags": "validated",
+            "lastUpdated": "2021-08-13T01:01:31.867Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.1/1628816348156/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.1/1628816348156/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.1/1628816348156/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.1/1628816348156/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.1/1628816348156/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.1/1628816348156/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.1/1628816348156/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.1/1628816348156/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,ms-azuretools.vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.1/1628816348156",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.18.1/assetbyname"
+        },
+        {
+            "version": "0.18.0",
+            "flags": "validated",
+            "lastUpdated": "2021-07-22T19:10:20.907Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.0/1626980876236/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.0/1626980876236/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.0/1626980876236/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.0/1626980876236/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.0/1626980876236/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.0/1626980876236/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.0/1626980876236/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.0/1626980876236/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,ms-azuretools.vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.18.0/1626980876236",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.18.0/assetbyname"
+        },
+        {
+            "version": "0.17.0",
+            "flags": "validated",
+            "lastUpdated": "2021-06-23T20:12:21.427Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.17.0/1624478999152/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.17.0/1624478999152/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.17.0/1624478999152/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.17.0/1624478999152/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.17.0/1624478999152/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.17.0/1624478999152/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.17.0/1624478999152/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.17.0/1624478999152/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,ms-azuretools.vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.17.0/1624478999152",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.17.0/assetbyname"
+        },
+        {
+            "version": "0.16.0",
+            "flags": "validated",
+            "lastUpdated": "2021-02-23T22:44:23.72Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.16.0/1614120119894/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.16.0/1614120119894/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.16.0/1614120119894/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.16.0/1614120119894/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.16.0/1614120119894/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.16.0/1614120119894/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.16.0/1614120119894/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.16.0/1614120119894/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account,ms-azuretools.vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.16.0/1614120119894",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.16.0/assetbyname"
+        },
+        {
+            "version": "0.15.1",
+            "flags": "validated",
+            "lastUpdated": "2020-12-05T01:25:55.55Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.1/1607131411929/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.1/1607131411929/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.1/1607131411929/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.1/1607131411929/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.1/1607131411929/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.1/1607131411929/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.1/1607131411929/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.1/1607131411929/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.1/1607131411929",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.15.1/assetbyname"
+        },
+        {
+            "version": "0.15.0",
+            "flags": "validated",
+            "lastUpdated": "2020-09-16T23:39:05.063Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.0/1600299403215/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.0/1600299403215/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.0/1600299403215/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.0/1600299403215/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.0/1600299403215/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.0/1600299403215/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.0/1600299403215/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.0/1600299403215/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.15.0/1600299403215",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.15.0/assetbyname"
+        },
+        {
+            "version": "0.14.0",
+            "flags": "validated",
+            "lastUpdated": "2020-07-14T17:13:05.38Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.14.0/1594746643800/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.14.0/1594746643800/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.14.0/1594746643800/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.14.0/1594746643800/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.14.0/1594746643800/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.14.0/1594746643800/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.14.0/1594746643800/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.14.0/1594746643800/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.14.0/1594746643800",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.14.0/assetbyname"
+        },
+        {
+            "version": "0.13.0",
+            "flags": "validated",
+            "lastUpdated": "2020-05-28T23:12:33.603Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.13.0/1590707411642/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.13.0/1590707411642/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.13.0/1590707411642/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.13.0/1590707411642/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.13.0/1590707411642/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.13.0/1590707411642/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.13.0/1590707411642/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.13.0/1590707411642/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.13.0/1590707411642",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.13.0/assetbyname"
+        },
+        {
+            "version": "0.12.2",
+            "flags": "validated",
+            "lastUpdated": "2020-03-11T15:16:06.223Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.2/1583939617991/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.2/1583939617991/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.2/1583939617991/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.2/1583939617991/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.2/1583939617991/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.2/1583939617991/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.2/1583939617991/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.2/1583939617991/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.31.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.2/1583939617991",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.12.2/assetbyname"
+        },
+        {
+            "version": "0.12.1",
+            "flags": "validated",
+            "lastUpdated": "2020-01-23T01:06:51.377Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.1/1579741465514/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.1/1579741465514/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.1/1579741465514/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.1/1579741465514/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.1/1579741465514/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.1/1579741465514/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.1/1579741465514/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.1/1579741465514/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.31.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.1/1579741465514",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.12.1/assetbyname"
+        },
+        {
+            "version": "0.12.0",
+            "flags": "validated",
+            "lastUpdated": "2020-01-17T00:23:45.533Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.0/1579220355226/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.0/1579220355226/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.0/1579220355226/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.0/1579220355226/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.0/1579220355226/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.0/1579220355226/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.0/1579220355226/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.0/1579220355226/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.31.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.12.0/1579220355226",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.12.0/assetbyname"
+        },
+        {
+            "version": "0.11.0",
+            "flags": "validated",
+            "lastUpdated": "2019-09-05T00:04:43.587Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.11.0/1567641720890/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.11.0/1567641720890/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.11.0/1567641720890/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.11.0/1567641720890/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.11.0/1567641720890/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.11.0/1567641720890/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.11.0/1567641720890/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.11.0/1567641720890/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.31.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.11.0/1567641720890",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.11.0/assetbyname"
+        },
+        {
+            "version": "0.10.2",
+            "flags": "validated",
+            "lastUpdated": "2019-05-02T00:53:59.363Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.2/1556758273845/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.2/1556758273845/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.2/1556758273845/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.2/1556758273845/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.2/1556758273845/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.2/1556758273845/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.2/1556758273845/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.2/1556758273845/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.26.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.2/1556758273845",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.10.2/assetbyname"
+        },
+        {
+            "version": "0.10.1",
+            "flags": "validated",
+            "lastUpdated": "2019-04-02T17:42:45.72Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.1/1554226818991/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.1/1554226818991/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.1/1554226818991/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.1/1554226818991/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.1/1554226818991/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.1/1554226818991/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.1/1554226818991/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.1/1554226818991/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.26.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.1/1554226818991",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.10.1/assetbyname"
+        },
+        {
+            "version": "0.10.0",
+            "flags": "validated",
+            "lastUpdated": "2019-02-14T19:11:54.143Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.0/1550171365338/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.0/1550171365338/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.0/1550171365338/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.0/1550171365338/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.0/1550171365338/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.0/1550171365338/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.0/1550171365338/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.0/1550171365338/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.25.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.10.0/1550171365338",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.10.0/assetbyname"
+        },
+        {
+            "version": "0.9.1",
+            "flags": "validated",
+            "lastUpdated": "2018-11-26T23:18:13.723Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.1/1543274122592/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.1/1543274122592/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.1/1543274122592/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.1/1543274122592/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.1/1543274122592/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.1/1543274122592/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.1/1543274122592/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.1/1543274122592/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.25.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.1/1543274122592",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.9.1/assetbyname"
+        },
+        {
+            "version": "0.9.0",
+            "flags": "validated",
+            "lastUpdated": "2018-11-13T16:39:25.58Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.0/1542126888144/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.0/1542126888144/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.0/1542126888144/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.0/1542126888144/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.0/1542126888144/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.0/1542126888144/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.0/1542126888144/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.0/1542126888144/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.25.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.9.0/1542126888144",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.9.0/assetbyname"
+        },
+        {
+            "version": "0.8.0",
+            "flags": "validated",
+            "lastUpdated": "2018-07-06T15:12:43.887Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.8.0/1530889665249/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.8.0/1530889665249/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.8.0/1530889665249/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.8.0/1530889665249/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.8.0/1530889665249/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.8.0/1530889665249/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.8.0/1530889665249/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.8.0/1530889665249/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.8.0/1530889665249",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.8.0/assetbyname"
+        },
+        {
+            "version": "0.7.2",
+            "flags": "validated",
+            "lastUpdated": "2018-06-11T20:35:21.197Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.2/1528749294783/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.2/1528749294783/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.2/1528749294783/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.2/1528749294783/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.2/1528749294783/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.2/1528749294783/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.2/1528749294783/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.2/1528749294783/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.2/1528749294783",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.7.2/assetbyname"
+        },
+        {
+            "version": "0.7.1",
+            "flags": "validated",
+            "lastUpdated": "2018-05-10T22:46:54.07Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.1/1525992386806/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.1/1525992386806/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.1/1525992386806/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.1/1525992386806/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.1/1525992386806/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.1/1525992386806/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.1/1525992386806/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.1/1525992386806/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.1/1525992386806",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.7.1/assetbyname"
+        },
+        {
+            "version": "0.7.0",
+            "flags": "validated",
+            "lastUpdated": "2018-05-07T18:22:02.237Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.0/1525717294452/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.0/1525717294452/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.0/1525717294452/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.0/1525717294452/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.0/1525717294452/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.0/1525717294452/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.0/1525717294452/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.0/1525717294452/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.7.0/1525717294452",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.7.0/assetbyname"
+        },
+        {
+            "version": "0.6.0",
+            "flags": "validated",
+            "lastUpdated": "2018-04-10T20:59:19.84Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.6.0/1523393930768/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.6.0/1523393930768/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.6.0/1523393930768/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.6.0/1523393930768/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.6.0/1523393930768/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.6.0/1523393930768/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.6.0/1523393930768/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.6.0/1523393930768/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.6.0/1523393930768",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.6.0/assetbyname"
+        },
+        {
+            "version": "0.5.1",
+            "flags": "validated",
+            "lastUpdated": "2018-03-26T20:19:06.177Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.1/1522095520329/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.1/1522095520329/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.1/1522095520329/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.1/1522095520329/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.1/1522095520329/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.1/1522095520329/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.1/1522095520329/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.1/1522095520329/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#0072c6"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.1/1522095520329",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.5.1/assetbyname"
+        },
+        {
+            "version": "0.5.0",
+            "flags": "validated",
+            "lastUpdated": "2018-03-06T00:50:16.25Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.0/1520297391568/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.0/1520297391568/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.0/1520297391568/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.0/1520297391568/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.0/1520297391568/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.0/1520297391568/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.0/1520297391568/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.0/1520297391568/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#0072c6"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.5.0/1520297391568",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.5.0/assetbyname"
+        },
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2018-01-26T01:01:41.277Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.4.0/1516928363798/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.4.0/1516928363798/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.4.0/1516928363798/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.4.0/1516928363798/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.4.0/1516928363798/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.4.0/1516928363798/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.4.0/1516928363798/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.4.0/1516928363798/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#0072c6"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.17.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.4.0/1516928363798",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2017-12-15T23:54:09.417Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.3.0/1513381810206/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.3.0/1513381810206/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.3.0/1513381810206/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.3.0/1513381810206/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.3.0/1513381810206/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.3.0/1513381810206/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.3.0/1513381810206/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.3.0/1513381810206/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#0072c6"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.17.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.3.0/1513381810206",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.2",
+            "flags": "validated",
+            "lastUpdated": "2017-12-06T23:00:32.78Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.2/1512601210240/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.2/1512601210240/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.2/1512601210240/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.2/1512601210240/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.2/1512601210240/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.2/1512601210240/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.2/1512601210240/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.2/1512601210240/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#0072c6"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.17.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.2/1512601210240",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.2.2/assetbyname"
+        },
+        {
+            "version": "0.2.1",
+            "flags": "validated",
+            "lastUpdated": "2017-11-16T21:55:51.65Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.1/1510869337424/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.1/1510869337424/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.1/1510869337424/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.1/1510869337424/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.1/1510869337424/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.1/1510869337424/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.1/1510869337424/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.1/1510869337424/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#0072c6"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.17.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.1/1510869337424",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.2.1/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2017-11-10T22:04:56.927Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.0/1510351483651/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.0/1510351483651/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.0/1510351483651/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.0/1510351483651/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.0/1510351483651/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.0/1510351483651/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.0/1510351483651/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.0/1510351483651/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#0072c6"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.17.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.2.0/1510351483651",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2017-09-19T21:09:54.62Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.1/1505855379902/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.1/1505855379902/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.1/1505855379902/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.1/1505855379902/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.1/1505855379902/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.1/1505855379902/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.1/1505855379902/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.1/1505855379902/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#0072c6"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.16.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.1/1505855379902",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2017-09-19T17:29:12.893Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.0/1505842141424/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.0/1505842141424/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.0/1505842141424/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.0/1505842141424/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.0/1505842141424/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.0/1505842141424/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.0/1505842141424/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.0/1505842141424/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#0072c6"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-cosmosdb"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.16.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-cosmosdb/0.1.0/1505842141424",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-cosmosdb/0.1.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Azure"
+    ],
+    "tags": [
+        "__ext_mongo",
+        "__ext_psql",
+        "Cosmos DB",
+        "DocumentDB",
+        "Graph",
+        "Gremlin",
+        "keybindings",
+        "mongo",
+        "Mongo Scrapbook",
+        "MongoDB",
+        "postgres",
+        "PostgreSQL"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 1434809.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 3.230769157409668
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 39.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.002370177038282542
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 2.3690616608527617
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.5666810503780778
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 2769114.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 3.470041723103465
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 2190.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

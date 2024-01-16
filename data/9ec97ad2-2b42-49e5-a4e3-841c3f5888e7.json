@@ -1,0 +1,957 @@
+{
+    "publisher": {
+        "publisherId": "7b1d8532-4a16-4a12-ba14-aa71e4d14f4b",
+        "publisherName": "JackBailey",
+        "displayName": "Jack Bailey",
+        "flags": "verified",
+        "domain": "https://jackbailey.dev",
+        "isDomainVerified": false
+    },
+    "extensionId": "9ec97ad2-2b42-49e5-a4e3-841c3f5888e7",
+    "extensionName": "bulk-image-resizer",
+    "displayName": "bulk-image-resizer",
+    "flags": "validated, public",
+    "lastUpdated": "2023-02-03T10:26:05.39Z",
+    "publishedDate": "2023-01-31T14:53:09.893Z",
+    "releaseDate": "2023-01-31T14:53:09.893Z",
+    "shortDescription": "Resize a lot of images by filename and specific resolution",
+    "versions": [
+        {
+            "version": "1.3.0",
+            "flags": "validated",
+            "lastUpdated": "2023-02-03T10:26:05.387Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.3.0/1675419606113/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.3.0/1675419606113/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.3.0/1675419606113/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.3.0/1675419606113/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.3.0/1675419606113/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.3.0/1675419606113/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.3.0/1675419606113/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.3.0/1675419606113",
+            "fallbackAssetUri": "https://jackbailey.gallery.vsassets.io/_apis/public/gallery/publisher/JackBailey/extension/bulk-image-resizer/1.3.0/assetbyname"
+        },
+        {
+            "version": "1.2.4",
+            "flags": "validated",
+            "lastUpdated": "2023-02-03T10:22:53.287Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.4/1675419506664/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.4/1675419506664/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.4/1675419506664/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.4/1675419506664/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.4/1675419506664/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.4/1675419506664/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.4/1675419506664/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.4/1675419506664",
+            "fallbackAssetUri": "https://jackbailey.gallery.vsassets.io/_apis/public/gallery/publisher/JackBailey/extension/bulk-image-resizer/1.2.4/assetbyname"
+        },
+        {
+            "version": "1.2.3",
+            "flags": "validated",
+            "lastUpdated": "2023-02-03T09:55:26.23Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.3/1675417731988/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.3/1675417731988/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.3/1675417731988/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.3/1675417731988/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.3/1675417731988/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.3/1675417731988/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.3/1675417731988/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.3/1675417731988",
+            "fallbackAssetUri": "https://jackbailey.gallery.vsassets.io/_apis/public/gallery/publisher/JackBailey/extension/bulk-image-resizer/1.2.3/assetbyname"
+        },
+        {
+            "version": "1.2.2",
+            "flags": "validated",
+            "lastUpdated": "2023-02-03T09:30:01.813Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.2/1675416334626/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.2/1675416334626/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.2/1675416334626/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.2/1675416334626/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.2/1675416334626/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.2/1675416334626/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.2/1675416334626/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.2/1675416334626",
+            "fallbackAssetUri": "https://jackbailey.gallery.vsassets.io/_apis/public/gallery/publisher/JackBailey/extension/bulk-image-resizer/1.2.2/assetbyname"
+        },
+        {
+            "version": "1.2.1",
+            "flags": "validated",
+            "lastUpdated": "2023-02-03T09:24:09.347Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.1/1675415830510/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.1/1675415830510/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.1/1675415830510/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.1/1675415830510/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.1/1675415830510/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.1/1675415830510/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.1/1675415830510/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.1/1675415830510",
+            "fallbackAssetUri": "https://jackbailey.gallery.vsassets.io/_apis/public/gallery/publisher/JackBailey/extension/bulk-image-resizer/1.2.1/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-02-02T09:27:16.997Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.0/1675329668175/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.0/1675329668175/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.0/1675329668175/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.0/1675329668175/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.0/1675329668175/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.0/1675329668175/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.0/1675329668175/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.2.0/1675329668175",
+            "fallbackAssetUri": "https://jackbailey.gallery.vsassets.io/_apis/public/gallery/publisher/JackBailey/extension/bulk-image-resizer/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.1",
+            "flags": "validated",
+            "lastUpdated": "2023-02-02T08:57:50.38Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.1/1675328038205/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.1/1675328038205/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.1/1675328038205/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.1/1675328038205/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.1/1675328038205/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.1/1675328038205/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.1/1675328038205/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.1/1675328038205",
+            "fallbackAssetUri": "https://jackbailey.gallery.vsassets.io/_apis/public/gallery/publisher/JackBailey/extension/bulk-image-resizer/1.1.1/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-02-01T16:09:41.437Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.0/1675267514036/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.0/1675267514036/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.0/1675267514036/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.0/1675267514036/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.0/1675267514036/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.0/1675267514036/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.0/1675267514036/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/RFA-UK/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.1.0/1675267514036",
+            "fallbackAssetUri": "https://jackbailey.gallery.vsassets.io/_apis/public/gallery/publisher/JackBailey/extension/bulk-image-resizer/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-01-31T15:45:33.183Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.1/1675179578971/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.1/1675179578971/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.1/1675179578971/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.1/1675179578971/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.1/1675179578971/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.1/1675179578971/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.1/1675179578971/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/JackBailey/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/JackBailey/BulkImageResizer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/JackBailey/BulkImageResizer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/JackBailey/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/JackBailey/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.1/1675179578971",
+            "fallbackAssetUri": "https://jackbailey.gallery.vsassets.io/_apis/public/gallery/publisher/JackBailey/extension/bulk-image-resizer/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-01-31T15:40:08.663Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.0/1675179308184/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.0/1675179308184/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.0/1675179308184/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.0/1675179308184/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.0/1675179308184/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.0/1675179308184/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.0/1675179308184/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/JackBailey/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/JackBailey/BulkImageResizer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/JackBailey/BulkImageResizer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/JackBailey/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/JackBailey/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/1.0.0/1675179308184",
+            "fallbackAssetUri": "https://jackbailey.gallery.vsassets.io/_apis/public/gallery/publisher/JackBailey/extension/bulk-image-resizer/1.0.0/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-01-31T14:58:24.997Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/0.0.1/1675176796470/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/0.0.1/1675176796470/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/0.0.1/1675176796470/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/0.0.1/1675176796470/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/0.0.1/1675176796470/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/0.0.1/1675176796470/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/0.0.1/1675176796470/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/JackBailey/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/JackBailey/BulkImageResizer/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/JackBailey/BulkImageResizer#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/JackBailey/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/JackBailey/BulkImageResizer.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jackbailey.gallerycdn.vsassets.io/extensions/jackbailey/bulk-image-resizer/0.0.1/1675176796470",
+            "fallbackAssetUri": "https://jackbailey.gallery.vsassets.io/_apis/public/gallery/publisher/JackBailey/extension/bulk-image-resizer/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 331.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 9.696969696969697
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 4.545454545454546
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 6.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 12.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

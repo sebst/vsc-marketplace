@@ -1,0 +1,981 @@
+{
+    "publisher": {
+        "publisherId": "b32f6cbd-9aa4-482f-bea7-54575c04d90b",
+        "publisherName": "Polyfactdocs",
+        "displayName": "Polyfact docs",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "1e0beaf2-ddf8-4b20-bc10-da26bffeaca5",
+    "extensionName": "polyfact-extension",
+    "displayName": "Polyfact Extension",
+    "flags": "validated, public",
+    "lastUpdated": "2023-07-20T08:57:54.6Z",
+    "publishedDate": "2023-07-10T08:26:35.427Z",
+    "releaseDate": "2023-07-10T08:26:35.427Z",
+    "shortDescription": "VS Code extension developed for efficient code comment management. It integrates with the Polyfact API and supports multiple programming languages.",
+    "versions": [
+        {
+            "version": "0.1.3",
+            "flags": "validated",
+            "lastUpdated": "2023-07-20T08:57:54.6Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.3/1689842763516/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.3/1689842763516/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.3/1689842763516/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.3/1689842763516/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.3/1689842763516/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.3/1689842763516/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.3/1689842763516/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.3/1689842763516/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.3/1689842763516/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/polyfact/polyfact-extension/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/polyfact/polyfact-extension#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.79.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.3/1689842763516",
+            "fallbackAssetUri": "https://polyfactdocs.gallery.vsassets.io/_apis/public/gallery/publisher/Polyfactdocs/extension/polyfact-extension/0.1.3/assetbyname"
+        },
+        {
+            "version": "0.1.2",
+            "flags": "validated",
+            "lastUpdated": "2023-07-11T15:34:46.377Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.2/1689089407099/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.2/1689089407099/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.2/1689089407099/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.2/1689089407099/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.2/1689089407099/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.2/1689089407099/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.2/1689089407099/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.2/1689089407099/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.2/1689089407099/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/polyfact/polyfact-extension/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/polyfact/polyfact-extension#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.79.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.2/1689089407099",
+            "fallbackAssetUri": "https://polyfactdocs.gallery.vsassets.io/_apis/public/gallery/publisher/Polyfactdocs/extension/polyfact-extension/0.1.2/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2023-07-11T10:46:25.893Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.1/1689072214022/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.1/1689072214022/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.1/1689072214022/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.1/1689072214022/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.1/1689072214022/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.1/1689072214022/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.1/1689072214022/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.1/1689072214022/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.1/1689072214022/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/polyfact/polyfact-extension/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/polyfact/polyfact-extension#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.79.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.1/1689072214022",
+            "fallbackAssetUri": "https://polyfactdocs.gallery.vsassets.io/_apis/public/gallery/publisher/Polyfactdocs/extension/polyfact-extension/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-07-10T17:45:52.12Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.0/1689010806934/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.0/1689010806934/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.0/1689010806934/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.0/1689010806934/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.0/1689010806934/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.0/1689010806934/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.0/1689010806934/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.0/1689010806934/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.0/1689010806934/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/polyfact/polyfact-extension/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/polyfact/polyfact-extension#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.79.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.1.0/1689010806934",
+            "fallbackAssetUri": "https://polyfactdocs.gallery.vsassets.io/_apis/public/gallery/publisher/Polyfactdocs/extension/polyfact-extension/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2023-07-10T16:17:32.043Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.6/1689005353651/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.6/1689005353651/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.6/1689005353651/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.6/1689005353651/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.6/1689005353651/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.6/1689005353651/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.6/1689005353651/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.6/1689005353651/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.6/1689005353651/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/polyfact/polyfact-extension/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/polyfact/polyfact-extension#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.79.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.6/1689005353651",
+            "fallbackAssetUri": "https://polyfactdocs.gallery.vsassets.io/_apis/public/gallery/publisher/Polyfactdocs/extension/polyfact-extension/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2023-07-10T15:00:20.793Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.5/1689001014390/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.5/1689001014390/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.5/1689001014390/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.5/1689001014390/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.5/1689001014390/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.5/1689001014390/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.5/1689001014390/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/polyfact/polyfact-extension/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/polyfact/polyfact-extension#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.79.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.5/1689001014390",
+            "fallbackAssetUri": "https://polyfactdocs.gallery.vsassets.io/_apis/public/gallery/publisher/Polyfactdocs/extension/polyfact-extension/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2023-07-10T15:01:03.993Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.4/1689000976903/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.4/1689000976903/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.4/1689000976903/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.4/1689000976903/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.4/1689000976903/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.4/1689000976903/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.4/1689000976903/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/polyfact/polyfact-extension/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/polyfact/polyfact-extension#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.79.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.4/1689000976903",
+            "fallbackAssetUri": "https://polyfactdocs.gallery.vsassets.io/_apis/public/gallery/publisher/Polyfactdocs/extension/polyfact-extension/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2023-07-10T09:47:01.87Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.3/1688982203593/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.3/1688982203593/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.3/1688982203593/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.3/1688982203593/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.3/1688982203593/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.3/1688982203593/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.3/1688982203593/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/polyfact/polyfact-extension/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/polyfact/polyfact-extension#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.79.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.3/1688982203593",
+            "fallbackAssetUri": "https://polyfactdocs.gallery.vsassets.io/_apis/public/gallery/publisher/Polyfactdocs/extension/polyfact-extension/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2023-07-10T09:40:48.327Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.2/1688981799442/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.2/1688981799442/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.2/1688981799442/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.2/1688981799442/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.2/1688981799442/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.2/1688981799442/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.2/1688981799442/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/polyfact/polyfact-extension/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/polyfact/polyfact-extension#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.79.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.2/1688981799442",
+            "fallbackAssetUri": "https://polyfactdocs.gallery.vsassets.io/_apis/public/gallery/publisher/Polyfactdocs/extension/polyfact-extension/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-07-10T08:30:42.823Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.1/1688977596128/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.1/1688977596128/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.1/1688977596128/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.1/1688977596128/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.1/1688977596128/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.1/1688977596128/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.1/1688977596128/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/polyfact/polyfact-extension/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/polyfact/polyfact-extension#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/polyfact/polyfact-extension.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.79.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://polyfactdocs.gallerycdn.vsassets.io/extensions/polyfactdocs/polyfact-extension/0.0.1/1688977596128",
+            "fallbackAssetUri": "https://polyfactdocs.gallery.vsassets.io/_apis/public/gallery/publisher/Polyfactdocs/extension/polyfact-extension/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "keybindings"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 10.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 8.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 15.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

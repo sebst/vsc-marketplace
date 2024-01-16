@@ -1,0 +1,884 @@
+{
+    "publisher": {
+        "publisherId": "ba20f8a9-9d93-4967-a4b6-576a55261c57",
+        "publisherName": "PetarMarinov",
+        "displayName": "Petar Marinov",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "f01730bb-0ceb-489f-885f-9f73f33a03b1",
+    "extensionName": "aws-stepfunctions-console",
+    "displayName": "AWS Step Functions Console",
+    "flags": "validated, public",
+    "lastUpdated": "2023-10-18T13:18:04.12Z",
+    "publishedDate": "2023-06-02T15:25:42.327Z",
+    "releaseDate": "2023-06-02T15:25:42.327Z",
+    "shortDescription": "Browse AWS Step Functions state machines and executions",
+    "versions": [
+        {
+            "version": "0.0.10",
+            "flags": "validated",
+            "lastUpdated": "2023-10-18T13:18:04.12Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.10/1697634932941/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.10/1697634932941/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.10/1697634932941/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.10/1697634932941/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.10/1697634932941/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.10/1697634932941/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.10/1697634932941/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.10/1697634932941/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.10/1697634932941/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.10/1697634932941",
+            "fallbackAssetUri": "https://petarmarinov.gallery.vsassets.io/_apis/public/gallery/publisher/PetarMarinov/extension/aws-stepfunctions-console/0.0.10/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2023-06-07T17:49:39.9Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.9/1686160005809/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.9/1686160005809/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.9/1686160005809/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.9/1686160005809/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.9/1686160005809/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.9/1686160005809/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.9/1686160005809/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.9/1686160005809/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.9/1686160005809/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.9/1686160005809",
+            "fallbackAssetUri": "https://petarmarinov.gallery.vsassets.io/_apis/public/gallery/publisher/PetarMarinov/extension/aws-stepfunctions-console/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2023-06-07T11:29:09.86Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.8/1686137158539/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.8/1686137158539/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.8/1686137158539/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.8/1686137158539/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.8/1686137158539/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.8/1686137158539/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.8/1686137158539/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.8/1686137158539/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.8/1686137158539/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.8/1686137158539",
+            "fallbackAssetUri": "https://petarmarinov.gallery.vsassets.io/_apis/public/gallery/publisher/PetarMarinov/extension/aws-stepfunctions-console/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2023-06-02T21:31:25.65Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.7/1685741277964/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.7/1685741277964/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.7/1685741277964/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.7/1685741277964/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.7/1685741277964/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.7/1685741277964/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.7/1685741277964/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.7/1685741277964/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.7/1685741277964/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.7/1685741277964",
+            "fallbackAssetUri": "https://petarmarinov.gallery.vsassets.io/_apis/public/gallery/publisher/PetarMarinov/extension/aws-stepfunctions-console/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2023-06-02T21:07:52.623Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.6/1685739861146/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.6/1685739861146/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.6/1685739861146/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.6/1685739861146/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.6/1685739861146/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.6/1685739861146/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.6/1685739861146/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.6/1685739861146",
+            "fallbackAssetUri": "https://petarmarinov.gallery.vsassets.io/_apis/public/gallery/publisher/PetarMarinov/extension/aws-stepfunctions-console/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2023-06-02T21:03:16.44Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.5/1685739586070/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.5/1685739586070/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.5/1685739586070/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.5/1685739586070/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.5/1685739586070/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.5/1685739586070/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.5/1685739586070/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.5/1685739586070",
+            "fallbackAssetUri": "https://petarmarinov.gallery.vsassets.io/_apis/public/gallery/publisher/PetarMarinov/extension/aws-stepfunctions-console/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2023-06-02T15:49:39.873Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.4/1685720736573/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.4/1685720736573/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.4/1685720736573/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.4/1685720736573/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.4/1685720736573/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.4/1685720736573/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.4/1685720736573/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.4/1685720736573",
+            "fallbackAssetUri": "https://petarmarinov.gallery.vsassets.io/_apis/public/gallery/publisher/PetarMarinov/extension/aws-stepfunctions-console/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2023-06-02T15:39:52.413Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.3/1685720145688/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.3/1685720145688/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.3/1685720145688/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.3/1685720145688/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.3/1685720145688/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.3/1685720145688/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.3/1685720145688/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.3/1685720145688",
+            "fallbackAssetUri": "https://petarmarinov.gallery.vsassets.io/_apis/public/gallery/publisher/PetarMarinov/extension/aws-stepfunctions-console/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2023-06-02T15:28:40.94Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.2/1685719543109/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.2/1685719543109/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.2/1685719543109/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.2/1685719543109/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.2/1685719543109/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.2/1685719543109/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.2/1685719543109/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/engpetarmarinov/vscode-aws-stepfunctions-console.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://petarmarinov.gallerycdn.vsassets.io/extensions/petarmarinov/aws-stepfunctions-console/0.0.2/1685719543109",
+            "fallbackAssetUri": "https://petarmarinov.gallery.vsassets.io/_apis/public/gallery/publisher/PetarMarinov/extension/aws-stepfunctions-console/0.0.2/assetbyname"
+        }
+    ],
+    "categories": [
+        "Debuggers",
+        "Visualization"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 347.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 13.119533527696792
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 3.498542274052478
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 139.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 19.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

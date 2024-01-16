@@ -1,0 +1,991 @@
+{
+    "publisher": {
+        "publisherId": "756a698c-f07a-48d4-a453-033fc61d87f6",
+        "publisherName": "lambdageek",
+        "displayName": "lambdageek",
+        "flags": "verified",
+        "domain": "https://lambdageek.dev",
+        "isDomainVerified": true
+    },
+    "extensionId": "4b1f4039-2c2e-4499-8b51-fdeb1555f750",
+    "extensionName": "msbuild-structured-log-viewer",
+    "displayName": "Experimental: MS Build Structured Log Viewer",
+    "flags": "validated, public, preview",
+    "lastUpdated": "2023-08-21T13:58:08.123Z",
+    "publishedDate": "2023-08-16T20:59:47.367Z",
+    "releaseDate": "2023-08-16T20:59:47.367Z",
+    "shortDescription": "MS Build Structured Log Viewer displays the contens of MSBuild binary log files (.binlog) in a tree view",
+    "versions": [
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2023-08-21T13:58:08.123Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626091628/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626091628/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626091628/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626091628/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626091628/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626091628/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626091628/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626091628/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626091628/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/tree/wasi-single-thread#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,ui"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626091628",
+            "fallbackAssetUri": "https://lambdageek.gallery.vsassets.io/_apis/public/gallery/publisher/lambdageek/extension/msbuild-structured-log-viewer/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "targetPlatform": "web",
+            "flags": "validated",
+            "lastUpdated": "2023-08-21T13:57:19.443Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626080096/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626080096/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626080096/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626080096/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626080096/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626080096/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626080096/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626080096/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626080096/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/tree/wasi-single-thread#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.wasm-wasi-core"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,ui,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.5/1692626080096",
+            "fallbackAssetUri": "https://lambdageek.gallery.vsassets.io/_apis/public/gallery/publisher/lambdageek/extension/msbuild-structured-log-viewer/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2023-08-20T03:26:54.203Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501824125/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501824125/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501824125/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501824125/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501824125/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501824125/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501824125/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/tree/wasi-single-thread#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,ui"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501824125",
+            "fallbackAssetUri": "https://lambdageek.gallery.vsassets.io/_apis/public/gallery/publisher/lambdageek/extension/msbuild-structured-log-viewer/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "targetPlatform": "web",
+            "flags": "validated",
+            "lastUpdated": "2023-08-20T03:26:36.23Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501806817/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501806817/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501806817/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501806817/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501806817/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501806817/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501806817/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/tree/wasi-single-thread#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.wasm-wasi-core"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,ui,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.4/1692501806817",
+            "fallbackAssetUri": "https://lambdageek.gallery.vsassets.io/_apis/public/gallery/publisher/lambdageek/extension/msbuild-structured-log-viewer/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "targetPlatform": "web",
+            "flags": "validated",
+            "lastUpdated": "2023-08-17T15:28:13.613Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285837069/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285837069/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285837069/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285837069/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285837069/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285837069/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285837069/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/tree/wasi-single-thread#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.wasm-wasi-core"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,ui,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285837069",
+            "fallbackAssetUri": "https://lambdageek.gallery.vsassets.io/_apis/public/gallery/publisher/lambdageek/extension/msbuild-structured-log-viewer/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2023-08-17T15:27:27.823Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285857924/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285857924/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285857924/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285857924/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285857924/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285857924/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285857924/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/tree/wasi-single-thread#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,ui"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.3/1692285857924",
+            "fallbackAssetUri": "https://lambdageek.gallery.vsassets.io/_apis/public/gallery/publisher/lambdageek/extension/msbuild-structured-log-viewer/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "targetPlatform": "web",
+            "flags": "validated",
+            "lastUpdated": "2023-08-17T01:45:39.607Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.2/1692236547881/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.2/1692236547881/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.2/1692236547881/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.2/1692236547881/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.2/1692236547881/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.2/1692236547881/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/tree/wasi-single-thread#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.wasm-wasi-core"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.2/1692236547881",
+            "fallbackAssetUri": "https://lambdageek.gallery.vsassets.io/_apis/public/gallery/publisher/lambdageek/extension/msbuild-structured-log-viewer/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2023-08-17T01:45:22.793Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.2/1692236564542/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.2/1692236564542/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.2/1692236564542/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.2/1692236564542/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.2/1692236564542/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.2/1692236564542/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/tree/wasi-single-thread#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.2/1692236564542",
+            "fallbackAssetUri": "https://lambdageek.gallery.vsassets.io/_apis/public/gallery/publisher/lambdageek/extension/msbuild-structured-log-viewer/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-08-16T21:04:00.863Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.1/1692219647428/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.1/1692219647428/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.1/1692219647428/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.1/1692219647428/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.1/1692219647428/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.1/1692219647428/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/tree/wasi-single-thread#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.1/1692219647428",
+            "fallbackAssetUri": "https://lambdageek.gallery.vsassets.io/_apis/public/gallery/publisher/lambdageek/extension/msbuild-structured-log-viewer/0.0.1/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "targetPlatform": "web",
+            "flags": "validated",
+            "lastUpdated": "2023-08-16T21:03:39.553Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.1/1692219588680/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.1/1692219588680/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.1/1692219588680/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.1/1692219588680/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.1/1692219588680/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.1/1692219588680/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog/tree/wasi-single-thread#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/lambdageek/MSBuildStructuredLog.git#wasi-single-thread"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.wasm-wasi-core"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://lambdageek.gallerycdn.vsassets.io/extensions/lambdageek/msbuild-structured-log-viewer/0.0.1/1692219588680",
+            "fallbackAssetUri": "https://lambdageek.gallery.vsassets.io/_apis/public/gallery/publisher/lambdageek/extension/msbuild-structured-log-viewer/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages"
+    ],
+    "tags": [
+        "__web_extension",
+        "binlog",
+        "dotnet",
+        "keybindings",
+        "log viewer",
+        "msbuild"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 198.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 19.19191919191919
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 3.535353535353535
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 31.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 7.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

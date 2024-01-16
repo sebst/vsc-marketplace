@@ -1,0 +1,2733 @@
+{
+    "publisher": {
+        "publisherId": "d43de489-deb0-4bf8-8259-23f36e9edbba",
+        "publisherName": "ngd-seattle",
+        "displayName": "Neo Project",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "3cc7e82e-ccc8-46e4-b1de-3ee1ecd013d5",
+    "extensionName": "neo-contract-debug",
+    "displayName": "Neo Smart Contract Debugger",
+    "flags": "validated, public",
+    "lastUpdated": "2023-05-01T22:07:27.923Z",
+    "publishedDate": "2019-11-11T20:28:22.197Z",
+    "releaseDate": "2019-11-11T20:28:22.197Z",
+    "shortDescription": "Debugger Extension for Neo Smart Contracts",
+    "versions": [
+        {
+            "version": "3.8.7",
+            "flags": "validated",
+            "lastUpdated": "2023-05-01T22:07:27.923Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.7/1682978656964/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.7/1682978656964/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.7/1682978656964/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.7/1682978656964/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.7/1682978656964/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.7/1682978656964/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.7/1682978656964/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.7/1682978656964/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.7/1682978656964/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.7/1682978656964",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.8.7/assetbyname"
+        },
+        {
+            "version": "3.8.6",
+            "flags": "validated",
+            "lastUpdated": "2023-01-04T03:02:29.817Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.6/1672785015837/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.6/1672785015837/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.6/1672785015837/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.6/1672785015837/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.6/1672785015837/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.6/1672785015837/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.6/1672785015837/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.6/1672785015837/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.6/1672785015837/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.6/1672785015837",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.8.6/assetbyname"
+        },
+        {
+            "version": "3.8.5",
+            "flags": "none",
+            "lastUpdated": "2023-01-03T22:23:23.127Z",
+            "validationResultMessage": "Error processing 'ngd-seattle.neo-contract-debug' SVG reference in file '/extension/readme.md'. Your reference to the SVG image \u2018https://vsmarketplacebadge.apphb.com/version-short/ngd-seattle.neo-contract-debug.svg\u2019 is not supported. Please see https://aka.ms/vsmarketplace_badge for more details.",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.5/1672784600300/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.5/1672784600300/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.5/1672784600300/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.5/1672784600300/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.8.5/1672784600300",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.8.5/assetbyname"
+        },
+        {
+            "version": "3.7.2",
+            "flags": "validated",
+            "lastUpdated": "2022-08-18T00:05:16.343Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.7.2/1660780967454/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.7.2/1660780967454/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.7.2/1660780967454/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.7.2/1660780967454/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.7.2/1660780967454/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.7.2/1660780967454/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.7.2/1660780967454/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.7.2/1660780967454/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.7.2/1660780967454",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.7.2/assetbyname"
+        },
+        {
+            "version": "3.6.17",
+            "flags": "validated",
+            "lastUpdated": "2022-08-18T00:06:31.047Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.6.17/1660781040924/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.6.17/1660781040924/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.6.17/1660781040924/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.6.17/1660781040924/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.6.17/1660781040924/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.6.17/1660781040924/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.6.17/1660781040924/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.6.17/1660781040924/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.6.17/1660781040924",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.6.17/assetbyname"
+        },
+        {
+            "version": "3.5.5",
+            "flags": "validated",
+            "lastUpdated": "2022-06-28T22:22:53.95Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.5.5/1656454820539/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.5.5/1656454820539/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.5.5/1656454820539/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.5.5/1656454820539/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.5.5/1656454820539/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.5.5/1656454820539/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.5.5/1656454820539/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.5.5/1656454820539/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.5.5/1656454820539",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.5.5/assetbyname"
+        },
+        {
+            "version": "3.4.7",
+            "flags": "validated",
+            "lastUpdated": "2022-06-28T22:18:49.99Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.7/1656454580561/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.7/1656454580561/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.7/1656454580561/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.7/1656454580561/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.7/1656454580561/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.7/1656454580561/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.7/1656454580561/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.7/1656454580561/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.7/1656454580561",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.4.7/assetbyname"
+        },
+        {
+            "version": "3.4.5",
+            "flags": "validated",
+            "lastUpdated": "2022-06-28T22:01:21.14Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.5/1656453530881/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.5/1656453530881/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.5/1656453530881/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.5/1656453530881/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.5/1656453530881/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.5/1656453530881/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.5/1656453530881/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.5/1656453530881/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.4.5/1656453530881",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.4.5/assetbyname"
+        },
+        {
+            "version": "3.3.29",
+            "flags": "validated",
+            "lastUpdated": "2022-03-17T02:27:17.623Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.29/1647483888845/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.29/1647483888845/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.29/1647483888845/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.29/1647483888845/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.29/1647483888845/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.29/1647483888845/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.29/1647483888845/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.29/1647483888845/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.29/1647483888845",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.3.29/assetbyname"
+        },
+        {
+            "version": "3.3.25",
+            "flags": "validated",
+            "lastUpdated": "2022-03-14T22:13:25.867Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.25/1647295855657/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.25/1647295855657/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.25/1647295855657/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.25/1647295855657/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.25/1647295855657/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.25/1647295855657/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.25/1647295855657/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.25/1647295855657/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.25/1647295855657",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.3.25/assetbyname"
+        },
+        {
+            "version": "3.3.18",
+            "flags": "validated",
+            "lastUpdated": "2022-03-07T16:52:50.417Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.18/1646671820270/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.18/1646671820270/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.18/1646671820270/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.18/1646671820270/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.18/1646671820270/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.18/1646671820270/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.18/1646671820270/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.18/1646671820270/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.18/1646671820270",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.3.18/assetbyname"
+        },
+        {
+            "version": "3.3.16",
+            "flags": "validated",
+            "lastUpdated": "2022-03-02T06:46:09.707Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.16/1646203420661/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.16/1646203420661/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.16/1646203420661/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.16/1646203420661/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.16/1646203420661/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.16/1646203420661/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.16/1646203420661/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.16/1646203420661/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.3.16/1646203420661",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.3.16/assetbyname"
+        },
+        {
+            "version": "3.2.34",
+            "flags": "validated",
+            "lastUpdated": "2022-03-11T17:50:28.38Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.34/1647020879657/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.34/1647020879657/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.34/1647020879657/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.34/1647020879657/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.34/1647020879657/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.34/1647020879657/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.34/1647020879657/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.34/1647020879657/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.34/1647020879657",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.2.34/assetbyname"
+        },
+        {
+            "version": "3.2.28",
+            "flags": "validated",
+            "lastUpdated": "2022-02-28T20:22:28.6Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.28/1646079600384/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.28/1646079600384/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.28/1646079600384/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.28/1646079600384/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.28/1646079600384/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.28/1646079600384/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.28/1646079600384/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.28/1646079600384/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.2.28/1646079600384",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.2.28/assetbyname"
+        },
+        {
+            "version": "3.1.23",
+            "flags": "validated",
+            "lastUpdated": "2021-12-15T18:37:35.02Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.1.23/1639593301233/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.1.23/1639593301233/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.1.23/1639593301233/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.1.23/1639593301233/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.1.23/1639593301233/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.1.23/1639593301233/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.1.23/1639593301233/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.1.23/1639593301233",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.1.23/assetbyname"
+        },
+        {
+            "version": "3.0.7",
+            "flags": "validated",
+            "lastUpdated": "2021-10-12T22:54:08.08Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.7/1634079100315/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.7/1634079100315/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.7/1634079100315/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.7/1634079100315/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.7/1634079100315/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.7/1634079100315/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.7/1634079100315/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/neo-project/neo-debugger#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.7/1634079100315",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.0.7/assetbyname"
+        },
+        {
+            "version": "3.0.3",
+            "flags": "validated",
+            "lastUpdated": "2021-08-10T17:28:23.263Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.3/1628616355497/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.3/1628616355497/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.3/1628616355497/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.3/1628616355497/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.3/1628616355497/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.3/1628616355497/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.3/1628616355497/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.3/1628616355497",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.0.3/assetbyname"
+        },
+        {
+            "version": "3.0.2",
+            "flags": "validated",
+            "lastUpdated": "2021-08-03T00:45:30.24Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.2/1627951383021/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.2/1627951383021/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.2/1627951383021/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.2/1627951383021/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.2/1627951383021/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.2/1627951383021/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.2/1627951383021/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/3.0.2/1627951383021",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/3.0.2/assetbyname"
+        },
+        {
+            "version": "2.0.20",
+            "flags": "validated",
+            "lastUpdated": "2021-07-21T23:13:25.04Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.20/1626909054864/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.20/1626909054864/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.20/1626909054864/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.20/1626909054864/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.20/1626909054864/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.20/1626909054864/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.20/1626909054864/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.20/1626909054864",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/2.0.20/assetbyname"
+        },
+        {
+            "version": "2.0.19",
+            "flags": "validated",
+            "lastUpdated": "2021-06-16T18:17:02.1Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.19/1623867272809/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.19/1623867272809/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.19/1623867272809/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.19/1623867272809/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.19/1623867272809/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.19/1623867272809/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.19/1623867272809/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.19/1623867272809",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/2.0.19/assetbyname"
+        },
+        {
+            "version": "2.0.18",
+            "flags": "validated",
+            "lastUpdated": "2021-06-08T19:02:33.78Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.18/1623178805625/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.18/1623178805625/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.18/1623178805625/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.18/1623178805625/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.18/1623178805625/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.18/1623178805625/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.18/1623178805625/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.18/1623178805625",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/2.0.18/assetbyname"
+        },
+        {
+            "version": "2.0.15",
+            "flags": "validated",
+            "lastUpdated": "2021-05-17T23:28:23.69Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.15/1621293953875/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.15/1621293953875/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.15/1621293953875/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.15/1621293953875/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.15/1621293953875/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.15/1621293953875/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.15/1621293953875/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.15/1621293953875",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/2.0.15/assetbyname"
+        },
+        {
+            "version": "2.0.5",
+            "flags": "validated",
+            "lastUpdated": "2021-03-29T23:30:59.273Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.5/1617060511915/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.5/1617060511915/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.5/1617060511915/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.5/1617060511915/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.5/1617060511915/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.5/1617060511915/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.5/1617060511915/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.5/1617060511915",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/2.0.5/assetbyname"
+        },
+        {
+            "version": "2.0.3",
+            "flags": "validated",
+            "lastUpdated": "2021-03-23T20:54:27.093Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.3/1616532719325/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.3/1616532719325/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.3/1616532719325/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.3/1616532719325/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.3/1616532719325/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.3/1616532719325/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.3/1616532719325/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.3/1616532719325",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/2.0.3/assetbyname"
+        },
+        {
+            "version": "2.0.2",
+            "flags": "validated",
+            "lastUpdated": "2021-03-23T20:39:38.193Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.2/1616531832429/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.2/1616531832429/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.2/1616531832429/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.2/1616531832429/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.2/1616531832429/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.2/1616531832429/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.2/1616531832429/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/2.0.2/1616531832429",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/2.0.2/assetbyname"
+        },
+        {
+            "version": "1.1.23",
+            "flags": "validated",
+            "lastUpdated": "2020-05-28T20:16:24.213Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.1.23/1590696843317/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.1.23/1590696843317/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.1.23/1590696843317/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.1.23/1590696843317/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.1.23/1590696843317/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.1.23/1590696843317/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.1.23/1590696843317/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.42.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.1.23/1590696843317",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/1.1.23/assetbyname"
+        },
+        {
+            "version": "1.0.8",
+            "flags": "validated",
+            "lastUpdated": "2020-02-08T20:41:06.067Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.8/1581194308261/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.8/1581194308261/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.8/1581194308261/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.8/1581194308261/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.8/1581194308261/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.8/1581194308261/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.8/1581194308261/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.42.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.8/1581194308261",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/1.0.8/assetbyname"
+        },
+        {
+            "version": "1.0.7",
+            "flags": "validated",
+            "lastUpdated": "2020-02-06T20:18:01.343Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.7/1581020141111/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.7/1581020141111/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.7/1581020141111/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.7/1581020141111/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.7/1581020141111/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.7/1581020141111/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.7/1581020141111/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.37.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/1.0.7/1581020141111",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/1.0.7/assetbyname"
+        },
+        {
+            "version": "0.9.18",
+            "flags": "validated",
+            "lastUpdated": "2019-11-11T20:30:45.71Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/0.9.18/1573504102197/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/0.9.18/1573504102197/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/0.9.18/1573504102197/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/0.9.18/1573504102197/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/0.9.18/1573504102197/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/0.9.18/1573504102197/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/0.9.18/1573504102197/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#242424"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/neo-project/neo-debugger/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/neo-project/neo-debugger.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.37.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ngd-seattle.gallerycdn.vsassets.io/extensions/ngd-seattle/neo-contract-debug/0.9.18/1573504102197",
+            "fallbackAssetUri": "https://ngd-seattle.gallery.vsassets.io/_apis/public/gallery/publisher/ngd-seattle/extension/neo-contract-debug/0.9.18/assetbyname"
+        }
+    ],
+    "categories": [
+        "Debuggers"
+    ],
+    "tags": [
+        "__ext_neovm",
+        "Blockchain",
+        "debuggers",
+        "Disassembly",
+        "Neo",
+        "neovm.disassembly",
+        "Smart Contract"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 7635.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.1656843483955468
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.091683038637852
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 7394.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 96.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

@@ -1,0 +1,906 @@
+{
+    "publisher": {
+        "publisherId": "89ce80d4-b1d4-4a47-922b-19deb8df6188",
+        "publisherName": "jamilgonzalez",
+        "displayName": "jamilgonzalez",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "06c926d3-6855-4b4e-9684-2f35c62bebc9",
+    "extensionName": "jest-genie",
+    "displayName": "Jest Genie",
+    "flags": "validated, public, unpublished",
+    "lastUpdated": "2023-06-15T11:03:18.2Z",
+    "publishedDate": "2023-04-07T19:52:11.44Z",
+    "releaseDate": "2023-04-07T19:52:11.44Z",
+    "shortDescription": "Generates test suites using OpenAI's GPT-3 API",
+    "versions": [
+        {
+            "version": "0.1.4",
+            "flags": "validated",
+            "lastUpdated": "2023-04-15T02:26:52.963Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.4/1681525365014/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.4/1681525365014/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.4/1681525365014/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.4/1681525365014/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.4/1681525365014/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.4/1681525365014/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.4/1681525365014/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.4/1681525365014/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.4/1681525365014/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamilgonzalez/jest-genie/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamilgonzalez/jest-genie#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.4/1681525365014",
+            "fallbackAssetUri": "https://jamilgonzalez.gallery.vsassets.io/_apis/public/gallery/publisher/jamilgonzalez/extension/jest-genie/0.1.4/assetbyname"
+        },
+        {
+            "version": "0.1.3",
+            "flags": "validated",
+            "lastUpdated": "2023-04-12T22:37:36.46Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.3/1681338846593/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.3/1681338846593/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.3/1681338846593/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.3/1681338846593/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.3/1681338846593/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.3/1681338846593/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.3/1681338846593/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.3/1681338846593/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.3/1681338846593/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamilgonzalez/jest-genie/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamilgonzalez/jest-genie#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.3/1681338846593",
+            "fallbackAssetUri": "https://jamilgonzalez.gallery.vsassets.io/_apis/public/gallery/publisher/jamilgonzalez/extension/jest-genie/0.1.3/assetbyname"
+        },
+        {
+            "version": "0.1.2",
+            "flags": "validated",
+            "lastUpdated": "2023-04-11T03:02:07.217Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.2/1681181909847/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.2/1681181909847/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.2/1681181909847/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.2/1681181909847/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.2/1681181909847/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.2/1681181909847/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.2/1681181909847/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.2/1681181909847/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.2/1681181909847/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamilgonzalez/jest-genie/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamilgonzalez/jest-genie#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.2/1681181909847",
+            "fallbackAssetUri": "https://jamilgonzalez.gallery.vsassets.io/_apis/public/gallery/publisher/jamilgonzalez/extension/jest-genie/0.1.2/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2023-04-10T14:53:09.037Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.1/1681138143281/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.1/1681138143281/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.1/1681138143281/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.1/1681138143281/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.1/1681138143281/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.1/1681138143281/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.1/1681138143281/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.1/1681138143281/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.1/1681138143281/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamilgonzalez/jest-genie/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamilgonzalez/jest-genie#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.1/1681138143281",
+            "fallbackAssetUri": "https://jamilgonzalez.gallery.vsassets.io/_apis/public/gallery/publisher/jamilgonzalez/extension/jest-genie/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-04-10T02:23:47.207Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.0/1681093191231/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.0/1681093191231/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.0/1681093191231/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.0/1681093191231/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.0/1681093191231/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.0/1681093191231/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.0/1681093191231/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.0/1681093191231/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamilgonzalez/jest-genie/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamilgonzalez/jest-genie#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.1.0/1681093191231",
+            "fallbackAssetUri": "https://jamilgonzalez.gallery.vsassets.io/_apis/public/gallery/publisher/jamilgonzalez/extension/jest-genie/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2023-04-08T03:49:03.897Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.8/1680925567693/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.8/1680925567693/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.8/1680925567693/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.8/1680925567693/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.8/1680925567693/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.8/1680925567693/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.8/1680925567693/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.8/1680925567693/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamilgonzalez/jest-genie/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamilgonzalez/jest-genie#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.8/1680925567693",
+            "fallbackAssetUri": "https://jamilgonzalez.gallery.vsassets.io/_apis/public/gallery/publisher/jamilgonzalez/extension/jest-genie/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2023-04-08T02:10:17.167Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.7/1680919600728/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.7/1680919600728/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.7/1680919600728/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.7/1680919600728/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.7/1680919600728/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.7/1680919600728/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.7/1680919600728/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.7/1680919600728/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamilgonzalez/jest-genie/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamilgonzalez/jest-genie#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.7/1680919600728",
+            "fallbackAssetUri": "https://jamilgonzalez.gallery.vsassets.io/_apis/public/gallery/publisher/jamilgonzalez/extension/jest-genie/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2023-04-08T01:40:25.773Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.5/1680917834978/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.5/1680917834978/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.5/1680917834978/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.5/1680917834978/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.5/1680917834978/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.5/1680917834978/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.5/1680917834978/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.5/1680917834978/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamilgonzalez/jest-genie/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamilgonzalez/jest-genie#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.5/1680917834978",
+            "fallbackAssetUri": "https://jamilgonzalez.gallery.vsassets.io/_apis/public/gallery/publisher/jamilgonzalez/extension/jest-genie/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2023-04-07T19:55:42.697Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.4/1680897132517/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.4/1680897132517/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.4/1680897132517/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.4/1680897132517/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.4/1680897132517/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.4/1680897132517/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.4/1680897132517/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.4/1680897132517/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamilgonzalez/jest-genie/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamilgonzalez/jest-genie#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamilgonzalez/jest-genie.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jamilgonzalez.gallerycdn.vsassets.io/extensions/jamilgonzalez/jest-genie/0.0.4/1680897132517",
+            "fallbackAssetUri": "https://jamilgonzalez.gallery.vsassets.io/_apis/public/gallery/publisher/jamilgonzalez/extension/jest-genie/0.0.4/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "keybindings"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 156.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 2.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 29.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.502670607757727
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 18.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

@@ -1,0 +1,937 @@
+{
+    "publisher": {
+        "publisherId": "13faf4ea-c1da-44ad-8137-4c9d4cc423fe",
+        "publisherName": "IvanArjona",
+        "displayName": "IvanArjona",
+        "flags": "verified",
+        "domain": "https://iarjona.com",
+        "isDomainVerified": false
+    },
+    "extensionId": "6fab88ae-dab8-40b5-9d14-3c5f5c5237d7",
+    "extensionName": "cloudflaretunnel",
+    "displayName": "Cloudflare Tunnel",
+    "flags": "validated, public",
+    "lastUpdated": "2022-08-03T18:39:04.977Z",
+    "publishedDate": "2021-11-21T17:15:41.407Z",
+    "releaseDate": "2021-11-21T17:15:41.407Z",
+    "shortDescription": "A VSCode extension to create a local tunnel through Cloudflare",
+    "versions": [
+        {
+            "version": "0.3.4",
+            "flags": "validated",
+            "lastUpdated": "2022-08-03T18:39:04.973Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.4/1659551804762/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.4/1659551804762/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.4/1659551804762/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.4/1659551804762/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.4/1659551804762/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.4/1659551804762/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.4/1659551804762/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.4/1659551804762/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.4/1659551804762/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#F48120"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.62.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mindaro-dev.file-downloader"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.4/1659551804762",
+            "fallbackAssetUri": "https://ivanarjona.gallery.vsassets.io/_apis/public/gallery/publisher/IvanArjona/extension/cloudflaretunnel/0.3.4/assetbyname"
+        },
+        {
+            "version": "0.3.3",
+            "flags": "validated",
+            "lastUpdated": "2022-01-06T19:50:32.953Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.3/1641498495901/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.3/1641498495901/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.3/1641498495901/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.3/1641498495901/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.3/1641498495901/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.3/1641498495901/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.3/1641498495901/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.3/1641498495901/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#F48120"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.62.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mindaro-dev.file-downloader"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.3/1641498495901",
+            "fallbackAssetUri": "https://ivanarjona.gallery.vsassets.io/_apis/public/gallery/publisher/IvanArjona/extension/cloudflaretunnel/0.3.3/assetbyname"
+        },
+        {
+            "version": "0.3.2",
+            "flags": "validated",
+            "lastUpdated": "2022-01-05T20:26:58.2Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.2/1641414278665/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.2/1641414278665/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.2/1641414278665/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.2/1641414278665/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.2/1641414278665/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.2/1641414278665/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.2/1641414278665/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.2/1641414278665/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#F48120"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.62.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mindaro-dev.file-downloader"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.2/1641414278665",
+            "fallbackAssetUri": "https://ivanarjona.gallery.vsassets.io/_apis/public/gallery/publisher/IvanArjona/extension/cloudflaretunnel/0.3.2/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2022-01-04T20:37:00.217Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.0/1641328483654/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.0/1641328483654/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.0/1641328483654/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.0/1641328483654/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.0/1641328483654/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.0/1641328483654/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.0/1641328483654/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.62.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mindaro-dev.file-downloader"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.3.0/1641328483654",
+            "fallbackAssetUri": "https://ivanarjona.gallery.vsassets.io/_apis/public/gallery/publisher/IvanArjona/extension/cloudflaretunnel/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.3",
+            "flags": "validated",
+            "lastUpdated": "2021-11-23T18:19:02.63Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.3/1637691406857/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.3/1637691406857/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.3/1637691406857/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.3/1637691406857/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.3/1637691406857/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.3/1637691406857/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.3/1637691406857/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.62.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mindaro-dev.file-downloader"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.3/1637691406857",
+            "fallbackAssetUri": "https://ivanarjona.gallery.vsassets.io/_apis/public/gallery/publisher/IvanArjona/extension/cloudflaretunnel/0.2.3/assetbyname"
+        },
+        {
+            "version": "0.2.2",
+            "flags": "validated",
+            "lastUpdated": "2021-11-23T17:55:00.827Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.2/1637689965318/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.2/1637689965318/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.2/1637689965318/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.2/1637689965318/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.2/1637689965318/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.2/1637689965318/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.2/1637689965318/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.62.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mindaro-dev.file-downloader"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.2/1637689965318",
+            "fallbackAssetUri": "https://ivanarjona.gallery.vsassets.io/_apis/public/gallery/publisher/IvanArjona/extension/cloudflaretunnel/0.2.2/assetbyname"
+        },
+        {
+            "version": "0.2.1",
+            "flags": "validated",
+            "lastUpdated": "2021-11-22T20:16:47.51Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.1/1637612070925/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.1/1637612070925/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.1/1637612070925/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.1/1637612070925/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.1/1637612070925/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.1/1637612070925/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.1/1637612070925/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.62.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mindaro-dev.file-downloader"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.1/1637612070925",
+            "fallbackAssetUri": "https://ivanarjona.gallery.vsassets.io/_apis/public/gallery/publisher/IvanArjona/extension/cloudflaretunnel/0.2.1/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2021-11-22T19:46:56.66Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.0/1637610278530/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.0/1637610278530/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.0/1637610278530/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.0/1637610278530/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.0/1637610278530/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.0/1637610278530/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.0/1637610278530/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.62.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mindaro-dev.file-downloader"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.2.0/1637610278530",
+            "fallbackAssetUri": "https://ivanarjona.gallery.vsassets.io/_apis/public/gallery/publisher/IvanArjona/extension/cloudflaretunnel/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2021-11-21T17:37:55.86Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.1.0/1637516138963/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.1.0/1637516138963/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.1.0/1637516138963/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.1.0/1637516138963/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.1.0/1637516138963/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.1.0/1637516138963/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.1.0/1637516138963/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.62.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mindaro-dev.file-downloader"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.1.0/1637516138963",
+            "fallbackAssetUri": "https://ivanarjona.gallery.vsassets.io/_apis/public/gallery/publisher/IvanArjona/extension/cloudflaretunnel/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2021-11-21T17:17:58.473Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.0.1/1637514941412/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.0.1/1637514941412/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.0.1/1637514941412/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.0.1/1637514941412/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.0.1/1637514941412/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/IvanArjona/cloudflare-tunnel-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.62.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mindaro-dev.file-downloader"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ivanarjona.gallerycdn.vsassets.io/extensions/ivanarjona/cloudflaretunnel/0.0.1/1637514941412",
+            "fallbackAssetUri": "https://ivanarjona.gallery.vsassets.io/_apis/public/gallery/publisher/IvanArjona/extension/cloudflaretunnel/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "cloudflare",
+        "http",
+        "ngrok",
+        "remote",
+        "tunnel"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 4082.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 2.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 6.653572305425976
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.4731156395777067
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 341.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.502670607757727
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 81.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

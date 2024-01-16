@@ -1,0 +1,933 @@
+{
+    "publisher": {
+        "publisherId": "a2f01825-2889-47bb-87d8-b651f5f9f7b9",
+        "publisherName": "wongjiahau",
+        "displayName": "Wong Jia Hau",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "417c216e-81cc-4e81-803a-fdb46db203fc",
+    "extensionName": "keli",
+    "displayName": "keli",
+    "flags": "validated, public",
+    "lastUpdated": "2019-03-29T14:38:10.313Z",
+    "publishedDate": "2019-03-06T08:45:26.02Z",
+    "releaseDate": "2019-03-06T08:45:26.02Z",
+    "shortDescription": "Keli extension for VSCode",
+    "versions": [
+        {
+            "version": "0.0.13",
+            "flags": "validated",
+            "lastUpdated": "2019-03-29T14:40:30.427Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.13/1553870290312/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.13/1553870290312/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.13/1553870290312/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.13/1553870290312/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.13/1553870290312/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.13/1553870290312/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "2gua.rainbow-brackets,christian-kohler.path-intellisense"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.13/1553870290312",
+            "fallbackAssetUri": "https://wongjiahau.gallery.vsassets.io/_apis/public/gallery/publisher/wongjiahau/extension/keli/0.0.13/assetbyname"
+        },
+        {
+            "version": "0.0.12",
+            "flags": "validated",
+            "lastUpdated": "2019-03-26T10:12:09.477Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.12/1553594987956/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.12/1553594987956/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.12/1553594987956/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.12/1553594987956/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.12/1553594987956/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.12/1553594987956/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "2gua.rainbow-brackets,christian-kohler.path-intellisense"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.12/1553594987956",
+            "fallbackAssetUri": "https://wongjiahau.gallery.vsassets.io/_apis/public/gallery/publisher/wongjiahau/extension/keli/0.0.12/assetbyname"
+        },
+        {
+            "version": "0.0.11",
+            "flags": "validated",
+            "lastUpdated": "2019-03-20T02:55:02.05Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.11/1553050360048/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.11/1553050360048/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.11/1553050360048/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.11/1553050360048/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.11/1553050360048/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.11/1553050360048/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "2gua.rainbow-brackets,christian-kohler.path-intellisense"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.11/1553050360048",
+            "fallbackAssetUri": "https://wongjiahau.gallery.vsassets.io/_apis/public/gallery/publisher/wongjiahau/extension/keli/0.0.11/assetbyname"
+        },
+        {
+            "version": "0.0.10",
+            "flags": "validated",
+            "lastUpdated": "2019-03-17T05:19:04.77Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.10/1552799805260/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.10/1552799805260/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.10/1552799805260/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.10/1552799805260/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.10/1552799805260/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.10/1552799805260/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "2gua.rainbow-brackets,christian-kohler.path-intellisense"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.10/1552799805260",
+            "fallbackAssetUri": "https://wongjiahau.gallery.vsassets.io/_apis/public/gallery/publisher/wongjiahau/extension/keli/0.0.10/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2019-03-14T02:55:22.423Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.9/1552531981237/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.9/1552531981237/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.9/1552531981237/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.9/1552531981237/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.9/1552531981237/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.9/1552531981237/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "2gua.rainbow-brackets,christian-kohler.path-intellisense"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.9/1552531981237",
+            "fallbackAssetUri": "https://wongjiahau.gallery.vsassets.io/_apis/public/gallery/publisher/wongjiahau/extension/keli/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2019-03-14T02:40:53.657Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.8/1552531112760/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.8/1552531112760/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.8/1552531112760/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.8/1552531112760/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.8/1552531112760/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.8/1552531112760/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "2gua.rainbow-brackets,christian-kohler.path-intellisense"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.8/1552531112760",
+            "fallbackAssetUri": "https://wongjiahau.gallery.vsassets.io/_apis/public/gallery/publisher/wongjiahau/extension/keli/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2019-03-12T05:03:40.33Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.7/1552366879776/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.7/1552366879776/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.7/1552366879776/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.7/1552366879776/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.7/1552366879776/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.7/1552366879776/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "2gua.rainbow-brackets,christian-kohler.path-intellisense"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.7/1552366879776",
+            "fallbackAssetUri": "https://wongjiahau.gallery.vsassets.io/_apis/public/gallery/publisher/wongjiahau/extension/keli/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2019-03-11T23:23:23.35Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.6/1552346465181/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.6/1552346465181/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.6/1552346465181/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.6/1552346465181/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.6/1552346465181/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.6/1552346465181/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "2gua.rainbow-brackets,christian-kohler.path-intellisense"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.6/1552346465181",
+            "fallbackAssetUri": "https://wongjiahau.gallery.vsassets.io/_apis/public/gallery/publisher/wongjiahau/extension/keli/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2019-03-11T16:22:58.54Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.5/1552321235797/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.5/1552321235797/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.5/1552321235797/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.5/1552321235797/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.5/1552321235797/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.5/1552321235797/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "2gua.rainbow-brackets,christian-kohler.path-intellisense"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.5/1552321235797",
+            "fallbackAssetUri": "https://wongjiahau.gallery.vsassets.io/_apis/public/gallery/publisher/wongjiahau/extension/keli/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2019-03-11T08:17:38.427Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.4/1552292116469/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.4/1552292116469/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.4/1552292116469/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.4/1552292116469/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.4/1552292116469/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.4/1552292116469/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "2gua.rainbow-brackets,christian-kohler.path-intellisense"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.4/1552292116469",
+            "fallbackAssetUri": "https://wongjiahau.gallery.vsassets.io/_apis/public/gallery/publisher/wongjiahau/extension/keli/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2019-03-08T13:55:53.98Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.3/1552053095846/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.3/1552053095846/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.3/1552053095846/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.3/1552053095846/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.3/1552053095846/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.3/1552053095846/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "2gua.rainbow-brackets,christian-kohler.path-intellisense"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.3/1552053095846",
+            "fallbackAssetUri": "https://wongjiahau.gallery.vsassets.io/_apis/public/gallery/publisher/wongjiahau/extension/keli/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2019-03-08T13:26:44.133Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.2/1552051412387/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.2/1552051412387/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.2/1552051412387/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.2/1552051412387/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.2/1552051412387/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.2/1552051412387/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.2/1552051412387",
+            "fallbackAssetUri": "https://wongjiahau.gallery.vsassets.io/_apis/public/gallery/publisher/wongjiahau/extension/keli/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2019-03-06T08:47:40.417Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.1/1551861926036/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.1/1551861926036/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.1/1551861926036/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.1/1551861926036/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.1/1551861926036/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/KeliLanguage/vscode-lsp"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.23.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wongjiahau.gallerycdn.vsassets.io/extensions/wongjiahau/keli/0.0.1/1551861926036",
+            "fallbackAssetUri": "https://wongjiahau.gallery.vsassets.io/_apis/public/gallery/publisher/wongjiahau/extension/keli/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages"
+    ],
+    "tags": [
+        "__ext_keli",
+        "keli",
+        "multi-root ready",
+        "Programming Languages"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 519.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.1583011583011582
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.3861003861003861
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 25.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 41.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

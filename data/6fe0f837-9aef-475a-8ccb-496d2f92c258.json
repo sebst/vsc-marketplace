@@ -1,0 +1,2006 @@
+{
+    "publisher": {
+        "publisherId": "3a605cb0-cc38-4c6c-8021-916200f7860f",
+        "publisherName": "wilfriedwoivre",
+        "displayName": "Wilfried Woivre",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "6fe0f837-9aef-475a-8ccb-496d2f92c258",
+    "extensionName": "arm-params-generator",
+    "displayName": "ARM Params Generator",
+    "flags": "validated, public",
+    "lastUpdated": "2023-02-01T17:25:43.25Z",
+    "publishedDate": "2018-07-10T16:51:37.057Z",
+    "releaseDate": "2018-07-10T16:51:37.057Z",
+    "shortDescription": "ARM Tools to extract parameter or variables",
+    "versions": [
+        {
+            "version": "1.0.4",
+            "flags": "validated",
+            "lastUpdated": "2023-02-01T17:25:43.25Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.4/1675272108396/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.4/1675272108396/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.4/1675272108396/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.4/1675272108396/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.4/1675272108396/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.4/1675272108396/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.4/1675272108396/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.4/1675272108396/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.4/1675272108396/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.71.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.4/1675272108396",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/1.0.4/assetbyname"
+        },
+        {
+            "version": "1.0.3",
+            "flags": "validated",
+            "lastUpdated": "2023-02-01T17:04:42.12Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.3/1675270723637/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.3/1675270723637/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.3/1675270723637/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.3/1675270723637/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.3/1675270723637/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.3/1675270723637/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.3/1675270723637/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.3/1675270723637/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.3/1675270723637/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.3/1675270723637",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/1.0.3/assetbyname"
+        },
+        {
+            "version": "1.0.2",
+            "flags": "validated",
+            "lastUpdated": "2022-10-04T16:21:19.413Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.2/1664900342976/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.2/1664900342976/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.2/1664900342976/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.2/1664900342976/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.2/1664900342976/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.2/1664900342976/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.2/1664900342976/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.2/1664900342976/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.71.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.2/1664900342976",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/1.0.2/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2021-10-27T20:05:14.247Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.1/1635364851980/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.1/1635364851980/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.1/1635364851980/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.1/1635364851980/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.1/1635364851980/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.1/1635364851980/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.1/1635364851980/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.1/1635364851980/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.1/1635364851980",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2020-04-18T15:33:17.71Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.0/1587223855967/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.0/1587223855967/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.0/1587223855967/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.0/1587223855967/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.0/1587223855967/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.0/1587223855967/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.0/1587223855967/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.0/1587223855967/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/1.0.0/1587223855967",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/1.0.0/assetbyname"
+        },
+        {
+            "version": "0.9.0",
+            "flags": "validated",
+            "lastUpdated": "2020-03-17T18:08:38.823Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.9.0/1584468380481/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.9.0/1584468380481/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.9.0/1584468380481/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.9.0/1584468380481/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.9.0/1584468380481/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.9.0/1584468380481/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.9.0/1584468380481/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.9.0/1584468380481/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.9.0/1584468380481",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.9.0/assetbyname"
+        },
+        {
+            "version": "0.8.1",
+            "flags": "validated",
+            "lastUpdated": "2019-11-13T15:57:14.73Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.1/1573660496549/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.1/1573660496549/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.1/1573660496549/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.1/1573660496549/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.1/1573660496549/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.1/1573660496549/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.1/1573660496549/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.1/1573660496549/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.1/1573660496549",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.8.1/assetbyname"
+        },
+        {
+            "version": "0.8.0",
+            "flags": "validated",
+            "lastUpdated": "2019-10-01T12:19:40.323Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.0/1569932241237/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.0/1569932241237/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.0/1569932241237/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.0/1569932241237/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.0/1569932241237/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.0/1569932241237/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.0/1569932241237/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.0/1569932241237/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.8.0/1569932241237",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.8.0/assetbyname"
+        },
+        {
+            "version": "0.7.0",
+            "flags": "validated",
+            "lastUpdated": "2019-03-21T20:19:39.477Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.7.0/1553199440121/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.7.0/1553199440121/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.7.0/1553199440121/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.7.0/1553199440121/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.7.0/1553199440121/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.7.0/1553199440121/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.7.0/1553199440121/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.7.0/1553199440121/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.32.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.7.0/1553199440121",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.7.0/assetbyname"
+        },
+        {
+            "version": "0.6.0",
+            "flags": "validated",
+            "lastUpdated": "2018-11-13T07:04:18.62Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.6.0/1542092513325/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.6.0/1542092513325/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.6.0/1542092513325/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.6.0/1542092513325/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.6.0/1542092513325/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.6.0/1542092513325/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.6.0/1542092513325/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.6.0/1542092513325/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.6.0/1542092513325",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.6.0/assetbyname"
+        },
+        {
+            "version": "0.5.1",
+            "flags": "validated",
+            "lastUpdated": "2018-11-11T14:50:22.48Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.1/1541947681175/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.1/1541947681175/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.1/1541947681175/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.1/1541947681175/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.1/1541947681175/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.1/1541947681175/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.1/1541947681175/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.1/1541947681175/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.1/1541947681175",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.5.1/assetbyname"
+        },
+        {
+            "version": "0.5.0",
+            "flags": "validated",
+            "lastUpdated": "2018-11-09T15:38:52.837Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.0/1541777789036/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.0/1541777789036/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.0/1541777789036/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.0/1541777789036/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.0/1541777789036/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.0/1541777789036/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.0/1541777789036/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.0/1541777789036/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.5.0/1541777789036",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.5.0/assetbyname"
+        },
+        {
+            "version": "0.4.2",
+            "flags": "validated",
+            "lastUpdated": "2018-10-25T07:58:22.31Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.2/1540454165970/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.2/1540454165970/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.2/1540454165970/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.2/1540454165970/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.2/1540454165970/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.2/1540454165970/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.2/1540454165970/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.2/1540454165970/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.2/1540454165970",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.4.2/assetbyname"
+        },
+        {
+            "version": "0.4.1",
+            "flags": "validated",
+            "lastUpdated": "2018-10-22T11:33:15.52Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.1/1540207859077/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.1/1540207859077/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.1/1540207859077/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.1/1540207859077/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.1/1540207859077/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.1/1540207859077/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.1/1540207859077/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.1/1540207859077/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.1/1540207859077",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.4.1/assetbyname"
+        },
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2018-10-08T12:00:22.12Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.0/1538999879419/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.0/1538999879419/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.0/1538999879419/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.0/1538999879419/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.0/1538999879419/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.0/1538999879419/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.0/1538999879419/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.0/1538999879419/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.4.0/1538999879419",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.5",
+            "flags": "validated",
+            "lastUpdated": "2018-10-07T10:26:37.707Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.5/1538907856637/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.5/1538907856637/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.5/1538907856637/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.5/1538907856637/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.5/1538907856637/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.5/1538907856637/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.5/1538907856637/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.5/1538907856637/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.5/1538907856637",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.3.5/assetbyname"
+        },
+        {
+            "version": "0.3.4",
+            "flags": "validated",
+            "lastUpdated": "2018-07-23T12:22:30.833Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.4/1532348394614/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.4/1532348394614/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.4/1532348394614/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.4/1532348394614/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.4/1532348394614/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.4/1532348394614/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.4/1532348394614/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.4/1532348394614",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.3.4/assetbyname"
+        },
+        {
+            "version": "0.3.3",
+            "flags": "validated",
+            "lastUpdated": "2018-07-17T18:46:04.55Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.3/1531853008148/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.3/1531853008148/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.3/1531853008148/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.3/1531853008148/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.3/1531853008148/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.3/1531853008148/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.3/1531853008148/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.3/1531853008148",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.3.3/assetbyname"
+        },
+        {
+            "version": "0.3.2",
+            "flags": "validated",
+            "lastUpdated": "2018-07-17T18:45:21.207Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.2/1531852964690/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.2/1531852964690/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.2/1531852964690/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.2/1531852964690/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.2/1531852964690/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.2/1531852964690/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.2/1531852964690/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.2/1531852964690",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.3.2/assetbyname"
+        },
+        {
+            "version": "0.3.1",
+            "flags": "validated",
+            "lastUpdated": "2018-07-17T13:02:06.563Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.1/1531832370343/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.1/1531832370343/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.1/1531832370343/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.1/1531832370343/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.1/1531832370343/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.1/1531832370343/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.1/1531832370343/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.1/1531832370343",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.3.1/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2018-07-17T11:50:57.127Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.0/1531828100900/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.0/1531828100900/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.0/1531828100900/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.0/1531828100900/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.0/1531828100900/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.0/1531828100900/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.0/1531828100900/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.3.0/1531828100900",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2018-07-16T08:41:18.05Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.2.0/1531730315527/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.2.0/1531730315527/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.2.0/1531730315527/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.2.0/1531730315527/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.2.0/1531730315527/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.2.0/1531730315527/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.2.0/1531730315527/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.2.0/1531730315527",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2018-07-13T09:35:04.217Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.1.0/1531474345817/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.1.0/1531474345817/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.1.0/1531474345817/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.1.0/1531474345817/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.1.0/1531474345817/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.25.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.1.0/1531474345817",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2018-07-10T16:54:17.1Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.0.1/1531241497074/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.0.1/1531241497074/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.0.1/1531241497074/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.0.1/1531241497074/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.0.1/1531241497074/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator/blob/master.README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/wilfriedwoivre/vscode-arm-params-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.25.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://wilfriedwoivre.gallerycdn.vsassets.io/extensions/wilfriedwoivre/arm-params-generator/0.0.1/1531241497074",
+            "fallbackAssetUri": "https://wilfriedwoivre.gallery.vsassets.io/_apis/public/gallery/publisher/wilfriedwoivre/extension/arm-params-generator/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Azure"
+    ],
+    "tags": [
+        "ARM",
+        "arm-template",
+        "Azure",
+        "Azure Resource Manager"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 24975.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 7.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.992992992992993
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.23223223223223224
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 24429.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.6489439584172185
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 161.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

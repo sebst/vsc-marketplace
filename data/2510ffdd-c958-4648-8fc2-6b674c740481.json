@@ -1,0 +1,655 @@
+{
+    "publisher": {
+        "publisherId": "80297cbc-cb2c-4936-9469-14d8d97c3e72",
+        "publisherName": "vhdl-tool",
+        "displayName": "VHDL Tool",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "2510ffdd-c958-4648-8fc2-6b674c740481",
+    "extensionName": "vhdl-tool",
+    "displayName": "VHDL Language Server",
+    "flags": "validated, public",
+    "lastUpdated": "2022-03-27T23:16:20.677Z",
+    "publishedDate": "2017-04-20T09:43:36.273Z",
+    "releaseDate": "2017-04-20T09:43:36.273Z",
+    "shortDescription": "Language Server Protocol for VHDL via VHDL-Tool",
+    "versions": [
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2022-03-27T23:16:20.673Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.9/1648422843074/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.9/1648422843074/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.9/1648422843074/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.9/1648422843074/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.9/1648422843074/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdl-tool/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://www.vhdltool.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.9/1648422843074",
+            "fallbackAssetUri": "https://vhdl-tool.gallery.vsassets.io/_apis/public/gallery/publisher/vhdl-tool/extension/vhdl-tool/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2022-03-23T00:14:37.013Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.8/1647994339080/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.8/1647994339080/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.8/1647994339080/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.8/1647994339080/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdl-tool/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://www.vhdltool.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.8/1647994339080",
+            "fallbackAssetUri": "https://vhdl-tool.gallery.vsassets.io/_apis/public/gallery/publisher/vhdl-tool/extension/vhdl-tool/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2020-10-14T00:53:59.867Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.7/1602636702349/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.7/1602636702349/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.7/1602636702349/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.7/1602636702349/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdl-tool/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://www.vhdltool.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.7/1602636702349",
+            "fallbackAssetUri": "https://vhdl-tool.gallery.vsassets.io/_apis/public/gallery/publisher/vhdl-tool/extension/vhdl-tool/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2020-09-05T07:24:42.44Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.6/1599290545918/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.6/1599290545918/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.6/1599290545918/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.6/1599290545918/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdl-tool/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://www.vhdltool.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.26.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.6/1599290545918",
+            "fallbackAssetUri": "https://vhdl-tool.gallery.vsassets.io/_apis/public/gallery/publisher/vhdl-tool/extension/vhdl-tool/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2020-08-23T03:47:40.17Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.5/1598154321533/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.5/1598154321533/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.5/1598154321533/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.5/1598154321533/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdl-tool/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://www.vhdltool.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.26.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.5/1598154321533",
+            "fallbackAssetUri": "https://vhdl-tool.gallery.vsassets.io/_apis/public/gallery/publisher/vhdl-tool/extension/vhdl-tool/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2019-10-22T09:58:19.71Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.4/1571738157843/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.4/1571738157843/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.4/1571738157843/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.4/1571738157843/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdl-tool/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://www.vhdltool.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.26.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.4/1571738157843",
+            "fallbackAssetUri": "https://vhdl-tool.gallery.vsassets.io/_apis/public/gallery/publisher/vhdl-tool/extension/vhdl-tool/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2017-10-20T10:55:13.217Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.3/1508496913500/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.3/1508496913500/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.3/1508496913500/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.3/1508496913500/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdl-tool/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://www.vhdltool.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.8.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.3/1508496913500",
+            "fallbackAssetUri": "https://vhdl-tool.gallery.vsassets.io/_apis/public/gallery/publisher/vhdl-tool/extension/vhdl-tool/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2017-05-11T09:24:03.47Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.2/1494494643608/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.2/1494494643608/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.2/1494494643608/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://www.vhdltool.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.8.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.2/1494494643608",
+            "fallbackAssetUri": "https://vhdl-tool.gallery.vsassets.io/_apis/public/gallery/publisher/vhdl-tool/extension/vhdl-tool/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2017-04-20T09:43:35.643Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.1/1492681415946/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.1/1492681415946/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.1/1492681415946/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://www.vhdltool.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://git.vhdltool.com/vhdl-tool/vhdltool-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.8.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://vhdl-tool.gallerycdn.vsassets.io/extensions/vhdl-tool/vhdl-tool/0.0.1/1492681415946",
+            "fallbackAssetUri": "https://vhdl-tool.gallery.vsassets.io/_apis/public/gallery/publisher/vhdl-tool/extension/vhdl-tool/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages",
+        "Linters"
+    ],
+    "tags": [
+        "vhdl"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 9571.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 3.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 2.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.6686866576115349
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.14627520635252325
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 5534.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.169337274424393
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 245.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

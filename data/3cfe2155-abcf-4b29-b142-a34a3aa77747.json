@@ -1,0 +1,1821 @@
+{
+    "publisher": {
+        "publisherId": "612960f3-8bca-4094-a40e-9f36bf032d29",
+        "publisherName": "StephenAsuncion",
+        "displayName": "Stephen Asuncion",
+        "flags": "verified",
+        "domain": "https://stephenasuncion.dev/",
+        "isDomainVerified": false
+    },
+    "extensionId": "3cfe2155-abcf-4b29-b142-a34a3aa77747",
+    "extensionName": "gencomp",
+    "displayName": "gencomp",
+    "flags": "validated, public",
+    "lastUpdated": "2023-01-02T00:10:52.08Z",
+    "publishedDate": "2022-10-13T04:26:35.717Z",
+    "releaseDate": "2022-10-13T04:26:35.717Z",
+    "shortDescription": "A vscode extension that generates a new component from the selected line(s) of code",
+    "versions": [
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-01-02T00:10:52.08Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.2.0/1672618038692/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.2.0/1672618038692/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.2.0/1672618038692/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.2.0/1672618038692/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.2.0/1672618038692/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.2.0/1672618038692/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.2.0/1672618038692/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.2.0/1672618038692/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.2.0/1672618038692/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.2.0/1672618038692",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.9",
+            "flags": "validated",
+            "lastUpdated": "2022-12-27T23:43:34.343Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.9/1672184440184/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.9/1672184440184/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.9/1672184440184/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.9/1672184440184/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.9/1672184440184/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.9/1672184440184/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.9/1672184440184/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.9/1672184440184/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.9/1672184440184/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.9/1672184440184",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.1.9/assetbyname"
+        },
+        {
+            "version": "0.1.7",
+            "flags": "validated",
+            "lastUpdated": "2022-12-03T05:52:32.493Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.7/1670046469636/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.7/1670046469636/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.7/1670046469636/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.7/1670046469636/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.7/1670046469636/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.7/1670046469636/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.7/1670046469636/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.7/1670046469636/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.7/1670046469636/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.7/1670046469636",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.1.7/assetbyname"
+        },
+        {
+            "version": "0.1.6",
+            "flags": "validated",
+            "lastUpdated": "2022-11-25T22:05:51.213Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.6/1669413729547/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.6/1669413729547/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.6/1669413729547/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.6/1669413729547/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.6/1669413729547/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.6/1669413729547/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.6/1669413729547/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.6/1669413729547/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.6/1669413729547/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.6/1669413729547",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.1.6/assetbyname"
+        },
+        {
+            "version": "0.1.5",
+            "flags": "validated",
+            "lastUpdated": "2022-11-19T23:08:01.277Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.5/1668899080849/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.5/1668899080849/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.5/1668899080849/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.5/1668899080849/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.5/1668899080849/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.5/1668899080849/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.5/1668899080849/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.5/1668899080849/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.5/1668899080849/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.5/1668899080849",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.1.5/assetbyname"
+        },
+        {
+            "version": "0.1.4",
+            "flags": "validated",
+            "lastUpdated": "2022-11-19T21:15:34.783Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.4/1668892387435/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.4/1668892387435/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.4/1668892387435/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.4/1668892387435/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.4/1668892387435/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.4/1668892387435/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.4/1668892387435/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.4/1668892387435/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.4/1668892387435/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.4/1668892387435",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.1.4/assetbyname"
+        },
+        {
+            "version": "0.1.3",
+            "flags": "validated",
+            "lastUpdated": "2022-11-11T09:36:27.717Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.3/1668159171041/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.3/1668159171041/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.3/1668159171041/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.3/1668159171041/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.3/1668159171041/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.3/1668159171041/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.3/1668159171041/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.3/1668159171041/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.3/1668159171041/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.3/1668159171041",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.1.3/assetbyname"
+        },
+        {
+            "version": "0.1.2",
+            "flags": "validated",
+            "lastUpdated": "2022-11-11T09:11:21.963Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.2/1668157594303/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.2/1668157594303/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.2/1668157594303/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.2/1668157594303/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.2/1668157594303/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.2/1668157594303/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.2/1668157594303/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.2/1668157594303/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.2/1668157594303/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.2/1668157594303",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.1.2/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2022-11-11T05:09:48.83Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.1/1668143105503/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.1/1668143105503/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.1/1668143105503/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.1/1668143105503/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.1/1668143105503/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.1/1668143105503/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.1/1668143105503/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.1/1668143105503/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.1/1668143105503/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.1/1668143105503",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2022-11-11T04:33:49.393Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.0/1668141014481/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.0/1668141014481/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.0/1668141014481/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.0/1668141014481/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.0/1668141014481/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.0/1668141014481/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.0/1668141014481/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.0/1668141014481/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.0/1668141014481/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.1.0/1668141014481",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2022-11-11T02:16:20.46Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.9/1668132729615/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.9/1668132729615/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.9/1668132729615/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.9/1668132729615/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.9/1668132729615/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.9/1668132729615/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.9/1668132729615/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.9/1668132729615/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.9/1668132729615/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.9/1668132729615",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2022-11-11T01:26:07.203Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.8/1668129608233/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.8/1668129608233/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.8/1668129608233/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.8/1668129608233/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.8/1668129608233/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.8/1668129608233/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.8/1668129608233/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.8/1668129608233/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.8/1668129608233/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.8/1668129608233",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2022-11-10T09:31:29.16Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.7/1668072463039/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.7/1668072463039/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.7/1668072463039/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.7/1668072463039/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.7/1668072463039/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.7/1668072463039/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.7/1668072463039/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.7/1668072463039/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.7/1668072463039/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.7/1668072463039",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2022-11-10T09:19:44.057Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.6/1668071742336/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.6/1668071742336/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.6/1668071742336/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.6/1668071742336/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.6/1668071742336/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.6/1668071742336/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.6/1668071742336/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.6/1668071742336/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.6/1668071742336/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.6/1668071742336",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2022-10-13T08:22:51.033Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.5/1665649221001/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.5/1665649221001/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.5/1665649221001/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.5/1665649221001/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.5/1665649221001/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.5/1665649221001/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.5/1665649221001/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.5/1665649221001/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.5/1665649221001",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2022-10-13T06:13:55.343Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.4/1665641485501/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.4/1665641485501/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.4/1665641485501/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.4/1665641485501/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.4/1665641485501/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.4/1665641485501/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.4/1665641485501/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.4/1665641485501/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.4/1665641485501",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2022-10-13T05:31:31.54Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.3/1665638942685/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.3/1665638942685/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.3/1665638942685/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.3/1665638942685/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.3/1665638942685/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.3/1665638942685/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.3/1665638942685/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.3/1665638942685/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.3/1665638942685",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2022-10-13T05:07:02.837Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.2/1665637473379/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.2/1665637473379/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.2/1665637473379/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.2/1665637473379/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.2/1665637473379/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.2/1665637473379/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.2/1665637473379/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.2/1665637473379/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.2/1665637473379",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2022-10-13T04:29:05.49Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.1/1665635196279/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.1/1665635196279/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.1/1665635196279/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.1/1665635196279/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.1/1665635196279/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.1/1665635196279/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/stephenasuncionDEV/gencomp.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://stephenasuncion.gallerycdn.vsassets.io/extensions/stephenasuncion/gencomp/0.0.1/1665635196279",
+            "fallbackAssetUri": "https://stephenasuncion.gallery.vsassets.io/_apis/public/gallery/publisher/StephenAsuncion/extension/gencomp/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 15.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 20.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 28.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

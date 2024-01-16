@@ -1,0 +1,933 @@
+{
+    "publisher": {
+        "publisherId": "f889fa4e-d8a0-4db4-ba99-8e851db7dece",
+        "publisherName": "AnandaBibekRay",
+        "displayName": "Ananda Bibek Ray",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "8de3ef71-3152-49db-9458-76afcd8218eb",
+    "extensionName": "java-project-stup",
+    "displayName": "Java Project Setup with JPR support",
+    "flags": "validated, public, unpublished",
+    "lastUpdated": "2023-04-12T15:24:26.21Z",
+    "publishedDate": "2023-02-12T13:52:36.123Z",
+    "releaseDate": "2023-02-12T13:52:36.123Z",
+    "shortDescription": "Create .project and .classpath file for vscode to recognize java project. Process dependencies from Jdeveloper JPR files.",
+    "versions": [
+        {
+            "version": "4.0.3",
+            "flags": "validated",
+            "lastUpdated": "2023-03-25T18:00:43.833Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.3/1679767030447/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.3/1679767030447/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.3/1679767030447/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.3/1679767030447/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.3/1679767030447/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.3/1679767030447/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.3/1679767030447/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.3/1679767030447/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.3/1679767030447/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.3/1679767030447",
+            "fallbackAssetUri": "https://anandabibekray.gallery.vsassets.io/_apis/public/gallery/publisher/AnandaBibekRay/extension/java-project-stup/4.0.3/assetbyname"
+        },
+        {
+            "version": "4.0.2",
+            "flags": "validated",
+            "lastUpdated": "2023-03-25T17:36:00.923Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.2/1679765584638/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.2/1679765584638/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.2/1679765584638/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.2/1679765584638/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.2/1679765584638/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.2/1679765584638/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.2/1679765584638/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.2/1679765584638/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.2/1679765584638/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.2/1679765584638",
+            "fallbackAssetUri": "https://anandabibekray.gallery.vsassets.io/_apis/public/gallery/publisher/AnandaBibekRay/extension/java-project-stup/4.0.2/assetbyname"
+        },
+        {
+            "version": "4.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-03-22T15:15:53.527Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.1/1679497933654/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.1/1679497933654/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.1/1679497933654/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.1/1679497933654/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.1/1679497933654/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.1/1679497933654/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.1/1679497933654/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.1/1679497933654/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.1/1679497933654/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.1/1679497933654",
+            "fallbackAssetUri": "https://anandabibekray.gallery.vsassets.io/_apis/public/gallery/publisher/AnandaBibekRay/extension/java-project-stup/4.0.1/assetbyname"
+        },
+        {
+            "version": "4.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-03-11T13:28:04.06Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.0/1678541100482/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.0/1678541100482/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.0/1678541100482/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.0/1678541100482/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.0/1678541100482/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.0/1678541100482/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.0/1678541100482/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.0/1678541100482/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.0/1678541100482/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/4.0.0/1678541100482",
+            "fallbackAssetUri": "https://anandabibekray.gallery.vsassets.io/_apis/public/gallery/publisher/AnandaBibekRay/extension/java-project-stup/4.0.0/assetbyname"
+        },
+        {
+            "version": "3.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-03-05T19:03:05.54Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/3.0.0/1678042726091/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/3.0.0/1678042726091/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/3.0.0/1678042726091/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/3.0.0/1678042726091/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/3.0.0/1678042726091/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/3.0.0/1678042726091/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/3.0.0/1678042726091/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/3.0.0/1678042726091/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/3.0.0/1678042726091/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/3.0.0/1678042726091",
+            "fallbackAssetUri": "https://anandabibekray.gallery.vsassets.io/_apis/public/gallery/publisher/AnandaBibekRay/extension/java-project-stup/3.0.0/assetbyname"
+        },
+        {
+            "version": "2.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-02-26T12:04:19.18Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.1.0/1677412776516/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.1.0/1677412776516/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.1.0/1677412776516/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.1.0/1677412776516/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.1.0/1677412776516/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.1.0/1677412776516/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.1.0/1677412776516/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.1.0/1677412776516/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.1.0/1677412776516/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.1.0/1677412776516",
+            "fallbackAssetUri": "https://anandabibekray.gallery.vsassets.io/_apis/public/gallery/publisher/AnandaBibekRay/extension/java-project-stup/2.1.0/assetbyname"
+        },
+        {
+            "version": "2.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-02-20T19:35:49.707Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.0.0/1676921469908/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.0.0/1676921469908/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.0.0/1676921469908/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.0.0/1676921469908/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.0.0/1676921469908/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.0.0/1676921469908/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.0.0/1676921469908/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.0.0/1676921469908/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.0.0/1676921469908/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/2.0.0/1676921469908",
+            "fallbackAssetUri": "https://anandabibekray.gallery.vsassets.io/_apis/public/gallery/publisher/AnandaBibekRay/extension/java-project-stup/2.0.0/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-02-15T19:47:13.753Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.1.0/1676490143492/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.1.0/1676490143492/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.1.0/1676490143492/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.1.0/1676490143492/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.1.0/1676490143492/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.1.0/1676490143492/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.1.0/1676490143492/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.1.0/1676490143492/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.1.0/1676490143492/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.1.0/1676490143492",
+            "fallbackAssetUri": "https://anandabibekray.gallery.vsassets.io/_apis/public/gallery/publisher/AnandaBibekRay/extension/java-project-stup/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-02-12T13:57:34.08Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.0.0/1676209959075/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.0.0/1676209959075/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.0.0/1676209959075/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.0.0/1676209959075/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.0.0/1676209959075/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.0.0/1676209959075/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.0.0/1676209959075/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.0.0/1676209959075/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.0.0/1676209959075/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/anandbibek/vscode-eclipse-new-java-project.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://anandabibekray.gallerycdn.vsassets.io/extensions/anandabibekray/java-project-stup/1.0.0/1676209959075",
+            "fallbackAssetUri": "https://anandabibekray.gallery.vsassets.io/_apis/public/gallery/publisher/AnandaBibekRay/extension/java-project-stup/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "adf",
+        "eclipse",
+        "fusion",
+        "java",
+        "jdeveloper",
+        "jpr",
+        "middleware",
+        "oracle"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 401.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 465.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 19.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

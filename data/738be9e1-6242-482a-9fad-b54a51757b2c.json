@@ -1,0 +1,935 @@
+{
+    "publisher": {
+        "publisherId": "8a40b827-740e-4f1c-9157-c53666c9b085",
+        "publisherName": "EnzoMourany",
+        "displayName": "Enzo Mourany",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "738be9e1-6242-482a-9fad-b54a51757b2c",
+    "extensionName": "css-property-sorter",
+    "displayName": "CSS Property Sorter",
+    "flags": "validated, public",
+    "lastUpdated": "2023-02-21T09:20:21.84Z",
+    "publishedDate": "2023-01-17T22:46:11.173Z",
+    "releaseDate": "2023-01-17T22:46:11.173Z",
+    "shortDescription": "vscode extension that allows to sort css properties in a logical and consistent order",
+    "versions": [
+        {
+            "version": "1.2.3",
+            "flags": "validated",
+            "lastUpdated": "2023-02-21T09:20:21.84Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.3/1676971018491/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.3/1676971018491/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.3/1676971018491/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.3/1676971018491/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.3/1676971018491/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.3/1676971018491/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.3/1676971018491/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.3/1676971018491/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.3/1676971018491/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.3/1676971018491",
+            "fallbackAssetUri": "https://enzomourany.gallery.vsassets.io/_apis/public/gallery/publisher/EnzoMourany/extension/css-property-sorter/1.2.3/assetbyname"
+        },
+        {
+            "version": "1.2.2",
+            "flags": "validated",
+            "lastUpdated": "2023-02-08T10:20:08.617Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.2/1675851291851/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.2/1675851291851/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.2/1675851291851/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.2/1675851291851/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.2/1675851291851/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.2/1675851291851/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.2/1675851291851/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.2/1675851291851/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.2/1675851291851/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.2/1675851291851",
+            "fallbackAssetUri": "https://enzomourany.gallery.vsassets.io/_apis/public/gallery/publisher/EnzoMourany/extension/css-property-sorter/1.2.2/assetbyname"
+        },
+        {
+            "version": "1.2.1",
+            "flags": "validated",
+            "lastUpdated": "2023-01-26T18:29:33.35Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.1/1674757531337/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.1/1674757531337/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.1/1674757531337/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.1/1674757531337/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.1/1674757531337/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.1/1674757531337/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.1/1674757531337/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.1/1674757531337/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.1/1674757531337/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.1/1674757531337",
+            "fallbackAssetUri": "https://enzomourany.gallery.vsassets.io/_apis/public/gallery/publisher/EnzoMourany/extension/css-property-sorter/1.2.1/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-01-20T20:46:45.367Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.0/1674247434174/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.0/1674247434174/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.0/1674247434174/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.0/1674247434174/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.0/1674247434174/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.0/1674247434174/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.0/1674247434174/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.0/1674247434174/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.0/1674247434174/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.2.0/1674247434174",
+            "fallbackAssetUri": "https://enzomourany.gallery.vsassets.io/_apis/public/gallery/publisher/EnzoMourany/extension/css-property-sorter/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.1",
+            "flags": "validated",
+            "lastUpdated": "2023-01-19T10:08:26.41Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.1/1674122656109/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.1/1674122656109/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.1/1674122656109/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.1/1674122656109/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.1/1674122656109/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.1/1674122656109/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.1/1674122656109/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.1/1674122656109/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.1/1674122656109/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.1/1674122656109",
+            "fallbackAssetUri": "https://enzomourany.gallery.vsassets.io/_apis/public/gallery/publisher/EnzoMourany/extension/css-property-sorter/1.1.1/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-01-18T08:03:22.99Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.0/1674028732830/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.0/1674028732830/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.0/1674028732830/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.0/1674028732830/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.0/1674028732830/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.0/1674028732830/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.0/1674028732830/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.0/1674028732830/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.0/1674028732830/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/enzo-mourany/css-property-order.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/enzo-mourany/css-property-order/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/enzo-mourany/css-property-order#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/enzo-mourany/css-property-order.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/enzo-mourany/css-property-order.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.1.0/1674028732830",
+            "fallbackAssetUri": "https://enzomourany.gallery.vsassets.io/_apis/public/gallery/publisher/EnzoMourany/extension/css-property-sorter/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.3",
+            "flags": "validated",
+            "lastUpdated": "2023-01-18T22:32:37.15Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.3/1674080941421/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.3/1674080941421/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.3/1674080941421/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.3/1674080941421/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.3/1674080941421/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.3/1674080941421/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.3/1674080941421/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.3/1674080941421/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.3/1674080941421/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.3/1674080941421",
+            "fallbackAssetUri": "https://enzomourany.gallery.vsassets.io/_apis/public/gallery/publisher/EnzoMourany/extension/css-property-sorter/1.0.3/assetbyname"
+        },
+        {
+            "version": "1.0.2",
+            "flags": "validated",
+            "lastUpdated": "2023-01-18T08:16:00.567Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.2/1674029551960/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.2/1674029551960/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.2/1674029551960/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.2/1674029551960/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.2/1674029551960/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.2/1674029551960/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.2/1674029551960/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.2/1674029551960/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.2/1674029551960/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/enzo-mourany/css-property-sorter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.2/1674029551960",
+            "fallbackAssetUri": "https://enzomourany.gallery.vsassets.io/_apis/public/gallery/publisher/EnzoMourany/extension/css-property-sorter/1.0.2/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-01-17T22:49:57.333Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.0/1673995572846/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.0/1673995572846/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.0/1673995572846/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.0/1673995572846/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.0/1673995572846/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.0/1673995572846/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.0/1673995572846/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.0/1673995572846/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.0/1673995572846/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/enzo-mourany/css-property-order.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/enzo-mourany/css-property-order/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/enzo-mourany/css-property-order#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/enzo-mourany/css-property-order.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/enzo-mourany/css-property-order.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://enzomourany.gallerycdn.vsassets.io/extensions/enzomourany/css-property-sorter/1.0.0/1673995572846",
+            "fallbackAssetUri": "https://enzomourany.gallery.vsassets.io/_apis/public/gallery/publisher/EnzoMourany/extension/css-property-sorter/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Snippets",
+        "Linters",
+        "Keymaps",
+        "Formatters"
+    ],
+    "tags": [
+        "CSS",
+        "order",
+        "organizer",
+        "property",
+        "scss",
+        "sort",
+        "web"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 2346.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 3.75
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 4.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 8.8272921108742
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.5778251599147122
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 133.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.21657480664948
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 39.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

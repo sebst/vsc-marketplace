@@ -1,0 +1,729 @@
+{
+    "publisher": {
+        "publisherId": "3dc2e1f0-b59c-45b0-94bb-2aa81ddced5f",
+        "publisherName": "bgzsrw",
+        "displayName": "bgzsrw",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "a4896564-78ef-4395-8af4-851b5737d682",
+    "extensionName": "backend-resource-json-to-csharp-generator",
+    "displayName": "Csharp Resource Class",
+    "flags": "validated, public",
+    "lastUpdated": "2023-10-19T10:21:08.017Z",
+    "publishedDate": "2023-02-07T19:42:52.28Z",
+    "releaseDate": "2023-02-07T19:42:52.28Z",
+    "shortDescription": "Csharp Resource Class",
+    "versions": [
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-10-19T10:21:08.017Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/1.0.0/1697710655803/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/1.0.0/1697710655803/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/1.0.0/1697710655803/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/1.0.0/1697710655803/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/1.0.0/1697710655803/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/1.0.0/1697710655803/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/1.0.0/1697710655803",
+            "fallbackAssetUri": "https://bgzsrw.gallery.vsassets.io/_apis/public/gallery/publisher/bgzsrw/extension/backend-resource-json-to-csharp-generator/1.0.0/assetbyname"
+        },
+        {
+            "version": "0.0.10",
+            "flags": "validated",
+            "lastUpdated": "2023-07-27T11:34:02.56Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.10/1690457408709/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.10/1690457408709/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.10/1690457408709/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.10/1690457408709/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.10/1690457408709/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.10/1690457408709/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.10/1690457408709",
+            "fallbackAssetUri": "https://bgzsrw.gallery.vsassets.io/_apis/public/gallery/publisher/bgzsrw/extension/backend-resource-json-to-csharp-generator/0.0.10/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2023-07-27T11:30:08.197Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.9/1690457252101/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.9/1690457252101/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.9/1690457252101/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.9/1690457252101/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.9/1690457252101/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.9/1690457252101/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.9/1690457252101",
+            "fallbackAssetUri": "https://bgzsrw.gallery.vsassets.io/_apis/public/gallery/publisher/bgzsrw/extension/backend-resource-json-to-csharp-generator/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2023-07-07T09:07:16.163Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.8/1688720674964/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.8/1688720674964/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.8/1688720674964/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.8/1688720674964/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.8/1688720674964/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.8/1688720674964/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.8/1688720674964",
+            "fallbackAssetUri": "https://bgzsrw.gallery.vsassets.io/_apis/public/gallery/publisher/bgzsrw/extension/backend-resource-json-to-csharp-generator/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2023-07-07T08:58:45.647Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.7/1688719993957/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.7/1688719993957/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.7/1688719993957/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.7/1688719993957/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.7/1688719993957/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.7/1688719993957/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.7/1688719993957",
+            "fallbackAssetUri": "https://bgzsrw.gallery.vsassets.io/_apis/public/gallery/publisher/bgzsrw/extension/backend-resource-json-to-csharp-generator/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2023-02-16T15:14:54.777Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.6/1676560258852/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.6/1676560258852/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.6/1676560258852/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.6/1676560258852/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.6/1676560258852/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.6/1676560258852/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.6/1676560258852",
+            "fallbackAssetUri": "https://bgzsrw.gallery.vsassets.io/_apis/public/gallery/publisher/bgzsrw/extension/backend-resource-json-to-csharp-generator/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2023-02-16T12:55:54.503Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.5/1676551917205/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.5/1676551917205/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.5/1676551917205/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.5/1676551917205/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.5/1676551917205/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.5/1676551917205/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.5/1676551917205",
+            "fallbackAssetUri": "https://bgzsrw.gallery.vsassets.io/_apis/public/gallery/publisher/bgzsrw/extension/backend-resource-json-to-csharp-generator/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2023-02-16T06:44:51.467Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.4/1676529654932/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.4/1676529654932/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.4/1676529654932/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.4/1676529654932/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.4/1676529654932/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.4/1676529654932/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.4/1676529654932",
+            "fallbackAssetUri": "https://bgzsrw.gallery.vsassets.io/_apis/public/gallery/publisher/bgzsrw/extension/backend-resource-json-to-csharp-generator/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2023-02-08T10:58:23.47Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.3/1675853661967/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.3/1675853661967/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.3/1675853661967/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.3/1675853661967/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.3/1675853661967/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.3/1675853661967/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.3/1675853661967",
+            "fallbackAssetUri": "https://bgzsrw.gallery.vsassets.io/_apis/public/gallery/publisher/bgzsrw/extension/backend-resource-json-to-csharp-generator/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2023-02-07T19:56:18.44Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.2/1675799578301/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.2/1675799578301/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.2/1675799578301/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.2/1675799578301/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.2/1675799578301/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.2/1675799578301/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.2/1675799578301",
+            "fallbackAssetUri": "https://bgzsrw.gallery.vsassets.io/_apis/public/gallery/publisher/bgzsrw/extension/backend-resource-json-to-csharp-generator/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-02-07T19:45:48.253Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.1/1675798972843/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.1/1675798972843/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.1/1675798972843/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.1/1675798972843/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.1/1675798972843/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.1/1675798972843/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://bgzsrw.gallerycdn.vsassets.io/extensions/bgzsrw/backend-resource-json-to-csharp-generator/0.0.1/1675798972843",
+            "fallbackAssetUri": "https://bgzsrw.gallery.vsassets.io/_apis/public/gallery/publisher/bgzsrw/extension/backend-resource-json-to-csharp-generator/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 125.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 10.4
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.8
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 98.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 22.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

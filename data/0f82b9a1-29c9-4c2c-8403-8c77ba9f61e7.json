@@ -1,0 +1,529 @@
+{
+    "publisher": {
+        "publisherId": "5e878a60-8731-4136-829c-d311ab72f25f",
+        "publisherName": "fastly",
+        "displayName": "Fastly",
+        "flags": "verified",
+        "domain": "https://www.fastly.com/",
+        "isDomainVerified": true
+    },
+    "extensionId": "0f82b9a1-29c9-4c2c-8403-8c77ba9f61e7",
+    "extensionName": "vscode-fastly-vcl",
+    "displayName": "Fastly Varnish Configuration Language (VCL)",
+    "flags": "validated, public",
+    "lastUpdated": "2023-10-06T12:37:31.39Z",
+    "publishedDate": "2022-10-31T13:36:02.76Z",
+    "releaseDate": "2022-10-31T13:36:02.76Z",
+    "shortDescription": "Fastly Varnish Configuration Language (VCL) language support for Visual Studio Code",
+    "versions": [
+        {
+            "version": "2.0.2",
+            "flags": "validated",
+            "lastUpdated": "2023-10-06T12:37:31.39Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.2/1696595597439/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.2/1696595597439/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.2/1696595597439/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.2/1696595597439/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.2/1696595597439/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.2/1696595597439/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.2/1696595597439/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.2/1696595597439/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.2/1696595597439/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.82.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.2/1696595597439",
+            "fallbackAssetUri": "https://fastly.gallery.vsassets.io/_apis/public/gallery/publisher/fastly/extension/vscode-fastly-vcl/2.0.2/assetbyname"
+        },
+        {
+            "version": "2.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-10-05T08:26:14.437Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.1/1696494187749/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.1/1696494187749/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.1/1696494187749/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.1/1696494187749/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.1/1696494187749/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.1/1696494187749/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.1/1696494187749/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.1/1696494187749/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.1/1696494187749/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.82.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.1/1696494187749",
+            "fallbackAssetUri": "https://fastly.gallery.vsassets.io/_apis/public/gallery/publisher/fastly/extension/vscode-fastly-vcl/2.0.1/assetbyname"
+        },
+        {
+            "version": "2.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-09-22T10:14:25.54Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.0/1695377480126/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.0/1695377480126/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.0/1695377480126/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.0/1695377480126/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.0/1695377480126/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.0/1695377480126/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.0/1695377480126/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.0/1695377480126/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.0/1695377480126/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.82.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/2.0.0/1695377480126",
+            "fallbackAssetUri": "https://fastly.gallery.vsassets.io/_apis/public/gallery/publisher/fastly/extension/vscode-fastly-vcl/2.0.0/assetbyname"
+        },
+        {
+            "version": "1.0.4",
+            "flags": "validated",
+            "lastUpdated": "2022-11-03T14:37:42.897Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.4/1667486113589/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.4/1667486113589/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.4/1667486113589/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.4/1667486113589/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.4/1667486113589/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.4/1667486113589/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.4/1667486113589/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.4/1667486113589/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.4/1667486113589/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.70.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                }
+            ],
+            "assetUri": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.4/1667486113589",
+            "fallbackAssetUri": "https://fastly.gallery.vsassets.io/_apis/public/gallery/publisher/fastly/extension/vscode-fastly-vcl/1.0.4/assetbyname"
+        },
+        {
+            "version": "1.0.3",
+            "flags": "validated",
+            "lastUpdated": "2022-10-31T13:39:20.193Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.3/1667223363199/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.3/1667223363199/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.3/1667223363199/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.3/1667223363199/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.3/1667223363199/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.3/1667223363199/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.3/1667223363199/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.3/1667223363199/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fastly/vscode-fastly-vcl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.70.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                }
+            ],
+            "assetUri": "https://fastly.gallerycdn.vsassets.io/extensions/fastly/vscode-fastly-vcl/1.0.3/1667223363199",
+            "fallbackAssetUri": "https://fastly.gallery.vsassets.io/_apis/public/gallery/publisher/fastly/extension/vscode-fastly-vcl/1.0.3/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages",
+        "Language Packs"
+    ],
+    "tags": [
+        "__ext_vcl",
+        "Fastly VCL",
+        "vcl"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 1627.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 6.2692071296865395
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.4751075599262446
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 1520.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 20.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

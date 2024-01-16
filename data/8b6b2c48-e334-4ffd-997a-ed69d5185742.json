@@ -1,0 +1,913 @@
+{
+    "publisher": {
+        "publisherId": "1caaf417-d96a-4a72-b8fc-366c46ac1778",
+        "publisherName": "MicroProfile-Community",
+        "displayName": "MicroProfile Community",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "8b6b2c48-e334-4ffd-997a-ed69d5185742",
+    "extensionName": "mp-starter-vscode-ext",
+    "displayName": "MicroProfile Starter",
+    "flags": "validated, public, preview",
+    "lastUpdated": "2022-08-24T18:22:40.217Z",
+    "publishedDate": "2019-10-29T17:10:06.973Z",
+    "releaseDate": "2019-10-29T17:10:06.973Z",
+    "shortDescription": "Generate Java microservice Maven projects using MicroProfile",
+    "versions": [
+        {
+            "version": "0.2.9",
+            "flags": "validated",
+            "lastUpdated": "2022-08-24T18:22:40.213Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.9/1661365219862/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.9/1661365219862/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.9/1661365219862/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.9/1661365219862/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.9/1661365219862/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.9/1661365219862/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.9/1661365219862/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.9/1661365219862/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.9/1661365219862/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1d2f42"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.9/1661365219862",
+            "fallbackAssetUri": "https://microprofile-community.gallery.vsassets.io/_apis/public/gallery/publisher/MicroProfile-Community/extension/mp-starter-vscode-ext/0.2.9/assetbyname"
+        },
+        {
+            "version": "0.2.8",
+            "flags": "validated",
+            "lastUpdated": "2022-02-09T16:44:28.813Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.8/1644424932412/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.8/1644424932412/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.8/1644424932412/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.8/1644424932412/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.8/1644424932412/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.8/1644424932412/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.8/1644424932412/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.8/1644424932412/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1d2f42"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.8/1644424932412",
+            "fallbackAssetUri": "https://microprofile-community.gallery.vsassets.io/_apis/public/gallery/publisher/MicroProfile-Community/extension/mp-starter-vscode-ext/0.2.8/assetbyname"
+        },
+        {
+            "version": "0.2.7",
+            "flags": "validated",
+            "lastUpdated": "2021-09-10T18:58:16.91Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.7/1631300160040/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.7/1631300160040/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.7/1631300160040/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.7/1631300160040/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.7/1631300160040/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.7/1631300160040/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.7/1631300160040/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.7/1631300160040/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1d2f42"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.7/1631300160040",
+            "fallbackAssetUri": "https://microprofile-community.gallery.vsassets.io/_apis/public/gallery/publisher/MicroProfile-Community/extension/mp-starter-vscode-ext/0.2.7/assetbyname"
+        },
+        {
+            "version": "0.2.6",
+            "flags": "validated",
+            "lastUpdated": "2021-04-27T20:50:28.007Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.6/1619556489371/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.6/1619556489371/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.6/1619556489371/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.6/1619556489371/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.6/1619556489371/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.6/1619556489371/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.6/1619556489371/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.6/1619556489371/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1d2f42"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.6/1619556489371",
+            "fallbackAssetUri": "https://microprofile-community.gallery.vsassets.io/_apis/public/gallery/publisher/MicroProfile-Community/extension/mp-starter-vscode-ext/0.2.6/assetbyname"
+        },
+        {
+            "version": "0.2.5",
+            "flags": "validated",
+            "lastUpdated": "2020-06-23T14:54:49.37Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.5/1592923826451/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.5/1592923826451/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.5/1592923826451/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.5/1592923826451/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.5/1592923826451/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.5/1592923826451/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.5/1592923826451/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.5/1592923826451/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1d2f42"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.5/1592923826451",
+            "fallbackAssetUri": "https://microprofile-community.gallery.vsassets.io/_apis/public/gallery/publisher/MicroProfile-Community/extension/mp-starter-vscode-ext/0.2.5/assetbyname"
+        },
+        {
+            "version": "0.2.4",
+            "flags": "validated",
+            "lastUpdated": "2020-03-18T18:58:25.83Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.4/1584557764044/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.4/1584557764044/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.4/1584557764044/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.4/1584557764044/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.4/1584557764044/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.4/1584557764044/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.4/1584557764044/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.4/1584557764044/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1d2f42"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.4/1584557764044",
+            "fallbackAssetUri": "https://microprofile-community.gallery.vsassets.io/_apis/public/gallery/publisher/MicroProfile-Community/extension/mp-starter-vscode-ext/0.2.4/assetbyname"
+        },
+        {
+            "version": "0.2.3",
+            "flags": "validated",
+            "lastUpdated": "2020-02-18T21:18:33.26Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.3/1582060565672/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.3/1582060565672/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.3/1582060565672/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.3/1582060565672/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.3/1582060565672/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.3/1582060565672/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.3/1582060565672/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.3/1582060565672/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1d2f42"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.3/1582060565672",
+            "fallbackAssetUri": "https://microprofile-community.gallery.vsassets.io/_apis/public/gallery/publisher/MicroProfile-Community/extension/mp-starter-vscode-ext/0.2.3/assetbyname"
+        },
+        {
+            "version": "0.2.2",
+            "flags": "validated",
+            "lastUpdated": "2020-02-04T15:45:30.48Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.2/1580830993836/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.2/1580830993836/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.2/1580830993836/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.2/1580830993836/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.2/1580830993836/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.2/1580830993836/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.2/1580830993836/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1d2f42"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.2/1580830993836",
+            "fallbackAssetUri": "https://microprofile-community.gallery.vsassets.io/_apis/public/gallery/publisher/MicroProfile-Community/extension/mp-starter-vscode-ext/0.2.2/assetbyname"
+        },
+        {
+            "version": "0.2.1",
+            "flags": "validated",
+            "lastUpdated": "2019-12-18T15:03:38.343Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.1/1576681278878/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.1/1576681278878/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.1/1576681278878/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.1/1576681278878/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.1/1576681278878/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.1/1576681278878/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.1/1576681278878/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.1/1576681278878",
+            "fallbackAssetUri": "https://microprofile-community.gallery.vsassets.io/_apis/public/gallery/publisher/MicroProfile-Community/extension/mp-starter-vscode-ext/0.2.1/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2019-10-29T17:13:04.367Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.0/1572369006976/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.0/1572369006976/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.0/1572369006976/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.0/1572369006976/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.0/1572369006976/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.0/1572369006976/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.0/1572369006976/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MicroShed/mp-starter-vscode-ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://microprofile-community.gallerycdn.vsassets.io/extensions/microprofile-community/mp-starter-vscode-ext/0.2.0/1572369006976",
+            "fallbackAssetUri": "https://microprofile-community.gallery.vsassets.io/_apis/public/gallery/publisher/MicroProfile-Community/extension/mp-starter-vscode-ext/0.2.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages"
+    ],
+    "tags": [
+        "Cloud Native",
+        "Eclipse",
+        "Java",
+        "MicroProfile",
+        "Microservices"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 153362.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0006521668242736493
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.5293312029217072
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.36260475429614897
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 94179.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 157.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

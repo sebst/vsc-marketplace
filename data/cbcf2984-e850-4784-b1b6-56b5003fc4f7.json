@@ -1,0 +1,752 @@
+{
+    "publisher": {
+        "publisherId": "17eb9c68-b546-44fb-bd9c-4e6fb49bf32e",
+        "publisherName": "SantiagoPittella",
+        "displayName": "Santiago Pittella",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "cbcf2984-e850-4784-b1b6-56b5003fc4f7",
+    "extensionName": "FtS",
+    "displayName": "Felt to String",
+    "flags": "validated, public",
+    "lastUpdated": "2023-09-01T00:08:45.377Z",
+    "publishedDate": "2023-08-31T21:31:41.493Z",
+    "releaseDate": "2023-08-31T21:31:41.493Z",
+    "shortDescription": "Converts a Field Element into a string",
+    "versions": [
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-09-01T00:08:45.377Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.1/1693526736147/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.1/1693526736147/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.1/1693526736147/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.1/1693526736147/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.1/1693526736147/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.1/1693526736147/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.1/1693526736147/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.1/1693526736147/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.1/1693526736147/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/SantiagoPittella/FeltToString/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/SantiagoPittella/FeltToString#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.1/1693526736147",
+            "fallbackAssetUri": "https://santiagopittella.gallery.vsassets.io/_apis/public/gallery/publisher/SantiagoPittella/extension/FtS/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-09-01T00:01:39.917Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.0/1693526312434/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.0/1693526312434/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.0/1693526312434/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.0/1693526312434/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.0/1693526312434/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.0/1693526312434/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.0/1693526312434/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.0/1693526312434/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.0/1693526312434/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/SantiagoPittella/FeltToString/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/SantiagoPittella/FeltToString#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/1.0.0/1693526312434",
+            "fallbackAssetUri": "https://santiagopittella.gallery.vsassets.io/_apis/public/gallery/publisher/SantiagoPittella/extension/FtS/1.0.0/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2023-08-31T23:43:00.987Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.6/1693525162005/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.6/1693525162005/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.6/1693525162005/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.6/1693525162005/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.6/1693525162005/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.6/1693525162005/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.6/1693525162005/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/SantiagoPittella/FeltToString/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/SantiagoPittella/FeltToString#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.6/1693525162005",
+            "fallbackAssetUri": "https://santiagopittella.gallery.vsassets.io/_apis/public/gallery/publisher/SantiagoPittella/extension/FtS/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2023-08-31T22:30:39.25Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.5/1693520822452/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.5/1693520822452/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.5/1693520822452/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.5/1693520822452/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.5/1693520822452/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.5/1693520822452/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.5/1693520822452/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/SantiagoPittella/FeltToString/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/SantiagoPittella/FeltToString#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.5/1693520822452",
+            "fallbackAssetUri": "https://santiagopittella.gallery.vsassets.io/_apis/public/gallery/publisher/SantiagoPittella/extension/FtS/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2023-08-31T22:19:02.867Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.4/1693520090879/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.4/1693520090879/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.4/1693520090879/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.4/1693520090879/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.4/1693520090879/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.4/1693520090879/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.4/1693520090879/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/SantiagoPittella/FeltToString/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/SantiagoPittella/FeltToString#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.4/1693520090879",
+            "fallbackAssetUri": "https://santiagopittella.gallery.vsassets.io/_apis/public/gallery/publisher/SantiagoPittella/extension/FtS/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2023-08-31T22:08:27.127Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.3/1693519450303/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.3/1693519450303/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.3/1693519450303/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.3/1693519450303/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.3/1693519450303/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.3/1693519450303/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.3/1693519450303/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/SantiagoPittella/FeltToString/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/SantiagoPittella/FeltToString#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.3/1693519450303",
+            "fallbackAssetUri": "https://santiagopittella.gallery.vsassets.io/_apis/public/gallery/publisher/SantiagoPittella/extension/FtS/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2023-08-31T22:03:04.01Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.2/1693519164957/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.2/1693519164957/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.2/1693519164957/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.2/1693519164957/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.2/1693519164957/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.2/1693519164957/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/SantiagoPittella/FeltToString/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/SantiagoPittella/FeltToString#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/SantiagoPittella/FeltToString.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.2/1693519164957",
+            "fallbackAssetUri": "https://santiagopittella.gallery.vsassets.io/_apis/public/gallery/publisher/SantiagoPittella/extension/FtS/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-08-31T21:34:15.387Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.1/1693517502211/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.1/1693517502211/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.1/1693517502211/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.1/1693517502211/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.1/1693517502211/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.1/1693517502211/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://santiagopittella.gallerycdn.vsassets.io/extensions/santiagopittella/fts/0.0.1/1693517502211",
+            "fallbackAssetUri": "https://santiagopittella.gallery.vsassets.io/_apis/public/gallery/publisher/SantiagoPittella/extension/FtS/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 15.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 9.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 8.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

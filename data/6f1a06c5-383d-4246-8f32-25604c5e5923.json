@@ -1,0 +1,990 @@
+{
+    "publisher": {
+        "publisherId": "64945041-0e26-4ff2-8fc2-5d7cc94a83e9",
+        "publisherName": "CIS4398",
+        "displayName": "CIS4398",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "6f1a06c5-383d-4246-8f32-25604c5e5923",
+    "extensionName": "CRC-CIS4398-Fall2023",
+    "displayName": "Code Review Chatbot",
+    "flags": "validated, public",
+    "lastUpdated": "2023-12-10T18:52:20.57Z",
+    "publishedDate": "2023-12-04T14:10:45.453Z",
+    "releaseDate": "2023-12-04T14:10:45.453Z",
+    "shortDescription": "Use ChatGPT and GPT4 right inside the IDE to enhance and automate your coding with AI-powered assistance",
+    "versions": [
+        {
+            "version": "1.2.2",
+            "flags": "validated",
+            "lastUpdated": "2023-12-10T18:52:20.57Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.2/1702234150171/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.2/1702234150171/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.2/1702234150171/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.2/1702234150171/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.2/1702234150171/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.2/1702234150171/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.2/1702234150171/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.2/1702234150171/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.2/1702234150171",
+            "fallbackAssetUri": "https://cis4398.gallery.vsassets.io/_apis/public/gallery/publisher/CIS4398/extension/CRC-CIS4398-Fall2023/1.2.2/assetbyname"
+        },
+        {
+            "version": "1.2.1",
+            "flags": "validated",
+            "lastUpdated": "2023-12-07T19:25:49.403Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.1/1701976961881/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.1/1701976961881/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.1/1701976961881/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.1/1701976961881/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.1/1701976961881/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.1/1701976961881/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.1/1701976961881/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.1/1701976961881/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.1/1701976961881",
+            "fallbackAssetUri": "https://cis4398.gallery.vsassets.io/_apis/public/gallery/publisher/CIS4398/extension/CRC-CIS4398-Fall2023/1.2.1/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-07T18:55:09.99Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.0/1701975081760/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.0/1701975081760/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.0/1701975081760/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.0/1701975081760/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.0/1701975081760/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.0/1701975081760/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.0/1701975081760/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.0/1701975081760/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.2.0/1701975081760",
+            "fallbackAssetUri": "https://cis4398.gallery.vsassets.io/_apis/public/gallery/publisher/CIS4398/extension/CRC-CIS4398-Fall2023/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.9",
+            "flags": "validated",
+            "lastUpdated": "2023-12-05T19:52:09.743Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.9/1701805733262/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.9/1701805733262/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.9/1701805733262/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.9/1701805733262/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.9/1701805733262/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.9/1701805733262/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.9/1701805733262/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.9/1701805733262/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.9/1701805733262",
+            "fallbackAssetUri": "https://cis4398.gallery.vsassets.io/_apis/public/gallery/publisher/CIS4398/extension/CRC-CIS4398-Fall2023/1.1.9/assetbyname"
+        },
+        {
+            "version": "1.1.8",
+            "flags": "validated",
+            "lastUpdated": "2023-12-05T14:05:22.57Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.8/1701784893019/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.8/1701784893019/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.8/1701784893019/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.8/1701784893019/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.8/1701784893019/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.8/1701784893019/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.8/1701784893019/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.8/1701784893019/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.8/1701784893019",
+            "fallbackAssetUri": "https://cis4398.gallery.vsassets.io/_apis/public/gallery/publisher/CIS4398/extension/CRC-CIS4398-Fall2023/1.1.8/assetbyname"
+        },
+        {
+            "version": "1.1.6",
+            "flags": "validated",
+            "lastUpdated": "2023-12-05T13:16:11.393Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.6/1701782011940/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.6/1701782011940/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.6/1701782011940/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.6/1701782011940/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.6/1701782011940/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.6/1701782011940/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.6/1701782011940/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.6/1701782011940/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.6/1701782011940",
+            "fallbackAssetUri": "https://cis4398.gallery.vsassets.io/_apis/public/gallery/publisher/CIS4398/extension/CRC-CIS4398-Fall2023/1.1.6/assetbyname"
+        },
+        {
+            "version": "1.1.5",
+            "flags": "validated",
+            "lastUpdated": "2023-12-05T03:55:24.223Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.5/1701748298350/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.5/1701748298350/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.5/1701748298350/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.5/1701748298350/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.5/1701748298350/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.5/1701748298350/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.5/1701748298350/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.5/1701748298350/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.5/1701748298350",
+            "fallbackAssetUri": "https://cis4398.gallery.vsassets.io/_apis/public/gallery/publisher/CIS4398/extension/CRC-CIS4398-Fall2023/1.1.5/assetbyname"
+        },
+        {
+            "version": "1.1.4",
+            "flags": "validated",
+            "lastUpdated": "2023-12-04T16:52:19.72Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.4/1701708540913/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.4/1701708540913/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.4/1701708540913/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.4/1701708540913/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.4/1701708540913/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.4/1701708540913/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.4/1701708540913/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.4/1701708540913/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.4/1701708540913",
+            "fallbackAssetUri": "https://cis4398.gallery.vsassets.io/_apis/public/gallery/publisher/CIS4398/extension/CRC-CIS4398-Fall2023/1.1.4/assetbyname"
+        },
+        {
+            "version": "1.1.3",
+            "flags": "validated",
+            "lastUpdated": "2023-12-04T16:42:22.713Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.3/1701707892126/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.3/1701707892126/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.3/1701707892126/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.3/1701707892126/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.3/1701707892126/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.3/1701707892126/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.3/1701707892126/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.3/1701707892126/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.3/1701707892126",
+            "fallbackAssetUri": "https://cis4398.gallery.vsassets.io/_apis/public/gallery/publisher/CIS4398/extension/CRC-CIS4398-Fall2023/1.1.3/assetbyname"
+        },
+        {
+            "version": "1.1.2",
+            "flags": "validated",
+            "lastUpdated": "2023-12-04T14:13:57.593Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.2/1701699046547/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.2/1701699046547/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.2/1701699046547/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.2/1701699046547/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.2/1701699046547/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.2/1701699046547/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.2/1701699046547/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.2/1701699046547/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Capstone-Projects-2023-Fall/project-code-review-chatbot.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.73.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://cis4398.gallerycdn.vsassets.io/extensions/cis4398/crc-cis4398-fall2023/1.1.2/1701699046547",
+            "fallbackAssetUri": "https://cis4398.gallery.vsassets.io/_apis/public/gallery/publisher/CIS4398/extension/CRC-CIS4398-Fall2023/1.1.2/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "ai",
+        "chatgpt",
+        "copilot",
+        "explain",
+        "find bugs",
+        "gpt3",
+        "gpt4",
+        "keybindings",
+        "openai",
+        "refactor"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 170.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 53.293413173652695
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 9.580838323353294
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 43.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 21.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

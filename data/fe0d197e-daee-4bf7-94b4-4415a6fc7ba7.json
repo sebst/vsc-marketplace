@@ -1,0 +1,1604 @@
+{
+    "publisher": {
+        "publisherId": "128db666-746a-4243-bc4e-eea3e29af7a7",
+        "publisherName": "imgildev",
+        "displayName": "Manuel Gil",
+        "flags": "verified",
+        "domain": "https://imgil.dev/",
+        "isDomainVerified": true
+    },
+    "extensionId": "fe0d197e-daee-4bf7-94b4-4415a6fc7ba7",
+    "extensionName": "vscode-nextjs-generator",
+    "displayName": "T3 Stack / NextJS / ReactJS File Generator",
+    "flags": "validated, public",
+    "lastUpdated": "2024-01-14T13:34:10.257Z",
+    "publishedDate": "2023-12-14T16:14:22.163Z",
+    "releaseDate": "2023-12-14T16:14:22.163Z",
+    "shortDescription": "\u269b VSCode extension to generate files for T3 Stack project. It includes NextJS, ReactJS, Prisma, TailwindCSS, i18next, and more.",
+    "versions": [
+        {
+            "version": "1.3.0",
+            "flags": "validated",
+            "lastUpdated": "2024-01-14T13:34:10.253Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.3.0/1705238993991/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.3.0/1705238993991/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.3.0/1705238993991/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.3.0/1705238993991/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.3.0/1705238993991/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.3.0/1705238993991/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.3.0/1705238993991/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.3.0/1705238993991/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.3.0/1705238993991/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#52137b"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.3.0/1705238993991",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nextjs-generator/1.3.0/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2024-01-08T21:25:15.527Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.2.0/1704748863310/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.2.0/1704748863310/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.2.0/1704748863310/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.2.0/1704748863310/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.2.0/1704748863310/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.2.0/1704748863310/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.2.0/1704748863310/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.2.0/1704748863310/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.2.0/1704748863310/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#52137b"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.2.0/1704748863310",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nextjs-generator/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.1",
+            "flags": "validated",
+            "lastUpdated": "2023-12-28T22:42:25.953Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.1/1703803128676/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.1/1703803128676/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.1/1703803128676/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.1/1703803128676/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.1/1703803128676/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.1/1703803128676/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.1/1703803128676/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.1/1703803128676/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.1/1703803128676/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#52137b"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.1/1703803128676",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nextjs-generator/1.1.1/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-27T02:57:28.637Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.0/1703645618136/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.0/1703645618136/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.0/1703645618136/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.0/1703645618136/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.0/1703645618136/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.0/1703645618136/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.0/1703645618136/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.0/1703645618136/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.0/1703645618136/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#52137b"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.1.0/1703645618136",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nextjs-generator/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.2",
+            "flags": "validated",
+            "lastUpdated": "2023-12-26T17:15:08.243Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.2/1703610710950/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.2/1703610710950/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.2/1703610710950/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.2/1703610710950/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.2/1703610710950/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.2/1703610710950/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.2/1703610710950/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.2/1703610710950/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.2/1703610710950/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#52137b"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.2/1703610710950",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nextjs-generator/1.0.2/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-12-25T04:19:26.673Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.1/1703477761473/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.1/1703477761473/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.1/1703477761473/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.1/1703477761473/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.1/1703477761473/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.1/1703477761473/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.1/1703477761473/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.1/1703477761473/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.1/1703477761473/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#52137b"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.1/1703477761473",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nextjs-generator/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-25T03:55:52.93Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.0/1703476344844/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.0/1703476344844/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.0/1703476344844/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.0/1703476344844/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.0/1703476344844/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.0/1703476344844/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.0/1703476344844/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.0/1703476344844/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.0/1703476344844/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#52137b"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/1.0.0/1703476344844",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nextjs-generator/1.0.0/assetbyname"
+        },
+        {
+            "version": "0.5.1",
+            "flags": "validated",
+            "lastUpdated": "2023-12-19T17:57:24.137Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.1/1703008357384/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.1/1703008357384/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.1/1703008357384/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.1/1703008357384/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.1/1703008357384/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.1/1703008357384/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.1/1703008357384/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.1/1703008357384/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.1/1703008357384/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#52137b"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.1/1703008357384",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nextjs-generator/0.5.1/assetbyname"
+        },
+        {
+            "version": "0.5.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-19T15:26:00.683Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.0/1702999335776/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.0/1702999335776/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.0/1702999335776/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.0/1702999335776/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.0/1702999335776/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.0/1702999335776/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.0/1702999335776/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.0/1702999335776/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.0/1702999335776/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#52137b"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.5.0/1702999335776",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nextjs-generator/0.5.0/assetbyname"
+        },
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-18T01:21:47.79Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.4.0/1702862342728/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.4.0/1702862342728/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.4.0/1702862342728/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.4.0/1702862342728/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.4.0/1702862342728/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.4.0/1702862342728/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.4.0/1702862342728/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.4.0/1702862342728/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.4.0/1702862342728/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#52137b"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.4.0/1702862342728",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nextjs-generator/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-17T02:48:57.42Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.3.0/1702781167672/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.3.0/1702781167672/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.3.0/1702781167672/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.3.0/1702781167672/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.3.0/1702781167672/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.3.0/1702781167672/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.3.0/1702781167672/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.3.0/1702781167672/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.3.0/1702781167672/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#52137b"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.3.0/1702781167672",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nextjs-generator/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-16T00:48:26.67Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.2.0/1702687508987/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.2.0/1702687508987/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.2.0/1702687508987/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.2.0/1702687508987/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.2.0/1702687508987/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.2.0/1702687508987/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.2.0/1702687508987/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.2.0/1702687508987/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.2.0/1702687508987/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#52137b"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.2.0/1702687508987",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nextjs-generator/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-14T16:18:08.983Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.1.0/1702570463194/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.1.0/1702570463194/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.1.0/1702570463194/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.1.0/1702570463194/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.1.0/1702570463194/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.1.0/1702570463194/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.1.0/1702570463194/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.1.0/1702570463194/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.1.0/1702570463194/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#52137b"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ManuelGil/vscode-nextjs-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/manuelgil"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://imgildev.gallerycdn.vsassets.io/extensions/imgildev/vscode-nextjs-generator/0.1.0/1702570463194",
+            "fallbackAssetUri": "https://imgildev.gallery.vsassets.io/_apis/public/gallery/publisher/imgildev/extension/vscode-nextjs-generator/0.1.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "tags": [
+        "__sponsor_extension",
+        "api",
+        "auth",
+        "boilerplate",
+        "bun",
+        "bundler",
+        "cli",
+        "code",
+        "code generator",
+        "command",
+        "component",
+        "create",
+        "create-next",
+        "create-next-app",
+        "create-nextjs",
+        "create-nextjs-app",
+        "create-nextjs-project",
+        "create-t3",
+        "create-t3-app",
+        "create-t3-project",
+        "css",
+        "custom",
+        "customizable",
+        "db",
+        "deploy",
+        "dev",
+        "development",
+        "extension",
+        "file",
+        "file-generator",
+        "files",
+        "folder",
+        "framework",
+        "fullstack",
+        "generator",
+        "git",
+        "github",
+        "html",
+        "i18n",
+        "i18next",
+        "init",
+        "interface",
+        "interfaces",
+        "javascript",
+        "js",
+        "json",
+        "jsx",
+        "language",
+        "layout",
+        "loading",
+        "migrate",
+        "migration",
+        "module",
+        "modules",
+        "next",
+        "next 13",
+        "next 14",
+        "next auth",
+        "nextauth",
+        "next-auth",
+        "nextjs",
+        "nextjs 13",
+        "nextjs 14",
+        "nextjs13",
+        "nextjs-13",
+        "nextjs14",
+        "nextjs-14",
+        "nextjsfile",
+        "nextjs-file",
+        "nextjsfilegenerator",
+        "nextjs-file-generator",
+        "nextjsgenerator",
+        "nextjs-generator",
+        "nextjsproject",
+        "node",
+        "nodejs",
+        "npm",
+        "orm",
+        "page",
+        "pages",
+        "pnpm",
+        "prisma",
+        "prisma cli",
+        "prisma db",
+        "prisma migrate",
+        "prisma studio",
+        "prismacli",
+        "prismadb",
+        "prismamigrate",
+        "prisma-orm",
+        "prismastudio",
+        "project",
+        "react",
+        "react 16",
+        "react 17",
+        "reactjs",
+        "reactjs16",
+        "reactjs17",
+        "reactjsfile",
+        "reactjsfilegenerator",
+        "reactjsgenerator",
+        "reactjsproject",
+        "schema",
+        "schema.prisma",
+        "schemas",
+        "schematics",
+        "seed",
+        "server",
+        "snippet",
+        "snippets",
+        "stack",
+        "start",
+        "starter",
+        "starter kit",
+        "starterkit",
+        "starter-kit",
+        "t3",
+        "t3 stack",
+        "t3stack",
+        "t3-stack",
+        "tailwind",
+        "tailwind css",
+        "tailwindcss",
+        "tailwind-css",
+        "template",
+        "terminal",
+        "test",
+        "testing",
+        "tool",
+        "tools",
+        "trpc",
+        "ts",
+        "tsx",
+        "turbo",
+        "turbo-mode",
+        "typescript",
+        "vercel",
+        "vscode",
+        "vscode extension",
+        "vscode-extension",
+        "yarn",
+        "zod"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 1053.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 96.5484180249281
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 24.35282837967402
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 1386.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 43.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

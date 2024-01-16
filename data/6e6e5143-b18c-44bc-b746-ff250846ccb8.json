@@ -1,0 +1,1908 @@
+{
+    "publisher": {
+        "publisherId": "914dce0e-191f-4d47-91a8-9392ec84c4ef",
+        "publisherName": "TimHeuer",
+        "displayName": "Tim Heuer",
+        "flags": "verified",
+        "domain": "https://timheuer.com",
+        "isDomainVerified": true
+    },
+    "extensionId": "6e6e5143-b18c-44bc-b746-ff250846ccb8",
+    "extensionName": "dotnet-containerizer",
+    "displayName": ".NET Containerizer",
+    "flags": "validated, public, preview",
+    "lastUpdated": "2023-12-09T06:35:03.847Z",
+    "publishedDate": "2022-10-22T01:48:55.733Z",
+    "releaseDate": "2022-10-22T01:48:55.733Z",
+    "shortDescription": "Takes a single .NET project and creates an OCS-compliant container image and pushes to a registry.",
+    "versions": [
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-09T06:35:03.847Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.1.0/1702103487439/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.1.0/1702103487439/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.1.0/1702103487439/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.1.0/1702103487439/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.1.0/1702103487439/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.1.0/1702103487439/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.1.0/1702103487439/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.1.0/1702103487439/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.1.0/1702103487439/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.1.0/1702103487439",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.22",
+            "flags": "validated",
+            "lastUpdated": "2023-05-05T00:05:42.72Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.22/1683244946847/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.22/1683244946847/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.22/1683244946847/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.22/1683244946847/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.22/1683244946847/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.22/1683244946847/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.22/1683244946847/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.22/1683244946847/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.22/1683244946847/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.22/1683244946847",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.22/assetbyname"
+        },
+        {
+            "version": "0.0.21",
+            "flags": "validated",
+            "lastUpdated": "2023-05-05T00:05:07.513Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.21/1683244912626/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.21/1683244912626/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.21/1683244912626/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.21/1683244912626/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.21/1683244912626/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.21/1683244912626/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.21/1683244912626/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.21/1683244912626/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.21/1683244912626/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.21/1683244912626",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.21/assetbyname"
+        },
+        {
+            "version": "0.0.20",
+            "flags": "validated",
+            "lastUpdated": "2023-02-02T20:29:24.54Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.20/1675369576917/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.20/1675369576917/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.20/1675369576917/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.20/1675369576917/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.20/1675369576917/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.20/1675369576917/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.20/1675369576917/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.20/1675369576917/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.20/1675369576917/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.20/1675369576917",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.20/assetbyname"
+        },
+        {
+            "version": "0.0.19",
+            "flags": "none",
+            "lastUpdated": "2023-02-02T20:07:21.76Z",
+            "validationResultMessage": "Repository signing for extension file failed. Please retry the submission or contact VSMarketplace@microsoft.com.",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.19/1675368441426/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.19/1675368441426/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.19/1675368441426/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.19/1675368441426/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.19/1675368441426",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.19/assetbyname"
+        },
+        {
+            "version": "0.0.18",
+            "flags": "validated",
+            "lastUpdated": "2023-02-01T04:36:09.35Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.18/1675225923287/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.18/1675225923287/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.18/1675225923287/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.18/1675225923287/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.18/1675225923287/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.18/1675225923287/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.18/1675225923287/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.18/1675225923287/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.18/1675225923287/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.18/1675225923287",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.18/assetbyname"
+        },
+        {
+            "version": "0.0.17",
+            "flags": "validated",
+            "lastUpdated": "2023-02-01T04:24:15.297Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.17/1675225217893/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.17/1675225217893/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.17/1675225217893/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.17/1675225217893/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.17/1675225217893/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.17/1675225217893/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.17/1675225217893/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.17/1675225217893/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.17/1675225217893/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.17/1675225217893",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.17/assetbyname"
+        },
+        {
+            "version": "0.0.16",
+            "flags": "validated",
+            "lastUpdated": "2023-02-01T03:54:47.02Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.16/1675223522496/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.16/1675223522496/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.16/1675223522496/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.16/1675223522496/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.16/1675223522496/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.16/1675223522496/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.16/1675223522496/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.16/1675223522496/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.16/1675223522496/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.16/1675223522496",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.16/assetbyname"
+        },
+        {
+            "version": "0.0.15",
+            "flags": "validated",
+            "lastUpdated": "2022-11-05T03:10:23.923Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.15/1667617687522/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.15/1667617687522/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.15/1667617687522/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.15/1667617687522/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.15/1667617687522/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.15/1667617687522/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.15/1667617687522/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.15/1667617687522/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.15/1667617687522",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.15/assetbyname"
+        },
+        {
+            "version": "0.0.14",
+            "flags": "validated",
+            "lastUpdated": "2022-10-25T16:26:20.647Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.14/1666715044115/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.14/1666715044115/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.14/1666715044115/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.14/1666715044115/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.14/1666715044115/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.14/1666715044115/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.14/1666715044115/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.14/1666715044115/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.14/1666715044115",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.14/assetbyname"
+        },
+        {
+            "version": "0.0.13",
+            "flags": "validated",
+            "lastUpdated": "2022-10-24T23:50:23.27Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.13/1666655286795/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.13/1666655286795/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.13/1666655286795/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.13/1666655286795/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.13/1666655286795/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.13/1666655286795/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.13/1666655286795/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.13/1666655286795/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.13/1666655286795",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.13/assetbyname"
+        },
+        {
+            "version": "0.0.12",
+            "flags": "validated",
+            "lastUpdated": "2022-10-24T23:10:24.17Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.12/1666652887323/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.12/1666652887323/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.12/1666652887323/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.12/1666652887323/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.12/1666652887323/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.12/1666652887323/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.12/1666652887323/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.12/1666652887323/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.12/1666652887323",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.12/assetbyname"
+        },
+        {
+            "version": "0.0.10",
+            "flags": "validated",
+            "lastUpdated": "2022-10-24T19:15:19.037Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.10/1666638781346/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.10/1666638781346/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.10/1666638781346/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.10/1666638781346/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.10/1666638781346/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.10/1666638781346/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.10/1666638781346/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.10/1666638781346/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.10/1666638781346",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.10/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2022-10-24T19:05:32.643Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.9/1666638195124/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.9/1666638195124/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.9/1666638195124/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.9/1666638195124/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.9/1666638195124/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.9/1666638195124/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.9/1666638195124/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.9/1666638195124/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.9/1666638195124",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2022-10-24T18:43:29.047Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.8/1666636871384/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.8/1666636871384/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.8/1666636871384/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.8/1666636871384/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.8/1666636871384/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.8/1666636871384/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.8/1666636871384/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.8/1666636871384/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.8/1666636871384",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2022-10-24T18:18:53.43Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.7/1666635396772/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.7/1666635396772/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.7/1666635396772/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.7/1666635396772/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.7/1666635396772/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.7/1666635396772/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.7/1666635396772/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.7/1666635396772/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.7/1666635396772",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2022-10-24T18:08:37.857Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.6/1666634781111/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.6/1666634781111/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.6/1666634781111/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.6/1666634781111/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.6/1666634781111/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.6/1666634781111/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.6/1666634781111/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.6/1666634781111/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.6/1666634781111",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2022-10-24T17:01:42.423Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.5/1666630766005/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.5/1666630766005/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.5/1666630766005/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.5/1666630766005/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.5/1666630766005/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.5/1666630766005/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.5/1666630766005/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.5/1666630766005/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.5/1666630766005",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2022-10-22T02:03:51.527Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.4/1666404094128/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.4/1666404094128/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.4/1666404094128/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.4/1666404094128/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.4/1666404094128/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.4/1666404094128/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.4/1666404094128/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.4/1666404094128/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.4/1666404094128",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2022-10-22T01:51:13.633Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.2/1666403336343/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.2/1666403336343/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.2/1666403336343/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.2/1666403336343/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.2/1666403336343/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.2/1666403336343/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.2/1666403336343/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.2/1666403336343/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/timheuer/containerize/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/timheuer/containerize#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/timheuer/containerize.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://timheuer.gallerycdn.vsassets.io/extensions/timheuer/dotnet-containerizer/0.0.2/1666403336343",
+            "fallbackAssetUri": "https://timheuer.gallery.vsassets.io/_apis/public/gallery/publisher/TimHeuer/extension/dotnet-containerizer/0.0.2/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "csharp"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 588.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 4.761904761904762
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.1904761904761905
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 254.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 30.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

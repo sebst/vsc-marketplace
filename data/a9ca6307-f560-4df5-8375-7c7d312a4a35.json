@@ -1,0 +1,2355 @@
+{
+    "publisher": {
+        "publisherId": "7f68a181-dfd0-4032-b443-90e3452195b2",
+        "publisherName": "carlos-algms",
+        "displayName": "carlos-algms",
+        "flags": "verified",
+        "domain": "https://gomescarlos.com",
+        "isDomainVerified": true
+    },
+    "extensionId": "a9ca6307-f560-4df5-8375-7c7d312a4a35",
+    "extensionName": "make-task-provider",
+    "displayName": "Make support and task provider",
+    "flags": "validated, public",
+    "lastUpdated": "2023-04-07T11:16:14.1Z",
+    "publishedDate": "2020-10-21T14:47:03.083Z",
+    "releaseDate": "2020-10-21T14:47:03.083Z",
+    "shortDescription": "Extension to run Makefile tasks from VS Code",
+    "versions": [
+        {
+            "version": "2.5.0",
+            "flags": "validated",
+            "lastUpdated": "2023-04-07T11:16:14.1Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.5.0/1680865932902/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.5.0/1680865932902/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.5.0/1680865932902/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.5.0/1680865932902/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.5.0/1680865932902/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.5.0/1680865932902/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.5.0/1680865932902/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.5.0/1680865932902/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.5.0/1680865932902/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.70.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.5.0/1680865932902",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/2.5.0/assetbyname"
+        },
+        {
+            "version": "2.4.2",
+            "flags": "validated",
+            "lastUpdated": "2022-11-06T15:20:39.603Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.2/1667747903904/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.2/1667747903904/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.2/1667747903904/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.2/1667747903904/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.2/1667747903904/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.2/1667747903904/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.2/1667747903904/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.2/1667747903904/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.2/1667747903904/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.2/1667747903904",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/2.4.2/assetbyname"
+        },
+        {
+            "version": "2.4.1",
+            "flags": "validated",
+            "lastUpdated": "2022-06-16T15:14:48.327Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.1/1655392348780/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.1/1655392348780/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.1/1655392348780/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.1/1655392348780/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.1/1655392348780/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.1/1655392348780/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.1/1655392348780/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.1/1655392348780/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.1/1655392348780",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/2.4.1/assetbyname"
+        },
+        {
+            "version": "2.4.0",
+            "flags": "validated",
+            "lastUpdated": "2022-06-16T14:19:08.637Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.0/1655389009343/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.0/1655389009343/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.0/1655389009343/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.0/1655389009343/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.0/1655389009343/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.0/1655389009343/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.0/1655389009343/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.0/1655389009343/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.4.0/1655389009343",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/2.4.0/assetbyname"
+        },
+        {
+            "version": "2.3.0",
+            "flags": "validated",
+            "lastUpdated": "2022-05-11T15:11:50.53Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.3.0/1652281770942/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.3.0/1652281770942/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.3.0/1652281770942/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.3.0/1652281770942/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.3.0/1652281770942/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.3.0/1652281770942/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.3.0/1652281770942/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.3.0/1652281770942/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.3.0/1652281770942",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/2.3.0/assetbyname"
+        },
+        {
+            "version": "2.2.3",
+            "flags": "validated",
+            "lastUpdated": "2022-02-21T16:53:00.12Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.3/1645462242044/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.3/1645462242044/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.3/1645462242044/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.3/1645462242044/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.3/1645462242044/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.3/1645462242044/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.3/1645462242044/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.3/1645462242044/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.60.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.3/1645462242044",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/2.2.3/assetbyname"
+        },
+        {
+            "version": "2.2.1",
+            "flags": "validated",
+            "lastUpdated": "2022-02-14T19:16:23.013Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.1/1644866045508/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.1/1644866045508/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.1/1644866045508/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.1/1644866045508/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.1/1644866045508/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.1/1644866045508/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.1/1644866045508/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.1/1644866045508/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.1/1644866045508",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/2.2.1/assetbyname"
+        },
+        {
+            "version": "2.2.0",
+            "flags": "validated",
+            "lastUpdated": "2022-02-14T17:29:52.147Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.0/1644859653588/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.0/1644859653588/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.0/1644859653588/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.0/1644859653588/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.0/1644859653588/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.0/1644859653588/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.0/1644859653588/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.0/1644859653588/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.2.0/1644859653588",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/2.2.0/assetbyname"
+        },
+        {
+            "version": "2.1.1",
+            "flags": "validated",
+            "lastUpdated": "2021-11-08T19:47:34.797Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.1/1636400717929/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.1/1636400717929/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.1/1636400717929/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.1/1636400717929/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.1/1636400717929/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.1/1636400717929/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.1/1636400717929/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.1/1636400717929/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.1/1636400717929",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/2.1.1/assetbyname"
+        },
+        {
+            "version": "2.1.0",
+            "flags": "validated",
+            "lastUpdated": "2021-08-16T20:09:55.837Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.0/1629144458408/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.0/1629144458408/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.0/1629144458408/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.0/1629144458408/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.0/1629144458408/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.0/1629144458408/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.0/1629144458408/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.0/1629144458408/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.1.0/1629144458408",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/2.1.0/assetbyname"
+        },
+        {
+            "version": "2.0.2",
+            "flags": "validated",
+            "lastUpdated": "2021-08-09T15:41:51.067Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.2/1628523572893/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.2/1628523572893/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.2/1628523572893/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.2/1628523572893/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.2/1628523572893/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.2/1628523572893/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.2/1628523572893/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.2/1628523572893/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.2/1628523572893",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/2.0.2/assetbyname"
+        },
+        {
+            "version": "2.0.1",
+            "flags": "validated",
+            "lastUpdated": "2021-08-09T14:18:48.11Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.1/1628518587773/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.1/1628518587773/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.1/1628518587773/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.1/1628518587773/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.1/1628518587773/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.1/1628518587773/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.1/1628518587773/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.1/1628518587773/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/2.0.1/1628518587773",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/2.0.1/assetbyname"
+        },
+        {
+            "version": "1.5.0",
+            "flags": "validated",
+            "lastUpdated": "2021-08-02T14:38:12.91Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.5.0/1627914955867/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.5.0/1627914955867/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.5.0/1627914955867/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.5.0/1627914955867/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.5.0/1627914955867/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.5.0/1627914955867/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.5.0/1627914955867/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.5.0/1627914955867/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.5.0/1627914955867",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.5.0/assetbyname"
+        },
+        {
+            "version": "1.4.2",
+            "flags": "validated",
+            "lastUpdated": "2021-02-22T14:29:44.243Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.2/1614004046159/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.2/1614004046159/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.2/1614004046159/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.2/1614004046159/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.2/1614004046159/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.2/1614004046159/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.2/1614004046159/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.2/1614004046159/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.2/1614004046159",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.4.2/assetbyname"
+        },
+        {
+            "version": "1.4.1",
+            "flags": "validated",
+            "lastUpdated": "2021-02-04T14:58:41.32Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.1/1612450582490/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.1/1612450582490/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.1/1612450582490/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.1/1612450582490/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.1/1612450582490/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.1/1612450582490/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.1/1612450582490/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.1/1612450582490/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.1/1612450582490",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.4.1/assetbyname"
+        },
+        {
+            "version": "1.4.0",
+            "flags": "validated",
+            "lastUpdated": "2021-01-31T21:46:32.87Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.0/1612129451435/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.0/1612129451435/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.0/1612129451435/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.0/1612129451435/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.0/1612129451435/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.0/1612129451435/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.0/1612129451435/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.0/1612129451435/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.4.0/1612129451435",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.4.0/assetbyname"
+        },
+        {
+            "version": "1.3.1",
+            "flags": "validated",
+            "lastUpdated": "2021-01-29T18:31:28.92Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.1/1611944949635/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.1/1611944949635/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.1/1611944949635/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.1/1611944949635/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.1/1611944949635/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.1/1611944949635/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.1/1611944949635/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.1/1611944949635/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.1/1611944949635",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.3.1/assetbyname"
+        },
+        {
+            "version": "1.3.0",
+            "flags": "validated",
+            "lastUpdated": "2021-01-28T19:06:16.557Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.0/1611860634703/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.0/1611860634703/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.0/1611860634703/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.0/1611860634703/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.0/1611860634703/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.0/1611860634703/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.0/1611860634703/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.0/1611860634703/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.3.0/1611860634703",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.3.0/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2021-01-26T20:34:35.17Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.2.0/1611693131030/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.2.0/1611693131030/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.2.0/1611693131030/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.2.0/1611693131030/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.2.0/1611693131030/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.2.0/1611693131030/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.2.0/1611693131030/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.2.0/1611693131030/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.2.0/1611693131030",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.3",
+            "flags": "validated",
+            "lastUpdated": "2020-11-05T17:15:38.84Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.3/1604596400891/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.3/1604596400891/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.3/1604596400891/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.3/1604596400891/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.3/1604596400891/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.3/1604596400891/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.3/1604596400891/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.3/1604596400891/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.3/1604596400891",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.1.3/assetbyname"
+        },
+        {
+            "version": "1.1.2",
+            "flags": "validated",
+            "lastUpdated": "2020-11-04T15:32:19.97Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.2/1604503800800/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.2/1604503800800/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.2/1604503800800/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.2/1604503800800/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.2/1604503800800/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.2/1604503800800/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.2/1604503800800/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.2/1604503800800/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.2/1604503800800",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.1.2/assetbyname"
+        },
+        {
+            "version": "1.1.1",
+            "flags": "validated",
+            "lastUpdated": "2020-10-30T17:31:24.723Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.1/1604078947176/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.1/1604078947176/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.1/1604078947176/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.1/1604078947176/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.1/1604078947176/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.1/1604078947176/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.1/1604078947176/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.1/1604078947176/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.1/1604078947176",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.1.1/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2020-10-30T16:42:19.883Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.0/1604075984405/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.0/1604075984405/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.0/1604075984405/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.0/1604075984405/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.0/1604075984405/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.0/1604075984405/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.0/1604075984405/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.0/1604075984405/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.1.0/1604075984405",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.4",
+            "flags": "validated",
+            "lastUpdated": "2020-10-21T19:06:45.953Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.4/1603307068665/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.4/1603307068665/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.4/1603307068665/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.4/1603307068665/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.4/1603307068665/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.4/1603307068665/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.4/1603307068665/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.4/1603307068665/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.4/1603307068665",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.0.4/assetbyname"
+        },
+        {
+            "version": "1.0.3",
+            "flags": "validated",
+            "lastUpdated": "2020-10-21T15:39:13.89Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.3/1603294615787/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.3/1603294615787/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.3/1603294615787/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.3/1603294615787/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.3/1603294615787/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.3/1603294615787/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.3/1603294615787/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.3/1603294615787",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.0.3/assetbyname"
+        },
+        {
+            "version": "1.0.2",
+            "flags": "validated",
+            "lastUpdated": "2020-10-21T15:13:49.573Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.2/1603293091635/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.2/1603293091635/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.2/1603293091635/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.2/1603293091635/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.2/1603293091635/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.2/1603293091635/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.2/1603293091635/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.2/1603293091635",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.0.2/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2020-10-21T14:54:09.673Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.1/1603291912017/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.1/1603291912017/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.1/1603291912017/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.1/1603291912017/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.1/1603291912017/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.1/1603291912017/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.1/1603291912017/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/vscode-make-task-provider"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.1/1603291912017",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2020-10-21T14:49:20.763Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.0/1603291623089/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.0/1603291623089/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.0/1603291623089/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.0/1603291623089/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.0/1603291623089/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.0/1603291623089/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.0/1603291623089/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/carlos-algms/makefile-support-for-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/carlos-algms/makefile-support-for-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/carlos-algms/makefile-support-for-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://carlos-algms.gallerycdn.vsassets.io/extensions/carlos-algms/make-task-provider/1.0.0/1603291623089",
+            "fallbackAssetUri": "https://carlos-algms.gallery.vsassets.io/_apis/public/gallery/publisher/carlos-algms/extension/make-task-provider/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "makefile"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 13277.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 6.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.01506364389545831
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 3.4571062740076828
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.7983731264592906
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 13090.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.627002955818295
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 230.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

@@ -1,0 +1,938 @@
+{
+    "publisher": {
+        "publisherId": "68487681-488b-4744-bf38-fad8970c2231",
+        "publisherName": "heyman",
+        "displayName": "heyman",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "dcf1e48d-fedb-470f-9e32-959e6aec0414",
+    "extensionName": "vscode-review-mycode",
+    "displayName": "vscode-review-mycode",
+    "flags": "validated, public",
+    "lastUpdated": "2022-09-25T01:47:54.82Z",
+    "publishedDate": "2022-03-09T13:35:51.97Z",
+    "releaseDate": "2022-03-09T13:35:51.97Z",
+    "shortDescription": "review your changed file code between 2 branches of your git repository",
+    "versions": [
+        {
+            "version": "0.0.13",
+            "flags": "validated",
+            "lastUpdated": "2022-09-25T01:47:54.82Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.13/1664070337399/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.13/1664070337399/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.13/1664070337399/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.13/1664070337399/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.13/1664070337399/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.13/1664070337399/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.13/1664070337399",
+            "fallbackAssetUri": "https://heyman.gallery.vsassets.io/_apis/public/gallery/publisher/heyman/extension/vscode-review-mycode/0.0.13/assetbyname"
+        },
+        {
+            "version": "0.0.12",
+            "flags": "validated",
+            "lastUpdated": "2022-06-19T13:59:29.563Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.12/1655647029736/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.12/1655647029736/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.12/1655647029736/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.12/1655647029736/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.12/1655647029736/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.12/1655647029736",
+            "fallbackAssetUri": "https://heyman.gallery.vsassets.io/_apis/public/gallery/publisher/heyman/extension/vscode-review-mycode/0.0.12/assetbyname"
+        },
+        {
+            "version": "0.0.11",
+            "flags": "validated",
+            "lastUpdated": "2022-05-13T14:00:27.783Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.11/1652450288623/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.11/1652450288623/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.11/1652450288623/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.11/1652450288623/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.11/1652450288623/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.11/1652450288623",
+            "fallbackAssetUri": "https://heyman.gallery.vsassets.io/_apis/public/gallery/publisher/heyman/extension/vscode-review-mycode/0.0.11/assetbyname"
+        },
+        {
+            "version": "0.0.10",
+            "flags": "validated",
+            "lastUpdated": "2022-05-09T13:08:41.26Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.10/1652101580754/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.10/1652101580754/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.10/1652101580754/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.10/1652101580754/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.10/1652101580754/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.10/1652101580754",
+            "fallbackAssetUri": "https://heyman.gallery.vsassets.io/_apis/public/gallery/publisher/heyman/extension/vscode-review-mycode/0.0.10/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2022-05-08T14:34:40.783Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.9/1652020339681/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.9/1652020339681/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.9/1652020339681/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.9/1652020339681/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.9/1652020339681/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.9/1652020339681",
+            "fallbackAssetUri": "https://heyman.gallery.vsassets.io/_apis/public/gallery/publisher/heyman/extension/vscode-review-mycode/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2022-04-09T17:55:05.45Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.8/1649526765819/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.8/1649526765819/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.8/1649526765819/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.8/1649526765819/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.8/1649526765819/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.8/1649526765819",
+            "fallbackAssetUri": "https://heyman.gallery.vsassets.io/_apis/public/gallery/publisher/heyman/extension/vscode-review-mycode/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2022-04-09T16:40:51.133Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.7/1649522312264/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.7/1649522312264/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.7/1649522312264/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.7/1649522312264/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.7/1649522312264/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.7/1649522312264",
+            "fallbackAssetUri": "https://heyman.gallery.vsassets.io/_apis/public/gallery/publisher/heyman/extension/vscode-review-mycode/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2022-04-09T13:35:12.453Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.6/1649511170587/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.6/1649511170587/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.6/1649511170587/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.6/1649511170587/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.6/1649511170587/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.0.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.6/1649511170587",
+            "fallbackAssetUri": "https://heyman.gallery.vsassets.io/_apis/public/gallery/publisher/heyman/extension/vscode-review-mycode/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2022-03-17T10:13:17.547Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.5/1647511859944/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.5/1647511859944/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.5/1647511859944/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.5/1647511859944/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.54.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.5/1647511859944",
+            "fallbackAssetUri": "https://heyman.gallery.vsassets.io/_apis/public/gallery/publisher/heyman/extension/vscode-review-mycode/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2022-03-10T12:09:23.25Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.4/1646914025977/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.4/1646914025977/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.4/1646914025977/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.4/1646914025977/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.54.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.4/1646914025977",
+            "fallbackAssetUri": "https://heyman.gallery.vsassets.io/_apis/public/gallery/publisher/heyman/extension/vscode-review-mycode/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2022-03-09T14:24:13.507Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.3/1646835712944/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.3/1646835712944/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.3/1646835712944/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.3/1646835712944/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.54.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.3/1646835712944",
+            "fallbackAssetUri": "https://heyman.gallery.vsassets.io/_apis/public/gallery/publisher/heyman/extension/vscode-review-mycode/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2022-03-09T14:08:58.507Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.2/1646834798631/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.2/1646834798631/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.2/1646834798631/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.2/1646834798631/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitee.com/limfa/vscode-review-mycode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.54.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.2/1646834798631",
+            "fallbackAssetUri": "https://heyman.gallery.vsassets.io/_apis/public/gallery/publisher/heyman/extension/vscode-review-mycode/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2022-03-09T13:38:13.927Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.1/1646832952002/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.1/1646832952002/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.1/1646832952002/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.1/1646832952002/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/limfa/vscode-review-code.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/limfa/vscode-review-code/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/limfa/vscode-review-code#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/limfa/vscode-review-code.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/limfa/vscode-review-code.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.54.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://heyman.gallerycdn.vsassets.io/extensions/heyman/vscode-review-mycode/0.0.1/1646832952002",
+            "fallbackAssetUri": "https://heyman.gallery.vsassets.io/_apis/public/gallery/publisher/heyman/extension/vscode-review-mycode/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "compare",
+        "diff",
+        "git",
+        "review",
+        "review code"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 274.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 5.839416058394161
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 134.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 28.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

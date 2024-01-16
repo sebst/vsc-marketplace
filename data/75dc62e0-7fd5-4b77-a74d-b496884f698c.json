@@ -1,0 +1,605 @@
+{
+    "publisher": {
+        "publisherId": "b3b8419e-4e51-4ff7-bdfb-00349610bc68",
+        "publisherName": "john-goldsmith",
+        "displayName": "John Goldsmith",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "75dc62e0-7fd5-4b77-a74d-b496884f698c",
+    "extensionName": "vscode-aws-cloudformation-auto-template-generator",
+    "displayName": "AWS CloudFormation Auto-template Generator",
+    "flags": "validated, public",
+    "lastUpdated": "2021-03-26T20:03:06.21Z",
+    "publishedDate": "2020-03-31T18:04:46.073Z",
+    "releaseDate": "2020-03-31T18:04:46.073Z",
+    "shortDescription": "Automatically generate fully-expanded AWS CloudFormation resource templates",
+    "versions": [
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2021-03-26T20:03:06.207Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.2.0/1616788844175/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.2.0/1616788844175/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.2.0/1616788844175/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.2.0/1616788844175/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.2.0/1616788844175/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.2.0/1616788844175/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.2.0/1616788844175/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.2.0/1616788844175/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#FFFFFF"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.2.0/1616788844175",
+            "fallbackAssetUri": "https://john-goldsmith.gallery.vsassets.io/_apis/public/gallery/publisher/john-goldsmith/extension/vscode-aws-cloudformation-auto-template-generator/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.1",
+            "flags": "validated",
+            "lastUpdated": "2020-06-01T21:54:06.6Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.1/1591048302232/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.1/1591048302232/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.1/1591048302232/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.1/1591048302232/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.1/1591048302232/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.1/1591048302232/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.1/1591048302232/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#FFFFFF"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.1/1591048302232",
+            "fallbackAssetUri": "https://john-goldsmith.gallery.vsassets.io/_apis/public/gallery/publisher/john-goldsmith/extension/vscode-aws-cloudformation-auto-template-generator/1.1.1/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2020-05-02T23:18:59.75Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.0/1588461395814/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.0/1588461395814/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.0/1588461395814/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.0/1588461395814/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.0/1588461395814/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.0/1588461395814/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.0/1588461395814/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#FFFFFF"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.1.0/1588461395814",
+            "fallbackAssetUri": "https://john-goldsmith.gallery.vsassets.io/_apis/public/gallery/publisher/john-goldsmith/extension/vscode-aws-cloudformation-auto-template-generator/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.2",
+            "flags": "validated",
+            "lastUpdated": "2020-04-30T21:19:34.443Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.2/1588281431640/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.2/1588281431640/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.2/1588281431640/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.2/1588281431640/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.2/1588281431640/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.2/1588281431640/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.2/1588281431640/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#FFFFFF"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.2/1588281431640",
+            "fallbackAssetUri": "https://john-goldsmith.gallery.vsassets.io/_apis/public/gallery/publisher/john-goldsmith/extension/vscode-aws-cloudformation-auto-template-generator/1.0.2/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2020-03-31T18:18:28.187Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.1/1585678545732/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.1/1585678545732/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.1/1585678545732/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.1/1585678545732/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.1/1585678545732/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.1/1585678545732/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.1/1585678545732/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#FFFFFF"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.43.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.1/1585678545732",
+            "fallbackAssetUri": "https://john-goldsmith.gallery.vsassets.io/_apis/public/gallery/publisher/john-goldsmith/extension/vscode-aws-cloudformation-auto-template-generator/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2020-03-31T18:07:29.31Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.0/1585677886078/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.0/1585677886078/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.0/1585677886078/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.0/1585677886078/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.0/1585677886078/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.0/1585677886078/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.0/1585677886078/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#FFFFFF"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/john-goldsmith/vscode-aws-cloudformation-auto-template-generator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.43.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://john-goldsmith.gallerycdn.vsassets.io/extensions/john-goldsmith/vscode-aws-cloudformation-auto-template-generator/1.0.0/1585677886078",
+            "fallbackAssetUri": "https://john-goldsmith.gallery.vsassets.io/_apis/public/gallery/publisher/john-goldsmith/extension/vscode-aws-cloudformation-auto-template-generator/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "aws",
+        "cfn",
+        "cloudformation",
+        "generator",
+        "template"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 15626.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 2.3333332538604736
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 3.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.006405739542630197
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.0953814617897637
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.26263532124783806
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 3565.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 3.9255420811287807
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 74.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

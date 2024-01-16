@@ -1,0 +1,812 @@
+{
+    "publisher": {
+        "publisherId": "52b787f2-79a9-4f32-99b4-393afe3005d3",
+        "publisherName": "ms-azuretools",
+        "displayName": "Microsoft",
+        "flags": "verified",
+        "domain": "https://microsoft.com",
+        "isDomainVerified": true
+    },
+    "extensionId": "52722cdb-7e52-4a2f-bddb-025e7bf159f1",
+    "extensionName": "vscode-health-fhir-converter",
+    "displayName": "FHIR Converter",
+    "flags": "validated, public, preview",
+    "lastUpdated": "2022-04-08T05:27:29.98Z",
+    "publishedDate": "2020-12-07T21:39:32.3Z",
+    "releaseDate": "2020-12-07T21:39:32.3Z",
+    "shortDescription": "Enables the conversion of legacy formatted health data to FHIR, expanding the use cases for health data and enabling interoperability.",
+    "versions": [
+        {
+            "version": "1.4.2",
+            "flags": "validated",
+            "lastUpdated": "2022-04-08T05:27:29.98Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.2/1649395500439/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.2/1649395500439/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.2/1649395500439/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.2/1649395500439/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.2/1649395500439/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.2/1649395500439/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.2/1649395500439/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.2/1649395500439/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.2/1649395500439/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools/blob/main/FHIR-Converter/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.2/1649395500439",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-health-fhir-converter/1.4.2/assetbyname"
+        },
+        {
+            "version": "1.4.1",
+            "flags": "validated",
+            "lastUpdated": "2021-12-13T07:49:29.17Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.1/1639381626156/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.1/1639381626156/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.1/1639381626156/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.1/1639381626156/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.1/1639381626156/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.1/1639381626156/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.1/1639381626156/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.1/1639381626156/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools/blob/main/FHIR-Converter/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.1/1639381626156",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-health-fhir-converter/1.4.1/assetbyname"
+        },
+        {
+            "version": "1.4.0",
+            "flags": "validated",
+            "lastUpdated": "2021-09-29T04:55:06.53Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.0/1632891160014/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.0/1632891160014/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.0/1632891160014/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.0/1632891160014/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.0/1632891160014/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.0/1632891160014/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.0/1632891160014/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.0/1632891160014/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools/blob/main/FHIR-Converter/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.4.0/1632891160014",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-health-fhir-converter/1.4.0/assetbyname"
+        },
+        {
+            "version": "1.3.0",
+            "flags": "validated",
+            "lastUpdated": "2021-06-04T06:37:07.9Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.3.0/1622788471779/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.3.0/1622788471779/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.3.0/1622788471779/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.3.0/1622788471779/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.3.0/1622788471779/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.3.0/1622788471779/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.3.0/1622788471779/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.3.0/1622788471779/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools/blob/main/FHIR-Converter/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.3.0/1622788471779",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-health-fhir-converter/1.3.0/assetbyname"
+        },
+        {
+            "version": "1.2.1",
+            "flags": "validated",
+            "lastUpdated": "2021-05-11T06:18:35.24Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.1/1620713755644/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.1/1620713755644/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.1/1620713755644/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.1/1620713755644/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.1/1620713755644/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.1/1620713755644/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.1/1620713755644/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.1/1620713755644/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools/blob/main/FHIR-Converter/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.1/1620713755644",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-health-fhir-converter/1.2.1/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2021-02-25T18:36:32.737Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.0/1614278039317/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.0/1614278039317/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.0/1614278039317/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.0/1614278039317/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.0/1614278039317/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.0/1614278039317/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.0/1614278039317/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.0/1614278039317/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3c3c3c"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools/blob/main/FHIR-Converter/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.2.0/1614278039317",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-health-fhir-converter/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2020-12-25T02:47:36.423Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.1.0/1608864302356/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.1.0/1608864302356/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.1.0/1608864302356/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.1.0/1608864302356/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.1.0/1608864302356/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.1.0/1608864302356/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.1.0/1608864302356/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.1.0/1608864302356/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#0072c6"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools/blob/main/FHIR-Converter/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.1.0/1608864302356",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-health-fhir-converter/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2020-12-07T21:41:59.963Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.0.0/1607377172303/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.0.0/1607377172303/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.0.0/1607377172303/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.0.0/1607377172303/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.0.0/1607377172303/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#0072c6"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools/blob/main/FHIR-Converter/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/microsoft/vscode-azurehealthcareapis-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.44.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-health-fhir-converter/1.0.0/1607377172303",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-health-fhir-converter/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Azure"
+    ],
+    "tags": [
+        "Azure",
+        "Azure API for FHIR",
+        "C-CDA",
+        "Converter",
+        "FHIR",
+        "FHIR Server for Azure",
+        "Healthcare",
+        "HL7v2",
+        "keybindings",
+        "Liquid"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 5941.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 4.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.734006734006734
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.45454545454545453
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 2767.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.573717663792337
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 126.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

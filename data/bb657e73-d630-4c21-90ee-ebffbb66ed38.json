@@ -1,0 +1,894 @@
+{
+    "publisher": {
+        "publisherId": "2aa307bf-881b-4ae8-ab6f-7746dfc1abde",
+        "publisherName": "MateuszDrewniak",
+        "displayName": "Mateusz Drewniak",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "bb657e73-d630-4c21-90ee-ebffbb66ed38",
+    "extensionName": "rails-full-stack-extension-pack",
+    "displayName": "Rails Full-Stack Extension Pack",
+    "flags": "validated, public",
+    "lastUpdated": "2022-10-04T23:32:37.247Z",
+    "publishedDate": "2021-04-17T20:38:42.4Z",
+    "releaseDate": "2021-04-17T20:38:42.4Z",
+    "shortDescription": "A VSCode extension pack for flexible Rails Full-Stack development",
+    "versions": [
+        {
+            "version": "0.1.8",
+            "flags": "validated",
+            "lastUpdated": "2022-10-04T23:32:37.243Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.8/1664926215944/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.8/1664926215944/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.8/1664926215944/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.8/1664926215944/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.8/1664926215944/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.8/1664926215944/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.8/1664926215944/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.8/1664926215944/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.8/1664926215944/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#670500"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.55.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": "LoranKloeze.ruby-rubocop-revived,castwide.solargraph,benspaulding.procfile,eamodio.gitlens,jemmyw.rails-fast-nav,MateuszDrewniak.ruby-test-runner,MateuszDrewniak.ruby-runner,kaiwood.endwise,GracefulPotato.rbs-syntax,KoichiSasada.vscode-rdbg,naumovs.color-highlight,ms-azuretools.vscode-docker,emilast.LogFileHighlighter,wwm.better-align,william-voyek.vscode-nginx,ninoseki.vscode-gem-lens,rebornix.ruby,wingrunr21.vscode-ruby,CraigMaslowski.erb,redhat.vscode-yaml,karunamurti.haml,sianglim.slim,syler.sass-indented,christian-kohler.path-intellisense,aaron-bond.better-comments,aliariff.vscode-erb-beautify,bung87.vscode-gemfile,pavlitsky.yard,codezombiech.gitignore,cssho.vscode-svgviewer,dbaeumer.vscode-eslint,formulahendry.auto-rename-tag,johnpapa.vscode-peacock,MateuszDrewniak.theme-dracula-dark-plus,mikestead.dotenv,mrmlnc.vscode-duplicate,rayhanw.erb-helpers,vscode-icons-team.vscode-icons,wmaurer.change-case,yzhang.markdown-all-in-one,streetsidesoftware.code-spell-checker,mechatroner.rainbow-csv,shardulm94.trailing-spaces,MichalZaporski.simple-yard-snippets,MateuszDrewniak.rbs-snippets"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                }
+            ],
+            "assetUri": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.8/1664926215944",
+            "fallbackAssetUri": "https://mateuszdrewniak.gallery.vsassets.io/_apis/public/gallery/publisher/MateuszDrewniak/extension/rails-full-stack-extension-pack/0.1.8/assetbyname"
+        },
+        {
+            "version": "0.1.7",
+            "flags": "validated",
+            "lastUpdated": "2022-10-04T12:07:59.3Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.7/1664885136457/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.7/1664885136457/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.7/1664885136457/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.7/1664885136457/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.7/1664885136457/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.7/1664885136457/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.7/1664885136457/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.7/1664885136457/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#670500"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.55.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": "LoranKloeze.ruby-rubocop-revived,castwide.solargraph,benspaulding.procfile,eamodio.gitlens,jemmyw.rails-fast-nav,MateuszDrewniak.ruby-test-runner,MateuszDrewniak.ruby-runner,kaiwood.endwise,soutaro.rbs-syntax,KoichiSasada.vscode-rdbg,naumovs.color-highlight,ms-azuretools.vscode-docker,emilast.LogFileHighlighter,wwm.better-align,william-voyek.vscode-nginx,ninoseki.vscode-gem-lens,rebornix.ruby,wingrunr21.vscode-ruby,CraigMaslowski.erb,redhat.vscode-yaml,karunamurti.haml,sianglim.slim,syler.sass-indented,christian-kohler.path-intellisense,aaron-bond.better-comments,aliariff.vscode-erb-beautify,bung87.vscode-gemfile,pavlitsky.yard,codezombiech.gitignore,cssho.vscode-svgviewer,dbaeumer.vscode-eslint,formulahendry.auto-rename-tag,johnpapa.vscode-peacock,MateuszDrewniak.theme-dracula-dark-plus,mikestead.dotenv,mrmlnc.vscode-duplicate,rayhanw.erb-helpers,vscode-icons-team.vscode-icons,wmaurer.change-case,yzhang.markdown-all-in-one,streetsidesoftware.code-spell-checker,mechatroner.rainbow-csv,shardulm94.trailing-spaces,MichalZaporski.simple-yard-snippets"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                }
+            ],
+            "assetUri": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.7/1664885136457",
+            "fallbackAssetUri": "https://mateuszdrewniak.gallery.vsassets.io/_apis/public/gallery/publisher/MateuszDrewniak/extension/rails-full-stack-extension-pack/0.1.7/assetbyname"
+        },
+        {
+            "version": "0.1.6",
+            "flags": "validated",
+            "lastUpdated": "2022-08-27T10:48:20.86Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.6/1661597156933/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.6/1661597156933/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.6/1661597156933/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.6/1661597156933/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.6/1661597156933/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.6/1661597156933/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.6/1661597156933/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#670500"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.55.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": "LoranKloeze.ruby-rubocop-revived,castwide.solargraph,benspaulding.procfile,eamodio.gitlens,jemmyw.rails-fast-nav,MateuszDrewniak.ruby-test-runner,MateuszDrewniak.ruby-runner,kaiwood.endwise,soutaro.rbs-syntax,KoichiSasada.vscode-rdbg,naumovs.color-highlight,ms-azuretools.vscode-docker,emilast.LogFileHighlighter,wwm.better-align,william-voyek.vscode-nginx,ninoseki.vscode-gem-lens,rebornix.ruby,wingrunr21.vscode-ruby,CraigMaslowski.erb,redhat.vscode-yaml,karunamurti.haml,sianglim.slim,syler.sass-indented,christian-kohler.path-intellisense,aaron-bond.better-comments,aliariff.vscode-erb-beautify,bung87.vscode-gemfile,pavlitsky.yard,codezombiech.gitignore,cssho.vscode-svgviewer,dbaeumer.vscode-eslint,formulahendry.auto-rename-tag,johnpapa.vscode-peacock,MateuszDrewniak.theme-dracula-dark-plus,mikestead.dotenv,mrmlnc.vscode-duplicate,rayhanw.erb-helpers,vscode-icons-team.vscode-icons,wmaurer.change-case,yzhang.markdown-all-in-one,streetsidesoftware.code-spell-checker,mechatroner.rainbow-csv,shardulm94.trailing-spaces"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                }
+            ],
+            "assetUri": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.6/1661597156933",
+            "fallbackAssetUri": "https://mateuszdrewniak.gallery.vsassets.io/_apis/public/gallery/publisher/MateuszDrewniak/extension/rails-full-stack-extension-pack/0.1.6/assetbyname"
+        },
+        {
+            "version": "0.1.5",
+            "flags": "validated",
+            "lastUpdated": "2022-08-14T12:27:50.56Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.5/1660479924992/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.5/1660479924992/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.5/1660479924992/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.5/1660479924992/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.5/1660479924992/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.5/1660479924992/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.5/1660479924992/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#670500"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.55.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": "LoranKloeze.ruby-rubocop-revived,castwide.solargraph,benspaulding.procfile,eamodio.gitlens,jemmyw.rails-fast-nav,MateuszDrewniak.ruby-test-runner,MateuszDrewniak.ruby-runner,kaiwood.endwise,soutaro.rbs-syntax,naumovs.color-highlight,ms-azuretools.vscode-docker,emilast.LogFileHighlighter,wwm.better-align,william-voyek.vscode-nginx,ninoseki.vscode-gem-lens,rebornix.ruby,wingrunr21.vscode-ruby,CraigMaslowski.erb,redhat.vscode-yaml,karunamurti.haml,sianglim.slim,syler.sass-indented,christian-kohler.path-intellisense,aaron-bond.better-comments,aliariff.vscode-erb-beautify,bung87.vscode-gemfile,pavlitsky.yard,codezombiech.gitignore,cssho.vscode-svgviewer,dbaeumer.vscode-eslint,formulahendry.auto-rename-tag,johnpapa.vscode-peacock,MateuszDrewniak.theme-dracula-dark-plus,mikestead.dotenv,mrmlnc.vscode-duplicate,rayhanw.erb-helpers,vscode-icons-team.vscode-icons,wmaurer.change-case,yzhang.markdown-all-in-one,streetsidesoftware.code-spell-checker,mechatroner.rainbow-csv,shardulm94.trailing-spaces"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                }
+            ],
+            "assetUri": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.5/1660479924992",
+            "fallbackAssetUri": "https://mateuszdrewniak.gallery.vsassets.io/_apis/public/gallery/publisher/MateuszDrewniak/extension/rails-full-stack-extension-pack/0.1.5/assetbyname"
+        },
+        {
+            "version": "0.1.4",
+            "flags": "validated",
+            "lastUpdated": "2022-08-14T11:45:21.027Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.4/1660477374935/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.4/1660477374935/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.4/1660477374935/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.4/1660477374935/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.4/1660477374935/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.4/1660477374935/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.4/1660477374935/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#670500"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.55.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": "LoranKloeze.ruby-rubocop-revived,castwide.solargraph,benspaulding.procfile,eamodio.gitlens,jemmyw.rails-fast-nav,MateuszDrewniak.ruby-test-runner,MateuszDrewniak.ruby-runner,kaiwood.endwise,soutaro.rbs-syntax,naumovs.color-highlight,ms-azuretools.vscode-docker,emilast.LogFileHighlighter,wwm.better-align,william-voyek.vscode-nginx,ninoseki.vscode-gem-lens,rebornix.ruby,wingrunr21.vscode-ruby,CraigMaslowski.erb,redhat.vscode-yaml,karunamurti.haml,sianglim.slim,syler.sass-indented,aliariff.vscode-erb-beautify,bung87.vscode-gemfile,pavlitsky.yard,codezombiech.gitignore,cssho.vscode-svgviewer,dbaeumer.vscode-eslint,formulahendry.auto-rename-tag,johnpapa.vscode-peacock,MateuszDrewniak.theme-dracula-dark-plus,mikestead.dotenv,mrmlnc.vscode-duplicate,rayhanw.erb-helpers,vscode-icons-team.vscode-icons,wmaurer.change-case,yzhang.markdown-all-in-one,streetsidesoftware.code-spell-checker,mechatroner.rainbow-csv,shardulm94.trailing-spaces"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                }
+            ],
+            "assetUri": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.4/1660477374935",
+            "fallbackAssetUri": "https://mateuszdrewniak.gallery.vsassets.io/_apis/public/gallery/publisher/MateuszDrewniak/extension/rails-full-stack-extension-pack/0.1.4/assetbyname"
+        },
+        {
+            "version": "0.1.3",
+            "flags": "validated",
+            "lastUpdated": "2022-08-13T13:38:14.177Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.3/1660397750631/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.3/1660397750631/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.3/1660397750631/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.3/1660397750631/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.3/1660397750631/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.3/1660397750631/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.3/1660397750631/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#670500"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.55.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": "misogi.ruby-rubocop,castwide.solargraph,jemmyw.rails-fast-nav,MateuszDrewniak.ruby-test-runner,MateuszDrewniak.ruby-runner,kaiwood.endwise,soutaro.rbs-syntax,naumovs.color-highlight,ms-azuretools.vscode-docker,emilast.LogFileHighlighter,wwm.better-align,william-voyek.vscode-nginx,ninoseki.vscode-gem-lens,rebornix.ruby,wingrunr21.vscode-ruby,CraigMaslowski.erb,redhat.vscode-yaml,karunamurti.haml,sianglim.slim,syler.sass-indented,aliariff.vscode-erb-beautify,bung87.vscode-gemfile,pavlitsky.yard,codezombiech.gitignore,cssho.vscode-svgviewer,dbaeumer.vscode-eslint,formulahendry.auto-rename-tag,johnpapa.vscode-peacock,MateuszDrewniak.theme-dracula-dark-plus,mikestead.dotenv,mrmlnc.vscode-duplicate,rayhanw.erb-helpers,vscode-icons-team.vscode-icons,wmaurer.change-case,yzhang.markdown-all-in-one,streetsidesoftware.code-spell-checker,mechatroner.rainbow-csv,shardulm94.trailing-spaces"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                }
+            ],
+            "assetUri": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.3/1660397750631",
+            "fallbackAssetUri": "https://mateuszdrewniak.gallery.vsassets.io/_apis/public/gallery/publisher/MateuszDrewniak/extension/rails-full-stack-extension-pack/0.1.3/assetbyname"
+        },
+        {
+            "version": "0.1.2",
+            "flags": "validated",
+            "lastUpdated": "2022-01-13T20:25:19.85Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.2/1642105375991/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.2/1642105375991/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.2/1642105375991/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.2/1642105375991/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.2/1642105375991/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.2/1642105375991/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.2/1642105375991/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#670500"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.55.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": "misogi.ruby-rubocop,castwide.solargraph,jemmyw.rails-fast-nav,MateuszDrewniak.ruby-test-runner,kaiwood.endwise,aki77.rails-db-schema,ninoseki.vscode-gem-lens,rebornix.ruby,wingrunr21.vscode-ruby,CraigMaslowski.erb,redhat.vscode-yaml,karunamurti.haml,sianglim.slim,syler.sass-indented,aliariff.vscode-erb-beautify,bung87.vscode-gemfile,pavlitsky.yard,codezombiech.gitignore,cssho.vscode-svgviewer,dbaeumer.vscode-eslint,esbenp.prettier-vscode,formulahendry.auto-rename-tag,IBM.output-colorizer,Janne252.fontawesome-autocomplete,johnpapa.vscode-peacock,MateuszDrewniak.theme-dracula-dark-plus,mikestead.dotenv,mrmlnc.vscode-duplicate,ms-vscode-remote.remote-wsl,rayhanw.erb-helpers,vscode-icons-team.vscode-icons,wmaurer.change-case,yzhang.markdown-all-in-one,streetsidesoftware.code-spell-checker,mechatroner.rainbow-csv,shardulm94.trailing-spaces"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                }
+            ],
+            "assetUri": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.2/1642105375991",
+            "fallbackAssetUri": "https://mateuszdrewniak.gallery.vsassets.io/_apis/public/gallery/publisher/MateuszDrewniak/extension/rails-full-stack-extension-pack/0.1.2/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2021-04-18T09:42:42.607Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.1/1618738820325/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.1/1618738820325/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.1/1618738820325/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.1/1618738820325/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.1/1618738820325/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.1/1618738820325/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.1/1618738820325/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#670500"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.55.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": "misogi.ruby-rubocop,castwide.solargraph,jemmyw.rails-fast-nav,MateuszDrewniak.ruby-test-runner,kaiwood.endwise,aki77.rails-db-schema,ninoseki.vscode-gem-lens,rebornix.ruby,wingrunr21.vscode-ruby,CraigMaslowski.erb,redhat.vscode-yaml,karunamurti.haml,sianglim.slim,syler.sass-indented,aliariff.vscode-erb-beautify,bung87.vscode-gemfile,pavlitsky.yard,codezombiech.gitignore,CoenraadS.bracket-pair-colorizer-2,cssho.vscode-svgviewer,dbaeumer.vscode-eslint,esbenp.prettier-vscode,formulahendry.auto-rename-tag,IBM.output-colorizer,Janne252.fontawesome-autocomplete,johnpapa.vscode-peacock,MateuszDrewniak.theme-dracula-dark-plus,mikestead.dotenv,mrmlnc.vscode-duplicate,ms-vscode-remote.remote-wsl,rayhanw.erb-helpers,vscode-icons-team.vscode-icons,wmaurer.change-case,yzhang.markdown-all-in-one"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.1/1618738820325",
+            "fallbackAssetUri": "https://mateuszdrewniak.gallery.vsassets.io/_apis/public/gallery/publisher/MateuszDrewniak/extension/rails-full-stack-extension-pack/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2021-04-17T20:41:04.427Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.0/1618691922405/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.0/1618691922405/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.0/1618691922405/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.0/1618691922405/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.0/1618691922405/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.0/1618691922405/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.0/1618691922405/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#670500"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://gitlab.com/mateuszdrewniak/rails-full-stack-extension-pack"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.55.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": "misogi.ruby-rubocop,castwide.solargraph,jemmyw.rails-fast-nav,MateuszDrewniak.ruby-test-runner,kaiwood.endwise,aki77.rails-db-schema,ninoseki.vscode-gem-lens,rebornix.ruby,wingrunr21.vscode-ruby,CraigMaslowski.erb,redhat.vscode-yaml,karunamurti.haml,sianglim.slim,syler.sass-indented,aliariff.vscode-erb-beautify,bung87.vscode-gemfile,pavlitsky.yard,codezombiech.gitignore,CoenraadS.bracket-pair-colorizer-2,cssho.vscode-svgviewer,dbaeumer.vscode-eslint,esbenp.prettier-vscode,formulahendry.auto-rename-tag,IBM.output-colorizer,Janne252.fontawesome-autocomplete,johnpapa.vscode-peacock,mathcale.theme-dracula-refined,mikestead.dotenv,mrmlnc.vscode-duplicate,ms-vscode-remote.remote-wsl,rayhanw.erb-helpers,vscode-icons-team.vscode-icons,wmaurer.change-case,yzhang.markdown-all-in-one"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://mateuszdrewniak.gallerycdn.vsassets.io/extensions/mateuszdrewniak/rails-full-stack-extension-pack/0.1.0/1618691922405",
+            "fallbackAssetUri": "https://mateuszdrewniak.gallery.vsassets.io/_apis/public/gallery/publisher/MateuszDrewniak/extension/rails-full-stack-extension-pack/0.1.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Extension Packs"
+    ],
+    "tags": [
+        "__web_extension",
+        "extension pack",
+        "rails",
+        "ror",
+        "ror extension pack",
+        "ruby",
+        "ruby extension pack",
+        "ruby on rails",
+        "ruby on rails extension pack"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 1157.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 2.5064822817631804
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.25929127052722556
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 553.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 63.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

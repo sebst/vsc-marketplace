@@ -1,0 +1,2847 @@
+{
+    "publisher": {
+        "publisherId": "b70c48a1-8bf6-4654-9c0f-5f04529311da",
+        "publisherName": "icsharpcode",
+        "displayName": "SharpDevelop Team",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "e71e3bdc-dd75-4005-bc34-5ef5838c84ad",
+    "extensionName": "ilspy-vscode",
+    "displayName": "ilspy-vscode",
+    "flags": "validated, public, preview",
+    "lastUpdated": "2023-11-26T14:11:17.9Z",
+    "publishedDate": "2017-12-10T17:08:04.713Z",
+    "releaseDate": "2017-12-10T17:08:04.713Z",
+    "shortDescription": "Decompile MSIL assemblies - support for full framework, .NET Core and .NET Standard",
+    "versions": [
+        {
+            "version": "0.17.0",
+            "flags": "validated",
+            "lastUpdated": "2023-11-26T14:11:17.9Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.17.0/1701007662508/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.17.0/1701007662508/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.17.0/1701007662508/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.17.0/1701007662508/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.17.0/1701007662508/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.17.0/1701007662508/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.17.0/1701007662508/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.17.0/1701007662508/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.17.0/1701007662508/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.17.0/1701007662508",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.17.0/assetbyname"
+        },
+        {
+            "version": "0.16.1",
+            "flags": "validated",
+            "lastUpdated": "2023-07-23T06:12:41.493Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.1/1690092533210/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.1/1690092533210/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.1/1690092533210/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.1/1690092533210/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.1/1690092533210/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.1/1690092533210/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.1/1690092533210/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.1/1690092533210/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.1/1690092533210/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.1/1690092533210",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.16.1/assetbyname"
+        },
+        {
+            "version": "0.16.0",
+            "flags": "validated",
+            "lastUpdated": "2023-07-22T05:10:45.293Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.0/1690002452986/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.0/1690002452986/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.0/1690002452986/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.0/1690002452986/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.0/1690002452986/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.0/1690002452986/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.0/1690002452986/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.0/1690002452986/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.0/1690002452986/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.16.0/1690002452986",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.16.0/assetbyname"
+        },
+        {
+            "version": "0.15.0",
+            "flags": "validated",
+            "lastUpdated": "2023-03-17T06:05:57.47Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.15.0/1679032987820/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.15.0/1679032987820/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.15.0/1679032987820/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.15.0/1679032987820/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.15.0/1679032987820/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.15.0/1679032987820/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.15.0/1679032987820/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.15.0/1679032987820/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.15.0/1679032987820/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.15.0/1679032987820",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.15.0/assetbyname"
+        },
+        {
+            "version": "0.14.1",
+            "flags": "validated",
+            "lastUpdated": "2023-03-01T06:12:23.017Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.1/1677650903933/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.1/1677650903933/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.1/1677650903933/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.1/1677650903933/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.1/1677650903933/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.1/1677650903933/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.1/1677650903933/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.1/1677650903933/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.1/1677650903933/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.1/1677650903933",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.14.1/assetbyname"
+        },
+        {
+            "version": "0.14.0",
+            "flags": "validated",
+            "lastUpdated": "2023-02-18T13:03:03.2Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.0/1676725181550/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.0/1676725181550/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.0/1676725181550/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.0/1676725181550/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.0/1676725181550/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.0/1676725181550/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.0/1676725181550/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.0/1676725181550/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.0/1676725181550/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.14.0/1676725181550",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.14.0/assetbyname"
+        },
+        {
+            "version": "0.13.1",
+            "flags": "validated",
+            "lastUpdated": "2021-11-30T08:57:51.827Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.1/1638262533531/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.1/1638262533531/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.1/1638262533531/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.1/1638262533531/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.1/1638262533531/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.1/1638262533531/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.1/1638262533531/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.1/1638262533531/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.1/1638262533531/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.1/1638262533531",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.13.1/assetbyname"
+        },
+        {
+            "version": "0.13.0",
+            "flags": "validated",
+            "lastUpdated": "2021-11-21T09:35:41.42Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.0/1637487201851/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.0/1637487201851/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.0/1637487201851/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.0/1637487201851/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.0/1637487201851/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.0/1637487201851/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.0/1637487201851/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.0/1637487201851/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.13.0/1637487201851",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.13.0/assetbyname"
+        },
+        {
+            "version": "0.12.1",
+            "flags": "validated",
+            "lastUpdated": "2021-09-24T12:18:22.553Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.1/1632485763131/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.1/1632485763131/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.1/1632485763131/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.1/1632485763131/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.1/1632485763131/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.1/1632485763131/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.1/1632485763131/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.1/1632485763131/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.1/1632485763131",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.12.1/assetbyname"
+        },
+        {
+            "version": "0.12.0",
+            "flags": "validated",
+            "lastUpdated": "2021-09-24T04:59:23.113Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.0/1632459424564/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.0/1632459424564/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.0/1632459424564/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.0/1632459424564/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.0/1632459424564/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.0/1632459424564/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.0/1632459424564/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.0/1632459424564/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.12.0/1632459424564",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.12.0/assetbyname"
+        },
+        {
+            "version": "0.11.2",
+            "flags": "validated",
+            "lastUpdated": "2021-07-06T04:23:06.647Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.2/1625545248912/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.2/1625545248912/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.2/1625545248912/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.2/1625545248912/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.2/1625545248912/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.2/1625545248912/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.2/1625545248912/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.2/1625545248912/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.2/1625545248912",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.11.2/assetbyname"
+        },
+        {
+            "version": "0.11.0",
+            "flags": "validated",
+            "lastUpdated": "2021-06-21T16:05:16.703Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.0/1624291379074/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.0/1624291379074/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.0/1624291379074/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.0/1624291379074/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.0/1624291379074/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.0/1624291379074/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.0/1624291379074/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.0/1624291379074/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-dotnettools.vscode-dotnet-runtime"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.11.0/1624291379074",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.11.0/assetbyname"
+        },
+        {
+            "version": "0.10.0",
+            "flags": "validated",
+            "lastUpdated": "2021-05-05T08:22:47.72Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.10.0/1620202825506/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.10.0/1620202825506/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.10.0/1620202825506/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.10.0/1620202825506/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.10.0/1620202825506/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.10.0/1620202825506/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.10.0/1620202825506/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.10.0/1620202825506/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.10.0/1620202825506",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.10.0/assetbyname"
+        },
+        {
+            "version": "0.9.0",
+            "flags": "validated",
+            "lastUpdated": "2020-07-28T11:09:02.7Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.9.0/1595934400613/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.9.0/1595934400613/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.9.0/1595934400613/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.9.0/1595934400613/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.9.0/1595934400613/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.9.0/1595934400613/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.9.0/1595934400613/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.9.0/1595934400613/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.9.0/1595934400613",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.9.0/assetbyname"
+        },
+        {
+            "version": "0.8.0",
+            "flags": "validated",
+            "lastUpdated": "2020-07-07T19:22:25.897Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.8.0/1594149480967/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.8.0/1594149480967/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.8.0/1594149480967/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.8.0/1594149480967/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.8.0/1594149480967/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.8.0/1594149480967/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.8.0/1594149480967/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.8.0/1594149480967/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.8.0/1594149480967",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.8.0/assetbyname"
+        },
+        {
+            "version": "0.7.11",
+            "flags": "validated",
+            "lastUpdated": "2020-04-10T16:58:42.727Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.11/1586537781674/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.11/1586537781674/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.11/1586537781674/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.11/1586537781674/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.11/1586537781674/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.11/1586537781674/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.11/1586537781674/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.11/1586537781674/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.11/1586537781674",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.7.11/assetbyname"
+        },
+        {
+            "version": "0.7.10",
+            "flags": "validated",
+            "lastUpdated": "2019-11-02T18:27:45.553Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.10/1572719123768/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.10/1572719123768/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.10/1572719123768/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.10/1572719123768/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.10/1572719123768/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.10/1572719123768/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.10/1572719123768/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.10/1572719123768/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.10/1572719123768",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.7.10/assetbyname"
+        },
+        {
+            "version": "0.7.9",
+            "flags": "validated",
+            "lastUpdated": "2019-10-07T07:23:59.11Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.9/1570432894570/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.9/1570432894570/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.9/1570432894570/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.9/1570432894570/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.9/1570432894570/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.9/1570432894570/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.9/1570432894570/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.9/1570432894570/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.9/1570432894570",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.7.9/assetbyname"
+        },
+        {
+            "version": "0.7.8",
+            "flags": "validated",
+            "lastUpdated": "2019-09-21T08:10:09.193Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.8/1569053266372/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.8/1569053266372/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.8/1569053266372/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.8/1569053266372/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.8/1569053266372/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.8/1569053266372/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.8/1569053266372/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.8/1569053266372/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.8/1569053266372",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.7.8/assetbyname"
+        },
+        {
+            "version": "0.7.7",
+            "flags": "validated",
+            "lastUpdated": "2019-09-21T07:47:41.53Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.7/1569051917215/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.7/1569051917215/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.7/1569051917215/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.7/1569051917215/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.7/1569051917215/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.7/1569051917215/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.7/1569051917215/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.7/1569051917215/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.7/1569051917215",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.7.7/assetbyname"
+        },
+        {
+            "version": "0.7.6",
+            "flags": "validated",
+            "lastUpdated": "2019-09-20T07:45:47.513Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.6/1568965402457/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.6/1568965402457/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.6/1568965402457/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.6/1568965402457/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.6/1568965402457/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.6/1568965402457/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.6/1568965402457/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.6/1568965402457/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.6/1568965402457",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.7.6/assetbyname"
+        },
+        {
+            "version": "0.7.5",
+            "flags": "validated",
+            "lastUpdated": "2019-01-16T18:23:32.887Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.5/1547662864039/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.5/1547662864039/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.5/1547662864039/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.5/1547662864039/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.5/1547662864039/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.5/1547662864039/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.5/1547662864039/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.5/1547662864039/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.5/1547662864039",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.7.5/assetbyname"
+        },
+        {
+            "version": "0.7.4",
+            "flags": "validated",
+            "lastUpdated": "2019-01-13T12:33:38.02Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.4/1547382672438/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.4/1547382672438/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.4/1547382672438/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.4/1547382672438/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.4/1547382672438/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.4/1547382672438/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.4/1547382672438/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.4/1547382672438/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.4/1547382672438",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.7.4/assetbyname"
+        },
+        {
+            "version": "0.7.3",
+            "flags": "validated",
+            "lastUpdated": "2019-01-06T08:44:48.293Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.3/1546764139182/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.3/1546764139182/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.3/1546764139182/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.3/1546764139182/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.3/1546764139182/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.3/1546764139182/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.3/1546764139182/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.3/1546764139182/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.3/1546764139182",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.7.3/assetbyname"
+        },
+        {
+            "version": "0.7.2",
+            "flags": "validated",
+            "lastUpdated": "2019-01-05T06:31:36.917Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.2/1546669752023/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.2/1546669752023/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.2/1546669752023/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.2/1546669752023/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.2/1546669752023/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.2/1546669752023/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.2/1546669752023/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.2/1546669752023/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.2/1546669752023",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.7.2/assetbyname"
+        },
+        {
+            "version": "0.7.1",
+            "flags": "validated",
+            "lastUpdated": "2019-01-04T09:03:35.87Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.1/1546592465606/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.1/1546592465606/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.1/1546592465606/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.1/1546592465606/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.1/1546592465606/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.1/1546592465606/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.1/1546592465606/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.1/1546592465606/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.1/1546592465606",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.7.1/assetbyname"
+        },
+        {
+            "version": "0.7.0",
+            "flags": "validated",
+            "lastUpdated": "2018-08-23T05:37:28.783Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.0/1535002484762/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.0/1535002484762/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.0/1535002484762/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.0/1535002484762/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.0/1535002484762/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.0/1535002484762/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.0/1535002484762/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.0/1535002484762/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.7.0/1535002484762",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.7.0/assetbyname"
+        },
+        {
+            "version": "0.6.0",
+            "flags": "validated",
+            "lastUpdated": "2018-08-18T07:18:05.593Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.6.0/1534576520285/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.6.0/1534576520285/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.6.0/1534576520285/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.6.0/1534576520285/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.6.0/1534576520285/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.6.0/1534576520285/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.6.0/1534576520285/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.6.0/1534576520285/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.6.0/1534576520285",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.6.0/assetbyname"
+        },
+        {
+            "version": "0.5.0",
+            "flags": "validated",
+            "lastUpdated": "2018-07-01T13:25:55.573Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.5.0/1530451388685/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.5.0/1530451388685/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.5.0/1530451388685/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.5.0/1530451388685/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.5.0/1530451388685/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.5.0/1530451388685/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.5.0/1530451388685/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.5.0/1530451388685/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.5.0/1530451388685",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.5.0/assetbyname"
+        },
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2018-04-09T05:43:03.067Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.4.0/1523252564451/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.4.0/1523252564451/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.4.0/1523252564451/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.4.0/1523252564451/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.4.0/1523252564451/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.4.0/1523252564451/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.4.0/1523252564451/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.4.0/1523252564451/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.4.0/1523252564451",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2017-12-19T07:50:45.33Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.3.0/1513669754363/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.3.0/1513669754363/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.3.0/1513669754363/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.3.0/1513669754363/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.3.0/1513669754363/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.3.0/1513669754363/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.3.0/1513669754363/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.3.0/1513669754363/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.3.0/1513669754363",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2017-12-11T06:19:31.49Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.2.0/1512973158602/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.2.0/1512973158602/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.2.0/1512973158602/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.2.0/1512973158602/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.2.0/1512973158602/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.2.0/1512973158602/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.2.0/1512973158602/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.2.0/1512973158602/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode/tree/master/vscode-extension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.2.0/1512973158602",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2017-12-10T17:08:17.993Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.1.0/1512925684884/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.1.0/1512925684884/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.1.0/1512925684884/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.1.0/1512925684884/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.1.0/1512925684884/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.1.0/1512925684884/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/icsharpcode/ilspy-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://icsharpcode.gallerycdn.vsassets.io/extensions/icsharpcode/ilspy-vscode/0.1.0/1512925684884",
+            "fallbackAssetUri": "https://icsharpcode.gallery.vsassets.io/_apis/public/gallery/publisher/icsharpcode/extension/ilspy-vscode/0.1.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 112819.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 3.625
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 8.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.002659362284924075
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.6665336985524204
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.3776294444592187
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 399880.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.057335960727373
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 1291.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

@@ -1,0 +1,598 @@
+{
+    "publisher": {
+        "publisherId": "e3233201-4dc2-4c07-89cc-2192a267452e",
+        "publisherName": "UrpoKo",
+        "displayName": "Urpo Kotipalo",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "07c71e3b-3562-4ea0-86aa-a89be6976d99",
+    "extensionName": "getreservedobjects",
+    "displayName": "AL GetReservedObjects",
+    "flags": "validated, public",
+    "lastUpdated": "2023-02-06T09:51:10.273Z",
+    "publishedDate": "2022-07-29T12:12:52.773Z",
+    "releaseDate": "2022-07-29T12:12:52.773Z",
+    "shortDescription": "Finds out all used object numbers from an AL project/workspace and writes them to a text file.",
+    "versions": [
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-02-06T09:51:10.27Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/1.0.0/1675676804766/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/1.0.0/1675676804766/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/1.0.0/1675676804766/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/1.0.0/1675676804766/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/1.0.0/1675676804766/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/1.0.0/1675676804766/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/1.0.0/1675676804766/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/1.0.0/1675676804766/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/1.0.0/1675676804766/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.69.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/1.0.0/1675676804766",
+            "fallbackAssetUri": "https://urpoko.gallery.vsassets.io/_apis/public/gallery/publisher/UrpoKo/extension/getreservedobjects/1.0.0/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2023-01-31T14:19:23.857Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.5/1675174486742/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.5/1675174486742/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.5/1675174486742/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.5/1675174486742/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.5/1675174486742/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.5/1675174486742/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.5/1675174486742/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.5/1675174486742/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.5/1675174486742/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.69.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.5/1675174486742",
+            "fallbackAssetUri": "https://urpoko.gallery.vsassets.io/_apis/public/gallery/publisher/UrpoKo/extension/getreservedobjects/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2022-08-04T16:52:46.057Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.4/1659631826618/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.4/1659631826618/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.4/1659631826618/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.4/1659631826618/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.4/1659631826618/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.4/1659631826618/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.4/1659631826618/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.4/1659631826618/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.69.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.4/1659631826618",
+            "fallbackAssetUri": "https://urpoko.gallery.vsassets.io/_apis/public/gallery/publisher/UrpoKo/extension/getreservedobjects/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2022-08-04T16:44:50.163Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.3/1659631351372/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.3/1659631351372/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.3/1659631351372/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.3/1659631351372/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.3/1659631351372/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.3/1659631351372/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.3/1659631351372/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.3/1659631351372/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.69.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.3/1659631351372",
+            "fallbackAssetUri": "https://urpoko.gallery.vsassets.io/_apis/public/gallery/publisher/UrpoKo/extension/getreservedobjects/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2022-07-29T14:22:17.75Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.2/1659104398581/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.2/1659104398581/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.2/1659104398581/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.2/1659104398581/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.2/1659104398581/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.2/1659104398581/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.2/1659104398581/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.2/1659104398581/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.69.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.2/1659104398581",
+            "fallbackAssetUri": "https://urpoko.gallery.vsassets.io/_apis/public/gallery/publisher/UrpoKo/extension/getreservedobjects/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2022-07-29T12:16:52.05Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.1/1659096872790/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.1/1659096872790/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.1/1659096872790/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.1/1659096872790/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.1/1659096872790/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.1/1659096872790/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/UrpoKo/ALGetReservedObjects.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.69.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://urpoko.gallerycdn.vsassets.io/extensions/urpoko/getreservedobjects/0.0.1/1659096872790",
+            "fallbackAssetUri": "https://urpoko.gallery.vsassets.io/_apis/public/gallery/publisher/UrpoKo/extension/getreservedobjects/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Visualization"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 470.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 4.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 5.957446808510639
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 2.553191489361702
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 197.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.573717663792337
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 15.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

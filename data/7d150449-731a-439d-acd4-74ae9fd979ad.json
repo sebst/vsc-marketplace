@@ -1,0 +1,2982 @@
+{
+    "publisher": {
+        "publisherId": "b505aed1-5b24-4d5f-8af5-24431065fe65",
+        "publisherName": "adguard",
+        "displayName": "AdGuard",
+        "flags": "verified",
+        "domain": "https://adguard.com/",
+        "isDomainVerified": true
+    },
+    "extensionId": "7d150449-731a-439d-acd4-74ae9fd979ad",
+    "extensionName": "adblock",
+    "displayName": "Adblock/AdGuard/uBlock filters grammar",
+    "flags": "validated, public",
+    "lastUpdated": "2024-01-10T17:22:26.59Z",
+    "publishedDate": "2017-12-29T17:26:32.09Z",
+    "releaseDate": "2017-12-29T17:26:32.09Z",
+    "shortDescription": "VS code extension that adds support for ad blocking rules syntax.",
+    "versions": [
+        {
+            "version": "1.1.7",
+            "flags": "validated",
+            "lastUpdated": "2024-01-10T17:22:26.587Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.7/1704907065118/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.7/1704907065118/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.7/1704907065118/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.7/1704907065118/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.7/1704907065118/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.7/1704907065118/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.7/1704907065118/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.7/1704907065118/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.7/1704907065118/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.7/1704907065118",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/1.1.7/assetbyname"
+        },
+        {
+            "version": "1.1.6",
+            "flags": "validated",
+            "lastUpdated": "2024-01-04T16:17:09.41Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.6/1704384812019/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.6/1704384812019/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.6/1704384812019/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.6/1704384812019/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.6/1704384812019/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.6/1704384812019/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.6/1704384812019/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.6/1704384812019/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.6/1704384812019/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.6/1704384812019",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/1.1.6/assetbyname"
+        },
+        {
+            "version": "1.1.5",
+            "flags": "validated",
+            "lastUpdated": "2023-11-10T14:36:38.947Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.5/1699626850176/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.5/1699626850176/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.5/1699626850176/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.5/1699626850176/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.5/1699626850176/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.5/1699626850176/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.5/1699626850176/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.5/1699626850176/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.5/1699626850176/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.5/1699626850176",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/1.1.5/assetbyname"
+        },
+        {
+            "version": "1.1.3",
+            "flags": "validated",
+            "lastUpdated": "2023-11-08T12:27:10.66Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.3/1699446283741/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.3/1699446283741/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.3/1699446283741/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.3/1699446283741/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.3/1699446283741/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.3/1699446283741/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.3/1699446283741/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.3/1699446283741/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.3/1699446283741/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.3/1699446283741",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/1.1.3/assetbyname"
+        },
+        {
+            "version": "1.1.2",
+            "flags": "validated",
+            "lastUpdated": "2023-09-07T17:26:39.94Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.2/1694107419444/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.2/1694107419444/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.2/1694107419444/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.2/1694107419444/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.2/1694107419444/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.2/1694107419444/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.2/1694107419444/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.2/1694107419444/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.2/1694107419444/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.2/1694107419444",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/1.1.2/assetbyname"
+        },
+        {
+            "version": "1.1.1",
+            "flags": "validated",
+            "lastUpdated": "2023-08-30T13:26:57.81Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.1/1693401806473/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.1/1693401806473/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.1/1693401806473/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.1/1693401806473/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.1/1693401806473/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.1/1693401806473/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.1/1693401806473/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.1/1693401806473/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.1/1693401806473/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.1/1693401806473",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/1.1.1/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-08-14T14:37:53.073Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.0/1692023660659/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.0/1692023660659/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.0/1692023660659/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.0/1692023660659/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.0/1692023660659/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.0/1692023660659/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.0/1692023660659/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.0/1692023660659/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.0/1692023660659/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.1.0/1692023660659",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-04-25T10:51:30.973Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.1/1682419601663/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.1/1682419601663/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.1/1682419601663/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.1/1682419601663/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.1/1682419601663/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.1/1682419601663/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.1/1682419601663/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.1/1682419601663/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.1/1682419601663/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.1/1682419601663",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-04-24T19:29:15.677Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.0/1682364339462/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.0/1682364339462/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.0/1682364339462/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.0/1682364339462/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.0/1682364339462/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.0/1682364339462/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.0/1682364339462/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.0/1682364339462/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.0/1682364339462/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/AdguardTeam/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/1.0.0/1682364339462",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/1.0.0/assetbyname"
+        },
+        {
+            "version": "0.0.28",
+            "flags": "validated",
+            "lastUpdated": "2022-11-11T16:54:04.68Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.28/1668185441699/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.28/1668185441699/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.28/1668185441699/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.28/1668185441699/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.28/1668185441699/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.28/1668185441699/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.28/1668185441699/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.28/1668185441699/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.28/1668185441699/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.28/1668185441699",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.28/assetbyname"
+        },
+        {
+            "version": "0.0.27",
+            "flags": "validated",
+            "lastUpdated": "2022-08-15T09:35:30.23Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.27/1660555990706/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.27/1660555990706/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.27/1660555990706/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.27/1660555990706/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.27/1660555990706/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.27/1660555990706/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.27/1660555990706/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.27/1660555990706/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.27/1660555990706",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.27/assetbyname"
+        },
+        {
+            "version": "0.0.26",
+            "flags": "validated",
+            "lastUpdated": "2022-05-29T18:23:10.97Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.26/1653848451444/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.26/1653848451444/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.26/1653848451444/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.26/1653848451444/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.26/1653848451444/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.26/1653848451444/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.26/1653848451444/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.26/1653848451444/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.26/1653848451444",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.26/assetbyname"
+        },
+        {
+            "version": "0.0.25",
+            "flags": "validated",
+            "lastUpdated": "2021-11-11T10:40:00.313Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.25/1636627064405/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.25/1636627064405/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.25/1636627064405/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.25/1636627064405/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.25/1636627064405/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.25/1636627064405/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.25/1636627064405/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.25/1636627064405/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.25/1636627064405",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.25/assetbyname"
+        },
+        {
+            "version": "0.0.24",
+            "flags": "validated",
+            "lastUpdated": "2021-09-14T09:29:49.59Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.24/1631611648224/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.24/1631611648224/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.24/1631611648224/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.24/1631611648224/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.24/1631611648224/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.24/1631611648224/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.24/1631611648224/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.24/1631611648224/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.24/1631611648224",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.24/assetbyname"
+        },
+        {
+            "version": "0.0.23",
+            "flags": "validated",
+            "lastUpdated": "2021-05-31T10:52:07.87Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.23/1622458190305/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.23/1622458190305/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.23/1622458190305/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.23/1622458190305/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.23/1622458190305/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.23/1622458190305/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.23/1622458190305/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.23/1622458190305/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.23/1622458190305",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.23/assetbyname"
+        },
+        {
+            "version": "0.0.22",
+            "flags": "validated",
+            "lastUpdated": "2021-05-30T16:34:56Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.22/1622392357859/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.22/1622392357859/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.22/1622392357859/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.22/1622392357859/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.22/1622392357859/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.22/1622392357859/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.22/1622392357859/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.22/1622392357859/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.22/1622392357859",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.22/assetbyname"
+        },
+        {
+            "version": "0.0.21",
+            "flags": "validated",
+            "lastUpdated": "2020-10-05T13:21:15.17Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.21/1601903938250/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.21/1601903938250/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.21/1601903938250/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.21/1601903938250/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.21/1601903938250/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.21/1601903938250/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.21/1601903938250/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.21/1601903938250/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.21/1601903938250",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.21/assetbyname"
+        },
+        {
+            "version": "0.0.20",
+            "flags": "validated",
+            "lastUpdated": "2020-07-30T14:05:56.507Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.20/1596117818582/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.20/1596117818582/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.20/1596117818582/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.20/1596117818582/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.20/1596117818582/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.20/1596117818582/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.20/1596117818582/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.20/1596117818582/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.20/1596117818582",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.20/assetbyname"
+        },
+        {
+            "version": "0.0.19",
+            "flags": "validated",
+            "lastUpdated": "2019-05-26T17:25:32.157Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.19/1558891389914/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.19/1558891389914/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.19/1558891389914/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.19/1558891389914/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.19/1558891389914/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.19/1558891389914/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.19/1558891389914/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.19/1558891389914/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.19/1558891389914",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.19/assetbyname"
+        },
+        {
+            "version": "0.0.18",
+            "flags": "validated",
+            "lastUpdated": "2019-05-17T12:11:01.83Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.18/1558094922934/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.18/1558094922934/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.18/1558094922934/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.18/1558094922934/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.18/1558094922934/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.18/1558094922934/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.18/1558094922934/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.18/1558094922934/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.18/1558094922934",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.18/assetbyname"
+        },
+        {
+            "version": "0.0.17",
+            "flags": "validated",
+            "lastUpdated": "2019-05-17T09:22:14.233Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.17/1558084776505/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.17/1558084776505/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.17/1558084776505/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.17/1558084776505/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.17/1558084776505/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.17/1558084776505/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.17/1558084776505/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.17/1558084776505/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.17/1558084776505",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.17/assetbyname"
+        },
+        {
+            "version": "0.0.16",
+            "flags": "validated",
+            "lastUpdated": "2019-05-16T17:10:37.16Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.16/1558026496506/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.16/1558026496506/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.16/1558026496506/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.16/1558026496506/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.16/1558026496506/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.16/1558026496506/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.16/1558026496506/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.16/1558026496506/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.16/1558026496506",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.16/assetbyname"
+        },
+        {
+            "version": "0.0.15",
+            "flags": "validated",
+            "lastUpdated": "2019-04-06T20:32:33.827Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.15/1554582614973/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.15/1554582614973/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.15/1554582614973/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.15/1554582614973/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.15/1554582614973/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.15/1554582614973/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.15/1554582614973/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.15/1554582614973/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.15/1554582614973",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.15/assetbyname"
+        },
+        {
+            "version": "0.0.14",
+            "flags": "validated",
+            "lastUpdated": "2019-04-06T16:55:06.883Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.14/1554569567546/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.14/1554569567546/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.14/1554569567546/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.14/1554569567546/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.14/1554569567546/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.14/1554569567546/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.14/1554569567546/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.14/1554569567546/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.14/1554569567546",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.14/assetbyname"
+        },
+        {
+            "version": "0.0.13",
+            "flags": "validated",
+            "lastUpdated": "2018-11-02T09:20:53.15Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.13/1541150314729/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.13/1541150314729/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.13/1541150314729/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.13/1541150314729/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.13/1541150314729/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.13/1541150314729/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.13/1541150314729/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.13/1541150314729/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.13/1541150314729",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.13/assetbyname"
+        },
+        {
+            "version": "0.0.12",
+            "flags": "validated",
+            "lastUpdated": "2018-10-18T20:43:17.183Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.12/1539895257966/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.12/1539895257966/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.12/1539895257966/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.12/1539895257966/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.12/1539895257966/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.12/1539895257966/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.12/1539895257966/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.12/1539895257966/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.12/1539895257966",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.12/assetbyname"
+        },
+        {
+            "version": "0.0.11",
+            "flags": "validated",
+            "lastUpdated": "2018-08-30T10:55:01.8Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.11/1535626343998/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.11/1535626343998/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.11/1535626343998/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.11/1535626343998/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.11/1535626343998/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.11/1535626343998/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.11/1535626343998/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.11/1535626343998/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.11/1535626343998",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.11/assetbyname"
+        },
+        {
+            "version": "0.0.10",
+            "flags": "validated",
+            "lastUpdated": "2018-08-30T09:10:18.753Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.10/1535620062174/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.10/1535620062174/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.10/1535620062174/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.10/1535620062174/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.10/1535620062174/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.10/1535620062174/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.10/1535620062174/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.10/1535620062174/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.10/1535620062174",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.10/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2018-08-30T08:37:41.947Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.9/1535618102825/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.9/1535618102825/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.9/1535618102825/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.9/1535618102825/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.9/1535618102825/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.9/1535618102825/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.9/1535618102825/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.9/1535618102825/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.9/1535618102825",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2018-01-15T23:46:28.313Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.8/1516059936486/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.8/1516059936486/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.8/1516059936486/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.8/1516059936486/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.8/1516059936486/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.8/1516059936486/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.8/1516059936486/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.8/1516059936486/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.8/1516059936486",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2018-01-15T23:33:32.717Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.7/1516059114295/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.7/1516059114295/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.7/1516059114295/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.7/1516059114295/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.7/1516059114295/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.7/1516059114295/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.7/1516059114295/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.7/1516059114295/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.7/1516059114295",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2017-12-29T21:19:54.89Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.6/1514582344107/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.6/1514582344107/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.6/1514582344107/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.6/1514582344107/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.6/1514582344107/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.6/1514582344107/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.6/1514582344107/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.6/1514582344107/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/ameshkov/VscodeAdblockSyntax.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.6/1514582344107",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2017-12-29T19:33:29.267Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.5/1514575923073/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.5/1514575923073/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.5/1514575923073/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.5/1514575923073/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.5/1514575923073/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.5/1514575923073",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2017-12-29T19:01:08.38Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.4/1514573983547/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.4/1514573983547/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.4/1514573983547/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.4/1514573983547/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.4/1514573983547/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.4/1514573983547",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2017-12-29T18:47:10.46Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.3/1514573041354/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.3/1514573041354/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.3/1514573041354/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.3/1514573041354/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.3/1514573041354/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.3/1514573041354",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2017-12-29T18:43:54.617Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.2/1514572915998/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.2/1514572915998/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.2/1514572915998/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.2/1514572915998/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.2/1514572915998/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.2/1514572915998",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2017-12-29T17:27:23.6Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.1/1514568392168/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.1/1514568392168/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.1/1514568392168/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.1/1514568392168/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.1/1514568392168/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://adguard.gallerycdn.vsassets.io/extensions/adguard/adblock/0.0.1/1514568392168",
+            "fallbackAssetUri": "https://adguard.gallery.vsassets.io/_apis/public/gallery/publisher/adguard/extension/adblock/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages",
+        "Linters"
+    ],
+    "tags": [
+        "__ext_txt",
+        "adblock",
+        "adguard",
+        "ublock"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 2860.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 3.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 2.728226652675761
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.27981811822315494
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 4606.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.540926714853287
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 169.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

@@ -1,0 +1,817 @@
+{
+    "publisher": {
+        "publisherId": "c0235960-79cc-476e-be8e-a16e4fc76b9a",
+        "publisherName": "RandomFractalsInc",
+        "displayName": "Random Fractals Inc.",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "e7eda848-515b-4620-b6d1-f6c1560d02a6",
+    "extensionName": "duckdb-sql-tools",
+    "displayName": "DuckDB Sql Tools",
+    "flags": "validated, public, preview, trial",
+    "lastUpdated": "2023-12-01T17:03:34.893Z",
+    "publishedDate": "2023-01-27T17:04:06.293Z",
+    "releaseDate": "2023-01-27T17:04:06.293Z",
+    "shortDescription": "DuckDB Sql Tools extension adds DuckDB connections, database schema, and SQL query user interfaces to VSCode IDE.",
+    "versions": [
+        {
+            "version": "1.4.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-01T17:03:34.893Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.4.0/1701449995426/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.4.0/1701449995426/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.4.0/1701449995426/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.4.0/1701449995426/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.4.0/1701449995426/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.4.0/1701449995426/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.4.0/1701449995426/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.4.0/1701449995426/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.4.0/1701449995426/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#333"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mtxr.sqltools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/RandomFractals"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.4.0/1701449995426",
+            "fallbackAssetUri": "https://randomfractalsinc.gallery.vsassets.io/_apis/public/gallery/publisher/RandomFractalsInc/extension/duckdb-sql-tools/1.4.0/assetbyname"
+        },
+        {
+            "version": "1.3.0",
+            "flags": "validated",
+            "lastUpdated": "2023-10-27T16:45:05.293Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.3.0/1698424923272/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.3.0/1698424923272/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.3.0/1698424923272/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.3.0/1698424923272/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.3.0/1698424923272/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.3.0/1698424923272/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.3.0/1698424923272/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.3.0/1698424923272/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.3.0/1698424923272/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#333"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mtxr.sqltools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/RandomFractals"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.3.0/1698424923272",
+            "fallbackAssetUri": "https://randomfractalsinc.gallery.vsassets.io/_apis/public/gallery/publisher/RandomFractalsInc/extension/duckdb-sql-tools/1.3.0/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-10-06T11:30:07.14Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.2.0/1696591626808/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.2.0/1696591626808/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.2.0/1696591626808/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.2.0/1696591626808/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.2.0/1696591626808/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.2.0/1696591626808/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.2.0/1696591626808/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.2.0/1696591626808/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.2.0/1696591626808/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#333"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mtxr.sqltools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/RandomFractals"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.2.0/1696591626808",
+            "fallbackAssetUri": "https://randomfractalsinc.gallery.vsassets.io/_apis/public/gallery/publisher/RandomFractalsInc/extension/duckdb-sql-tools/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-06-26T11:59:48.797Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.1.0/1687780625019/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.1.0/1687780625019/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.1.0/1687780625019/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.1.0/1687780625019/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.1.0/1687780625019/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.1.0/1687780625019/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.1.0/1687780625019/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.1.0/1687780625019/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.1.0/1687780625019/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#333"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mtxr.sqltools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/RandomFractals"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.1.0/1687780625019",
+            "fallbackAssetUri": "https://randomfractalsinc.gallery.vsassets.io/_apis/public/gallery/publisher/RandomFractalsInc/extension/duckdb-sql-tools/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.2",
+            "flags": "validated",
+            "lastUpdated": "2023-01-28T16:27:48.63Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.2/1674923018110/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.2/1674923018110/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.2/1674923018110/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.2/1674923018110/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.2/1674923018110/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.2/1674923018110/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.2/1674923018110/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.2/1674923018110/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#333"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mtxr.sqltools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/RandomFractals"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.2/1674923018110",
+            "fallbackAssetUri": "https://randomfractalsinc.gallery.vsassets.io/_apis/public/gallery/publisher/RandomFractalsInc/extension/duckdb-sql-tools/1.0.2/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-01-27T17:19:33.95Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.1/1674839712870/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.1/1674839712870/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.1/1674839712870/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.1/1674839712870/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.1/1674839712870/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.1/1674839712870/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.1/1674839712870/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.1/1674839712870/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#333"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mtxr.sqltools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/RandomFractals"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.1/1674839712870",
+            "fallbackAssetUri": "https://randomfractalsinc.gallery.vsassets.io/_apis/public/gallery/publisher/RandomFractalsInc/extension/duckdb-sql-tools/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-01-27T17:08:52.82Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.0/1674839046698/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.0/1674839046698/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.0/1674839046698/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.0/1674839046698/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.0/1674839046698/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.0/1674839046698/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.0/1674839046698/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.0/1674839046698/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/RandomFractals/duckdb-sql-tools.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "mtxr.sqltools"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://github.com/sponsors/RandomFractals"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://randomfractalsinc.gallerycdn.vsassets.io/extensions/randomfractalsinc/duckdb-sql-tools/1.0.0/1674839046698",
+            "fallbackAssetUri": "https://randomfractalsinc.gallery.vsassets.io/_apis/public/gallery/publisher/RandomFractalsInc/extension/duckdb-sql-tools/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages",
+        "Snippets",
+        "Formatters",
+        "Data Science",
+        "Machine Learning",
+        "Visualization",
+        "Notebooks"
+    ],
+    "tags": [
+        "__sponsor_extension",
+        "data",
+        "data tools \ud83d\udd2c",
+        "duckdb",
+        "sql",
+        "sql tools",
+        "sqltools-driver",
+        "viewer"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 6670.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.014992503748125935
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 8.545727136431784
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.9340329835082457
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 6603.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 123.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

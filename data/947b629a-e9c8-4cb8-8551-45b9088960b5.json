@@ -1,0 +1,856 @@
+{
+    "publisher": {
+        "publisherId": "a480949d-1849-4c40-89d6-9bc49e3689b4",
+        "publisherName": "tchayen",
+        "displayName": "tchayen",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "947b629a-e9c8-4cb8-8551-45b9088960b5",
+    "extensionName": "markdown-links",
+    "displayName": "Markdown Links",
+    "flags": "validated, public",
+    "lastUpdated": "2020-08-22T14:08:37.043Z",
+    "publishedDate": "2020-05-21T21:31:48.897Z",
+    "releaseDate": "2020-05-21T21:31:48.897Z",
+    "shortDescription": "Adds command - Show Graph - that displays a graph of local links between markdown files in the current working directory.",
+    "versions": [
+        {
+            "version": "0.8.0",
+            "flags": "validated",
+            "lastUpdated": "2020-08-22T14:10:54.087Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.8.0/1598105317046/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.8.0/1598105317046/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.8.0/1598105317046/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.8.0/1598105317046/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.8.0/1598105317046/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.8.0/1598105317046/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.8.0/1598105317046/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tchayen/markdown-links/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.8.0/1598105317046",
+            "fallbackAssetUri": "https://tchayen.gallery.vsassets.io/_apis/public/gallery/publisher/tchayen/extension/markdown-links/0.8.0/assetbyname"
+        },
+        {
+            "version": "0.7.0",
+            "flags": "validated",
+            "lastUpdated": "2020-07-25T12:59:24.177Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.7.0/1595681826310/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.7.0/1595681826310/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.7.0/1595681826310/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.7.0/1595681826310/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.7.0/1595681826310/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.7.0/1595681826310/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tchayen/markdown-links/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.7.0/1595681826310",
+            "fallbackAssetUri": "https://tchayen.gallery.vsassets.io/_apis/public/gallery/publisher/tchayen/extension/markdown-links/0.7.0/assetbyname"
+        },
+        {
+            "version": "0.6.0",
+            "flags": "validated",
+            "lastUpdated": "2020-06-25T23:35:21.96Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.6.0/1593127984390/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.6.0/1593127984390/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.6.0/1593127984390/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.6.0/1593127984390/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.6.0/1593127984390/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.6.0/1593127984390/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tchayen/markdown-links/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.6.0/1593127984390",
+            "fallbackAssetUri": "https://tchayen.gallery.vsassets.io/_apis/public/gallery/publisher/tchayen/extension/markdown-links/0.6.0/assetbyname"
+        },
+        {
+            "version": "0.5.0",
+            "flags": "validated",
+            "lastUpdated": "2020-05-23T20:03:25.793Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.5.0/1590264065101/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.5.0/1590264065101/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.5.0/1590264065101/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.5.0/1590264065101/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.5.0/1590264065101/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.5.0/1590264065101/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tchayen/markdown-links/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.5.0/1590264065101",
+            "fallbackAssetUri": "https://tchayen.gallery.vsassets.io/_apis/public/gallery/publisher/tchayen/extension/markdown-links/0.5.0/assetbyname"
+        },
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2020-05-23T11:14:12.637Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.4.0/1590232314925/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.4.0/1590232314925/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.4.0/1590232314925/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.4.0/1590232314925/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.4.0/1590232314925/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.4.0/1590232314925/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tchayen/markdown-links/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.4.0/1590232314925",
+            "fallbackAssetUri": "https://tchayen.gallery.vsassets.io/_apis/public/gallery/publisher/tchayen/extension/markdown-links/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2020-05-22T17:03:23.553Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.3.0/1590166865839/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.3.0/1590166865839/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.3.0/1590166865839/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.3.0/1590166865839/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.3.0/1590166865839/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.3.0/1590166865839/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tchayen/markdown-links/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.3.0/1590166865839",
+            "fallbackAssetUri": "https://tchayen.gallery.vsassets.io/_apis/public/gallery/publisher/tchayen/extension/markdown-links/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.3",
+            "flags": "validated",
+            "lastUpdated": "2020-05-22T16:26:12.48Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.3/1590164635203/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.3/1590164635203/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.3/1590164635203/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.3/1590164635203/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.3/1590164635203/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.3/1590164635203/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tchayen/markdown-links/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.3/1590164635203",
+            "fallbackAssetUri": "https://tchayen.gallery.vsassets.io/_apis/public/gallery/publisher/tchayen/extension/markdown-links/0.2.3/assetbyname"
+        },
+        {
+            "version": "0.2.2",
+            "flags": "validated",
+            "lastUpdated": "2020-05-21T22:19:46.73Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.2/1590099448152/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.2/1590099448152/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.2/1590099448152/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.2/1590099448152/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.2/1590099448152/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.2/1590099448152/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tchayen/markdown-links/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.2/1590099448152",
+            "fallbackAssetUri": "https://tchayen.gallery.vsassets.io/_apis/public/gallery/publisher/tchayen/extension/markdown-links/0.2.2/assetbyname"
+        },
+        {
+            "version": "0.2.1",
+            "flags": "validated",
+            "lastUpdated": "2020-05-21T21:51:30.083Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.1/1590097752423/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.1/1590097752423/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.1/1590097752423/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.1/1590097752423/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.1/1590097752423/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.1/1590097752423/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tchayen/markdown-links/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.1/1590097752423",
+            "fallbackAssetUri": "https://tchayen.gallery.vsassets.io/_apis/public/gallery/publisher/tchayen/extension/markdown-links/0.2.1/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2020-05-21T21:45:25.507Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.0/1590097388491/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.0/1590097388491/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.0/1590097388491/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.0/1590097388491/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.0/1590097388491/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.0/1590097388491/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tchayen/markdown-links/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.2.0/1590097388491",
+            "fallbackAssetUri": "https://tchayen.gallery.vsassets.io/_apis/public/gallery/publisher/tchayen/extension/markdown-links/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2020-05-21T21:34:14.983Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.1.0/1590096708902/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.1.0/1590096708902/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.1.0/1590096708902/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.1.0/1590096708902/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.1.0/1590096708902/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.1.0/1590096708902/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/tchayen/markdown-links/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/tchayen/markdown-links"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.45.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://tchayen.gallerycdn.vsassets.io/extensions/tchayen/markdown-links/0.1.0/1590096708902",
+            "fallbackAssetUri": "https://tchayen.gallery.vsassets.io/_apis/public/gallery/publisher/tchayen/extension/markdown-links/0.1.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "markdown"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 42020.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 6.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.8734144077679146
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.21656869511411503
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 11418.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.627002955818295
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 223.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

@@ -1,0 +1,989 @@
+{
+    "publisher": {
+        "publisherId": "6201d2b3-19a1-4bd4-b441-5463a69e5775",
+        "publisherName": "Microtronics",
+        "displayName": "Microtronics",
+        "flags": "verified",
+        "domain": "https://microtronics.com",
+        "isDomainVerified": true
+    },
+    "extensionId": "312f3ba5-3fbc-48c8-a673-bfd4afbaed96",
+    "extensionName": "microtronics-authenticator",
+    "displayName": "Microtronics ID Authenticator",
+    "flags": "validated, public, preview",
+    "lastUpdated": "2024-01-03T13:56:15.17Z",
+    "publishedDate": "2023-10-18T12:51:54.397Z",
+    "releaseDate": "2023-10-18T12:51:54.397Z",
+    "shortDescription": "Provide Microtronics ID session login within vscode",
+    "versions": [
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2024-01-03T13:56:15.167Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.4.0/1704289993281/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.4.0/1704289993281/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.4.0/1704289993281/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.4.0/1704289993281/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.4.0/1704289993281/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.4.0/1704289993281/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.4.0/1704289993281/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.4.0/1704289993281/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.4.0/1704289993281/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.83.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.4.0/1704289993281",
+            "fallbackAssetUri": "https://microtronics.gallery.vsassets.io/_apis/public/gallery/publisher/Microtronics/extension/microtronics-authenticator/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.1",
+            "flags": "validated",
+            "lastUpdated": "2024-01-03T13:11:05.53Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.3.1/1704287215817/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.3.1/1704287215817/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.3.1/1704287215817/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.3.1/1704287215817/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.3.1/1704287215817/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.3.1/1704287215817/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.3.1/1704287215817/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.3.1/1704287215817/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.3.1/1704287215817/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.83.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.3.1/1704287215817",
+            "fallbackAssetUri": "https://microtronics.gallery.vsassets.io/_apis/public/gallery/publisher/Microtronics/extension/microtronics-authenticator/0.3.1/assetbyname"
+        },
+        {
+            "version": "0.2.6",
+            "flags": "validated",
+            "lastUpdated": "2023-12-04T10:31:17.313Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.6/1701685629672/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.6/1701685629672/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.6/1701685629672/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.6/1701685629672/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.6/1701685629672/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.6/1701685629672/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.6/1701685629672/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.6/1701685629672/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.6/1701685629672/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.83.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.6/1701685629672",
+            "fallbackAssetUri": "https://microtronics.gallery.vsassets.io/_apis/public/gallery/publisher/Microtronics/extension/microtronics-authenticator/0.2.6/assetbyname"
+        },
+        {
+            "version": "0.2.5",
+            "flags": "validated",
+            "lastUpdated": "2023-12-04T09:44:59.07Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.5/1701682885783/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.5/1701682885783/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.5/1701682885783/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.5/1701682885783/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.5/1701682885783/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.5/1701682885783/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.5/1701682885783/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.5/1701682885783/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.5/1701682885783/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.83.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.5/1701682885783",
+            "fallbackAssetUri": "https://microtronics.gallery.vsassets.io/_apis/public/gallery/publisher/Microtronics/extension/microtronics-authenticator/0.2.5/assetbyname"
+        },
+        {
+            "version": "0.2.4",
+            "flags": "validated",
+            "lastUpdated": "2023-11-16T08:52:23.103Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.4/1700124595794/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.4/1700124595794/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.4/1700124595794/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.4/1700124595794/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.4/1700124595794/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.4/1700124595794/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.4/1700124595794/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.4/1700124595794/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.83.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.4/1700124595794",
+            "fallbackAssetUri": "https://microtronics.gallery.vsassets.io/_apis/public/gallery/publisher/Microtronics/extension/microtronics-authenticator/0.2.4/assetbyname"
+        },
+        {
+            "version": "0.2.3",
+            "flags": "validated",
+            "lastUpdated": "2023-10-19T07:45:41.107Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.3/1697701289927/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.3/1697701289927/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.3/1697701289927/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.3/1697701289927/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.3/1697701289927/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.3/1697701289927/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.3/1697701289927/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.3/1697701289927/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.83.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.3/1697701289927",
+            "fallbackAssetUri": "https://microtronics.gallery.vsassets.io/_apis/public/gallery/publisher/Microtronics/extension/microtronics-authenticator/0.2.3/assetbyname"
+        },
+        {
+            "version": "0.2.2",
+            "flags": "validated",
+            "lastUpdated": "2023-10-19T06:21:22.89Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.2/1697696229592/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.2/1697696229592/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.2/1697696229592/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.2/1697696229592/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.2/1697696229592/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.2/1697696229592/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.2/1697696229592/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.2/1697696229592/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.83.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.2/1697696229592",
+            "fallbackAssetUri": "https://microtronics.gallery.vsassets.io/_apis/public/gallery/publisher/Microtronics/extension/microtronics-authenticator/0.2.2/assetbyname"
+        },
+        {
+            "version": "0.2.1",
+            "flags": "validated",
+            "lastUpdated": "2023-10-18T13:31:27.17Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.1/1697635699663/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.1/1697635699663/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.1/1697635699663/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.1/1697635699663/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.1/1697635699663/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.1/1697635699663/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.1/1697635699663/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.1/1697635699663/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.83.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.1/1697635699663",
+            "fallbackAssetUri": "https://microtronics.gallery.vsassets.io/_apis/public/gallery/publisher/Microtronics/extension/microtronics-authenticator/0.2.1/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-10-18T13:08:55.633Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.0/1697634344102/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.0/1697634344102/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.0/1697634344102/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.0/1697634344102/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.0/1697634344102/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.0/1697634344102/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.0/1697634344102/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.0/1697634344102/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.83.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.2.0/1697634344102",
+            "fallbackAssetUri": "https://microtronics.gallery.vsassets.io/_apis/public/gallery/publisher/Microtronics/extension/microtronics-authenticator/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-10-18T12:55:05.753Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.1.0/1697633514895/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.1.0/1697633514895/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.1.0/1697633514895/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.1.0/1697633514895/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.1.0/1697633514895/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.1.0/1697633514895/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.1.0/1697633514895/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.1.0/1697633514895/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://bitbucket.org/microtronics-core/vscode-authenticator.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.83.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://microtronics.gallerycdn.vsassets.io/extensions/microtronics/microtronics-authenticator/0.1.0/1697633514895",
+            "fallbackAssetUri": "https://microtronics.gallery.vsassets.io/_apis/public/gallery/publisher/Microtronics/extension/microtronics-authenticator/0.1.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "__web_extension"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 40.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 22.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 50.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

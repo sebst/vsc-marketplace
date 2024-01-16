@@ -1,0 +1,780 @@
+{
+    "publisher": {
+        "publisherId": "55739b3a-da5a-4879-8673-7bc0f481deaa",
+        "publisherName": "dchanco",
+        "displayName": "David Chancogne",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "7d02cc2d-2b0c-4915-8ae0-9a9071ba2a30",
+    "extensionName": "vsc-invoke",
+    "displayName": "Invoke (Python Task Executor)",
+    "flags": "validated, public",
+    "lastUpdated": "2019-07-05T22:57:59.747Z",
+    "publishedDate": "2018-01-13T16:09:17.947Z",
+    "releaseDate": "2018-01-13T16:09:17.947Z",
+    "shortDescription": "Support for executing Invoke task from VS Code",
+    "versions": [
+        {
+            "version": "0.0.12",
+            "flags": "validated",
+            "lastUpdated": "2019-07-05T23:00:17.293Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.12/1562367479752/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.12/1562367479752/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.12/1562367479752/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.12/1562367479752/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.12/1562367479752/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.12/1562367479752/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.12/1562367479752/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.12/1562367479752/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#171515"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.19.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.12/1562367479752",
+            "fallbackAssetUri": "https://dchanco.gallery.vsassets.io/_apis/public/gallery/publisher/dchanco/extension/vsc-invoke/0.0.12/assetbyname"
+        },
+        {
+            "version": "0.0.11",
+            "flags": "validated",
+            "lastUpdated": "2019-05-06T15:58:18.617Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.11/1557158159650/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.11/1557158159650/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.11/1557158159650/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.11/1557158159650/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.11/1557158159650/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.11/1557158159650/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.11/1557158159650/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#171515"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.19.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.11/1557158159650",
+            "fallbackAssetUri": "https://dchanco.gallery.vsassets.io/_apis/public/gallery/publisher/dchanco/extension/vsc-invoke/0.0.11/assetbyname"
+        },
+        {
+            "version": "0.0.10",
+            "flags": "validated",
+            "lastUpdated": "2019-05-02T14:29:44.77Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.10/1556807238467/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.10/1556807238467/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.10/1556807238467/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.10/1556807238467/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.10/1556807238467/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.10/1556807238467/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.10/1556807238467/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#171515"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.19.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.10/1556807238467",
+            "fallbackAssetUri": "https://dchanco.gallery.vsassets.io/_apis/public/gallery/publisher/dchanco/extension/vsc-invoke/0.0.10/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2018-07-22T13:49:04.13Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.9/1532267287802/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.9/1532267287802/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.9/1532267287802/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.9/1532267287802/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.9/1532267287802/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.9/1532267287802/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.9/1532267287802/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#171515"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.19.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.9/1532267287802",
+            "fallbackAssetUri": "https://dchanco.gallery.vsassets.io/_apis/public/gallery/publisher/dchanco/extension/vsc-invoke/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2018-07-21T17:04:00.573Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.8/1532192477887/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.8/1532192477887/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.8/1532192477887/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.8/1532192477887/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.8/1532192477887/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.8/1532192477887/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.8/1532192477887/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#171515"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.19.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.8/1532192477887",
+            "fallbackAssetUri": "https://dchanco.gallery.vsassets.io/_apis/public/gallery/publisher/dchanco/extension/vsc-invoke/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2018-07-02T13:17:34.353Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.7/1530537295944/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.7/1530537295944/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.7/1530537295944/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.7/1530537295944/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.7/1530537295944/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.7/1530537295944/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.7/1530537295944/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#171515"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.19.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.7/1530537295944",
+            "fallbackAssetUri": "https://dchanco.gallery.vsassets.io/_apis/public/gallery/publisher/dchanco/extension/vsc-invoke/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2018-06-29T04:42:30.827Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.6/1530247188621/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.6/1530247188621/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.6/1530247188621/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.6/1530247188621/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.6/1530247188621/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.6/1530247188621/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.6/1530247188621/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#171515"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.19.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.6/1530247188621",
+            "fallbackAssetUri": "https://dchanco.gallery.vsassets.io/_apis/public/gallery/publisher/dchanco/extension/vsc-invoke/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2018-04-18T22:32:37.07Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.5/1524090743561/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.5/1524090743561/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.5/1524090743561/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.5/1524090743561/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.5/1524090743561/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.5/1524090743561/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.5/1524090743561/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#171515"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.19.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.5/1524090743561",
+            "fallbackAssetUri": "https://dchanco.gallery.vsassets.io/_apis/public/gallery/publisher/dchanco/extension/vsc-invoke/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2018-01-22T22:28:36.47Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.4/1516660063869/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.4/1516660063869/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.4/1516660063869/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.4/1516660063869/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.4/1516660063869/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.4/1516660063869/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.4/1516660063869/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#171515"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.19.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.4/1516660063869",
+            "fallbackAssetUri": "https://dchanco.gallery.vsassets.io/_apis/public/gallery/publisher/dchanco/extension/vsc-invoke/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2018-01-13T22:44:12.977Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.3/1515883404261/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.3/1515883404261/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.3/1515883404261/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.3/1515883404261/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.3/1515883404261/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.3/1515883404261/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.3/1515883404261/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#171515"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.19.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.3/1515883404261",
+            "fallbackAssetUri": "https://dchanco.gallery.vsassets.io/_apis/public/gallery/publisher/dchanco/extension/vsc-invoke/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2018-01-13T22:11:40.107Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.2/1515881450590/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.2/1515881450590/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.2/1515881450590/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.2/1515881450590/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.2/1515881450590/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.2/1515881450590/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.2/1515881450590/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#C80000"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.19.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.2/1515881450590",
+            "fallbackAssetUri": "https://dchanco.gallery.vsassets.io/_apis/public/gallery/publisher/dchanco/extension/vsc-invoke/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2018-01-13T16:10:08.45Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.1/1515859758008/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.1/1515859758008/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.1/1515859758008/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.1/1515859758008/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.1/1515859758008/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.19.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://dchanco.gallerycdn.vsassets.io/extensions/dchanco/vsc-invoke/0.0.1/1515859758008",
+            "fallbackAssetUri": "https://dchanco.gallery.vsassets.io/_apis/public/gallery/publisher/dchanco/extension/vsc-invoke/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 39983.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 3.6666667461395264
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 3.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.9754389475263868
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.235105797608924
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 10615.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.23323442550087
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 146.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

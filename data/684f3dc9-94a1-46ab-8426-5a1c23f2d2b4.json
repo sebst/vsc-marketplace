@@ -1,0 +1,913 @@
+{
+    "publisher": {
+        "publisherId": "073e1b15-5ae5-47e8-91fb-71f784504a49",
+        "publisherName": "mongoose-os",
+        "displayName": "Mongoose OS",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "684f3dc9-94a1-46ab-8426-5a1c23f2d2b4",
+    "extensionName": "mongoose-os-ide",
+    "displayName": "Mongoose OS IDE",
+    "flags": "validated, public",
+    "lastUpdated": "2020-05-25T16:55:58.747Z",
+    "publishedDate": "2018-01-15T19:58:21.123Z",
+    "releaseDate": "2018-01-15T19:58:21.123Z",
+    "shortDescription": "Development environment for Mongoose OS",
+    "versions": [
+        {
+            "version": "0.6.0",
+            "flags": "validated",
+            "lastUpdated": "2020-05-25T16:58:16.717Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.6.0/1590425758751/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.6.0/1590425758751/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.6.0/1590425758751/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.6.0/1590425758751/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.6.0/1590425758751/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.6.0/1590425758751/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.6.0/1590425758751/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://mongoose-os.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.6.0/1590425758751",
+            "fallbackAssetUri": "https://mongoose-os.gallery.vsassets.io/_apis/public/gallery/publisher/mongoose-os/extension/mongoose-os-ide/0.6.0/assetbyname"
+        },
+        {
+            "version": "0.5.4",
+            "flags": "validated",
+            "lastUpdated": "2018-11-18T19:11:15.883Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.4/1542568131568/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.4/1542568131568/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.4/1542568131568/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.4/1542568131568/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.4/1542568131568/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.4/1542568131568/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://mongoose-os.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.4/1542568131568",
+            "fallbackAssetUri": "https://mongoose-os.gallery.vsassets.io/_apis/public/gallery/publisher/mongoose-os/extension/mongoose-os-ide/0.5.4/assetbyname"
+        },
+        {
+            "version": "0.5.3",
+            "flags": "validated",
+            "lastUpdated": "2018-11-18T18:52:57.673Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.3/1542567037826/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.3/1542567037826/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.3/1542567037826/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.3/1542567037826/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.3/1542567037826/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.3/1542567037826/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://mongoose-os.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.3/1542567037826",
+            "fallbackAssetUri": "https://mongoose-os.gallery.vsassets.io/_apis/public/gallery/publisher/mongoose-os/extension/mongoose-os-ide/0.5.3/assetbyname"
+        },
+        {
+            "version": "0.5.2",
+            "flags": "validated",
+            "lastUpdated": "2018-11-17T14:04:37.99Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.2/1542463335668/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.2/1542463335668/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.2/1542463335668/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.2/1542463335668/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.2/1542463335668/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.2/1542463335668/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://mongoose-os.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.2/1542463335668",
+            "fallbackAssetUri": "https://mongoose-os.gallery.vsassets.io/_apis/public/gallery/publisher/mongoose-os/extension/mongoose-os-ide/0.5.2/assetbyname"
+        },
+        {
+            "version": "0.5.1",
+            "flags": "validated",
+            "lastUpdated": "2018-11-13T20:40:15.873Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.1/1542141473611/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.1/1542141473611/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.1/1542141473611/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.1/1542141473611/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.1/1542141473611/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.1/1542141473611/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://mongoose-os.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.1/1542141473611",
+            "fallbackAssetUri": "https://mongoose-os.gallery.vsassets.io/_apis/public/gallery/publisher/mongoose-os/extension/mongoose-os-ide/0.5.1/assetbyname"
+        },
+        {
+            "version": "0.5.0",
+            "flags": "validated",
+            "lastUpdated": "2018-11-11T17:14:44.51Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.0/1541956338991/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.0/1541956338991/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.0/1541956338991/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.0/1541956338991/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.0/1541956338991/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.0/1541956338991/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://mongoose-os.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/cesanta/mongoose-os-ide"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.5.0/1541956338991",
+            "fallbackAssetUri": "https://mongoose-os.gallery.vsassets.io/_apis/public/gallery/publisher/mongoose-os/extension/mongoose-os-ide/0.5.0/assetbyname"
+        },
+        {
+            "version": "0.4.6",
+            "flags": "validated",
+            "lastUpdated": "2018-11-09T01:01:00.977Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.6/1541725118578/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.6/1541725118578/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.6/1541725118578/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.6/1541725118578/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.6/1541725118578/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.6/1541725118578/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://mongoose-os.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.6/1541725118578",
+            "fallbackAssetUri": "https://mongoose-os.gallery.vsassets.io/_apis/public/gallery/publisher/mongoose-os/extension/mongoose-os-ide/0.4.6/assetbyname"
+        },
+        {
+            "version": "0.4.4",
+            "flags": "validated",
+            "lastUpdated": "2018-11-09T00:42:30.81Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.4/1541724007873/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.4/1541724007873/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.4/1541724007873/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.4/1541724007873/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.4/1541724007873/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.4/1541724007873/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://mongoose-os.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.4/1541724007873",
+            "fallbackAssetUri": "https://mongoose-os.gallery.vsassets.io/_apis/public/gallery/publisher/mongoose-os/extension/mongoose-os-ide/0.4.4/assetbyname"
+        },
+        {
+            "version": "0.4.3",
+            "flags": "validated",
+            "lastUpdated": "2018-11-08T21:39:49.827Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.3/1541713049079/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.3/1541713049079/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.3/1541713049079/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.3/1541713049079/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.3/1541713049079/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.3/1541713049079/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://mongoose-os.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.3/1541713049079",
+            "fallbackAssetUri": "https://mongoose-os.gallery.vsassets.io/_apis/public/gallery/publisher/mongoose-os/extension/mongoose-os-ide/0.4.3/assetbyname"
+        },
+        {
+            "version": "0.4.2",
+            "flags": "validated",
+            "lastUpdated": "2018-11-08T19:35:28.88Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.2/1541705588057/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.2/1541705588057/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.2/1541705588057/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.2/1541705588057/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.2/1541705588057/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.2/1541705588057/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://mongoose-os.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.2/1541705588057",
+            "fallbackAssetUri": "https://mongoose-os.gallery.vsassets.io/_apis/public/gallery/publisher/mongoose-os/extension/mongoose-os-ide/0.4.2/assetbyname"
+        },
+        {
+            "version": "0.4.1",
+            "flags": "validated",
+            "lastUpdated": "2018-11-08T17:23:42.86Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.1/1541697681204/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.1/1541697681204/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.1/1541697681204/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.1/1541697681204/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.1/1541697681204/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.1/1541697681204/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://mongoose-os.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.1/1541697681204",
+            "fallbackAssetUri": "https://mongoose-os.gallery.vsassets.io/_apis/public/gallery/publisher/mongoose-os/extension/mongoose-os-ide/0.4.1/assetbyname"
+        },
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2018-11-08T15:17:14.69Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.0/1541690091891/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.0/1541690091891/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.0/1541690091891/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.0/1541690091891/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://mongoose-os.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.28.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.4.0/1541690091891",
+            "fallbackAssetUri": "https://mongoose-os.gallery.vsassets.io/_apis/public/gallery/publisher/mongoose-os/extension/mongoose-os-ide/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2018-01-16T09:38:32.47Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.3.0/1516095446417/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.3.0/1516095446417/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.3.0/1516095446417/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.3.0/1516095446417/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.3.0/1516095446417/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://mongoose-os.com"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.19.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.3.0/1516095446417",
+            "fallbackAssetUri": "https://mongoose-os.gallery.vsassets.io/_apis/public/gallery/publisher/mongoose-os/extension/mongoose-os-ide/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2018-01-15T19:59:14.59Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.0.1/1516046301184/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.0.1/1516046301184/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.0.1/1516046301184/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.0.1/1516046301184/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.0.1/1516046301184/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.19.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mongoose-os.gallerycdn.vsassets.io/extensions/mongoose-os/mongoose-os-ide/0.0.1/1516046301184",
+            "fallbackAssetUri": "https://mongoose-os.gallery.vsassets.io/_apis/public/gallery/publisher/mongoose-os/extension/mongoose-os-ide/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "keybindings"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 19860.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 3.857142925262451
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 7.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.005039052658100277
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.3202317964222725
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.327538422776518
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 6393.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.178355751172346
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 78.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

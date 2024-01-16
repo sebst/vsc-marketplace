@@ -1,0 +1,1583 @@
+{
+    "publisher": {
+        "publisherId": "6a3f59be-6127-4dd1-bff5-275d7aaebe99",
+        "publisherName": "MichaelCurrin",
+        "displayName": "MichaelCurrin",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "210bbdd0-bf02-4c56-864a-515bf6df6e46",
+    "extensionName": "auto-commit-msg",
+    "displayName": "Auto Commit Message",
+    "flags": "validated, public",
+    "lastUpdated": "2023-11-20T20:31:42.897Z",
+    "publishedDate": "2021-07-31T18:21:13.69Z",
+    "releaseDate": "2021-07-31T18:21:13.69Z",
+    "shortDescription": "A VS Code extension to generate a smart commit message based on file changes",
+    "versions": [
+        {
+            "version": "0.27.0",
+            "flags": "validated",
+            "lastUpdated": "2023-11-20T20:31:42.897Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.27.0/1700512155050/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.27.0/1700512155050/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.27.0/1700512155050/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.27.0/1700512155050/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.27.0/1700512155050/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.27.0/1700512155050/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.27.0/1700512155050/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.27.0/1700512155050/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.83.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.27.0/1700512155050",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.27.0/assetbyname"
+        },
+        {
+            "version": "0.26.2",
+            "flags": "validated",
+            "lastUpdated": "2023-09-23T18:44:00.687Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.2/1695494458456/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.2/1695494458456/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.2/1695494458456/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.2/1695494458456/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.2/1695494458456/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.2/1695494458456/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.2/1695494458456/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.2/1695494458456/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.81.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.2/1695494458456",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.26.2/assetbyname"
+        },
+        {
+            "version": "0.26.1",
+            "flags": "validated",
+            "lastUpdated": "2023-01-15T08:28:46.503Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.1/1673771122262/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.1/1673771122262/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.1/1673771122262/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.1/1673771122262/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.1/1673771122262/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.1/1673771122262/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.1/1673771122262/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.1/1673771122262/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.1/1673771122262",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.26.1/assetbyname"
+        },
+        {
+            "version": "0.26.0",
+            "flags": "validated",
+            "lastUpdated": "2022-12-31T15:22:41.847Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.0/1672500000460/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.0/1672500000460/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.0/1672500000460/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.0/1672500000460/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.0/1672500000460/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.0/1672500000460/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.0/1672500000460/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.0/1672500000460/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.26.0/1672500000460",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.26.0/assetbyname"
+        },
+        {
+            "version": "0.25.2",
+            "flags": "validated",
+            "lastUpdated": "2022-12-30T19:38:20.9Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.2/1672428904957/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.2/1672428904957/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.2/1672428904957/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.2/1672428904957/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.2/1672428904957/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.2/1672428904957/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.2/1672428904957/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.2/1672428904957/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.2/1672428904957",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.25.2/assetbyname"
+        },
+        {
+            "version": "0.25.1",
+            "flags": "validated",
+            "lastUpdated": "2022-12-28T17:58:00.69Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.1/1672250087266/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.1/1672250087266/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.1/1672250087266/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.1/1672250087266/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.1/1672250087266/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.1/1672250087266/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.1/1672250087266/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.1/1672250087266/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.1/1672250087266",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.25.1/assetbyname"
+        },
+        {
+            "version": "0.25.0",
+            "flags": "validated",
+            "lastUpdated": "2022-09-22T14:41:25.913Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.0/1663857549882/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.0/1663857549882/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.0/1663857549882/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.0/1663857549882/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.0/1663857549882/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.0/1663857549882/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.0/1663857549882/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.25.0/1663857549882",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.25.0/assetbyname"
+        },
+        {
+            "version": "0.24.3",
+            "flags": "validated",
+            "lastUpdated": "2022-06-05T10:52:23.763Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.3/1654426205381/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.3/1654426205381/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.3/1654426205381/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.3/1654426205381/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.3/1654426205381/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.3/1654426205381/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.3/1654426205381/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.3/1654426205381",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.24.3/assetbyname"
+        },
+        {
+            "version": "0.24.2",
+            "flags": "validated",
+            "lastUpdated": "2022-04-03T20:10:56.583Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.2/1649016518187/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.2/1649016518187/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.2/1649016518187/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.2/1649016518187/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.2/1649016518187/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.2/1649016518187/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.2/1649016518187/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.2/1649016518187",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.24.2/assetbyname"
+        },
+        {
+            "version": "0.24.1",
+            "flags": "validated",
+            "lastUpdated": "2022-02-14T09:57:53.09Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.1/1644832536415/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.1/1644832536415/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.1/1644832536415/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.1/1644832536415/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.1/1644832536415/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.1/1644832536415/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.1/1644832536415/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.1/1644832536415",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.24.1/assetbyname"
+        },
+        {
+            "version": "0.24.0",
+            "flags": "validated",
+            "lastUpdated": "2022-01-04T16:22:30.263Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.0/1641313213435/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.0/1641313213435/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.0/1641313213435/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.0/1641313213435/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.0/1641313213435/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.0/1641313213435/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.0/1641313213435/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.24.0/1641313213435",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.24.0/assetbyname"
+        },
+        {
+            "version": "0.23.0",
+            "flags": "validated",
+            "lastUpdated": "2021-12-19T05:56:37.4Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.23.0/1639893258983/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.23.0/1639893258983/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.23.0/1639893258983/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.23.0/1639893258983/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.23.0/1639893258983/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.23.0/1639893258983/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.23.0/1639893258983/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.23.0/1639893258983",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.23.0/assetbyname"
+        },
+        {
+            "version": "0.22.2",
+            "flags": "validated",
+            "lastUpdated": "2021-10-10T17:55:27.58Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.2/1633888390537/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.2/1633888390537/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.2/1633888390537/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.2/1633888390537/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.2/1633888390537/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.2/1633888390537/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.2/1633888390537/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.2/1633888390537",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.22.2/assetbyname"
+        },
+        {
+            "version": "0.22.1",
+            "flags": "validated",
+            "lastUpdated": "2021-08-24T21:11:40.987Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.1/1629839360080/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.1/1629839360080/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.1/1629839360080/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.1/1629839360080/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.1/1629839360080/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.1/1629839360080/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.1/1629839360080/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.58.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.1/1629839360080",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.22.1/assetbyname"
+        },
+        {
+            "version": "0.22.0",
+            "flags": "validated",
+            "lastUpdated": "2021-07-31T19:45:00.49Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.0/1627760564074/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.0/1627760564074/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.0/1627760564074/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.0/1627760564074/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.0/1627760564074/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.0/1627760564074/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.0/1627760564074/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.58.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.22.0/1627760564074",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.22.0/assetbyname"
+        },
+        {
+            "version": "0.21.0",
+            "flags": "validated",
+            "lastUpdated": "2021-07-31T18:23:30.993Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.21.0/1627755673689/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.21.0/1627755673689/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.21.0/1627755673689/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.21.0/1627755673689/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.21.0/1627755673689/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.21.0/1627755673689/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.21.0/1627755673689/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#f0efe7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/MichaelCurrin/auto-commit-msg"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.58.1"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://michaelcurrin.gallerycdn.vsassets.io/extensions/michaelcurrin/auto-commit-msg/0.21.0/1627755673689",
+            "fallbackAssetUri": "https://michaelcurrin.gallery.vsassets.io/_apis/public/gallery/publisher/MichaelCurrin/extension/auto-commit-msg/0.21.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "SCM Providers"
+    ],
+    "tags": [
+        "auto",
+        "commit",
+        "conventional-commit",
+        "generate",
+        "git",
+        "message",
+        "productivity",
+        "vscode",
+        "vs-code"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 19823.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 4.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 6.618428376258666
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.497748317563123
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 15344.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.573717663792337
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 188.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

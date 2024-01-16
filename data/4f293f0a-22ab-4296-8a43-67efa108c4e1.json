@@ -1,0 +1,952 @@
+{
+    "publisher": {
+        "publisherId": "09484589-aa91-438c-839e-536038c617e3",
+        "publisherName": "mateuszchudyk",
+        "displayName": "Mateusz Chudyk",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "4f293f0a-22ab-4296-8a43-67efa108c4e1",
+    "extensionName": "hexinspector",
+    "displayName": "HexInspector",
+    "flags": "validated, public",
+    "lastUpdated": "2022-11-09T20:25:27.65Z",
+    "publishedDate": "2019-01-23T01:23:32.677Z",
+    "releaseDate": "2019-01-23T01:23:32.677Z",
+    "shortDescription": "Provides fast and easy way to peek other forms of a hexadecimal/decimal/binary value",
+    "versions": [
+        {
+            "version": "1.5.1",
+            "flags": "validated",
+            "lastUpdated": "2022-11-09T20:25:27.65Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.1/1668025391852/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.1/1668025391852/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.1/1668025391852/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.1/1668025391852/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.1/1668025391852/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.1/1668025391852/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.1/1668025391852/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.1/1668025391852/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.1/1668025391852/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.1/1668025391852",
+            "fallbackAssetUri": "https://mateuszchudyk.gallery.vsassets.io/_apis/public/gallery/publisher/mateuszchudyk/extension/hexinspector/1.5.1/assetbyname"
+        },
+        {
+            "version": "1.5.0",
+            "flags": "validated",
+            "lastUpdated": "2022-08-09T17:19:22.95Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.0/1660065421391/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.0/1660065421391/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.0/1660065421391/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.0/1660065421391/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.0/1660065421391/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.0/1660065421391/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.0/1660065421391/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.0/1660065421391/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.5.0/1660065421391",
+            "fallbackAssetUri": "https://mateuszchudyk.gallery.vsassets.io/_apis/public/gallery/publisher/mateuszchudyk/extension/hexinspector/1.5.0/assetbyname"
+        },
+        {
+            "version": "1.4.0",
+            "flags": "validated",
+            "lastUpdated": "2022-07-20T23:05:42.617Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.4.0/1658358202241/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.4.0/1658358202241/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.4.0/1658358202241/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.4.0/1658358202241/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.4.0/1658358202241/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.4.0/1658358202241/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.4.0/1658358202241/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.4.0/1658358202241/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.4.0/1658358202241",
+            "fallbackAssetUri": "https://mateuszchudyk.gallery.vsassets.io/_apis/public/gallery/publisher/mateuszchudyk/extension/hexinspector/1.4.0/assetbyname"
+        },
+        {
+            "version": "1.3.0",
+            "flags": "validated",
+            "lastUpdated": "2022-03-11T16:27:26.133Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.3.0/1647015907787/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.3.0/1647015907787/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.3.0/1647015907787/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.3.0/1647015907787/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.3.0/1647015907787/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.3.0/1647015907787/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.3.0/1647015907787/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.3.0/1647015907787/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.3.0/1647015907787",
+            "fallbackAssetUri": "https://mateuszchudyk.gallery.vsassets.io/_apis/public/gallery/publisher/mateuszchudyk/extension/hexinspector/1.3.0/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2021-08-10T05:41:06.98Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.2.0/1628573875297/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.2.0/1628573875297/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.2.0/1628573875297/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.2.0/1628573875297/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.2.0/1628573875297/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.2.0/1628573875297/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.2.0/1628573875297/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.2.0/1628573875297/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.2.0/1628573875297",
+            "fallbackAssetUri": "https://mateuszchudyk.gallery.vsassets.io/_apis/public/gallery/publisher/mateuszchudyk/extension/hexinspector/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2021-08-05T18:48:38.733Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.1.0/1628189181132/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.1.0/1628189181132/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.1.0/1628189181132/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.1.0/1628189181132/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.1.0/1628189181132/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.1.0/1628189181132/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.1.0/1628189181132/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.1.0/1628189181132/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.1.0/1628189181132",
+            "fallbackAssetUri": "https://mateuszchudyk.gallery.vsassets.io/_apis/public/gallery/publisher/mateuszchudyk/extension/hexinspector/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2019-07-12T23:36:33.993Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.1/1562974455798/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.1/1562974455798/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.1/1562974455798/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.1/1562974455798/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.1/1562974455798/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.1/1562974455798/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.1/1562974455798/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.1/1562974455798/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.1/1562974455798",
+            "fallbackAssetUri": "https://mateuszchudyk.gallery.vsassets.io/_apis/public/gallery/publisher/mateuszchudyk/extension/hexinspector/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2019-04-27T23:06:56.507Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.0/1556406270950/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.0/1556406270950/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.0/1556406270950/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.0/1556406270950/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.0/1556406270950/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.0/1556406270950/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.0/1556406270950/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.0/1556406270950/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/1.0.0/1556406270950",
+            "fallbackAssetUri": "https://mateuszchudyk.gallery.vsassets.io/_apis/public/gallery/publisher/mateuszchudyk/extension/hexinspector/1.0.0/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2019-02-02T00:00:07.07Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.3/1549065468909/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.3/1549065468909/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.3/1549065468909/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.3/1549065468909/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.3/1549065468909/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.3/1549065468909/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.3/1549065468909/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.3/1549065468909/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.3/1549065468909",
+            "fallbackAssetUri": "https://mateuszchudyk.gallery.vsassets.io/_apis/public/gallery/publisher/mateuszchudyk/extension/hexinspector/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2019-01-25T22:45:31.413Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.2/1548456193869/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.2/1548456193869/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.2/1548456193869/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.2/1548456193869/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.2/1548456193869/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.2/1548456193869/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.2/1548456193869/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.2/1548456193869/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.2/1548456193869",
+            "fallbackAssetUri": "https://mateuszchudyk.gallery.vsassets.io/_apis/public/gallery/publisher/mateuszchudyk/extension/hexinspector/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2019-01-23T01:25:54.847Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.1/1548206612678/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.1/1548206612678/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.1/1548206612678/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.1/1548206612678/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.1/1548206612678/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.1/1548206612678/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.1/1548206612678/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.1/1548206612678/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mateuszchudyk/vscode-hexinspector"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.30.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://mateuszchudyk.gallerycdn.vsassets.io/extensions/mateuszchudyk/hexinspector/0.0.1/1548206612678",
+            "fallbackAssetUri": "https://mateuszchudyk.gallery.vsassets.io/_apis/public/gallery/publisher/mateuszchudyk/extension/hexinspector/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "converter",
+        "hex",
+        "hexinspector",
+        "hover",
+        "inspector"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 17827.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 4.666666507720947
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 3.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.6549789621318374
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.40953716690042075
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 15480.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.464003601250429
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 157.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

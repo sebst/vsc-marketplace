@@ -1,0 +1,939 @@
+{
+    "publisher": {
+        "publisherId": "f428db5e-a68f-497e-9d92-e7e125f1575e",
+        "publisherName": "beda-software",
+        "displayName": "beda-software",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "740253b1-c1ec-4d56-a875-9aaf2c18ee19",
+    "extensionName": "fhirpath-lang",
+    "displayName": "Fhirpath Language",
+    "flags": "validated, public",
+    "lastUpdated": "2023-10-31T10:25:16.48Z",
+    "publishedDate": "2023-05-30T09:21:00.67Z",
+    "releaseDate": "2023-05-30T09:21:00.67Z",
+    "shortDescription": "Syntax highlight for fhirpath (embedded into .yaml, .fsh)",
+    "versions": [
+        {
+            "version": "0.1.7",
+            "flags": "validated",
+            "lastUpdated": "2023-10-31T10:25:16.48Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.7/1698747650318/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.7/1698747650318/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.7/1698747650318/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.7/1698747650318/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.7/1698747650318/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.7/1698747650318/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.7/1698747650318/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.7/1698747650318/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.7/1698747650318/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#eef9ff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/beda-software/vscode-fhirpath/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/beda-software/vscode-fhirpath"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.78.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.7/1698747650318",
+            "fallbackAssetUri": "https://beda-software.gallery.vsassets.io/_apis/public/gallery/publisher/beda-software/extension/fhirpath-lang/0.1.7/assetbyname"
+        },
+        {
+            "version": "0.1.6",
+            "flags": "validated",
+            "lastUpdated": "2023-10-31T10:21:55.207Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.6/1698747449213/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.6/1698747449213/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.6/1698747449213/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.6/1698747449213/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.6/1698747449213/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.6/1698747449213/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.6/1698747449213/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.6/1698747449213/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.6/1698747449213/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#eef9ff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/beda-software/vscode-fhirpath/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/beda-software/vscode-fhirpath"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.78.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.6/1698747449213",
+            "fallbackAssetUri": "https://beda-software.gallery.vsassets.io/_apis/public/gallery/publisher/beda-software/extension/fhirpath-lang/0.1.6/assetbyname"
+        },
+        {
+            "version": "0.1.5",
+            "flags": "validated",
+            "lastUpdated": "2023-10-30T08:02:45.22Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.5/1698652781951/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.5/1698652781951/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.5/1698652781951/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.5/1698652781951/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.5/1698652781951/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.5/1698652781951/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.5/1698652781951/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.5/1698652781951/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.5/1698652781951/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#eef9ff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/beda-software/vscode-fhirpath/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/beda-software/vscode-fhirpath"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.78.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.5/1698652781951",
+            "fallbackAssetUri": "https://beda-software.gallery.vsassets.io/_apis/public/gallery/publisher/beda-software/extension/fhirpath-lang/0.1.5/assetbyname"
+        },
+        {
+            "version": "0.1.4",
+            "flags": "validated",
+            "lastUpdated": "2023-10-30T07:16:48.063Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.4/1698650055472/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.4/1698650055472/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.4/1698650055472/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.4/1698650055472/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.4/1698650055472/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.4/1698650055472/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.4/1698650055472/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.4/1698650055472/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.4/1698650055472/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#eef9ff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/beda-software/vscode-fhirpath/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/beda-software/vscode-fhirpath"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.78.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.4/1698650055472",
+            "fallbackAssetUri": "https://beda-software.gallery.vsassets.io/_apis/public/gallery/publisher/beda-software/extension/fhirpath-lang/0.1.4/assetbyname"
+        },
+        {
+            "version": "0.1.3",
+            "flags": "validated",
+            "lastUpdated": "2023-10-30T07:09:24.213Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.3/1698649584911/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.3/1698649584911/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.3/1698649584911/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.3/1698649584911/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.3/1698649584911/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.3/1698649584911/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.3/1698649584911/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.3/1698649584911/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.3/1698649584911/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#eef9ff"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/beda-software/vscode-fhirpath/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/beda-software/vscode-fhirpath"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.78.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.3/1698649584911",
+            "fallbackAssetUri": "https://beda-software.gallery.vsassets.io/_apis/public/gallery/publisher/beda-software/extension/fhirpath-lang/0.1.3/assetbyname"
+        },
+        {
+            "version": "0.1.2",
+            "flags": "validated",
+            "lastUpdated": "2023-10-30T07:02:49.803Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.2/1698649182012/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.2/1698649182012/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.2/1698649182012/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.2/1698649182012/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.2/1698649182012/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.2/1698649182012/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.2/1698649182012/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.2/1698649182012/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.2/1698649182012/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/beda-software/vscode-fhirpath/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/beda-software/vscode-fhirpath"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.78.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.2/1698649182012",
+            "fallbackAssetUri": "https://beda-software.gallery.vsassets.io/_apis/public/gallery/publisher/beda-software/extension/fhirpath-lang/0.1.2/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2023-10-27T14:25:06.083Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.1/1698416558814/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.1/1698416558814/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.1/1698416558814/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.1/1698416558814/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.1/1698416558814/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.1/1698416558814/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.1/1698416558814/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/beda-software/vscode-fhirpath/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/beda-software/vscode-fhirpath#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.78.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.1/1698416558814",
+            "fallbackAssetUri": "https://beda-software.gallery.vsassets.io/_apis/public/gallery/publisher/beda-software/extension/fhirpath-lang/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-10-27T14:21:40.94Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.0/1698416351168/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.0/1698416351168/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.0/1698416351168/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.0/1698416351168/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.0/1698416351168/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.0/1698416351168/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.0/1698416351168/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/beda-software/vscode-fhirpath/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/beda-software/vscode-fhirpath#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.78.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.1.0/1698416351168",
+            "fallbackAssetUri": "https://beda-software.gallery.vsassets.io/_apis/public/gallery/publisher/beda-software/extension/fhirpath-lang/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-05-30T09:25:11.163Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.0.1/1685438461264/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.0.1/1685438461264/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.0.1/1685438461264/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.0.1/1685438461264/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.0.1/1685438461264/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.0.1/1685438461264/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.0.1/1685438461264/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/beda-software/vscode-fhirpath/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/beda-software/vscode-fhirpath#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/beda-software/vscode-fhirpath.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.78.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "ui,workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://beda-software.gallerycdn.vsassets.io/extensions/beda-software/fhirpath-lang/0.0.1/1685438461264",
+            "fallbackAssetUri": "https://beda-software.gallery.vsassets.io/_apis/public/gallery/publisher/beda-software/extension/fhirpath-lang/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages"
+    ],
+    "tags": [
+        "__ext_fhirpath",
+        "__web_extension",
+        "fhir",
+        "fhirpath",
+        "fsh",
+        "yaml"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 61.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 51.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 21.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

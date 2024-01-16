@@ -1,0 +1,1677 @@
+{
+    "publisher": {
+        "publisherId": "85574f84-32f2-4fbf-a894-b3cfb0ff3b76",
+        "publisherName": "xkeshav",
+        "displayName": "Keshav Mohta",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "96716b59-0cd8-44d8-81bb-4f0f41b6ec1c",
+    "extensionName": "css-color-collector",
+    "displayName": "CSS Color Collector",
+    "flags": "validated, public",
+    "lastUpdated": "2023-07-29T10:22:54.023Z",
+    "publishedDate": "2023-02-27T18:49:27.927Z",
+    "releaseDate": "2023-02-27T18:49:27.927Z",
+    "shortDescription": "Collect each color values from a css file and replace it with an intuitive variable and add a new :root pseudo selector which contains these variables.",
+    "versions": [
+        {
+            "version": "2.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-07-29T10:22:54.02Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/2.0.0/1690625958792/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/2.0.0/1690625958792/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/2.0.0/1690625958792/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/2.0.0/1690625958792/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/2.0.0/1690625958792/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/2.0.0/1690625958792/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/2.0.0/1690625958792/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/2.0.0/1690625958792/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/2.0.0/1690625958792/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#af3eaf"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/2.0.0/1690625958792",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/2.0.0/assetbyname"
+        },
+        {
+            "version": "1.9.0",
+            "flags": "validated",
+            "lastUpdated": "2023-05-08T05:23:22.763Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.9.0/1683523165510/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.9.0/1683523165510/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.9.0/1683523165510/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.9.0/1683523165510/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.9.0/1683523165510/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.9.0/1683523165510/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.9.0/1683523165510/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.9.0/1683523165510/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.9.0/1683523165510/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#af3eaf"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.9.0/1683523165510",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/1.9.0/assetbyname"
+        },
+        {
+            "version": "1.8.0",
+            "flags": "validated",
+            "lastUpdated": "2023-04-18T18:00:53.127Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.8.0/1681840630694/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.8.0/1681840630694/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.8.0/1681840630694/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.8.0/1681840630694/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.8.0/1681840630694/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.8.0/1681840630694/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.8.0/1681840630694/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.8.0/1681840630694/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.8.0/1681840630694/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#af3eaf"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.8.0/1681840630694",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/1.8.0/assetbyname"
+        },
+        {
+            "version": "1.7.0",
+            "flags": "validated",
+            "lastUpdated": "2023-04-16T17:14:14.913Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.7.0/1681665074084/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.7.0/1681665074084/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.7.0/1681665074084/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.7.0/1681665074084/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.7.0/1681665074084/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.7.0/1681665074084/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.7.0/1681665074084/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.7.0/1681665074084/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.7.0/1681665074084/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#af3eaf"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.7.0/1681665074084",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/1.7.0/assetbyname"
+        },
+        {
+            "version": "1.3.0",
+            "flags": "validated",
+            "lastUpdated": "2023-04-15T06:21:50.487Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.3.0/1681539527532/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.3.0/1681539527532/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.3.0/1681539527532/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.3.0/1681539527532/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.3.0/1681539527532/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.3.0/1681539527532/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.3.0/1681539527532/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.3.0/1681539527532/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.3.0/1681539527532/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#36c486"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.3.0/1681539527532",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/1.3.0/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-04-14T04:36:13.3Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.2.0/1681446719549/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.2.0/1681446719549/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.2.0/1681446719549/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.2.0/1681446719549/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.2.0/1681446719549/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.2.0/1681446719549/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.2.0/1681446719549/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.2.0/1681446719549/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.2.0/1681446719549/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#36c486"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.2.0/1681446719549",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.6",
+            "flags": "validated",
+            "lastUpdated": "2023-04-16T17:04:04.793Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.6/1681664490462/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.6/1681664490462/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.6/1681664490462/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.6/1681664490462/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.6/1681664490462/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.6/1681664490462/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.6/1681664490462/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.6/1681664490462/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.6/1681664490462/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#af3eaf"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.6/1681664490462",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/1.1.6/assetbyname"
+        },
+        {
+            "version": "1.1.1",
+            "flags": "validated",
+            "lastUpdated": "2023-04-07T20:45:51.74Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.1/1680900124093/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.1/1680900124093/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.1/1680900124093/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.1/1680900124093/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.1/1680900124093/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.1/1680900124093/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.1/1680900124093/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.1/1680900124093/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.1/1680900124093/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#551e33"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.1/1680900124093",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/1.1.1/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-04-02T07:38:28.75Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.0/1680420893519/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.0/1680420893519/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.0/1680420893519/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.0/1680420893519/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.0/1680420893519/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.0/1680420893519/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.0/1680420893519/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.0/1680420893519/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.0/1680420893519/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#551e33"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.1.0/1680420893519",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-03-27T19:24:03.593Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.0.0/1679944860431/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.0.0/1679944860431/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.0.0/1679944860431/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.0.0/1679944860431/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.0.0/1679944860431/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.0.0/1679944860431/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.0.0/1679944860431/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.0.0/1679944860431/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.0.0/1679944860431/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#fd81c4"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/1.0.0/1679944860431",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/1.0.0/assetbyname"
+        },
+        {
+            "version": "0.8.0",
+            "flags": "validated",
+            "lastUpdated": "2023-03-20T08:06:24.51Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.8.0/1679299290597/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.8.0/1679299290597/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.8.0/1679299290597/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.8.0/1679299290597/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.8.0/1679299290597/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.8.0/1679299290597/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.8.0/1679299290597/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.8.0/1679299290597/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.8.0/1679299290597/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.8.0/1679299290597",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/0.8.0/assetbyname"
+        },
+        {
+            "version": "0.7.0",
+            "flags": "validated",
+            "lastUpdated": "2023-03-18T19:15:41.44Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.7.0/1679166726696/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.7.0/1679166726696/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.7.0/1679166726696/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.7.0/1679166726696/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.7.0/1679166726696/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.7.0/1679166726696/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.7.0/1679166726696/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.7.0/1679166726696/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.7.0/1679166726696/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.7.0/1679166726696",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/0.7.0/assetbyname"
+        },
+        {
+            "version": "0.5.0",
+            "flags": "validated",
+            "lastUpdated": "2023-03-10T14:00:46.663Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.5.0/1678456587448/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.5.0/1678456587448/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.5.0/1678456587448/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.5.0/1678456587448/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.5.0/1678456587448/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.5.0/1678456587448/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.5.0/1678456587448/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.5.0/1678456587448/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.5.0/1678456587448/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.5.0/1678456587448",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/0.5.0/assetbyname"
+        },
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2023-03-05T18:12:53.33Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.4.0/1678039678895/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.4.0/1678039678895/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.4.0/1678039678895/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.4.0/1678039678895/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.4.0/1678039678895/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.4.0/1678039678895/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.4.0/1678039678895/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.4.0/1678039678895/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.4.0/1678039678895/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.4.0/1678039678895",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2023-02-28T16:06:36.547Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.3.0/1677600139581/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.3.0/1677600139581/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.3.0/1677600139581/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.3.0/1677600139581/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.3.0/1677600139581/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.3.0/1677600139581/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.3.0/1677600139581/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.3.0/1677600139581/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.3.0/1677600139581/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.3.0/1677600139581",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-02-27T18:54:58.92Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.0.1/1677523768490/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.0.1/1677523768490/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.0.1/1677523768490/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.0.1/1677523768490/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.0.1/1677523768490/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.0.1/1677523768490/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.0.1/1677523768490/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/xkeshav/color-collector/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/xkeshav/color-collector#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/xkeshav/color-collector.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://xkeshav.gallerycdn.vsassets.io/extensions/xkeshav/css-color-collector/0.0.1/1677523768490",
+            "fallbackAssetUri": "https://xkeshav.gallery.vsassets.io/_apis/public/gallery/publisher/xkeshav/extension/css-color-collector/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages"
+    ],
+    "tags": [
+        "__ext_css",
+        "__ext_less",
+        "__ext_scss",
+        "ccc",
+        "collector",
+        "color",
+        "color collector",
+        "color parser",
+        "css",
+        "css color",
+        "css color collector",
+        "keybindings",
+        "less",
+        "sass",
+        "scss"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 734.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 3.6666667461395264
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 3.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 5.177111716621254
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.4986376021798364
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 582.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.23323442550087
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 42.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

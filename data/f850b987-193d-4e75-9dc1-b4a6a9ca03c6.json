@@ -1,0 +1,598 @@
+{
+    "publisher": {
+        "publisherId": "656b996d-3c70-47b4-937e-e77c013faeea",
+        "publisherName": "salesforce",
+        "displayName": "Salesforce",
+        "flags": "verified",
+        "domain": "https://salesforce.com",
+        "isDomainVerified": true
+    },
+    "extensionId": "f850b987-193d-4e75-9dc1-b4a6a9ca03c6",
+    "extensionName": "sfdx-code-analyzer-vscode",
+    "displayName": "Salesforce Code Analyzer",
+    "flags": "validated, public",
+    "lastUpdated": "2024-01-10T19:52:45.81Z",
+    "publishedDate": "2023-09-06T20:57:33.227Z",
+    "releaseDate": "2023-09-06T20:57:33.227Z",
+    "shortDescription": "Salesforce Code Analyzer is a unified tool for source code analysis. Run Code Analyzer to scan multiple languages in your code and add diagnostic info to your code that describes the violations.",
+    "versions": [
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2024-01-10T19:52:45.81Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.4.0/1704916186362/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.4.0/1704916186362/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.4.0/1704916186362/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.4.0/1704916186362/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.4.0/1704916186362/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.4.0/1704916186362/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.4.0/1704916186362/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.4.0/1704916186362/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.4.0/1704916186362/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ECECEC"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.4.0/1704916186362",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/sfdx-code-analyzer-vscode/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-05T18:27:32.497Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.3.0/1701800603394/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.3.0/1701800603394/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.3.0/1701800603394/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.3.0/1701800603394/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.3.0/1701800603394/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.3.0/1701800603394/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.3.0/1701800603394/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.3.0/1701800603394/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.3.0/1701800603394/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ECECEC"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.3.0/1701800603394",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/sfdx-code-analyzer-vscode/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-10-03T17:51:02.807Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.2.0/1696355251365/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.2.0/1696355251365/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.2.0/1696355251365/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.2.0/1696355251365/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.2.0/1696355251365/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.2.0/1696355251365/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.2.0/1696355251365/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.2.0/1696355251365/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.2.0/1696355251365/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ECECEC"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.2.0/1696355251365",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/sfdx-code-analyzer-vscode/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2023-09-07T17:30:22.15Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.1/1694107644899/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.1/1694107644899/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.1/1694107644899/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.1/1694107644899/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.1/1694107644899/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.1/1694107644899/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.1/1694107644899/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.1/1694107644899/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.1/1694107644899/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ECECEC"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.1/1694107644899",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/sfdx-code-analyzer-vscode/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2023-09-06T21:01:07.35Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.0/1694033854209/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.0/1694033854209/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.0/1694033854209/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.0/1694033854209/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.0/1694033854209/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.0/1694033854209/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.0/1694033854209/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.0/1694033854209/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.0/1694033854209/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#ECECEC"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/sfdx-code-analyzer-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/sfdx-code-analyzer-vscode/0.1.0/1694033854209",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/sfdx-code-analyzer-vscode/0.1.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages",
+        "Linters",
+        "Testing"
+    ],
+    "tags": [
+        "__ext_apex",
+        "__ext_cls",
+        "__ext_soql",
+        "__ext_trigger",
+        "apex",
+        "Code Analyzer",
+        "Graph Engine",
+        "Salesforce Code Analyzer",
+        "Salesforce Graph Engine",
+        "SFCA",
+        "SFGE"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 3702.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 3.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 2.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 13.409648405560098
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 3.243390569637503
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 3532.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.169337274424393
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 101.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

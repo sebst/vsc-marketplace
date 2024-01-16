@@ -1,0 +1,871 @@
+{
+    "publisher": {
+        "publisherId": "bd07d194-250d-44c6-9c7c-7e9a39fa03bc",
+        "publisherName": "aleksandra",
+        "displayName": "aleksandra",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "a34ccfaa-61bb-4697-9e55-e9b1f077cfa9",
+    "extensionName": "go-group-imports",
+    "displayName": "Go Group Imports",
+    "flags": "validated, public",
+    "lastUpdated": "2023-10-24T19:16:24.11Z",
+    "publishedDate": "2018-10-20T20:00:50.5Z",
+    "releaseDate": "2018-10-20T20:00:50.5Z",
+    "shortDescription": "VSCode extension for separating imports in go files into three groups: stdlib, 3rdparty, own.",
+    "versions": [
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-10-24T19:16:24.107Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.2.0/1698174735857/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.2.0/1698174735857/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.2.0/1698174735857/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.2.0/1698174735857/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.2.0/1698174735857/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.2.0/1698174735857/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.2.0/1698174735857/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.2.0/1698174735857/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#FFE779"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/beerose/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/beerose/go-group-imports-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/beerose/go-group-imports-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/beerose/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/beerose/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.2.0/1698174735857",
+            "fallbackAssetUri": "https://aleksandra.gallery.vsassets.io/_apis/public/gallery/publisher/aleksandra/extension/go-group-imports/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.4",
+            "flags": "validated",
+            "lastUpdated": "2021-09-09T11:18:37.877Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.4/1631186056418/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.4/1631186056418/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.4/1631186056418/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.4/1631186056418/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.4/1631186056418/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.4/1631186056418/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.4/1631186056418/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.4/1631186056418/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#FFE779"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/beerose/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/beerose/go-group-imports-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/beerose/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/beerose/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.4/1631186056418",
+            "fallbackAssetUri": "https://aleksandra.gallery.vsassets.io/_apis/public/gallery/publisher/aleksandra/extension/go-group-imports/1.1.4/assetbyname"
+        },
+        {
+            "version": "1.1.3",
+            "flags": "validated",
+            "lastUpdated": "2020-04-28T20:58:40.623Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.3/1588107383517/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.3/1588107383517/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.3/1588107383517/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.3/1588107383517/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.3/1588107383517/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.3/1588107383517/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.3/1588107383517/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#FFE779"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/beerose/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/beerose/go-group-imports-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/beerose/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/beerose/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.3/1588107383517",
+            "fallbackAssetUri": "https://aleksandra.gallery.vsassets.io/_apis/public/gallery/publisher/aleksandra/extension/go-group-imports/1.1.3/assetbyname"
+        },
+        {
+            "version": "1.1.2",
+            "flags": "validated",
+            "lastUpdated": "2019-12-08T17:55:33.933Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.2/1575827595752/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.2/1575827595752/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.2/1575827595752/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.2/1575827595752/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.2/1575827595752/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.2/1575827595752/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.2/1575827595752/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#FFE779"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/beerose/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/beerose/go-group-imports-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/beerose/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/beerose/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.2/1575827595752",
+            "fallbackAssetUri": "https://aleksandra.gallery.vsassets.io/_apis/public/gallery/publisher/aleksandra/extension/go-group-imports/1.1.2/assetbyname"
+        },
+        {
+            "version": "1.1.1",
+            "flags": "validated",
+            "lastUpdated": "2019-12-08T17:51:08.983Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.1/1575827330861/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.1/1575827330861/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.1/1575827330861/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.1/1575827330861/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.1/1575827330861/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.1/1575827330861/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.1/1575827330861/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#FFE779"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.1.1/1575827330861",
+            "fallbackAssetUri": "https://aleksandra.gallery.vsassets.io/_apis/public/gallery/publisher/aleksandra/extension/go-group-imports/1.1.1/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2018-10-23T14:53:33.09Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.0.1/1540306275768/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.0.1/1540306275768/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.0.1/1540306275768/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.0.1/1540306275768/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.0.1/1540306275768/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.0.1/1540306275768/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#FFE779"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.0.1/1540306275768",
+            "fallbackAssetUri": "https://aleksandra.gallery.vsassets.io/_apis/public/gallery/publisher/aleksandra/extension/go-group-imports/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2018-10-20T22:19:54.62Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.0.0/1540073850470/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.0.0/1540073850470/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.0.0/1540073850470/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.0.0/1540073850470/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.0.0/1540073850470/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.0.0/1540073850470/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#FFE779"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/1.0.0/1540073850470",
+            "fallbackAssetUri": "https://aleksandra.gallery.vsassets.io/_apis/public/gallery/publisher/aleksandra/extension/go-group-imports/1.0.0/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2018-10-20T20:26:01.47Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.3/1540067024100/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.3/1540067024100/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.3/1540067024100/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.3/1540067024100/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.3/1540067024100/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.3/1540067024100/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#FFE779"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.3/1540067024100",
+            "fallbackAssetUri": "https://aleksandra.gallery.vsassets.io/_apis/public/gallery/publisher/aleksandra/extension/go-group-imports/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2018-10-20T20:19:45.597Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.2/1540066648699/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.2/1540066648699/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.2/1540066648699/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.2/1540066648699/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.2/1540066648699/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.2/1540066648699/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#FFE779"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/blackdahila/go-group-imports-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.2/1540066648699",
+            "fallbackAssetUri": "https://aleksandra.gallery.vsassets.io/_apis/public/gallery/publisher/aleksandra/extension/go-group-imports/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2018-10-20T20:03:06.903Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.1/1540065650562/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.1/1540065650562/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.1/1540065650562/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.1/1540065650562/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://aleksandra.gallerycdn.vsassets.io/extensions/aleksandra/go-group-imports/0.0.1/1540065650562",
+            "fallbackAssetUri": "https://aleksandra.gallery.vsassets.io/_apis/public/gallery/publisher/aleksandra/extension/go-group-imports/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Formatters"
+    ],
+    "tags": [
+        "go",
+        "group",
+        "imports"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 36137.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 4.5
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 4.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.4530860780514807
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.3127594796567949
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 15285.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.430860520935195
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 198.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

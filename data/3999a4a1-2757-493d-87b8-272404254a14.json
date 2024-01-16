@@ -1,0 +1,706 @@
+{
+    "publisher": {
+        "publisherId": "31f2241e-caa9-4f70-835c-be87f186b918",
+        "publisherName": "phoihos",
+        "displayName": "phoihos",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "3999a4a1-2757-493d-87b8-272404254a14",
+    "extensionName": "markdown-auto-gen-toc",
+    "displayName": "Markdown AutoTOC",
+    "flags": "validated, public",
+    "lastUpdated": "2022-11-03T08:34:29.673Z",
+    "publishedDate": "2022-11-02T09:14:45.94Z",
+    "releaseDate": "2022-11-02T09:14:45.94Z",
+    "shortDescription": "Auto-generate the table of contents to VS Code's built-in markdown preview",
+    "versions": [
+        {
+            "version": "0.1.6",
+            "flags": "validated",
+            "lastUpdated": "2022-11-03T08:34:29.673Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.6/1667464332269/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.6/1667464332269/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.6/1667464332269/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.6/1667464332269/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.6/1667464332269/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.6/1667464332269/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.6/1667464332269/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.6/1667464332269/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.6/1667464332269/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.63.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.6/1667464332269",
+            "fallbackAssetUri": "https://phoihos.gallery.vsassets.io/_apis/public/gallery/publisher/phoihos/extension/markdown-auto-gen-toc/0.1.6/assetbyname"
+        },
+        {
+            "version": "0.1.5",
+            "flags": "validated",
+            "lastUpdated": "2022-11-03T01:25:47.01Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.5/1667438609451/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.5/1667438609451/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.5/1667438609451/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.5/1667438609451/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.5/1667438609451/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.5/1667438609451/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.5/1667438609451/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.5/1667438609451/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.71.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.5/1667438609451",
+            "fallbackAssetUri": "https://phoihos.gallery.vsassets.io/_apis/public/gallery/publisher/phoihos/extension/markdown-auto-gen-toc/0.1.5/assetbyname"
+        },
+        {
+            "version": "0.1.4",
+            "flags": "validated",
+            "lastUpdated": "2022-11-03T01:08:32.783Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.4/1667437574565/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.4/1667437574565/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.4/1667437574565/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.4/1667437574565/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.4/1667437574565/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.4/1667437574565/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.4/1667437574565/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.4/1667437574565/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.71.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.4/1667437574565",
+            "fallbackAssetUri": "https://phoihos.gallery.vsassets.io/_apis/public/gallery/publisher/phoihos/extension/markdown-auto-gen-toc/0.1.4/assetbyname"
+        },
+        {
+            "version": "0.1.3",
+            "flags": "validated",
+            "lastUpdated": "2022-11-02T10:02:46.007Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.3/1667383227224/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.3/1667383227224/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.3/1667383227224/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.3/1667383227224/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.3/1667383227224/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.3/1667383227224/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.3/1667383227224/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.3/1667383227224/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.71.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.3/1667383227224",
+            "fallbackAssetUri": "https://phoihos.gallery.vsassets.io/_apis/public/gallery/publisher/phoihos/extension/markdown-auto-gen-toc/0.1.3/assetbyname"
+        },
+        {
+            "version": "0.1.2",
+            "flags": "validated",
+            "lastUpdated": "2022-11-02T09:45:56.657Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.2/1667382219930/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.2/1667382219930/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.2/1667382219930/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.2/1667382219930/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.2/1667382219930/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.2/1667382219930/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.2/1667382219930/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.2/1667382219930/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.71.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.2/1667382219930",
+            "fallbackAssetUri": "https://phoihos.gallery.vsassets.io/_apis/public/gallery/publisher/phoihos/extension/markdown-auto-gen-toc/0.1.2/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2022-11-02T09:26:21.563Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.1/1667381044560/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.1/1667381044560/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.1/1667381044560/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.1/1667381044560/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.1/1667381044560/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.1/1667381044560/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.1/1667381044560/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.1/1667381044560/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-gen-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.71.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.1/1667381044560",
+            "fallbackAssetUri": "https://phoihos.gallery.vsassets.io/_apis/public/gallery/publisher/phoihos/extension/markdown-auto-gen-toc/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2022-11-02T09:17:03.763Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.0/1667380486251/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.0/1667380486251/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.0/1667380486251/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.0/1667380486251/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.0/1667380486251/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.0/1667380486251/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.0/1667380486251/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.0/1667380486251/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-toc/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-toc#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/phoihos/vscode-markdown-auto-toc.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.71.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://phoihos.gallerycdn.vsassets.io/extensions/phoihos/markdown-auto-gen-toc/0.1.0/1667380486251",
+            "fallbackAssetUri": "https://phoihos.gallery.vsassets.io/_apis/public/gallery/publisher/phoihos/extension/markdown-auto-gen-toc/0.1.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "auto-gen-toc",
+        "auto-toc",
+        "contents",
+        "markdown",
+        "markdown-auto-toc",
+        "table of contents",
+        "toc"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 224.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 5.357142857142857
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 2.232142857142857
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 11.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 14.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

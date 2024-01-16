@@ -1,0 +1,619 @@
+{
+    "publisher": {
+        "publisherId": "90f25510-4c05-4553-b8d1-63cad702d93f",
+        "publisherName": "oneofone",
+        "displayName": "OneOfOne",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "1ac36215-3aff-47f7-a8e1-a78804f97334",
+    "extensionName": "save-runner",
+    "displayName": "Run pre/post save commands and custom linters.",
+    "flags": "validated, public",
+    "lastUpdated": "2019-05-08T18:22:58.1Z",
+    "publishedDate": "2018-04-30T06:11:26.89Z",
+    "releaseDate": "2018-04-30T06:11:26.89Z",
+    "shortDescription": "Run commands when a file is about to be saved to disk and/or after it was already saved.",
+    "versions": [
+        {
+            "version": "1.4.0",
+            "flags": "validated",
+            "lastUpdated": "2019-05-08T18:25:17.257Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.4.0/1557339778100/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.4.0/1557339778100/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.4.0/1557339778100/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.4.0/1557339778100/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.4.0/1557339778100/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.4.0/1557339778100/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.22.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.4.0/1557339778100",
+            "fallbackAssetUri": "https://oneofone.gallery.vsassets.io/_apis/public/gallery/publisher/oneofone/extension/save-runner/1.4.0/assetbyname"
+        },
+        {
+            "version": "1.2.3",
+            "flags": "validated",
+            "lastUpdated": "2018-12-20T02:29:01.8Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.3/1545272800938/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.3/1545272800938/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.3/1545272800938/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.3/1545272800938/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.3/1545272800938/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.22.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.3/1545272800938",
+            "fallbackAssetUri": "https://oneofone.gallery.vsassets.io/_apis/public/gallery/publisher/oneofone/extension/save-runner/1.2.3/assetbyname"
+        },
+        {
+            "version": "1.2.2",
+            "flags": "validated",
+            "lastUpdated": "2018-05-21T15:19:07.557Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.2/1526915935464/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.2/1526915935464/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.2/1526915935464/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.2/1526915935464/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.2/1526915935464/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.22.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.2/1526915935464",
+            "fallbackAssetUri": "https://oneofone.gallery.vsassets.io/_apis/public/gallery/publisher/oneofone/extension/save-runner/1.2.2/assetbyname"
+        },
+        {
+            "version": "1.2.1",
+            "flags": "validated",
+            "lastUpdated": "2018-05-03T16:32:19.767Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.1/1525365128150/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.1/1525365128150/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.1/1525365128150/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.1/1525365128150/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.1/1525365128150/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.22.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.1/1525365128150",
+            "fallbackAssetUri": "https://oneofone.gallery.vsassets.io/_apis/public/gallery/publisher/oneofone/extension/save-runner/1.2.1/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2018-05-03T16:30:13.623Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.0/1525365002351/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.0/1525365002351/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.0/1525365002351/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.0/1525365002351/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.0/1525365002351/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.22.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.2.0/1525365002351",
+            "fallbackAssetUri": "https://oneofone.gallery.vsassets.io/_apis/public/gallery/publisher/oneofone/extension/save-runner/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.3",
+            "flags": "validated",
+            "lastUpdated": "2018-04-30T19:28:30.02Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.1.3/1525116488652/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.1.3/1525116488652/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.1.3/1525116488652/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.1.3/1525116488652/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.1.3/1525116488652/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.22.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.1.3/1525116488652",
+            "fallbackAssetUri": "https://oneofone.gallery.vsassets.io/_apis/public/gallery/publisher/oneofone/extension/save-runner/1.1.3/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2018-04-30T15:53:07.01Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.1.0/1525103572238/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.1.0/1525103572238/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.1.0/1525103572238/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.1.0/1525103572238/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.1.0/1525103572238/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.22.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.1.0/1525103572238",
+            "fallbackAssetUri": "https://oneofone.gallery.vsassets.io/_apis/public/gallery/publisher/oneofone/extension/save-runner/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2018-04-30T06:20:02.62Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.0.1/1525069190582/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.0.1/1525069190582/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.0.1/1525069190582/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.0.1/1525069190582/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.0.1/1525069190582/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.22.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.0.1/1525069190582",
+            "fallbackAssetUri": "https://oneofone.gallery.vsassets.io/_apis/public/gallery/publisher/oneofone/extension/save-runner/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2018-04-30T06:11:38.557Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.0.0/1525068686953/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.0.0/1525068686953/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.0.0/1525068686953/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.0.0/1525068686953/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.0.0/1525068686953/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/OneOfOne/vscode-save-runner"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.22.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://oneofone.gallerycdn.vsassets.io/extensions/oneofone/save-runner/1.0.0/1525068686953",
+            "fallbackAssetUri": "https://oneofone.gallery.vsassets.io/_apis/public/gallery/publisher/oneofone/extension/save-runner/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Linters",
+        "Formatters"
+    ],
+    "tags": [
+        "eslint fix",
+        "onDidSaveTextDocument",
+        "onWillSaveTextDocument",
+        "run before save",
+        "run on save"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 1670.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.17964071856287425
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 355.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 45.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

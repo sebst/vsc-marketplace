@@ -1,0 +1,989 @@
+{
+    "publisher": {
+        "publisherId": "80fdb09e-87dd-4bd3-9fa5-de41666dc2cd",
+        "publisherName": "jcyLite",
+        "displayName": "jcyLite",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "f9f7932f-0b0e-4b63-96a6-a272a45f6d9a",
+    "extensionName": "carve-google-translate",
+    "displayName": "Carve Google Translate",
+    "flags": "validated, public, unpublished",
+    "lastUpdated": "2023-07-09T03:35:02.823Z",
+    "publishedDate": "2021-08-24T07:28:04.22Z",
+    "releaseDate": "2021-08-24T07:28:04.22Z",
+    "shortDescription": "This plugin uses the Google Translate API to translate comments for the VSCode programming language.",
+    "versions": [
+        {
+            "version": "0.0.17",
+            "flags": "validated",
+            "lastUpdated": "2021-09-06T01:50:37.457Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.17/1630892893407/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.17/1630892893407/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.17/1630892893407/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.17/1630892893407/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.17/1630892893407/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.17/1630892893407/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.17/1630892893407/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.17/1630892893407/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.17/1630892893407",
+            "fallbackAssetUri": "https://jcylite.gallery.vsassets.io/_apis/public/gallery/publisher/jcyLite/extension/carve-google-translate/0.0.17/assetbyname"
+        },
+        {
+            "version": "0.0.16",
+            "flags": "validated",
+            "lastUpdated": "2021-08-25T09:21:57.437Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.16/1629883175993/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.16/1629883175993/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.16/1629883175993/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.16/1629883175993/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.16/1629883175993/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.16/1629883175993/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.16/1629883175993/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.16/1629883175993",
+            "fallbackAssetUri": "https://jcylite.gallery.vsassets.io/_apis/public/gallery/publisher/jcyLite/extension/carve-google-translate/0.0.16/assetbyname"
+        },
+        {
+            "version": "0.0.15",
+            "flags": "none",
+            "lastUpdated": "2021-08-24T11:07:30.107Z",
+            "validationResultMessage": "Extension failed Virus check. Please submit a valid extension.",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.15/1629803248858/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.15/1629803248858/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.15/1629803248858/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.15/1629803248858",
+            "fallbackAssetUri": "https://jcylite.gallery.vsassets.io/_apis/public/gallery/publisher/jcyLite/extension/carve-google-translate/0.0.15/assetbyname"
+        },
+        {
+            "version": "0.0.14",
+            "flags": "none",
+            "lastUpdated": "2021-08-24T10:58:28.84Z",
+            "validationResultMessage": "Extension failed Virus check. Please submit a valid extension.",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.14/1629802707486/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.14/1629802707486/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.14/1629802707486/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.14/1629802707486",
+            "fallbackAssetUri": "https://jcylite.gallery.vsassets.io/_apis/public/gallery/publisher/jcyLite/extension/carve-google-translate/0.0.14/assetbyname"
+        },
+        {
+            "version": "0.0.13",
+            "flags": "validated",
+            "lastUpdated": "2021-08-24T10:51:44.72Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.13/1629802038737/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.13/1629802038737/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.13/1629802038737/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.13/1629802038737/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.13/1629802038737/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.13/1629802038737/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.13/1629802038737/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.13/1629802038737",
+            "fallbackAssetUri": "https://jcylite.gallery.vsassets.io/_apis/public/gallery/publisher/jcyLite/extension/carve-google-translate/0.0.13/assetbyname"
+        },
+        {
+            "version": "0.0.11",
+            "flags": "validated",
+            "lastUpdated": "2021-08-24T09:59:19.877Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.11/1629799021870/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.11/1629799021870/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.11/1629799021870/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.11/1629799021870/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.11/1629799021870/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.11/1629799021870/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.11/1629799021870/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.11/1629799021870",
+            "fallbackAssetUri": "https://jcylite.gallery.vsassets.io/_apis/public/gallery/publisher/jcyLite/extension/carve-google-translate/0.0.11/assetbyname"
+        },
+        {
+            "version": "0.0.10",
+            "flags": "validated",
+            "lastUpdated": "2021-08-24T09:40:35.393Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.10/1629797895057/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.10/1629797895057/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.10/1629797895057/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.10/1629797895057/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.10/1629797895057/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.10/1629797895057/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.10/1629797895057/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.10/1629797895057",
+            "fallbackAssetUri": "https://jcylite.gallery.vsassets.io/_apis/public/gallery/publisher/jcyLite/extension/carve-google-translate/0.0.10/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2021-08-24T09:37:59.67Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.9/1629797739079/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.9/1629797739079/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.9/1629797739079/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.9/1629797739079/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.9/1629797739079/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.9/1629797739079/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.9/1629797739079/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.9/1629797739079",
+            "fallbackAssetUri": "https://jcylite.gallery.vsassets.io/_apis/public/gallery/publisher/jcyLite/extension/carve-google-translate/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2021-08-24T09:08:13.553Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.8/1629795950770/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.8/1629795950770/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.8/1629795950770/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.8/1629795950770/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.8/1629795950770/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.8/1629795950770/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.8/1629795950770/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.8/1629795950770",
+            "fallbackAssetUri": "https://jcylite.gallery.vsassets.io/_apis/public/gallery/publisher/jcyLite/extension/carve-google-translate/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2021-08-24T08:56:16.44Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.6/1629795239344/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.6/1629795239344/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.6/1629795239344/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.6/1629795239344/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.6/1629795239344/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.6/1629795239344/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.6/1629795239344/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.6/1629795239344",
+            "fallbackAssetUri": "https://jcylite.gallery.vsassets.io/_apis/public/gallery/publisher/jcyLite/extension/carve-google-translate/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2021-08-24T08:30:43.02Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.5/1629793698438/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.5/1629793698438/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.5/1629793698438/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.5/1629793698438/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.5/1629793698438/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.5/1629793698438/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.5/1629793698438/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.5/1629793698438",
+            "fallbackAssetUri": "https://jcylite.gallery.vsassets.io/_apis/public/gallery/publisher/jcyLite/extension/carve-google-translate/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2021-08-24T08:21:15.657Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.4/1629793125847/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.4/1629793125847/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.4/1629793125847/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.4/1629793125847/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.4/1629793125847/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.4/1629793125847/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.4/1629793125847/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.4/1629793125847",
+            "fallbackAssetUri": "https://jcylite.gallery.vsassets.io/_apis/public/gallery/publisher/jcyLite/extension/carve-google-translate/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2021-08-24T07:59:56.217Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.3/1629791848806/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.3/1629791848806/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.3/1629791848806/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.3/1629791848806/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.3/1629791848806/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.3/1629791848806/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.3/1629791848806/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.3/1629791848806",
+            "fallbackAssetUri": "https://jcylite.gallery.vsassets.io/_apis/public/gallery/publisher/jcyLite/extension/carve-google-translate/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2021-08-24T07:43:08.047Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.2/1629790838296/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.2/1629790838296/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.2/1629790838296/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.2/1629790838296/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.2/1629790838296/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.2/1629790838296/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.2/1629790838296/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.2/1629790838296",
+            "fallbackAssetUri": "https://jcylite.gallery.vsassets.io/_apis/public/gallery/publisher/jcyLite/extension/carve-google-translate/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2021-08-24T07:30:33.457Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.1/1629790084229/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.1/1629790084229/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.1/1629790084229/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.1/1629790084229/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.1/1629790084229/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.1/1629790084229/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.1/1629790084229/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.52.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jcylite.gallerycdn.vsassets.io/extensions/jcylite/carve-google-translate/0.0.1/1629790084229",
+            "fallbackAssetUri": "https://jcylite.gallery.vsassets.io/_apis/public/gallery/publisher/jcyLite/extension/carve-google-translate/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "comment",
+        "google translate",
+        "hover",
+        "keybindings",
+        "translate",
+        "\u6ce8\u91ca",
+        "\u7ffb\u8a33",
+        "\u7ffb\u8bd1"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 926.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 20.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 43.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

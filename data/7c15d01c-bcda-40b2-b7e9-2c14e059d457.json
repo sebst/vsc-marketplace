@@ -1,0 +1,3101 @@
+{
+    "publisher": {
+        "publisherId": "5d13f229-73fe-401f-8eac-4cf214bb1f73",
+        "publisherName": "nguyenngoclong",
+        "displayName": "Nguyen Ngoc Long",
+        "flags": "verified",
+        "domain": "https://nguyenngoclongdev.github.io/",
+        "isDomainVerified": false
+    },
+    "extensionId": "7c15d01c-bcda-40b2-b7e9-2c14e059d457",
+    "extensionName": "data-sync",
+    "displayName": "Data Sync",
+    "flags": "validated, public, trial",
+    "lastUpdated": "2023-11-08T09:32:31.72Z",
+    "publishedDate": "2023-07-17T14:22:28.713Z",
+    "releaseDate": "2023-07-17T14:22:28.713Z",
+    "shortDescription": "Compares two databases, local or remote, and automatically generates a migration file of the differences.",
+    "versions": [
+        {
+            "version": "1.0.27",
+            "flags": "validated",
+            "lastUpdated": "2023-11-08T09:32:31.72Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.27/1699435763806/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.27/1699435763806/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.27/1699435763806/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.27/1699435763806/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.27/1699435763806/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.27/1699435763806/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.27/1699435763806/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.27/1699435763806/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.27/1699435763806/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.27/1699435763806",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.27/assetbyname"
+        },
+        {
+            "version": "1.0.26",
+            "flags": "validated",
+            "lastUpdated": "2023-11-07T10:22:53.74Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.26/1699352393172/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.26/1699352393172/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.26/1699352393172/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.26/1699352393172/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.26/1699352393172/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.26/1699352393172/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.26/1699352393172/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.26/1699352393172/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.26/1699352393172/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.26/1699352393172",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.26/assetbyname"
+        },
+        {
+            "version": "1.0.25",
+            "flags": "validated",
+            "lastUpdated": "2023-11-02T08:16:47.3Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.25/1698912825635/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.25/1698912825635/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.25/1698912825635/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.25/1698912825635/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.25/1698912825635/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.25/1698912825635/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.25/1698912825635/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.25/1698912825635/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.25/1698912825635/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.25/1698912825635",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.25/assetbyname"
+        },
+        {
+            "version": "1.0.24",
+            "flags": "validated",
+            "lastUpdated": "2023-11-02T07:56:32.8Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.24/1698911647878/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.24/1698911647878/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.24/1698911647878/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.24/1698911647878/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.24/1698911647878/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.24/1698911647878/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.24/1698911647878/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.24/1698911647878/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.24/1698911647878/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.24/1698911647878",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.24/assetbyname"
+        },
+        {
+            "version": "1.0.23",
+            "flags": "validated",
+            "lastUpdated": "2023-11-02T07:38:20.387Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.23/1698910522322/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.23/1698910522322/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.23/1698910522322/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.23/1698910522322/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.23/1698910522322/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.23/1698910522322/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.23/1698910522322/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.23/1698910522322/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.23/1698910522322/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.23/1698910522322",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.23/assetbyname"
+        },
+        {
+            "version": "1.0.22",
+            "flags": "validated",
+            "lastUpdated": "2023-11-02T07:23:23.44Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.22/1698909653874/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.22/1698909653874/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.22/1698909653874/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.22/1698909653874/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.22/1698909653874/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.22/1698909653874/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.22/1698909653874/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.22/1698909653874/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.22/1698909653874/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.22/1698909653874",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.22/assetbyname"
+        },
+        {
+            "version": "1.0.21",
+            "flags": "validated",
+            "lastUpdated": "2023-11-02T07:13:29.16Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.21/1698908994764/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.21/1698908994764/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.21/1698908994764/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.21/1698908994764/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.21/1698908994764/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.21/1698908994764/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.21/1698908994764/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.21/1698908994764/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.21/1698908994764/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.21/1698908994764",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.21/assetbyname"
+        },
+        {
+            "version": "1.0.20",
+            "flags": "validated",
+            "lastUpdated": "2023-10-17T03:56:40.78Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.20/1697514786399/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.20/1697514786399/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.20/1697514786399/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.20/1697514786399/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.20/1697514786399/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.20/1697514786399/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.20/1697514786399/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.20/1697514786399/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.20/1697514786399/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.20/1697514786399",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.20/assetbyname"
+        },
+        {
+            "version": "1.0.19",
+            "flags": "validated",
+            "lastUpdated": "2023-10-10T07:47:54.97Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.19/1696923860113/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.19/1696923860113/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.19/1696923860113/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.19/1696923860113/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.19/1696923860113/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.19/1696923860113/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.19/1696923860113/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.19/1696923860113/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.19/1696923860113/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.19/1696923860113",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.19/assetbyname"
+        },
+        {
+            "version": "1.0.18",
+            "flags": "validated",
+            "lastUpdated": "2023-08-30T02:50:08.733Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.18/1693363629528/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.18/1693363629528/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.18/1693363629528/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.18/1693363629528/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.18/1693363629528/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.18/1693363629528/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.18/1693363629528/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.18/1693363629528/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.18/1693363629528/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.18/1693363629528",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.18/assetbyname"
+        },
+        {
+            "version": "1.0.17",
+            "flags": "validated",
+            "lastUpdated": "2023-08-02T14:27:26.58Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.17/1690986186017/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.17/1690986186017/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.17/1690986186017/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.17/1690986186017/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.17/1690986186017/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.17/1690986186017/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.17/1690986186017/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.17/1690986186017/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.17/1690986186017/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.17/1690986186017",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.17/assetbyname"
+        },
+        {
+            "version": "1.0.16",
+            "flags": "validated",
+            "lastUpdated": "2023-07-31T11:21:29.463Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.16/1690802295949/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.16/1690802295949/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.16/1690802295949/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.16/1690802295949/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.16/1690802295949/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.16/1690802295949/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.16/1690802295949/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.16/1690802295949/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.16/1690802295949/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.16/1690802295949",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.16/assetbyname"
+        },
+        {
+            "version": "1.0.15",
+            "flags": "validated",
+            "lastUpdated": "2023-07-31T11:05:40.69Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.15/1690801381007/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.15/1690801381007/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.15/1690801381007/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.15/1690801381007/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.15/1690801381007/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.15/1690801381007/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.15/1690801381007/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.15/1690801381007/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.15/1690801381007/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.15/1690801381007",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.15/assetbyname"
+        },
+        {
+            "version": "1.0.14",
+            "flags": "validated",
+            "lastUpdated": "2023-07-31T10:47:57.803Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.14/1690800253134/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.14/1690800253134/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.14/1690800253134/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.14/1690800253134/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.14/1690800253134/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.14/1690800253134/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.14/1690800253134/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.14/1690800253134/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.14/1690800253134/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.14/1690800253134",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.14/assetbyname"
+        },
+        {
+            "version": "1.0.13",
+            "flags": "validated",
+            "lastUpdated": "2023-07-31T09:19:38.077Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.13/1690794951136/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.13/1690794951136/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.13/1690794951136/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.13/1690794951136/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.13/1690794951136/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.13/1690794951136/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.13/1690794951136/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.13/1690794951136/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.13/1690794951136/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.13/1690794951136",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.13/assetbyname"
+        },
+        {
+            "version": "1.0.12",
+            "flags": "validated",
+            "lastUpdated": "2023-07-28T11:14:26.563Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.12/1690542640844/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.12/1690542640844/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.12/1690542640844/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.12/1690542640844/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.12/1690542640844/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.12/1690542640844/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.12/1690542640844/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.12/1690542640844/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.12/1690542640844/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.12/1690542640844",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.12/assetbyname"
+        },
+        {
+            "version": "1.0.11",
+            "flags": "validated",
+            "lastUpdated": "2023-07-27T10:41:44.27Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.11/1690454300446/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.11/1690454300446/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.11/1690454300446/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.11/1690454300446/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.11/1690454300446/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.11/1690454300446/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.11/1690454300446/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.11/1690454300446/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.11/1690454300446/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.11/1690454300446",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.11/assetbyname"
+        },
+        {
+            "version": "1.0.10",
+            "flags": "validated",
+            "lastUpdated": "2023-07-26T07:26:18.033Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.10/1690356140856/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.10/1690356140856/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.10/1690356140856/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.10/1690356140856/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.10/1690356140856/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.10/1690356140856/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.10/1690356140856/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.10/1690356140856/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.10/1690356140856/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.10/1690356140856",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.10/assetbyname"
+        },
+        {
+            "version": "1.0.9",
+            "flags": "validated",
+            "lastUpdated": "2023-07-26T03:53:55.123Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.9/1690343424522/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.9/1690343424522/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.9/1690343424522/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.9/1690343424522/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.9/1690343424522/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.9/1690343424522/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.9/1690343424522/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.9/1690343424522/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.9/1690343424522/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.9/1690343424522",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.9/assetbyname"
+        },
+        {
+            "version": "1.0.8",
+            "flags": "validated",
+            "lastUpdated": "2023-07-25T11:30:55.673Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.8/1690284448001/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.8/1690284448001/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.8/1690284448001/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.8/1690284448001/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.8/1690284448001/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.8/1690284448001/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.8/1690284448001/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.8/1690284448001/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.8/1690284448001/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.8/1690284448001",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.8/assetbyname"
+        },
+        {
+            "version": "1.0.7",
+            "flags": "validated",
+            "lastUpdated": "2023-07-25T11:14:27.92Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.7/1690283460984/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.7/1690283460984/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.7/1690283460984/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.7/1690283460984/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.7/1690283460984/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.7/1690283460984/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.7/1690283460984/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.7/1690283460984/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.7/1690283460984/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.7/1690283460984",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.7/assetbyname"
+        },
+        {
+            "version": "1.0.6",
+            "flags": "validated",
+            "lastUpdated": "2023-07-25T10:05:02.78Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.6/1690279235364/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.6/1690279235364/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.6/1690279235364/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.6/1690279235364/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.6/1690279235364/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.6/1690279235364/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.6/1690279235364/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.6/1690279235364/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.6/1690279235364/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.6/1690279235364",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.6/assetbyname"
+        },
+        {
+            "version": "1.0.5",
+            "flags": "validated",
+            "lastUpdated": "2023-07-21T14:22:27.643Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.5/1689949111043/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.5/1689949111043/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.5/1689949111043/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.5/1689949111043/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.5/1689949111043/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.5/1689949111043/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.5/1689949111043/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.5/1689949111043/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.5/1689949111043/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.5/1689949111043",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.5/assetbyname"
+        },
+        {
+            "version": "1.0.4",
+            "flags": "validated",
+            "lastUpdated": "2023-07-20T14:43:28.61Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.4/1689864039098/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.4/1689864039098/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.4/1689864039098/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.4/1689864039098/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.4/1689864039098/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.4/1689864039098/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.4/1689864039098/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.4/1689864039098/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.4/1689864039098/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.4/1689864039098",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.4/assetbyname"
+        },
+        {
+            "version": "1.0.3",
+            "flags": "validated",
+            "lastUpdated": "2023-07-19T15:07:54.63Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.3/1689779071886/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.3/1689779071886/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.3/1689779071886/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.3/1689779071886/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.3/1689779071886/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.3/1689779071886/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.3/1689779071886/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.3/1689779071886/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.3/1689779071886/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.3/1689779071886",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.3/assetbyname"
+        },
+        {
+            "version": "1.0.2",
+            "flags": "validated",
+            "lastUpdated": "2023-07-19T02:06:26.79Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.2/1689732143167/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.2/1689732143167/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.2/1689732143167/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.2/1689732143167/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.2/1689732143167/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.2/1689732143167/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.2/1689732143167/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.2/1689732143167/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.2/1689732143167/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.2/1689732143167",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.2/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-07-17T14:27:05.653Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.1/1689603749463/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.1/1689603749463/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.1/1689603749463/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.1/1689603749463/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.1/1689603749463/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.1/1689603749463/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.1/1689603749463/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.1/1689603749463/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.1/1689603749463/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#11131C"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://nguyenngoclongdev.github.io"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/nguyenngoclongdev/vs-data-sync.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.PreRelease",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://ko-fi.com/nguyenngoclong"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Trial"
+                }
+            ],
+            "assetUri": "https://nguyenngoclong.gallerycdn.vsassets.io/extensions/nguyenngoclong/data-sync/1.0.1/1689603749463",
+            "fallbackAssetUri": "https://nguyenngoclong.gallery.vsassets.io/_apis/public/gallery/publisher/nguyenngoclong/extension/data-sync/1.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "__sponsor_extension",
+        "__web_extension",
+        "database",
+        "management",
+        "postgresql",
+        "sync"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 235.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 9.361702127659575
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 2.127659574468085
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 239.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 73.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

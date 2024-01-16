@@ -1,0 +1,1265 @@
+{
+    "publisher": {
+        "publisherId": "656b996d-3c70-47b4-937e-e77c013faeea",
+        "publisherName": "salesforce",
+        "displayName": "Salesforce",
+        "flags": "verified",
+        "domain": "https://salesforce.com",
+        "isDomainVerified": true
+    },
+    "extensionId": "c39d9e29-6f6a-49ee-acd2-726a3a4eff5f",
+    "extensionName": "salesforcedx-einstein-gpt",
+    "displayName": "Einstein for Developers",
+    "flags": "validated, public, preview",
+    "lastUpdated": "2024-01-12T23:14:24.853Z",
+    "publishedDate": "2023-09-08T23:23:11.403Z",
+    "releaseDate": "2023-09-08T23:23:11.403Z",
+    "shortDescription": "Extension for developing on the Salesforce Platform with the help of Einstein AI",
+    "versions": [
+        {
+            "version": "0.32.0",
+            "flags": "validated",
+            "lastUpdated": "2024-01-12T23:14:24.853Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.32.0/1705100979000/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.32.0/1705100979000/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.32.0/1705100979000/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.32.0/1705100979000/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.32.0/1705100979000/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.32.0/1705100979000/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.32.0/1705100979000/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.32.0/1705100979000/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.32.0/1705100979000/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "salesforce.salesforcedx-vscode-core,salesforce.salesforcedx-vscode-apex"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.32.0/1705100979000",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/salesforcedx-einstein-gpt/0.32.0/assetbyname"
+        },
+        {
+            "version": "0.31.0",
+            "flags": "validated",
+            "lastUpdated": "2024-01-05T17:46:17.847Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.31.0/1704476552581/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.31.0/1704476552581/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.31.0/1704476552581/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.31.0/1704476552581/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.31.0/1704476552581/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.31.0/1704476552581/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.31.0/1704476552581/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.31.0/1704476552581/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.31.0/1704476552581/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "salesforce.salesforcedx-vscode-core,salesforce.salesforcedx-vscode-apex"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.31.0/1704476552581",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/salesforcedx-einstein-gpt/0.31.0/assetbyname"
+        },
+        {
+            "version": "0.30.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-21T16:31:06.197Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.30.0/1703176078437/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.30.0/1703176078437/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.30.0/1703176078437/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.30.0/1703176078437/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.30.0/1703176078437/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.30.0/1703176078437/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.30.0/1703176078437/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.30.0/1703176078437/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.30.0/1703176078437/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "salesforce.salesforcedx-vscode-core,salesforce.salesforcedx-vscode-apex"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.30.0/1703176078437",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/salesforcedx-einstein-gpt/0.30.0/assetbyname"
+        },
+        {
+            "version": "0.29.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-15T17:54:09.36Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.29.0/1702662666740/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.29.0/1702662666740/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.29.0/1702662666740/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.29.0/1702662666740/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.29.0/1702662666740/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.29.0/1702662666740/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.29.0/1702662666740/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.29.0/1702662666740/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.29.0/1702662666740/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "salesforce.salesforcedx-vscode-core"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.29.0/1702662666740",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/salesforcedx-einstein-gpt/0.29.0/assetbyname"
+        },
+        {
+            "version": "0.28.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-13T00:47:17.37Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.28.0/1702428120731/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.28.0/1702428120731/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.28.0/1702428120731/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.28.0/1702428120731/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.28.0/1702428120731/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.28.0/1702428120731/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.28.0/1702428120731/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.28.0/1702428120731/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.28.0/1702428120731/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "salesforce.salesforcedx-vscode-core"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.28.0/1702428120731",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/salesforcedx-einstein-gpt/0.28.0/assetbyname"
+        },
+        {
+            "version": "0.27.1",
+            "flags": "validated",
+            "lastUpdated": "2023-11-30T01:01:26.377Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.27.1/1701305868791/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.27.1/1701305868791/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.27.1/1701305868791/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.27.1/1701305868791/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.27.1/1701305868791/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.27.1/1701305868791/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.27.1/1701305868791/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.27.1/1701305868791/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.27.1/1701305868791/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "salesforce.salesforcedx-vscode-core"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.27.1/1701305868791",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/salesforcedx-einstein-gpt/0.27.1/assetbyname"
+        },
+        {
+            "version": "0.26.3",
+            "flags": "validated",
+            "lastUpdated": "2023-11-17T23:25:26.03Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.26.3/1700263294829/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.26.3/1700263294829/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.26.3/1700263294829/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.26.3/1700263294829/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.26.3/1700263294829/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.26.3/1700263294829/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.26.3/1700263294829/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.26.3/1700263294829/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.26.3/1700263294829/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "salesforce.salesforcedx-vscode-core"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.26.3/1700263294829",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/salesforcedx-einstein-gpt/0.26.3/assetbyname"
+        },
+        {
+            "version": "0.24.2",
+            "flags": "validated",
+            "lastUpdated": "2023-11-14T00:58:36.657Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.24.2/1699923336567/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.24.2/1699923336567/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.24.2/1699923336567/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.24.2/1699923336567/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.24.2/1699923336567/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.24.2/1699923336567/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.24.2/1699923336567/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.24.2/1699923336567/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.24.2/1699923336567/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "salesforce.salesforcedx-vscode-core"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.24.2/1699923336567",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/salesforcedx-einstein-gpt/0.24.2/assetbyname"
+        },
+        {
+            "version": "0.23.1",
+            "flags": "validated",
+            "lastUpdated": "2023-11-02T21:37:00.517Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.23.1/1698960839484/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.23.1/1698960839484/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.23.1/1698960839484/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.23.1/1698960839484/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.23.1/1698960839484/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.23.1/1698960839484/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.23.1/1698960839484/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.23.1/1698960839484/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.23.1/1698960839484/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "salesforce.salesforcedx-vscode-core"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.23.1/1698960839484",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/salesforcedx-einstein-gpt/0.23.1/assetbyname"
+        },
+        {
+            "version": "0.22.1",
+            "flags": "validated",
+            "lastUpdated": "2023-10-23T13:51:13.793Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.22.1/1698068823816/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.22.1/1698068823816/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.22.1/1698068823816/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.22.1/1698068823816/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.22.1/1698068823816/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.22.1/1698068823816/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.22.1/1698068823816/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.22.1/1698068823816/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.22.1/1698068823816/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "salesforce.salesforcedx-vscode-core"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.22.1/1698068823816",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/salesforcedx-einstein-gpt/0.22.1/assetbyname"
+        },
+        {
+            "version": "0.21.1",
+            "flags": "validated",
+            "lastUpdated": "2023-10-05T15:00:11.847Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.21.1/1696517760010/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.21.1/1696517760010/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.21.1/1696517760010/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.21.1/1696517760010/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.21.1/1696517760010/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.21.1/1696517760010/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.21.1/1696517760010/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.21.1/1696517760010/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.21.1/1696517760010/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "salesforce.salesforcedx-vscode-core"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.21.1/1696517760010",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/salesforcedx-einstein-gpt/0.21.1/assetbyname"
+        },
+        {
+            "version": "0.19.1",
+            "flags": "validated",
+            "lastUpdated": "2023-09-08T23:27:18.853Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.19.1/1694215392605/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.19.1/1694215392605/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.19.1/1694215392605/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.19.1/1694215392605/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.19.1/1694215392605/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.19.1/1694215392605/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.19.1/1694215392605/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.19.1/1694215392605/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.19.1/1694215392605/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "salesforce.salesforcedx-vscode-core"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.CustomerQnALink",
+                    "value": "https://github.com/forcedotcom/Einstein-GPT-for-Developers/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://salesforce.gallerycdn.vsassets.io/extensions/salesforce/salesforcedx-einstein-gpt/0.19.1/1694215392605",
+            "fallbackAssetUri": "https://salesforce.gallery.vsassets.io/_apis/public/gallery/publisher/salesforce/extension/salesforcedx-einstein-gpt/0.19.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "__ext_apex",
+        "__ext_cls",
+        "__ext_soql",
+        "__ext_trigger",
+        "apex",
+        "keybindings",
+        "snippet"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 13573.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 3.4000000953674316
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 5.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 10.364456272639904
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 2.7278775781769795
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 64781.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.068803184661991
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 235.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

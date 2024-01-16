@@ -1,0 +1,982 @@
+{
+    "publisher": {
+        "publisherId": "414e7842-7945-43cf-b6d1-34cbd68b6aac",
+        "publisherName": "appguru",
+        "displayName": "appguru",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "c74acf53-8d94-4da4-a481-2a307be7f5f6",
+    "extensionName": "luafmt",
+    "displayName": "luafmt",
+    "flags": "validated, public",
+    "lastUpdated": "2021-01-04T18:17:22.693Z",
+    "publishedDate": "2020-08-18T14:32:54.027Z",
+    "releaseDate": "2020-08-18T14:32:54.027Z",
+    "shortDescription": "Lua formatter / pretty printer",
+    "versions": [
+        {
+            "version": "0.0.16",
+            "flags": "validated",
+            "lastUpdated": "2021-01-04T18:17:22.693Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.16/1609784104976/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.16/1609784104976/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.16/1609784104976/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.16/1609784104976/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.16/1609784104976/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.16/1609784104976",
+            "fallbackAssetUri": "https://appguru.gallery.vsassets.io/_apis/public/gallery/publisher/appguru/extension/luafmt/0.0.16/assetbyname"
+        },
+        {
+            "version": "0.0.15",
+            "flags": "validated",
+            "lastUpdated": "2020-08-30T21:26:00.68Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.15/1598822622212/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.15/1598822622212/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.15/1598822622212/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.15/1598822622212/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.15/1598822622212",
+            "fallbackAssetUri": "https://appguru.gallery.vsassets.io/_apis/public/gallery/publisher/appguru/extension/luafmt/0.0.15/assetbyname"
+        },
+        {
+            "version": "0.0.14",
+            "flags": "validated",
+            "lastUpdated": "2020-08-30T16:07:07.753Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.14/1598803490802/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.14/1598803490802/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.14/1598803490802/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.14/1598803490802/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.14/1598803490802",
+            "fallbackAssetUri": "https://appguru.gallery.vsassets.io/_apis/public/gallery/publisher/appguru/extension/luafmt/0.0.14/assetbyname"
+        },
+        {
+            "version": "0.0.13",
+            "flags": "validated",
+            "lastUpdated": "2020-08-26T13:12:11.137Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.13/1598447394305/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.13/1598447394305/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.13/1598447394305/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.13/1598447394305/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.13/1598447394305",
+            "fallbackAssetUri": "https://appguru.gallery.vsassets.io/_apis/public/gallery/publisher/appguru/extension/luafmt/0.0.13/assetbyname"
+        },
+        {
+            "version": "0.0.11",
+            "flags": "validated",
+            "lastUpdated": "2020-08-26T12:07:35.52Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.11/1598443518576/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.11/1598443518576/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.11/1598443518576/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.11/1598443518576/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.11/1598443518576",
+            "fallbackAssetUri": "https://appguru.gallery.vsassets.io/_apis/public/gallery/publisher/appguru/extension/luafmt/0.0.11/assetbyname"
+        },
+        {
+            "version": "0.0.10",
+            "flags": "validated",
+            "lastUpdated": "2020-08-26T12:01:29.443Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.10/1598443151948/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.10/1598443151948/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.10/1598443151948/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.10/1598443151948/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.10/1598443151948",
+            "fallbackAssetUri": "https://appguru.gallery.vsassets.io/_apis/public/gallery/publisher/appguru/extension/luafmt/0.0.10/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2020-08-25T18:04:27.67Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.9/1598378531557/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.9/1598378531557/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.9/1598378531557/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.9/1598378531557/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.9/1598378531557",
+            "fallbackAssetUri": "https://appguru.gallery.vsassets.io/_apis/public/gallery/publisher/appguru/extension/luafmt/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2020-08-25T13:58:16.07Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.8/1598363760465/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.8/1598363760465/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.8/1598363760465/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.8/1598363760465/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.8/1598363760465",
+            "fallbackAssetUri": "https://appguru.gallery.vsassets.io/_apis/public/gallery/publisher/appguru/extension/luafmt/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2020-08-25T13:10:47.62Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.7/1598360910196/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.7/1598360910196/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.7/1598360910196/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.7/1598360910196/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.7/1598360910196",
+            "fallbackAssetUri": "https://appguru.gallery.vsassets.io/_apis/public/gallery/publisher/appguru/extension/luafmt/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2020-08-23T18:13:52.9Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.6/1598206293656/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.6/1598206293656/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.6/1598206293656/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.6/1598206293656/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.6/1598206293656",
+            "fallbackAssetUri": "https://appguru.gallery.vsassets.io/_apis/public/gallery/publisher/appguru/extension/luafmt/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2020-08-22T14:48:40.14Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.5/1598107578028/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.5/1598107578028/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.5/1598107578028/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.5/1598107578028/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.5/1598107578028",
+            "fallbackAssetUri": "https://appguru.gallery.vsassets.io/_apis/public/gallery/publisher/appguru/extension/luafmt/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2020-08-22T12:56:44.353Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.4/1598100866570/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.4/1598100866570/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.4/1598100866570/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.4/1598100866570/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.4/1598100866570",
+            "fallbackAssetUri": "https://appguru.gallery.vsassets.io/_apis/public/gallery/publisher/appguru/extension/luafmt/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2020-08-19T16:54:10.39Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.3/1597855912372/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.3/1597855912372/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.3/1597855912372/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.3/1597855912372/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.3/1597855912372",
+            "fallbackAssetUri": "https://appguru.gallery.vsassets.io/_apis/public/gallery/publisher/appguru/extension/luafmt/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2020-08-18T16:17:11.07Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.2/1597767288429/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.2/1597767288429/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.2/1597767288429/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.2/1597767288429/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.2/1597767288429",
+            "fallbackAssetUri": "https://appguru.gallery.vsassets.io/_apis/public/gallery/publisher/appguru/extension/luafmt/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2020-08-18T14:35:10.95Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.1/1597761174032/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.1/1597761174032/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.1/1597761174032/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.1/1597761174032/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/appgurueu/luafmt-vsc"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://appguru.gallerycdn.vsassets.io/extensions/appguru/luafmt/0.0.1/1597761174032",
+            "fallbackAssetUri": "https://appguru.gallery.vsassets.io/_apis/public/gallery/publisher/appguru/extension/luafmt/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Formatters"
+    ],
+    "tags": [
+        "Formatter",
+        "Lua",
+        "Pretty-Printer"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 1444.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 2.285318559556787
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.48476454293628807
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 141.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 40.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

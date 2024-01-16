@@ -1,0 +1,2989 @@
+{
+    "publisher": {
+        "publisherId": "4b5cc311-75cd-4243-a4ee-ece1004efbfd",
+        "publisherName": "jaguadoromero",
+        "displayName": "Juan Aguado",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "d0b74ef9-b8ce-40a1-87b7-925e447536a8",
+    "extensionName": "vscode-php-create-class",
+    "displayName": "PHP Create Class",
+    "flags": "validated, public",
+    "lastUpdated": "2023-12-27T23:42:51.96Z",
+    "publishedDate": "2021-09-13T21:52:27.877Z",
+    "releaseDate": "2021-09-13T21:52:27.877Z",
+    "shortDescription": "A Visual Studio Code extension for create Class / Interface / Trait / Enum from context menu in file explorer",
+    "versions": [
+        {
+            "version": "1.17.3",
+            "flags": "validated",
+            "lastUpdated": "2023-12-27T23:42:51.96Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.3/1703720348338/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.3/1703720348338/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.3/1703720348338/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.3/1703720348338/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.3/1703720348338/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.3/1703720348338/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.3/1703720348338/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.3/1703720348338/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.3/1703720348338",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.17.3/assetbyname"
+        },
+        {
+            "version": "1.17.2",
+            "flags": "validated",
+            "lastUpdated": "2023-12-25T21:46:40.523Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.2/1703540578343/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.2/1703540578343/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.2/1703540578343/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.2/1703540578343/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.2/1703540578343/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.2/1703540578343/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.2/1703540578343/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.2/1703540578343/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.2/1703540578343",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.17.2/assetbyname"
+        },
+        {
+            "version": "1.17.1",
+            "flags": "validated",
+            "lastUpdated": "2023-12-16T09:28:03.64Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.1/1702718664108/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.1/1702718664108/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.1/1702718664108/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.1/1702718664108/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.1/1702718664108/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.1/1702718664108/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.1/1702718664108/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.1/1702718664108/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.1/1702718664108",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.17.1/assetbyname"
+        },
+        {
+            "version": "1.17.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-16T00:09:29.133Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.0/1702685154033/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.0/1702685154033/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.0/1702685154033/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.0/1702685154033/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.0/1702685154033/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.0/1702685154033/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.0/1702685154033/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.0/1702685154033/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.17.0/1702685154033",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.17.0/assetbyname"
+        },
+        {
+            "version": "1.16.1",
+            "flags": "validated",
+            "lastUpdated": "2023-12-15T19:53:41.397Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.1/1702669842357/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.1/1702669842357/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.1/1702669842357/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.1/1702669842357/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.1/1702669842357/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.1/1702669842357/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.1/1702669842357/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.1/1702669842357/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.1/1702669842357",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.16.1/assetbyname"
+        },
+        {
+            "version": "1.16.0",
+            "flags": "validated",
+            "lastUpdated": "2023-12-15T19:27:09.283Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.0/1702668217210/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.0/1702668217210/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.0/1702668217210/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.0/1702668217210/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.0/1702668217210/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.0/1702668217210/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.0/1702668217210/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.0/1702668217210/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.16.0/1702668217210",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.16.0/assetbyname"
+        },
+        {
+            "version": "1.15.4",
+            "flags": "validated",
+            "lastUpdated": "2023-06-02T11:19:11.103Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.4/1685704543023/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.4/1685704543023/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.4/1685704543023/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.4/1685704543023/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.4/1685704543023/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.4/1685704543023/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.4/1685704543023/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.4/1685704543023/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.4/1685704543023",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.15.4/assetbyname"
+        },
+        {
+            "version": "1.15.3",
+            "flags": "validated",
+            "lastUpdated": "2023-05-30T23:13:17.6Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.3/1685487902430/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.3/1685487902430/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.3/1685487902430/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.3/1685487902430/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.3/1685487902430/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.3/1685487902430/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.3/1685487902430/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.3/1685487902430/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.3/1685487902430",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.15.3/assetbyname"
+        },
+        {
+            "version": "1.15.2",
+            "flags": "validated",
+            "lastUpdated": "2023-05-27T22:57:35.847Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.2/1685228073750/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.2/1685228073750/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.2/1685228073750/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.2/1685228073750/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.2/1685228073750/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.2/1685228073750/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.2/1685228073750/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.2/1685228073750/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.2/1685228073750",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.15.2/assetbyname"
+        },
+        {
+            "version": "1.15.1",
+            "flags": "validated",
+            "lastUpdated": "2023-05-22T16:29:42.24Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.1/1684772784330/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.1/1684772784330/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.1/1684772784330/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.1/1684772784330/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.1/1684772784330/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.1/1684772784330/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.1/1684772784330/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.1/1684772784330/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.1/1684772784330",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.15.1/assetbyname"
+        },
+        {
+            "version": "1.15.0",
+            "flags": "validated",
+            "lastUpdated": "2023-05-21T19:01:34.097Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.0/1684695533109/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.0/1684695533109/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.0/1684695533109/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.0/1684695533109/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.0/1684695533109/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.0/1684695533109/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.0/1684695533109/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.0/1684695533109/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.15.0/1684695533109",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.15.0/assetbyname"
+        },
+        {
+            "version": "1.13.1",
+            "flags": "validated",
+            "lastUpdated": "2022-11-24T20:56:19.403Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.1/1669323208995/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.1/1669323208995/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.1/1669323208995/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.1/1669323208995/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.1/1669323208995/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.1/1669323208995/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.1/1669323208995/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.1/1669323208995/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.1/1669323208995",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.13.1/assetbyname"
+        },
+        {
+            "version": "1.13.0",
+            "flags": "validated",
+            "lastUpdated": "2022-11-24T19:44:17.48Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.0/1669318891309/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.0/1669318891309/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.0/1669318891309/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.0/1669318891309/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.0/1669318891309/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.0/1669318891309/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.0/1669318891309/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.0/1669318891309/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.13.0/1669318891309",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.13.0/assetbyname"
+        },
+        {
+            "version": "1.12.0",
+            "flags": "validated",
+            "lastUpdated": "2022-10-21T07:56:24.57Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.12.0/1666338847250/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.12.0/1666338847250/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.12.0/1666338847250/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.12.0/1666338847250/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.12.0/1666338847250/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.12.0/1666338847250/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.12.0/1666338847250/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.12.0/1666338847250",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.12.0/assetbyname"
+        },
+        {
+            "version": "1.11.0",
+            "flags": "validated",
+            "lastUpdated": "2022-11-22T18:10:37.813Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.11.0/1669140422574/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.11.0/1669140422574/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.11.0/1669140422574/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.11.0/1669140422574/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.11.0/1669140422574/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.11.0/1669140422574/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.11.0/1669140422574/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.11.0/1669140422574/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.11.0/1669140422574",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.11.0/assetbyname"
+        },
+        {
+            "version": "1.10.0",
+            "flags": "validated",
+            "lastUpdated": "2022-09-23T18:14:37.67Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.10.0/1663956737834/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.10.0/1663956737834/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.10.0/1663956737834/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.10.0/1663956737834/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.10.0/1663956737834/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.10.0/1663956737834/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.10.0/1663956737834/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.10.0/1663956737834",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.10.0/assetbyname"
+        },
+        {
+            "version": "1.9.0",
+            "flags": "validated",
+            "lastUpdated": "2022-08-16T15:42:35.65Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.9.0/1660664415785/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.9.0/1660664415785/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.9.0/1660664415785/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.9.0/1660664415785/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.9.0/1660664415785/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.9.0/1660664415785/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.9.0/1660664415785/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.9.0/1660664415785",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.9.0/assetbyname"
+        },
+        {
+            "version": "1.8.1",
+            "flags": "validated",
+            "lastUpdated": "2022-08-17T09:17:16.623Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.1/1660727696413/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.1/1660727696413/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.1/1660727696413/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.1/1660727696413/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.1/1660727696413/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.1/1660727696413/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.1/1660727696413/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.1/1660727696413",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.8.1/assetbyname"
+        },
+        {
+            "version": "1.8.0",
+            "flags": "validated",
+            "lastUpdated": "2022-07-04T12:41:18.053Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.0/1656938338904/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.0/1656938338904/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.0/1656938338904/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.0/1656938338904/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.0/1656938338904/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.0/1656938338904/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.0/1656938338904/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.8.0/1656938338904",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.8.0/assetbyname"
+        },
+        {
+            "version": "1.6.2",
+            "flags": "validated",
+            "lastUpdated": "2022-05-06T14:19:28.227Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.2/1651846629089/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.2/1651846629089/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.2/1651846629089/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.2/1651846629089/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.2/1651846629089/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.2/1651846629089/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.2/1651846629089/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.2/1651846629089",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.6.2/assetbyname"
+        },
+        {
+            "version": "1.6.0",
+            "flags": "validated",
+            "lastUpdated": "2022-04-20T16:54:43.977Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.0/1650473543939/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.0/1650473543939/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.0/1650473543939/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.0/1650473543939/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.0/1650473543939/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.0/1650473543939/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.0/1650473543939/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.6.0/1650473543939",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.6.0/assetbyname"
+        },
+        {
+            "version": "1.5.0",
+            "flags": "validated",
+            "lastUpdated": "2022-02-01T17:46:01.693Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.5.0/1643737423225/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.5.0/1643737423225/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.5.0/1643737423225/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.5.0/1643737423225/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.5.0/1643737423225/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.5.0/1643737423225/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.5.0/1643737423225/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.5.0/1643737423225",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.5.0/assetbyname"
+        },
+        {
+            "version": "1.4.0",
+            "flags": "validated",
+            "lastUpdated": "2022-02-01T17:30:02.053Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.4.0/1643736465066/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.4.0/1643736465066/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.4.0/1643736465066/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.4.0/1643736465066/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.4.0/1643736465066/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.4.0/1643736465066/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.4.0/1643736465066/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.4.0/1643736465066",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.4.0/assetbyname"
+        },
+        {
+            "version": "1.2.2",
+            "flags": "validated",
+            "lastUpdated": "2022-01-31T13:38:26.81Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.2/1643636168482/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.2/1643636168482/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.2/1643636168482/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.2/1643636168482/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.2/1643636168482/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.2/1643636168482/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.2/1643636168482/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.2/1643636168482",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.2.2/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2022-01-19T17:57:46.613Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.0/1642614928385/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.0/1642614928385/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.0/1642614928385/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.0/1642614928385/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.0/1642614928385/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.0/1642614928385/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.0/1642614928385/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.2.0/1642614928385",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.5",
+            "flags": "validated",
+            "lastUpdated": "2022-01-12T19:37:06.76Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.5/1642016088724/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.5/1642016088724/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.5/1642016088724/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.5/1642016088724/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.5/1642016088724/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.5/1642016088724/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.5/1642016088724/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.5/1642016088724",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.1.5/assetbyname"
+        },
+        {
+            "version": "1.1.4",
+            "flags": "validated",
+            "lastUpdated": "2022-01-11T19:40:34.057Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.4/1641929895155/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.4/1641929895155/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.4/1641929895155/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.4/1641929895155/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.4/1641929895155/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.4/1641929895155/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.4/1641929895155/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.4/1641929895155",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.1.4/assetbyname"
+        },
+        {
+            "version": "1.1.2",
+            "flags": "validated",
+            "lastUpdated": "2021-09-17T15:11:29.307Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.2/1631891351888/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.2/1631891351888/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.2/1631891351888/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.2/1631891351888/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.2/1631891351888/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.2/1631891351888/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.2/1631891351888/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.2/1631891351888",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.1.2/assetbyname"
+        },
+        {
+            "version": "1.1.1",
+            "flags": "validated",
+            "lastUpdated": "2021-09-17T14:47:19.267Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.1/1631889898409/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.1/1631889898409/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.1/1631889898409/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.1/1631889898409/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.1/1631889898409/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.1/1631889898409/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.1/1631889898409/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.1/1631889898409",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.1.1/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2021-09-17T14:33:26.81Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.0/1631889068555/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.0/1631889068555/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.0/1631889068555/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.0/1631889068555/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.0/1631889068555/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.0/1631889068555/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.0/1631889068555/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.1.0/1631889068555",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2021-09-13T21:54:46.877Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.0.0/1631569947882/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.0.0/1631569947882/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.0.0/1631569947882/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.0.0/1631569947882/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.0.0/1631569947882/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.0.0/1631569947882/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.0.0/1631569947882/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#b2b5d7"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "light"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jaguadoromero/vscode-php-create-class.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://jaguadoromero.gallerycdn.vsassets.io/extensions/jaguadoromero/vscode-php-create-class/1.0.0/1631569947882",
+            "fallbackAssetUri": "https://jaguadoromero.gallery.vsassets.io/_apis/public/gallery/publisher/jaguadoromero/extension/vscode-php-create-class/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "class",
+        "create",
+        "enum",
+        "interface",
+        "php",
+        "trait"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 19891.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 8.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 5.976918812679535
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.5471450889482437
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 32114.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.668447071838485
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 178.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

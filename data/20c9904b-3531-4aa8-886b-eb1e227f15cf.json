@@ -1,0 +1,1491 @@
+{
+    "publisher": {
+        "publisherId": "3eaea786-9370-42db-b24b-79fb00526bc1",
+        "publisherName": "iulian-radu-at",
+        "displayName": "Iulian Radu",
+        "flags": "verified",
+        "domain": "https://iulian-radu.eu",
+        "isDomainVerified": true
+    },
+    "extensionId": "20c9904b-3531-4aa8-886b-eb1e227f15cf",
+    "extensionName": "fix-relative-imports-to-baseurl",
+    "displayName": "Fix relative imports to baseUrl",
+    "flags": "validated, public",
+    "lastUpdated": "2023-12-10T09:03:48.003Z",
+    "publishedDate": "2020-12-15T18:38:40.733Z",
+    "releaseDate": "2020-12-15T18:38:40.733Z",
+    "shortDescription": "A Visual Studio Code extension for fixing all relative imports to use the baseUrl defined in tsconfig.json.",
+    "versions": [
+        {
+            "version": "1.1.12",
+            "flags": "validated",
+            "lastUpdated": "2023-12-10T09:03:48Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.12/1702198812568/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.12/1702198812568/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.12/1702198812568/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.12/1702198812568/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.12/1702198812568/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.12/1702198812568/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.12/1702198812568/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.12/1702198812568/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.12/1702198812568/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://www.patreon.com/iulian_radu_at"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.12/1702198812568",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.1.12/assetbyname"
+        },
+        {
+            "version": "1.1.11",
+            "flags": "validated",
+            "lastUpdated": "2023-06-10T17:56:08.413Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.11/1686419569011/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.11/1686419569011/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.11/1686419569011/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.11/1686419569011/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.11/1686419569011/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.11/1686419569011/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.11/1686419569011/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.11/1686419569011/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.11/1686419569011/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.75.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://www.patreon.com/iulian_radu_at"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.11/1686419569011",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.1.11/assetbyname"
+        },
+        {
+            "version": "1.1.10",
+            "flags": "validated",
+            "lastUpdated": "2022-09-25T11:25:09.113Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.10/1664104973589/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.10/1664104973589/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.10/1664104973589/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.10/1664104973589/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.10/1664104973589/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.10/1664104973589/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.10/1664104973589/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.10/1664104973589/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.10/1664104973589/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://www.patreon.com/iulian_radu_at"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.10/1664104973589",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.1.10/assetbyname"
+        },
+        {
+            "version": "1.1.9",
+            "flags": "validated",
+            "lastUpdated": "2022-06-20T19:06:03.4Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.9/1655751824674/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.9/1655751824674/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.9/1655751824674/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.9/1655751824674/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.9/1655751824674/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.9/1655751824674/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.9/1655751824674/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.9/1655751824674/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.SponsorLink",
+                    "value": "https://www.patreon.com/iulian_radu_at"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.9/1655751824674",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.1.9/assetbyname"
+        },
+        {
+            "version": "1.1.8",
+            "flags": "validated",
+            "lastUpdated": "2022-02-04T16:29:31.183Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.8/1643992031431/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.8/1643992031431/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.8/1643992031431/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.8/1643992031431/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.8/1643992031431/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.8/1643992031431/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.8/1643992031431/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.8/1643992031431/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.8/1643992031431",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.1.8/assetbyname"
+        },
+        {
+            "version": "1.1.7",
+            "flags": "validated",
+            "lastUpdated": "2021-11-26T19:01:32.49Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.7/1637953155075/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.7/1637953155075/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.7/1637953155075/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.7/1637953155075/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.7/1637953155075/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.7/1637953155075/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.7/1637953155075/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.7/1637953155075/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.7/1637953155075",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.1.7/assetbyname"
+        },
+        {
+            "version": "1.1.6",
+            "flags": "validated",
+            "lastUpdated": "2021-09-09T08:15:56.263Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.6/1631175219780/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.6/1631175219780/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.6/1631175219780/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.6/1631175219780/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.6/1631175219780/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.6/1631175219780/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.6/1631175219780/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.6/1631175219780/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.6/1631175219780",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.1.6/assetbyname"
+        },
+        {
+            "version": "1.1.5",
+            "flags": "validated",
+            "lastUpdated": "2021-09-04T11:42:33.66Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.5/1630755614980/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.5/1630755614980/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.5/1630755614980/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.5/1630755614980/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.5/1630755614980/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.5/1630755614980/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.5/1630755614980/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.5/1630755614980/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.5/1630755614980",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.1.5/assetbyname"
+        },
+        {
+            "version": "1.1.4",
+            "flags": "validated",
+            "lastUpdated": "2021-06-30T08:22:52.59Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.4/1625041231368/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.4/1625041231368/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.4/1625041231368/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.4/1625041231368/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.4/1625041231368/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.4/1625041231368/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.4/1625041231368/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.4/1625041231368/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.4/1625041231368",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.1.4/assetbyname"
+        },
+        {
+            "version": "1.1.3",
+            "flags": "validated",
+            "lastUpdated": "2021-05-13T13:05:02.34Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.3/1620910964406/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.3/1620910964406/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.3/1620910964406/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.3/1620910964406/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.3/1620910964406/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.3/1620910964406/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.3/1620910964406/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.3/1620910964406/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.3/1620910964406",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.1.3/assetbyname"
+        },
+        {
+            "version": "1.1.2",
+            "flags": "validated",
+            "lastUpdated": "2021-02-28T11:53:47.847Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.2/1614513091097/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.2/1614513091097/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.2/1614513091097/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.2/1614513091097/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.2/1614513091097/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.2/1614513091097/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.2/1614513091097/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.2/1614513091097/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.2/1614513091097",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.1.2/assetbyname"
+        },
+        {
+            "version": "1.1.1",
+            "flags": "validated",
+            "lastUpdated": "2021-02-15T18:38:09.013Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.1/1613414151489/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.1/1613414151489/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.1/1613414151489/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.1/1613414151489/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.1/1613414151489/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.1/1613414151489/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.1/1613414151489/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.1/1613414151489/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.1/1613414151489",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.1.1/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2020-12-16T10:57:11.043Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.0/1608116092401/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.0/1608116092401/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.0/1608116092401/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.0/1608116092401/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.0/1608116092401/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.0/1608116092401/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.0/1608116092401/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.0/1608116092401/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.1.0/1608116092401",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.2",
+            "flags": "validated",
+            "lastUpdated": "2020-12-15T18:57:25.113Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.2/1608058506434/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.2/1608058506434/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.2/1608058506434/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.2/1608058506434/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.2/1608058506434/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.2/1608058506434/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.2/1608058506434/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.2/1608058506434/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.2/1608058506434",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.0.2/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2020-12-15T18:49:53.347Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.1/1608058056880/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.1/1608058056880/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.1/1608058056880/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.1/1608058056880/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.1/1608058056880/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.1/1608058056880/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.1/1608058056880/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.1/1608058056880/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.1/1608058056880",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2020-12-15T18:41:17.43Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.0/1608057520739/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.0/1608057520739/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.0/1608057520739/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.0/1608057520739/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.0/1608057520739/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.0/1608057520739/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.0/1608057520739/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.0/1608057520739/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/iulian-radu-at/fix-relative-imports-to-baseurl"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.46.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://iulian-radu-at.gallerycdn.vsassets.io/extensions/iulian-radu-at/fix-relative-imports-to-baseurl/1.0.0/1608057520739",
+            "fallbackAssetUri": "https://iulian-radu-at.gallery.vsassets.io/_apis/public/gallery/publisher/iulian-radu-at/extension/fix-relative-imports-to-baseurl/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Linters"
+    ],
+    "tags": [
+        "__sponsor_extension"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 1876.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 3.04162219850587
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.96051227321238
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 1692.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 51.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

@@ -1,0 +1,878 @@
+{
+    "publisher": {
+        "publisherId": "ec8aa3bb-c55d-4e99-ad21-5621f095da29",
+        "publisherName": "arcsector",
+        "displayName": "arcsector",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "bb75922c-7fc5-421f-89d6-7bd69a968427",
+    "extensionName": "vscode-splunk-search-linter",
+    "displayName": "Splunk Search Autocompletion Tool",
+    "flags": "validated, public",
+    "lastUpdated": "2022-07-04T08:41:28.99Z",
+    "publishedDate": "2020-01-14T09:08:37.2Z",
+    "releaseDate": "2020-01-14T09:08:37.2Z",
+    "shortDescription": "Splunk Search suggestions for Splunk SPL Files",
+    "versions": [
+        {
+            "version": "0.5.0",
+            "flags": "validated",
+            "lastUpdated": "2022-07-04T08:41:28.99Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.5.0/1656923951316/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.5.0/1656923951316/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.5.0/1656923951316/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.5.0/1656923951316/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.5.0/1656923951316/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.5.0/1656923951316/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.5.0/1656923951316/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.5.0/1656923951316/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e1e1e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "arcsector.vscode-splunk-search-syntax"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.5.0/1656923951316",
+            "fallbackAssetUri": "https://arcsector.gallery.vsassets.io/_apis/public/gallery/publisher/arcsector/extension/vscode-splunk-search-linter/0.5.0/assetbyname"
+        },
+        {
+            "version": "0.4.1",
+            "flags": "validated",
+            "lastUpdated": "2020-02-07T20:47:01.183Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.1/1581108285373/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.1/1581108285373/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.1/1581108285373/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.1/1581108285373/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.1/1581108285373/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.1/1581108285373/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.1/1581108285373/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e1e1e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "arcsector.vscode-splunk-search-syntax"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.1/1581108285373",
+            "fallbackAssetUri": "https://arcsector.gallery.vsassets.io/_apis/public/gallery/publisher/arcsector/extension/vscode-splunk-search-linter/0.4.1/assetbyname"
+        },
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2020-02-06T23:38:41.087Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.0/1581032183736/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.0/1581032183736/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.0/1581032183736/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.0/1581032183736/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.0/1581032183736/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.0/1581032183736/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.0/1581032183736/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e1e1e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "arcsector.vscode-splunk-search-syntax"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.4.0/1581032183736",
+            "fallbackAssetUri": "https://arcsector.gallery.vsassets.io/_apis/public/gallery/publisher/arcsector/extension/vscode-splunk-search-linter/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.2",
+            "flags": "validated",
+            "lastUpdated": "2020-02-07T08:59:47.217Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.2/1581065726259/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.2/1581065726259/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.2/1581065726259/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.2/1581065726259/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.2/1581065726259/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.2/1581065726259/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.2/1581065726259/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e1e1e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "arcsector.vscode-splunk-search-syntax"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.2/1581065726259",
+            "fallbackAssetUri": "https://arcsector.gallery.vsassets.io/_apis/public/gallery/publisher/arcsector/extension/vscode-splunk-search-linter/0.3.2/assetbyname"
+        },
+        {
+            "version": "0.3.1",
+            "flags": "validated",
+            "lastUpdated": "2020-01-23T01:23:44.45Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.1/1579742487453/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.1/1579742487453/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.1/1579742487453/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.1/1579742487453/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.1/1579742487453/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.1/1579742487453/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.1/1579742487453/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e1e1e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.1/1579742487453",
+            "fallbackAssetUri": "https://arcsector.gallery.vsassets.io/_apis/public/gallery/publisher/arcsector/extension/vscode-splunk-search-linter/0.3.1/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2020-01-23T01:10:31.177Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.0/1579741688135/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.0/1579741688135/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.0/1579741688135/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.0/1579741688135/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.0/1579741688135/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.0/1579741688135/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.0/1579741688135/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e1e1e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.3.0/1579741688135",
+            "fallbackAssetUri": "https://arcsector.gallery.vsassets.io/_apis/public/gallery/publisher/arcsector/extension/vscode-splunk-search-linter/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.1.3",
+            "flags": "validated",
+            "lastUpdated": "2020-01-22T08:57:05.883Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.3/1579683285300/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.3/1579683285300/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.3/1579683285300/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.3/1579683285300/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.3/1579683285300/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.3/1579683285300/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.3/1579683285300/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e1e1e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.3/1579683285300",
+            "fallbackAssetUri": "https://arcsector.gallery.vsassets.io/_apis/public/gallery/publisher/arcsector/extension/vscode-splunk-search-linter/0.1.3/assetbyname"
+        },
+        {
+            "version": "0.1.2",
+            "flags": "validated",
+            "lastUpdated": "2020-01-16T07:12:55.407Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.2/1579158637221/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.2/1579158637221/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.2/1579158637221/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.2/1579158637221/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.2/1579158637221/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.2/1579158637221/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.2/1579158637221/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e1e1e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.2/1579158637221",
+            "fallbackAssetUri": "https://arcsector.gallery.vsassets.io/_apis/public/gallery/publisher/arcsector/extension/vscode-splunk-search-linter/0.1.2/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2020-01-14T09:14:16.43Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.1/1578993115595/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.1/1578993115595/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.1/1578993115595/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.1/1578993115595/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.1/1578993115595/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.1/1578993115595/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.1/1578993115595/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e1e1e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.1.1/1578993115595",
+            "fallbackAssetUri": "https://arcsector.gallery.vsassets.io/_apis/public/gallery/publisher/arcsector/extension/vscode-splunk-search-linter/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2020-01-14T09:10:56.617Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.0.1/1578992917200/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.0.1/1578992917200/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.0.1/1578992917200/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.0.1/1578992917200/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.0.1/1578992917200/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.0.1/1578992917200/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.0.1/1578992917200/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#1e1e1e"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/arcsector/vscode-splunk-search-linter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://arcsector.gallerycdn.vsassets.io/extensions/arcsector/vscode-splunk-search-linter/0.0.1/1578992917200",
+            "fallbackAssetUri": "https://arcsector.gallery.vsassets.io/_apis/public/gallery/publisher/arcsector/extension/vscode-splunk-search-linter/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages",
+        "Formatters"
+    ],
+    "tags": [
+        "splunk_search"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 14051.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 4.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.5447038724373576
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.3986332574031891
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 3577.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.3665497539175195
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 133.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

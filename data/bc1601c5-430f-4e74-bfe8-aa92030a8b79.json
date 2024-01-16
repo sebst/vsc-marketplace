@@ -1,0 +1,1842 @@
+{
+    "publisher": {
+        "publisherId": "1924b661-7c19-45d9-9800-edeb32848fd7",
+        "publisherName": "TabNine",
+        "displayName": "TabNine",
+        "flags": "verified",
+        "domain": "https://tabnine.com",
+        "isDomainVerified": true
+    },
+    "extensionId": "bc1601c5-430f-4e74-bfe8-aa92030a8b79",
+    "extensionName": "tabnine-vscode-self-hosted-updater",
+    "displayName": "Tabnine Enterprise (Self-Hosted)",
+    "flags": "validated, public",
+    "lastUpdated": "2023-10-29T07:40:44.573Z",
+    "publishedDate": "2023-03-02T17:06:20.467Z",
+    "releaseDate": "2023-03-02T17:06:20.467Z",
+    "shortDescription": "Pulls Tabnine plugin from your self-hosted server. For self-hosted enterprise customers only (not for Tabnine Enterprise SaaS).",
+    "versions": [
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2023-10-29T07:40:44.573Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.4.0/1698565093331/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.4.0/1698565093331/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.4.0/1698565093331/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.4.0/1698565093331/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.4.0/1698565093331/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.4.0/1698565093331/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.4.0/1698565093331/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.4.0/1698565093331/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.4.0/1698565093331",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.2",
+            "flags": "validated",
+            "lastUpdated": "2023-10-17T10:03:48.37Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.2/1697536849381/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.2/1697536849381/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.2/1697536849381/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.2/1697536849381/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.2/1697536849381/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.2/1697536849381/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.2/1697536849381/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.2/1697536849381/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.2/1697536849381",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.3.2/assetbyname"
+        },
+        {
+            "version": "0.3.1",
+            "flags": "validated",
+            "lastUpdated": "2023-10-17T09:43:08.017Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.1/1697535542791/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.1/1697535542791/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.1/1697535542791/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.1/1697535542791/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.1/1697535542791/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.1/1697535542791/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.1/1697535542791/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.1/1697535542791/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.1/1697535542791",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.3.1/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2023-10-16T12:52:04.55Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.0/1697460507990/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.0/1697460507990/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.0/1697460507990/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.0/1697460507990/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.0/1697460507990/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.0/1697460507990/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.0/1697460507990/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.0/1697460507990/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.3.0/1697460507990",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.12",
+            "flags": "validated",
+            "lastUpdated": "2023-09-27T10:35:43.513Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.12/1695810764089/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.12/1695810764089/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.12/1695810764089/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.12/1695810764089/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.12/1695810764089/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.12/1695810764089/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.12/1695810764089/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.12/1695810764089/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.12/1695810764089",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.2.12/assetbyname"
+        },
+        {
+            "version": "0.2.11",
+            "flags": "validated",
+            "lastUpdated": "2023-09-20T11:03:25.353Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.11/1695207589780/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.11/1695207589780/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.11/1695207589780/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.11/1695207589780/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.11/1695207589780/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.11/1695207589780/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.11/1695207589780/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.11/1695207589780/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.11/1695207589780",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.2.11/assetbyname"
+        },
+        {
+            "version": "0.2.10",
+            "flags": "validated",
+            "lastUpdated": "2023-09-11T14:22:31.933Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.10/1694441936679/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.10/1694441936679/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.10/1694441936679/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.10/1694441936679/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.10/1694441936679/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.10/1694441936679/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.10/1694441936679/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.10/1694441936679/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.10/1694441936679",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.2.10/assetbyname"
+        },
+        {
+            "version": "0.2.9",
+            "flags": "validated",
+            "lastUpdated": "2023-09-06T11:02:22.553Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.9/1693997930488/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.9/1693997930488/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.9/1693997930488/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.9/1693997930488/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.9/1693997930488/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.9/1693997930488/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.9/1693997930488/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.9/1693997930488/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.9/1693997930488",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.2.9/assetbyname"
+        },
+        {
+            "version": "0.2.8",
+            "flags": "validated",
+            "lastUpdated": "2023-06-05T18:58:31.863Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.8/1685991279252/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.8/1685991279252/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.8/1685991279252/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.8/1685991279252/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.8/1685991279252/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.8/1685991279252/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.8/1685991279252/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.8/1685991279252/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.8/1685991279252",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.2.8/assetbyname"
+        },
+        {
+            "version": "0.2.7",
+            "flags": "validated",
+            "lastUpdated": "2023-03-15T14:14:41.57Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.7/1678889511932/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.7/1678889511932/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.7/1678889511932/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.7/1678889511932/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.7/1678889511932/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.7/1678889511932/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.7/1678889511932/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.7/1678889511932/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.7/1678889511932",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.2.7/assetbyname"
+        },
+        {
+            "version": "0.2.6",
+            "flags": "validated",
+            "lastUpdated": "2023-03-10T09:43:29.723Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.6/1678441241389/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.6/1678441241389/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.6/1678441241389/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.6/1678441241389/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.6/1678441241389/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.6/1678441241389/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.6/1678441241389/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.6/1678441241389/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.6/1678441241389",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.2.6/assetbyname"
+        },
+        {
+            "version": "0.2.5",
+            "flags": "validated",
+            "lastUpdated": "2023-03-08T15:27:45.51Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.5/1678289035877/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.5/1678289035877/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.5/1678289035877/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.5/1678289035877/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.5/1678289035877/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.5/1678289035877/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.5/1678289035877/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.5/1678289035877/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.5/1678289035877",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.2.5/assetbyname"
+        },
+        {
+            "version": "0.2.4",
+            "flags": "validated",
+            "lastUpdated": "2023-03-07T20:01:19.493Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.4/1678219068461/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.4/1678219068461/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.4/1678219068461/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.4/1678219068461/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.4/1678219068461/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.4/1678219068461/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.4/1678219068461/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.4/1678219068461/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.4/1678219068461",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.2.4/assetbyname"
+        },
+        {
+            "version": "0.2.3",
+            "flags": "validated",
+            "lastUpdated": "2023-03-06T22:33:11.17Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.3/1678141675442/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.3/1678141675442/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.3/1678141675442/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.3/1678141675442/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.3/1678141675442/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.3/1678141675442/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.3/1678141675442/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.3/1678141675442/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.3/1678141675442",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.2.3/assetbyname"
+        },
+        {
+            "version": "0.2.2",
+            "flags": "validated",
+            "lastUpdated": "2023-03-06T21:29:59.053Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.2/1678137998979/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.2/1678137998979/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.2/1678137998979/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.2/1678137998979/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.2/1678137998979/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.2/1678137998979/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.2/1678137998979/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.2/1678137998979/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.2/1678137998979",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.2.2/assetbyname"
+        },
+        {
+            "version": "0.2.1",
+            "flags": "validated",
+            "lastUpdated": "2023-03-06T08:04:40.947Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.1/1678089602150/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.1/1678089602150/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.1/1678089602150/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.1/1678089602150/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.1/1678089602150/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.1/1678089602150/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.1/1678089602150/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.1/1678089602150/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.1/1678089602150",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.2.1/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-03-05T13:21:50.647Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.0/1678022305182/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.0/1678022305182/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.0/1678022305182/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.0/1678022305182/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.0/1678022305182/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.0/1678022305182/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.0/1678022305182/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.0/1678022305182/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.2.0/1678022305182",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-03-02T17:11:01.99Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.0.1/1677776780951/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.0.1/1677776780951/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.0.1/1677776780951/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.0.1/1677776780951/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.0.1/1677776780951/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.0.1/1677776780951/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.0.1/1677776780951/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.0.1/1677776780951/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#100f11"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/codota/tabnine-vscode-self-hosted-updater.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.50.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://tabnine.gallerycdn.vsassets.io/extensions/tabnine/tabnine-vscode-self-hosted-updater/0.0.1/1677776780951",
+            "fallbackAssetUri": "https://tabnine.gallery.vsassets.io/_apis/public/gallery/publisher/TabNine/extension/tabnine-vscode-self-hosted-updater/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 15865.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 5.58327543737763
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.3073959451777932
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 19338.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 205.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

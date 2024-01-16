@@ -1,0 +1,2824 @@
+{
+    "publisher": {
+        "publisherId": "52b787f2-79a9-4f32-99b4-393afe3005d3",
+        "publisherName": "ms-azuretools",
+        "displayName": "Microsoft",
+        "flags": "verified",
+        "domain": "https://microsoft.com",
+        "isDomainVerified": true
+    },
+    "extensionId": "260e9ed1-160d-4f7e-807c-2eb076ba3846",
+    "extensionName": "vscode-azureresourcegroups",
+    "displayName": "Azure Resources",
+    "flags": "validated, public, preview",
+    "lastUpdated": "2023-12-14T17:38:49.78Z",
+    "publishedDate": "2020-03-17T21:32:39.397Z",
+    "releaseDate": "2020-03-17T21:32:39.397Z",
+    "shortDescription": "An extension for viewing and managing Azure resources.",
+    "versions": [
+        {
+            "version": "0.8.3",
+            "flags": "validated",
+            "lastUpdated": "2023-12-14T17:38:49.78Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.3/1702575315531/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.3/1702575315531/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.3/1702575315531/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.3/1702575315531/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.3/1702575315531/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.3/1702575315531/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.3/1702575315531/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.3/1702575315531/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.3/1702575315531/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.82.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.3/1702575315531",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.8.3/assetbyname"
+        },
+        {
+            "version": "0.8.2",
+            "flags": "validated",
+            "lastUpdated": "2023-12-13T19:58:12.14Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.2/1702497314337/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.2/1702497314337/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.2/1702497314337/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.2/1702497314337/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.2/1702497314337/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.2/1702497314337/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.2/1702497314337/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.2/1702497314337/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.2/1702497314337/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.82.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.2/1702497314337",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.8.2/assetbyname"
+        },
+        {
+            "version": "0.8.1",
+            "flags": "validated",
+            "lastUpdated": "2023-12-13T15:11:43.56Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.1/1702480087849/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.1/1702480087849/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.1/1702480087849/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.1/1702480087849/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.1/1702480087849/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.1/1702480087849/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.1/1702480087849/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.1/1702480087849/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.1/1702480087849/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.82.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.1/1702480087849",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.8.1/assetbyname"
+        },
+        {
+            "version": "0.8.0",
+            "flags": "validated",
+            "lastUpdated": "2023-11-16T20:22:20.797Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.0/1700165922508/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.0/1700165922508/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.0/1700165922508/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.0/1700165922508/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.0/1700165922508/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.0/1700165922508/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.0/1700165922508/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.0/1700165922508/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.0/1700165922508/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.82.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.8.0/1700165922508",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.8.0/assetbyname"
+        },
+        {
+            "version": "0.7.5",
+            "targetPlatform": "web",
+            "flags": "validated",
+            "lastUpdated": "2023-05-18T20:56:07.32Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443209765/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443209765/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443209765/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443209765/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443209765/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443209765/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443209765/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443209765/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443209765/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443209765",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.7.5/assetbyname"
+        },
+        {
+            "version": "0.7.5",
+            "flags": "validated",
+            "lastUpdated": "2023-05-18T20:54:23.68Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443066726/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443066726/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443066726/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443066726/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443066726/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443066726/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443066726/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443066726/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443066726/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.5/1684443066726",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.7.5/assetbyname"
+        },
+        {
+            "version": "0.7.4",
+            "targetPlatform": "web",
+            "flags": "validated",
+            "lastUpdated": "2023-05-18T20:02:23.617Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439945641/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439945641/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439945641/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439945641/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439945641/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439945641/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439945641/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439945641/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439945641/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439945641",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.7.4/assetbyname"
+        },
+        {
+            "version": "0.7.4",
+            "flags": "validated",
+            "lastUpdated": "2023-05-18T20:02:10.217Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439932484/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439932484/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439932484/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439932484/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439932484/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439932484/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439932484/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439932484/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439932484/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.4/1684439932484",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.7.4/assetbyname"
+        },
+        {
+            "version": "0.7.3",
+            "targetPlatform": "web",
+            "flags": "validated",
+            "lastUpdated": "2023-05-17T20:27:19.55Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684354557401/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684354557401/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684354557401/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684354557401/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684354557401/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684354557401/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684354557401/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684354557401/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684354557401/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684354557401",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.7.3/assetbyname"
+        },
+        {
+            "version": "0.7.3",
+            "flags": "validated",
+            "lastUpdated": "2023-05-16T22:18:44.373Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684275362128/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684275362128/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684275362128/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684275362128/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684275362128/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684275362128/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684275362128/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684275362128/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684275362128/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.3/1684275362128",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.7.3/assetbyname"
+        },
+        {
+            "version": "0.7.1",
+            "flags": "validated",
+            "lastUpdated": "2023-04-05T17:18:06.337Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714850525/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714850525/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714850525/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714850525/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714850525/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714850525/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714850525/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714850525/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714850525/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714850525",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.7.1/assetbyname"
+        },
+        {
+            "version": "0.7.1",
+            "targetPlatform": "web",
+            "flags": "validated",
+            "lastUpdated": "2023-04-05T17:17:53.223Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714874366/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714874366/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714874366/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714874366/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714874366/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714874366/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714874366/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714874366/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714874366/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.1/1680714874366",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.7.1/assetbyname"
+        },
+        {
+            "version": "0.7.0",
+            "targetPlatform": "web",
+            "flags": "validated",
+            "lastUpdated": "2023-04-03T20:51:51.917Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680554878272/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680554878272/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680554878272/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680554878272/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680554878272/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680554878272/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680554878272/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680554878272/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680554878272/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680554878272",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.7.0/assetbyname"
+        },
+        {
+            "version": "0.7.0",
+            "flags": "validated",
+            "lastUpdated": "2023-04-03T20:37:02.17Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680553985294/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680553985294/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680553985294/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680553985294/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680553985294/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680553985294/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680553985294/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680553985294/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680553985294/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.7.0/1680553985294",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.7.0/assetbyname"
+        },
+        {
+            "version": "0.6.2",
+            "flags": "validated",
+            "lastUpdated": "2023-03-22T21:56:27.993Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.2/1679521988800/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.2/1679521988800/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.2/1679521988800/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.2/1679521988800/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.2/1679521988800/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.2/1679521988800/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.2/1679521988800/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.2/1679521988800/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.2/1679521988800/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.66.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.2/1679521988800",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.6.2/assetbyname"
+        },
+        {
+            "version": "0.6.1",
+            "flags": "validated",
+            "lastUpdated": "2023-03-01T22:02:09.13Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.1/1677707801747/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.1/1677707801747/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.1/1677707801747/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.1/1677707801747/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.1/1677707801747/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.1/1677707801747/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.1/1677707801747/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.1/1677707801747/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.1/1677707801747/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.66.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.1/1677707801747",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.6.1/assetbyname"
+        },
+        {
+            "version": "0.6.0",
+            "flags": "validated",
+            "lastUpdated": "2023-02-22T18:17:58.723Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.0/1677089628727/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.0/1677089628727/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.0/1677089628727/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.0/1677089628727/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.0/1677089628727/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.0/1677089628727/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.0/1677089628727/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.0/1677089628727/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.0/1677089628727/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.66.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.6.0/1677089628727",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.6.0/assetbyname"
+        },
+        {
+            "version": "0.5.6",
+            "flags": "validated",
+            "lastUpdated": "2022-09-15T21:51:33.99Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.6/1663278557340/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.6/1663278557340/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.6/1663278557340/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.6/1663278557340/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.6/1663278557340/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.6/1663278557340/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.6/1663278557340/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.6/1663278557340/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.65.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.6/1663278557340",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.5.6/assetbyname"
+        },
+        {
+            "version": "0.5.5",
+            "flags": "validated",
+            "lastUpdated": "2022-07-27T23:04:25.103Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.5/1658962925014/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.5/1658962925014/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.5/1658962925014/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.5/1658962925014/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.5/1658962925014/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.5/1658962925014/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.5/1658962925014/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.5/1658962925014/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.65.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.5/1658962925014",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.5.5/assetbyname"
+        },
+        {
+            "version": "0.5.4",
+            "flags": "validated",
+            "lastUpdated": "2022-07-06T23:00:24.657Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.4/1657148159031/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.4/1657148159031/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.4/1657148159031/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.4/1657148159031/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.4/1657148159031/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.4/1657148159031/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.4/1657148159031/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.4/1657148159031/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.57.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.4/1657148159031",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.5.4/assetbyname"
+        },
+        {
+            "version": "0.5.3",
+            "flags": "validated",
+            "lastUpdated": "2022-06-09T23:10:45.12Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.3/1654816104644/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.3/1654816104644/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.3/1654816104644/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.3/1654816104644/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.3/1654816104644/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.3/1654816104644/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.3/1654816104644/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.3/1654816104644/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.57.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.3/1654816104644",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.5.3/assetbyname"
+        },
+        {
+            "version": "0.5.2",
+            "flags": "validated",
+            "lastUpdated": "2022-06-01T16:28:33.687Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.2/1654100773716/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.2/1654100773716/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.2/1654100773716/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.2/1654100773716/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.2/1654100773716/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.2/1654100773716/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.2/1654100773716/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.2/1654100773716/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.57.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.2/1654100773716",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.5.2/assetbyname"
+        },
+        {
+            "version": "0.5.1",
+            "flags": "validated",
+            "lastUpdated": "2022-05-26T18:35:46.567Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.1/1653590008363/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.1/1653590008363/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.1/1653590008363/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.1/1653590008363/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.1/1653590008363/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.1/1653590008363/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.1/1653590008363/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.1/1653590008363/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.57.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.1/1653590008363",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.5.1/assetbyname"
+        },
+        {
+            "version": "0.5.0",
+            "flags": "validated",
+            "lastUpdated": "2022-05-24T17:09:41.35Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.0/1653411918519/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.0/1653411918519/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.0/1653411918519/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.0/1653411918519/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.0/1653411918519/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.0/1653411918519/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.0/1653411918519/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.0/1653411918519/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.57.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.5.0/1653411918519",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.5.0/assetbyname"
+        },
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2021-05-13T20:31:26.9Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.4.0/1620937749541/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.4.0/1620937749541/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.4.0/1620937749541/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.4.0/1620937749541/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.4.0/1620937749541/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.4.0/1620937749541/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.4.0/1620937749541/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.4.0/1620937749541/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.4.0/1620937749541",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2021-02-22T21:35:39.113Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.3.0/1614029596829/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.3.0/1614029596829/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.3.0/1614029596829/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.3.0/1614029596829/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.3.0/1614029596829/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.3.0/1614029596829/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.3.0/1614029596829/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.3.0/1614029596829/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/main/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.48.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.3.0/1614029596829",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2020-06-17T01:01:20.873Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.2.0/1592355525596/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.2.0/1592355525596/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.2.0/1592355525596/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.2.0/1592355525596/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.2.0/1592355525596/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.2.0/1592355525596/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.2.0/1592355525596/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.2.0/1592355525596/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.2.0/1592355525596",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2020-03-17T21:34:57.5Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.1.0/1584480759395/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.1.0/1584480759395/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.1.0/1584480759395/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.1.0/1584480759395/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.1.0/1584480759395/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.1.0/1584480759395/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.1.0/1584480759395/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.1.0/1584480759395/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#3a3d41"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups/blob/master/README.md"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/Microsoft/vscode-azureresourcegroups"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.azure-account"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-azureresourcegroups/0.1.0/1584480759395",
+            "fallbackAssetUri": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/vscode-azureresourcegroups/0.1.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Azure"
+    ],
+    "tags": [
+        "__web_extension",
+        "Azure",
+        "keybindings",
+        "multi-root ready",
+        "Resource Groups"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 2610843.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 3.25
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 4.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0026052062748691844
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 2.5700743020154335
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.6158243172832317
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 6671562.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.073717663792338
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 3121.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

@@ -1,0 +1,679 @@
+{
+    "publisher": {
+        "publisherId": "4f121bf6-7447-4c48-9dd4-02db566bbe73",
+        "publisherName": "johnnywong",
+        "displayName": "Johnny Wong",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "0b4c9c49-e4d5-4b69-8cce-f339d0ffe1b7",
+    "extensionName": "select-matches-or-adjust-selection",
+    "displayName": "Select Matches Or Adjust Selection",
+    "flags": "validated, public",
+    "lastUpdated": "2020-09-20T08:49:42.633Z",
+    "publishedDate": "2020-08-29T18:46:25.813Z",
+    "releaseDate": "2020-08-29T18:46:25.813Z",
+    "shortDescription": "Support select next matches from cursors / all matches in selections (by input regex or preset patterns), and various selections adjustments such as unselect surrounding whitespaces with Normalize Selection",
+    "versions": [
+        {
+            "version": "0.10.4",
+            "flags": "validated",
+            "lastUpdated": "2020-09-20T08:51:59.663Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.4/1600591782637/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.4/1600591782637/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.4/1600591782637/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.4/1600591782637/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.4/1600591782637/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.4/1600591782637/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.4/1600591782637/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.4/1600591782637/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.4/1600591782637/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.4/1600591782637",
+            "fallbackAssetUri": "https://johnnywong.gallery.vsassets.io/_apis/public/gallery/publisher/johnnywong/extension/select-matches-or-adjust-selection/0.10.4/assetbyname"
+        },
+        {
+            "version": "0.10.3",
+            "flags": "validated",
+            "lastUpdated": "2020-09-13T18:10:12.523Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.3/1600020476067/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.3/1600020476067/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.3/1600020476067/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.3/1600020476067/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.3/1600020476067/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.3/1600020476067/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.3/1600020476067/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.3/1600020476067/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.3/1600020476067",
+            "fallbackAssetUri": "https://johnnywong.gallery.vsassets.io/_apis/public/gallery/publisher/johnnywong/extension/select-matches-or-adjust-selection/0.10.3/assetbyname"
+        },
+        {
+            "version": "0.10.2",
+            "flags": "validated",
+            "lastUpdated": "2020-09-13T17:49:10.537Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.2/1600019213817/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.2/1600019213817/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.2/1600019213817/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.2/1600019213817/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.2/1600019213817/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.2/1600019213817/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.2/1600019213817/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.2/1600019213817/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.2/1600019213817",
+            "fallbackAssetUri": "https://johnnywong.gallery.vsassets.io/_apis/public/gallery/publisher/johnnywong/extension/select-matches-or-adjust-selection/0.10.2/assetbyname"
+        },
+        {
+            "version": "0.10.1",
+            "flags": "validated",
+            "lastUpdated": "2020-09-04T05:59:18.557Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.1/1599199021688/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.1/1599199021688/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.1/1599199021688/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.1/1599199021688/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.1/1599199021688/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.1/1599199021688/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.1/1599199021688/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.1/1599199021688/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.1/1599199021688",
+            "fallbackAssetUri": "https://johnnywong.gallery.vsassets.io/_apis/public/gallery/publisher/johnnywong/extension/select-matches-or-adjust-selection/0.10.1/assetbyname"
+        },
+        {
+            "version": "0.10.0",
+            "flags": "validated",
+            "lastUpdated": "2020-08-31T15:20:46.593Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.0/1598887110227/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.0/1598887110227/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.0/1598887110227/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.0/1598887110227/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.0/1598887110227/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.0/1598887110227/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.0/1598887110227/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.0/1598887110227/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.10.0/1598887110227",
+            "fallbackAssetUri": "https://johnnywong.gallery.vsassets.io/_apis/public/gallery/publisher/johnnywong/extension/select-matches-or-adjust-selection/0.10.0/assetbyname"
+        },
+        {
+            "version": "0.9.1",
+            "flags": "validated",
+            "lastUpdated": "2020-08-29T19:00:01.2Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.1/1598727445900/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.1/1598727445900/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.1/1598727445900/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.1/1598727445900/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.1/1598727445900/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.1/1598727445900/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.1/1598727445900/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.1/1598727445900/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.1/1598727445900",
+            "fallbackAssetUri": "https://johnnywong.gallery.vsassets.io/_apis/public/gallery/publisher/johnnywong/extension/select-matches-or-adjust-selection/0.9.1/assetbyname"
+        },
+        {
+            "version": "0.9.0",
+            "flags": "validated",
+            "lastUpdated": "2020-08-29T18:48:42.41Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.0/1598726785818/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.0/1598726785818/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.0/1598726785818/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.0/1598726785818/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.0/1598726785818/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.0/1598726785818/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.0/1598726785818/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.0/1598726785818/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/johnnytemp/vscode-select-matches-or-adjust-selection.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.47.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://johnnywong.gallerycdn.vsassets.io/extensions/johnnywong/select-matches-or-adjust-selection/0.9.0/1598726785818",
+            "fallbackAssetUri": "https://johnnywong.gallery.vsassets.io/_apis/public/gallery/publisher/johnnywong/extension/select-matches-or-adjust-selection/0.9.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "adjust",
+        "cursor",
+        "delete",
+        "expand",
+        "extend",
+        "find",
+        "keybindings",
+        "regex",
+        "regular expression",
+        "search",
+        "selection",
+        "shrink"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 462.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 3.463203463203463
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.0822510822510822
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 25.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 26.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

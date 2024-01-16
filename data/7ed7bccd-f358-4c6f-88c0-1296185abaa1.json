@@ -1,0 +1,819 @@
+{
+    "publisher": {
+        "publisherId": "6c6b26a3-e134-4d03-ad02-7e48f7c9f342",
+        "publisherName": "chrmarti",
+        "displayName": "Christof Marti",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "7ed7bccd-f358-4c6f-88c0-1296185abaa1",
+    "extensionName": "regex",
+    "displayName": "Regex Previewer",
+    "flags": "validated, public",
+    "lastUpdated": "2021-03-04T21:30:02.363Z",
+    "publishedDate": "2016-06-28T00:54:35.333Z",
+    "releaseDate": "2016-06-28T00:54:35.333Z",
+    "shortDescription": "Regex matches previewer for JavaScript, TypeScript, PHP and Haxe in Visual Studio Code.",
+    "versions": [
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2021-03-04T21:30:02.363Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.4.0/1614893264407/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.WebResources/extension/images/icon.png",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.4.0/1614893264407/Microsoft.VisualStudio.Code.WebResources/extension/images/icon.png"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.WebResources/extension/images/in_action.gif",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.4.0/1614893264407/Microsoft.VisualStudio.Code.WebResources/extension/images/in_action.gif"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.WebResources/extension/LICENSE.txt",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.4.0/1614893264407/Microsoft.VisualStudio.Code.WebResources/extension/LICENSE.txt"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.WebResources/extension/out/extension.js",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.4.0/1614893264407/Microsoft.VisualStudio.Code.WebResources/extension/out/extension.js"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.WebResources/extension/package.json",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.4.0/1614893264407/Microsoft.VisualStudio.Code.WebResources/extension/package.json"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.WebResources/extension/README.md",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.4.0/1614893264407/Microsoft.VisualStudio.Code.WebResources/extension/README.md"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.4.0/1614893264407/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.4.0/1614893264407/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.4.0/1614893264407/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.4.0/1614893264407/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.4.0/1614893264407/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.4.0/1614893264407/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.4.0/1614893264407/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chrmarti/vscode-regex/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace,web"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.WebExtension",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.4.0/1614893264407",
+            "fallbackAssetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2021-03-03T22:08:16.3Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.3.0/1614809158839/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.3.0/1614809158839/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.3.0/1614809158839/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.3.0/1614809158839/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.3.0/1614809158839/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.3.0/1614809158839/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.3.0/1614809158839/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chrmarti/vscode-regex/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.3.0/1614809158839",
+            "fallbackAssetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2018-04-27T14:47:29.77Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.2.0/1524840431694/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.2.0/1524840431694/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.2.0/1524840431694/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.2.0/1524840431694/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.2.0/1524840431694/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.2.0/1524840431694/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.2.0/1524840431694/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chrmarti/vscode-regex/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.18.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.2.0/1524840431694",
+            "fallbackAssetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2017-05-12T04:15:16.43Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.1.0/1494562515017/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.1.0/1494562515017/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.1.0/1494562515017/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.1.0/1494562515017/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.1.0/1494562515017/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.1.0/1494562515017/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chrmarti/vscode-regex/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.11.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.1.0/1494562515017",
+            "fallbackAssetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2017-03-07T16:43:08.653Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.8/1488904989780/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.8/1488904989780/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.8/1488904989780/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.8/1488904989780/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.8/1488904989780/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.8/1488904989780/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chrmarti/vscode-regex/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.6.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.8/1488904989780",
+            "fallbackAssetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2016-11-22T05:34:11.703Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.7/1479792849524/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.7/1479792849524/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.7/1479792849524/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.7/1479792849524/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.7/1479792849524/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.7/1479792849524/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chrmarti/vscode-regex/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.6.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.7/1479792849524",
+            "fallbackAssetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2016-08-03T05:18:11.08Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.6/1474455181250/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.6/1474455181250/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.6/1474455181250/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.6/1474455181250/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.6/1474455181250/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.6/1474455181250/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chrmarti/vscode-regex/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.2.1"
+                }
+            ],
+            "assetUri": "https://chrmarti.gallerycdn.vsassets.io/extensions/chrmarti/regex/0.0.6/1474455181250",
+            "fallbackAssetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2016-07-12T00:28:15.157Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.5/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.5/assetbyname/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.5/assetbyname/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.5/assetbyname/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chrmarti/vscode-regex/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.2.1"
+                }
+            ],
+            "assetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.5/assetbyname",
+            "fallbackAssetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2016-07-09T06:32:27.46Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.4/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.4/assetbyname/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.4/assetbyname/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.4/assetbyname/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chrmarti/vscode-regex/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.2.1"
+                }
+            ],
+            "assetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.4/assetbyname",
+            "fallbackAssetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2016-06-30T22:22:57.487Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.3/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.3/assetbyname/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.3/assetbyname/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.3/assetbyname/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/chrmarti/vscode-regex/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.2.1"
+                }
+            ],
+            "assetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.3/assetbyname",
+            "fallbackAssetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2016-06-28T04:50:31.16Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.2/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.2/assetbyname/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.2/assetbyname/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.2.1"
+                }
+            ],
+            "assetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.2/assetbyname",
+            "fallbackAssetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2016-06-28T00:54:35.773Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.1/assetbyname/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.1/assetbyname/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.1/assetbyname/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/chrmarti/vscode-regex.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.2.1"
+                }
+            ],
+            "assetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.1/assetbyname",
+            "fallbackAssetUri": "https://chrmarti.gallery.vsassets.io/_apis/public/gallery/publisher/chrmarti/extension/regex/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "__web_extension",
+        "haxe",
+        "javascript",
+        "javascriptreact",
+        "keybindings",
+        "php",
+        "typescript",
+        "typescriptreact",
+        "vue"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 677590.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 4.5
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 18.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.001476067048869628
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.9273007457090732
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.4383919135142795
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 179403.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.465430260467597
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 3787.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

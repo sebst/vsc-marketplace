@@ -1,0 +1,2531 @@
+{
+    "publisher": {
+        "publisherId": "241d9173-b8f8-45e1-8c89-b2fb0d7a369a",
+        "publisherName": "vscode-infra",
+        "displayName": "vscode-infra",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "4e13f465-6129-4051-91c9-db89b0e81921",
+    "extensionName": "vscode-infra",
+    "displayName": "Infra Frontend",
+    "flags": "validated, public, unpublished",
+    "lastUpdated": "2022-10-20T03:44:10.06Z",
+    "publishedDate": "2021-10-22T08:08:32.277Z",
+    "releaseDate": "2021-10-22T08:08:32.277Z",
+    "shortDescription": "Vscode extension for frontend developers of Infra",
+    "versions": [
+        {
+            "version": "0.5.0",
+            "flags": "validated",
+            "lastUpdated": "2022-06-29T03:14:35.067Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.5.0/1656472336478/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.5.0/1656472336478/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.5.0/1656472336478/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.5.0/1656472336478/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.5.0/1656472336478/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.5.0/1656472336478/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.5.0/1656472336478/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.5.0/1656472336478/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": "vscode-infra.image-viewer,vscode-infra.infra-cli,vscode-infra.snippets-center,vscode-infra.scripts-center"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.5.0/1656472336478",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.5.0/assetbyname"
+        },
+        {
+            "version": "0.4.0",
+            "flags": "validated",
+            "lastUpdated": "2022-06-15T11:49:00.243Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.4.0/1655293602226/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.4.0/1655293602226/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.4.0/1655293602226/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.4.0/1655293602226/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.4.0/1655293602226/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.4.0/1655293602226/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.4.0/1655293602226/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.4.0/1655293602226",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.4.0/assetbyname"
+        },
+        {
+            "version": "0.3.6",
+            "flags": "validated",
+            "lastUpdated": "2022-06-15T11:44:26.97Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.6/1655293326716/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.6/1655293326716/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.6/1655293326716/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.6/1655293326716/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.6/1655293326716/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.6/1655293326716/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.6/1655293326716/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.6/1655293326716",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.3.6/assetbyname"
+        },
+        {
+            "version": "0.3.5",
+            "flags": "validated",
+            "lastUpdated": "2022-06-15T07:54:32.923Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.5/1655279534285/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.5/1655279534285/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.5/1655279534285/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.5/1655279534285/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.5/1655279534285/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.5/1655279534285/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.5/1655279534285/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.5/1655279534285",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.3.5/assetbyname"
+        },
+        {
+            "version": "0.3.4",
+            "flags": "validated",
+            "lastUpdated": "2022-06-13T03:38:46.493Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.4/1655091386684/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.4/1655091386684/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.4/1655091386684/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.4/1655091386684/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.4/1655091386684/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.4/1655091386684/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.4/1655091386684/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.4/1655091386684",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.3.4/assetbyname"
+        },
+        {
+            "version": "0.3.3",
+            "flags": "validated",
+            "lastUpdated": "2022-06-09T09:53:37.367Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.3/1654768275552/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.3/1654768275552/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.3/1654768275552/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.3/1654768275552/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.3/1654768275552/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.3/1654768275552/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.3/1654768275552/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.3/1654768275552",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.3.3/assetbyname"
+        },
+        {
+            "version": "0.3.2",
+            "flags": "validated",
+            "lastUpdated": "2022-06-09T09:31:29.243Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.2/1654766947346/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.2/1654766947346/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.2/1654766947346/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.2/1654766947346/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.2/1654766947346/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.2/1654766947346/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.2/1654766947346/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.2/1654766947346",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.3.2/assetbyname"
+        },
+        {
+            "version": "0.3.1",
+            "flags": "validated",
+            "lastUpdated": "2022-06-09T09:26:36.82Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.1/1654766654438/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.1/1654766654438/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.1/1654766654438/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.1/1654766654438/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.1/1654766654438/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.1/1654766654438/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.1/1654766654438/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.1/1654766654438",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.3.1/assetbyname"
+        },
+        {
+            "version": "0.3.0",
+            "flags": "validated",
+            "lastUpdated": "2022-06-09T09:24:45.33Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.0/1654766544908/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.0/1654766544908/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.0/1654766544908/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.0/1654766544908/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.0/1654766544908/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.0/1654766544908/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.0/1654766544908/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.3.0/1654766544908",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.3.0/assetbyname"
+        },
+        {
+            "version": "0.2.6",
+            "flags": "validated",
+            "lastUpdated": "2022-06-09T09:15:18.703Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.6/1654765978603/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.6/1654765978603/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.6/1654765978603/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.6/1654765978603/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.6/1654765978603/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.6/1654765978603/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.6/1654765978603/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.6/1654765978603",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.2.6/assetbyname"
+        },
+        {
+            "version": "0.2.5",
+            "flags": "validated",
+            "lastUpdated": "2022-04-22T04:55:12.313Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.5/1650603173610/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.5/1650603173610/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.5/1650603173610/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.5/1650603173610/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.5/1650603173610/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.5/1650603173610/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.5/1650603173610/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.5/1650603173610",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.2.5/assetbyname"
+        },
+        {
+            "version": "0.2.4",
+            "flags": "validated",
+            "lastUpdated": "2022-04-21T11:24:01.193Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.4/1650540100595/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.4/1650540100595/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.4/1650540100595/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.4/1650540100595/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.4/1650540100595/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.4/1650540100595/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.4/1650540100595/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.4/1650540100595",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.2.4/assetbyname"
+        },
+        {
+            "version": "0.2.3",
+            "flags": "validated",
+            "lastUpdated": "2022-04-20T08:23:44.473Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.3/1650442884495/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.3/1650442884495/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.3/1650442884495/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.3/1650442884495/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.3/1650442884495/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.3/1650442884495/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.3/1650442884495/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.3/1650442884495",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.2.3/assetbyname"
+        },
+        {
+            "version": "0.2.2",
+            "flags": "validated",
+            "lastUpdated": "2022-04-19T11:18:09.91Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.2/1650366950738/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.2/1650366950738/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.2/1650366950738/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.2/1650366950738/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.2/1650366950738/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.2/1650366950738/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.2/1650366950738/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.2/1650366950738",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.2.2/assetbyname"
+        },
+        {
+            "version": "0.2.0",
+            "flags": "validated",
+            "lastUpdated": "2022-04-18T10:15:44.15Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.0/1650276803449/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.0/1650276803449/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.0/1650276803449/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.0/1650276803449/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.0/1650276803449/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.0/1650276803449/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.0/1650276803449/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.2.0/1650276803449",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.2.0/assetbyname"
+        },
+        {
+            "version": "0.1.12",
+            "flags": "validated",
+            "lastUpdated": "2022-04-12T07:23:55.957Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.12/1649748095712/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.12/1649748095712/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.12/1649748095712/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.12/1649748095712/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.12/1649748095712/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.12/1649748095712/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.12/1649748095712/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.12/1649748095712",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.1.12/assetbyname"
+        },
+        {
+            "version": "0.1.11",
+            "flags": "validated",
+            "lastUpdated": "2022-04-11T17:13:34.673Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.11/1649697075323/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.11/1649697075323/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.11/1649697075323/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.11/1649697075323/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.11/1649697075323/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.11/1649697075323/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.11/1649697075323/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.11/1649697075323",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.1.11/assetbyname"
+        },
+        {
+            "version": "0.1.7",
+            "flags": "validated",
+            "lastUpdated": "2021-12-13T12:57:51.267Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.7/1639400135088/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.7/1639400135088/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.7/1639400135088/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.7/1639400135088/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.7/1639400135088/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.7/1639400135088/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.7/1639400135088/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.7/1639400135088",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.1.7/assetbyname"
+        },
+        {
+            "version": "0.1.6",
+            "flags": "validated",
+            "lastUpdated": "2021-11-26T11:39:06.98Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.6/1637926609469/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.6/1637926609469/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.6/1637926609469/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.6/1637926609469/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.6/1637926609469/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.6/1637926609469/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.6/1637926609469/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.6/1637926609469",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.1.6/assetbyname"
+        },
+        {
+            "version": "0.1.5",
+            "flags": "validated",
+            "lastUpdated": "2021-11-26T10:14:55.64Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.5/1637921558633/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.5/1637921558633/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.5/1637921558633/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.5/1637921558633/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.5/1637921558633/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.5/1637921558633/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.5/1637921558633/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.5/1637921558633",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.1.5/assetbyname"
+        },
+        {
+            "version": "0.1.4",
+            "flags": "validated",
+            "lastUpdated": "2021-11-24T10:49:59.78Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.4/1637750863157/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.4/1637750863157/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.4/1637750863157/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.4/1637750863157/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.4/1637750863157/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.4/1637750863157/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.4/1637750863157/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.4/1637750863157",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.1.4/assetbyname"
+        },
+        {
+            "version": "0.1.3",
+            "flags": "validated",
+            "lastUpdated": "2021-11-24T10:46:23.007Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.3/1637750646034/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.3/1637750646034/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.3/1637750646034/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.3/1637750646034/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.3/1637750646034/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.3/1637750646034/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.3/1637750646034/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.3/1637750646034",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.1.3/assetbyname"
+        },
+        {
+            "version": "0.1.2",
+            "flags": "validated",
+            "lastUpdated": "2021-11-03T13:42:08.063Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.2/1635946790939/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.2/1635946790939/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.2/1635946790939/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.2/1635946790939/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.2/1635946790939/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.2/1635946790939/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.2/1635946790939/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.2/1635946790939",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.1.2/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2021-11-03T12:58:15.6Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.1/1635944158661/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.1/1635944158661/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.1/1635944158661/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.1/1635944158661/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.1/1635944158661/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.1/1635944158661/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.1/1635944158661/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.1/1635944158661",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2021-11-03T12:08:42.53Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.0/1635941186186/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.0/1635941186186/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.0/1635941186186/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.0/1635941186186/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.0/1635941186186/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.0/1635941186186/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.0/1635941186186/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.1.0/1635941186186",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.15",
+            "flags": "validated",
+            "lastUpdated": "2021-11-02T10:56:32.617Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.15/1635850455331/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.15/1635850455331/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.15/1635850455331/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.15/1635850455331/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.15/1635850455331/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.15/1635850455331/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.15/1635850455331/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.15/1635850455331",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.0.15/assetbyname"
+        },
+        {
+            "version": "0.0.14",
+            "flags": "validated",
+            "lastUpdated": "2021-11-02T10:05:22.303Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.14/1635847386454/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.14/1635847386454/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.14/1635847386454/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.14/1635847386454/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.14/1635847386454/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.14/1635847386454/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.14/1635847386454/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.14/1635847386454",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.0.14/assetbyname"
+        },
+        {
+            "version": "0.0.13",
+            "flags": "validated",
+            "lastUpdated": "2021-11-02T09:34:35.75Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.13/1635845521460/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.13/1635845521460/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.13/1635845521460/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.13/1635845521460/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.13/1635845521460/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.13/1635845521460/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.13/1635845521460/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.13/1635845521460",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.0.13/assetbyname"
+        },
+        {
+            "version": "0.0.12",
+            "flags": "validated",
+            "lastUpdated": "2021-11-02T08:36:23.497Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.12/1635842044265/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.12/1635842044265/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.12/1635842044265/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.12/1635842044265/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.12/1635842044265/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.12/1635842044265/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.12/1635842044265/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.12/1635842044265",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.0.12/assetbyname"
+        },
+        {
+            "version": "0.0.11",
+            "flags": "validated",
+            "lastUpdated": "2021-11-02T02:42:47.457Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.11/1635820831559/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.11/1635820831559/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.11/1635820831559/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.11/1635820831559/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.11/1635820831559/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.11/1635820831559/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.11/1635820831559/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.11/1635820831559",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.0.11/assetbyname"
+        },
+        {
+            "version": "0.0.10",
+            "flags": "validated",
+            "lastUpdated": "2021-11-01T13:52:30.477Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.10/1635774613924/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.10/1635774613924/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.10/1635774613924/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.10/1635774613924/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.10/1635774613924/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.10/1635774613924/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.10/1635774613924/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.10/1635774613924",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.0.10/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2021-11-01T13:48:23.62Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.9/1635774367297/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.9/1635774367297/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.9/1635774367297/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.9/1635774367297/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.9/1635774367297/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.9/1635774367297/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.9/1635774367297/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.9/1635774367297",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2021-11-01T12:56:05.507Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.8/1635771228600/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.8/1635771228600/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.8/1635771228600/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.8/1635771228600/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.8/1635771228600/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.8/1635771228600/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.8/1635771228600/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.8/1635771228600",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2021-11-01T12:50:07.363Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.7/1635770871448/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.7/1635770871448/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.7/1635770871448/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.7/1635770871448/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.7/1635770871448/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.7/1635770871448/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.7/1635770871448/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.40.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.7/1635770871448",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2021-11-01T12:32:18.963Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.6/1635769407024/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.6/1635769407024/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.6/1635769407024/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.6/1635769407024/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.6/1635769407024/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.6/1635769407024/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.6/1635769407024/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.59.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.6/1635769407024",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2021-10-29T03:10:59.043Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.5/1635476922353/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.5/1635476922353/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.5/1635476922353/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.5/1635476922353/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.5/1635476922353/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.5/1635476922353/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.5/1635476922353/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.59.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.5/1635476922353",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2021-10-29T02:55:15.243Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.4/1635475980290/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.4/1635475980290/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.4/1635475980290/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.4/1635475980290/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.4/1635475980290/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.4/1635475980290/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.4/1635475980290/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.59.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.4/1635475980290",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2021-10-22T08:34:42.343Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.2/1634891546706/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.2/1634891546706/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.2/1634891546706/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.2/1634891546706/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.2/1634891546706/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.2/1634891546706/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.2/1634891546706/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.59.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.2/1634891546706",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2021-10-22T08:10:49.277Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.1/1634890112280/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.1/1634890112280/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.1/1634890112280/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.1/1634890112280/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.1/1634890112280/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.59.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://vscode-infra.gallerycdn.vsassets.io/extensions/vscode-infra/vscode-infra/0.0.1/1634890112280",
+            "fallbackAssetUri": "https://vscode-infra.gallery.vsassets.io/_apis/public/gallery/publisher/vscode-infra/extension/vscode-infra/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Extension Packs",
+        "Visualization"
+    ],
+    "tags": [
+        "cli",
+        "frontend",
+        "image",
+        "preview",
+        "script",
+        "snippet",
+        "terminal"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 82.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.0
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 229.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 26.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

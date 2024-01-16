@@ -1,0 +1,938 @@
+{
+    "publisher": {
+        "publisherId": "748d479e-7830-41b8-9af9-9a4942c8bb97",
+        "publisherName": "picasso-team",
+        "displayName": "picasso-team",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "3ffdc8be-7c27-4a80-a52a-82ee6814b9a3",
+    "extensionName": "picasso-tools",
+    "displayName": "PicassoTools",
+    "flags": "validated, public",
+    "lastUpdated": "2021-01-28T09:45:37.967Z",
+    "publishedDate": "2020-03-30T09:47:47.723Z",
+    "releaseDate": "2020-03-30T09:47:47.723Z",
+    "shortDescription": "Picasso VSCode Tools",
+    "versions": [
+        {
+            "version": "1.2.3",
+            "flags": "validated",
+            "lastUpdated": "2021-01-28T09:45:37.967Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.3/1611826702525/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.3/1611826702525/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.3/1611826702525/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.3/1611826702525/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.3/1611826702525/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.3/1611826702525/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.3/1611826702525/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.node-debug2"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.3/1611826702525",
+            "fallbackAssetUri": "https://picasso-team.gallery.vsassets.io/_apis/public/gallery/publisher/picasso-team/extension/picasso-tools/1.2.3/assetbyname"
+        },
+        {
+            "version": "1.2.2",
+            "flags": "validated",
+            "lastUpdated": "2020-11-26T03:42:05.173Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.2/1606361554775/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.2/1606361554775/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.2/1606361554775/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.2/1606361554775/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.2/1606361554775/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.2/1606361554775/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.node-debug2"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.2/1606361554775",
+            "fallbackAssetUri": "https://picasso-team.gallery.vsassets.io/_apis/public/gallery/publisher/picasso-team/extension/picasso-tools/1.2.2/assetbyname"
+        },
+        {
+            "version": "1.2.1",
+            "flags": "validated",
+            "lastUpdated": "2020-10-19T03:01:13.54Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.1/1603075913531/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.1/1603075913531/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.1/1603075913531/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.1/1603075913531/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.1/1603075913531/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.1/1603075913531/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.node-debug2"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.1/1603075913531",
+            "fallbackAssetUri": "https://picasso-team.gallery.vsassets.io/_apis/public/gallery/publisher/picasso-team/extension/picasso-tools/1.2.1/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2020-10-13T03:50:47.313Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.0/1602560496933/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.0/1602560496933/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.0/1602560496933/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.0/1602560496933/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.0/1602560496933/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.0/1602560496933/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.node-debug2"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.2.0/1602560496933",
+            "fallbackAssetUri": "https://picasso-team.gallery.vsassets.io/_apis/public/gallery/publisher/picasso-team/extension/picasso-tools/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.2",
+            "flags": "validated",
+            "lastUpdated": "2020-08-27T09:41:53.91Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.2/1598521172344/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.2/1598521172344/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.2/1598521172344/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.2/1598521172344/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.2/1598521172344/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.2/1598521172344/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.node-debug2"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.2/1598521172344",
+            "fallbackAssetUri": "https://picasso-team.gallery.vsassets.io/_apis/public/gallery/publisher/picasso-team/extension/picasso-tools/1.1.2/assetbyname"
+        },
+        {
+            "version": "1.1.1",
+            "flags": "validated",
+            "lastUpdated": "2020-08-27T06:31:10.76Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.1/1598509461483/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.1/1598509461483/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.1/1598509461483/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.1/1598509461483/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.1/1598509461483/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.1/1598509461483/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.1/1598509461483/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.node-debug2"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.1/1598509461483",
+            "fallbackAssetUri": "https://picasso-team.gallery.vsassets.io/_apis/public/gallery/publisher/picasso-team/extension/picasso-tools/1.1.1/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2020-08-24T07:21:58.737Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.0/1598253300010/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.0/1598253300010/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.0/1598253300010/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.0/1598253300010/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.0/1598253300010/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.0/1598253300010/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.node-debug2"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.1.0/1598253300010",
+            "fallbackAssetUri": "https://picasso-team.gallery.vsassets.io/_apis/public/gallery/publisher/picasso-team/extension/picasso-tools/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.7",
+            "flags": "validated",
+            "lastUpdated": "2020-06-04T07:42:20.057Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.7/1591256396559/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.7/1591256396559/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.7/1591256396559/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.7/1591256396559/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.7/1591256396559/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.7/1591256396559/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.7/1591256396559/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.node-debug2"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.7/1591256396559",
+            "fallbackAssetUri": "https://picasso-team.gallery.vsassets.io/_apis/public/gallery/publisher/picasso-team/extension/picasso-tools/1.0.7/assetbyname"
+        },
+        {
+            "version": "1.0.6",
+            "flags": "validated",
+            "lastUpdated": "2020-04-17T02:56:20.727Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.6/1587092036324/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.6/1587092036324/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.6/1587092036324/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.6/1587092036324/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.6/1587092036324/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.6/1587092036324/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.6/1587092036324/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.node-debug2"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.6/1587092036324",
+            "fallbackAssetUri": "https://picasso-team.gallery.vsassets.io/_apis/public/gallery/publisher/picasso-team/extension/picasso-tools/1.0.6/assetbyname"
+        },
+        {
+            "version": "1.0.5",
+            "flags": "validated",
+            "lastUpdated": "2020-04-10T08:57:12.833Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.5/1586508889805/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.5/1586508889805/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.5/1586508889805/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.5/1586508889805/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.5/1586508889805/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.5/1586508889805/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.5/1586508889805/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.node-debug2"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.5/1586508889805",
+            "fallbackAssetUri": "https://picasso-team.gallery.vsassets.io/_apis/public/gallery/publisher/picasso-team/extension/picasso-tools/1.0.5/assetbyname"
+        },
+        {
+            "version": "1.0.4",
+            "flags": "validated",
+            "lastUpdated": "2020-04-09T10:22:26.32Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.4/1586427475978/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.4/1586427475978/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.4/1586427475978/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.4/1586427475978/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.4/1586427475978/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.4/1586427475978/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.4/1586427475978/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.node-debug2"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.4/1586427475978",
+            "fallbackAssetUri": "https://picasso-team.gallery.vsassets.io/_apis/public/gallery/publisher/picasso-team/extension/picasso-tools/1.0.4/assetbyname"
+        },
+        {
+            "version": "1.0.3",
+            "flags": "validated",
+            "lastUpdated": "2020-04-02T10:26:10.717Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.3/1585822901330/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.3/1585822901330/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.3/1585822901330/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.3/1585822901330/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.3/1585822901330/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.3/1585822901330/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.3/1585822901330/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.node-debug2"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.3/1585822901330",
+            "fallbackAssetUri": "https://picasso-team.gallery.vsassets.io/_apis/public/gallery/publisher/picasso-team/extension/picasso-tools/1.0.3/assetbyname"
+        },
+        {
+            "version": "1.0.2",
+            "flags": "validated",
+            "lastUpdated": "2020-03-31T11:04:51.817Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.2/1585652423649/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.2/1585652423649/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.2/1585652423649/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.2/1585652423649/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.2/1585652423649/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.2/1585652423649/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.2/1585652423649/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.node-debug2"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.2/1585652423649",
+            "fallbackAssetUri": "https://picasso-team.gallery.vsassets.io/_apis/public/gallery/publisher/picasso-team/extension/picasso-tools/1.0.2/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2020-03-30T11:34:36.727Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.1/1585567807183/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.1/1585567807183/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.1/1585567807183/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.1/1585567807183/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.1/1585567807183/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.1/1585567807183/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.1/1585567807183/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.node-debug2"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.1/1585567807183",
+            "fallbackAssetUri": "https://picasso-team.gallery.vsassets.io/_apis/public/gallery/publisher/picasso-team/extension/picasso-tools/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2020-03-30T09:50:10.287Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.0/1585561667728/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.0/1585561667728/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.0/1585561667728/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.0/1585561667728/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.0/1585561667728/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.0/1585561667728/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.0/1585561667728/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.39.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "ms-vscode.node-debug2"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://picasso-team.gallerycdn.vsassets.io/extensions/picasso-team/picasso-tools/1.0.0/1585561667728",
+            "fallbackAssetUri": "https://picasso-team.gallery.vsassets.io/_apis/public/gallery/publisher/picasso-team/extension/picasso-tools/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Snippets",
+        "Debuggers"
+    ],
+    "tags": [
+        "debuggers",
+        "snippet"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 1162.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 1.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.9466437177280551
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.08605851979345956
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 589.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.457458844826611
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 60.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

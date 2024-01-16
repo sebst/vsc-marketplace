@@ -1,0 +1,621 @@
+{
+    "publisher": {
+        "publisherId": "32c7ef5d-34f6-4b96-a885-5b07ed4f40ac",
+        "publisherName": "GilGourevitch",
+        "displayName": "Gil Gourevitch",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "be76f3b0-2db5-41cd-860b-f1eaab8d062c",
+    "extensionName": "apex-log-utilities",
+    "displayName": "Apex Log Utilities",
+    "flags": "validated, public",
+    "lastUpdated": "2024-01-16T16:52:25.337Z",
+    "publishedDate": "2024-01-16T15:27:08.847Z",
+    "releaseDate": "2024-01-16T15:27:08.847Z",
+    "shortDescription": "Eases the Apex log retrieval by streaming Apex Logs from the default project org in a Terminal.",
+    "versions": [
+        {
+            "version": "1.0.5",
+            "flags": "validated",
+            "lastUpdated": "2024-01-16T16:52:25.337Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.5/1705423713452/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.5/1705423713452/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.5/1705423713452/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.5/1705423713452/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.5/1705423713452/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.5/1705423713452/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.5/1705423713452/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.5/1705423713452/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.5/1705423713452/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.85.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.5/1705423713452",
+            "fallbackAssetUri": "https://gilgourevitch.gallery.vsassets.io/_apis/public/gallery/publisher/GilGourevitch/extension/apex-log-utilities/1.0.5/assetbyname"
+        },
+        {
+            "version": "1.0.4",
+            "flags": "validated",
+            "lastUpdated": "2024-01-16T16:42:56.543Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.4/1705423116497/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.4/1705423116497/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.4/1705423116497/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.4/1705423116497/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.4/1705423116497/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.4/1705423116497/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.4/1705423116497/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.4/1705423116497/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.4/1705423116497/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.85.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.4/1705423116497",
+            "fallbackAssetUri": "https://gilgourevitch.gallery.vsassets.io/_apis/public/gallery/publisher/GilGourevitch/extension/apex-log-utilities/1.0.4/assetbyname"
+        },
+        {
+            "version": "1.0.3",
+            "flags": "validated",
+            "lastUpdated": "2024-01-16T16:39:41.823Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.3/1705422986798/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.3/1705422986798/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.3/1705422986798/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.3/1705422986798/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.3/1705422986798/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.3/1705422986798/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.3/1705422986798/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.3/1705422986798/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.3/1705422986798/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.85.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.3/1705422986798",
+            "fallbackAssetUri": "https://gilgourevitch.gallery.vsassets.io/_apis/public/gallery/publisher/GilGourevitch/extension/apex-log-utilities/1.0.3/assetbyname"
+        },
+        {
+            "version": "1.0.2",
+            "flags": "validated",
+            "lastUpdated": "2024-01-16T16:36:06.833Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.2/1705422605194/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.2/1705422605194/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.2/1705422605194/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.2/1705422605194/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.2/1705422605194/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.2/1705422605194/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.2/1705422605194/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.2/1705422605194/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.2/1705422605194/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.85.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.2/1705422605194",
+            "fallbackAssetUri": "https://gilgourevitch.gallery.vsassets.io/_apis/public/gallery/publisher/GilGourevitch/extension/apex-log-utilities/1.0.2/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2024-01-16T16:29:55.683Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.1/1705422354042/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.1/1705422354042/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.1/1705422354042/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.1/1705422354042/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.1/1705422354042/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.1/1705422354042/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.1/1705422354042/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.1/1705422354042/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.1/1705422354042/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.85.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.1/1705422354042",
+            "fallbackAssetUri": "https://gilgourevitch.gallery.vsassets.io/_apis/public/gallery/publisher/GilGourevitch/extension/apex-log-utilities/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2024-01-16T15:30:16.3Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.0/1705418829845/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.0/1705418829845/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.0/1705418829845/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.0/1705418829845/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.0/1705418829845/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.0/1705418829845/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.0/1705418829845/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.0/1705418829845/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.0/1705418829845/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/gilgourevitch/vscext-apex-log-utilities.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.85.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://gilgourevitch.gallerycdn.vsassets.io/extensions/gilgourevitch/apex-log-utilities/1.0.0/1705418829845",
+            "fallbackAssetUri": "https://gilgourevitch.gallery.vsassets.io/_apis/public/gallery/publisher/GilGourevitch/extension/apex-log-utilities/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "apex",
+        "apexlog",
+        "debug",
+        "debuglog",
+        "log",
+        "logstream",
+        "logtail",
+        "salesforce",
+        "terminal"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 1.0
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 2.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

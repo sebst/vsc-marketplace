@@ -1,0 +1,829 @@
+{
+    "publisher": {
+        "publisherId": "f19b82c8-59f1-46dd-b345-83bdd3fcda00",
+        "publisherName": "manuelalabor",
+        "displayName": "Manuel Alabor",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "86c1ed6d-ac65-4926-a22c-82ee2cee5242",
+    "extensionName": "rxjs-debugging-for-vs-code",
+    "displayName": "RxJS Debugging for Visual Studio Code",
+    "flags": "validated, public",
+    "lastUpdated": "2021-12-08T14:30:44.95Z",
+    "publishedDate": "2021-05-17T13:58:57.277Z",
+    "releaseDate": "2021-05-17T13:58:57.277Z",
+    "shortDescription": "Add non-intrusive debugging capabilities for RxJS applications to Visual Studio Code.",
+    "versions": [
+        {
+            "version": "1.1.1",
+            "flags": "validated",
+            "lastUpdated": "2021-12-08T14:30:44.95Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.1/1638973708537/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.1/1638973708537/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.1/1638973708537/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.1/1638973708537/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.1/1638973708537/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.1/1638973708537/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.1/1638973708537/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.1/1638973708537/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.1/1638973708537/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.1/1638973708537",
+            "fallbackAssetUri": "https://manuelalabor.gallery.vsassets.io/_apis/public/gallery/publisher/manuelalabor/extension/rxjs-debugging-for-vs-code/1.1.1/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2021-12-04T14:02:50.127Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.0/1638626431615/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.0/1638626431615/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.0/1638626431615/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.0/1638626431615/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.0/1638626431615/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.0/1638626431615/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.0/1638626431615/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.0/1638626431615/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.1.0/1638626431615",
+            "fallbackAssetUri": "https://manuelalabor.gallery.vsassets.io/_apis/public/gallery/publisher/manuelalabor/extension/rxjs-debugging-for-vs-code/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2021-12-02T17:24:37.34Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.1/1638465739515/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.1/1638465739515/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.1/1638465739515/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.1/1638465739515/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.1/1638465739515/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.1/1638465739515/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.1/1638465739515/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.1/1638465739515/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.1/1638465739515",
+            "fallbackAssetUri": "https://manuelalabor.gallery.vsassets.io/_apis/public/gallery/publisher/manuelalabor/extension/rxjs-debugging-for-vs-code/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2021-12-02T15:33:13.86Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.0/1638459057371/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.0/1638459057371/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.0/1638459057371/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.0/1638459057371/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.0/1638459057371/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.0/1638459057371/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.0/1638459057371/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.0/1638459057371/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/1.0.0/1638459057371",
+            "fallbackAssetUri": "https://manuelalabor.gallery.vsassets.io/_apis/public/gallery/publisher/manuelalabor/extension/rxjs-debugging-for-vs-code/1.0.0/assetbyname"
+        },
+        {
+            "version": "0.9.0",
+            "flags": "validated",
+            "lastUpdated": "2021-11-25T09:23:35.633Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.9.0/1637832077172/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.9.0/1637832077172/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.9.0/1637832077172/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.9.0/1637832077172/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.9.0/1637832077172/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.9.0/1637832077172/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.9.0/1637832077172/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.9.0/1637832077172/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.9.0/1637832077172",
+            "fallbackAssetUri": "https://manuelalabor.gallery.vsassets.io/_apis/public/gallery/publisher/manuelalabor/extension/rxjs-debugging-for-vs-code/0.9.0/assetbyname"
+        },
+        {
+            "version": "0.1.2",
+            "flags": "validated",
+            "lastUpdated": "2021-05-18T09:55:18.787Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.2/1621331577375/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.2/1621331577375/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.2/1621331577375/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.2/1621331577375/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.2/1621331577375/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.2/1621331577375/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.2/1621331577375/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.2/1621331577375/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.2/1621331577375",
+            "fallbackAssetUri": "https://manuelalabor.gallery.vsassets.io/_apis/public/gallery/publisher/manuelalabor/extension/rxjs-debugging-for-vs-code/0.1.2/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2021-05-17T14:22:26.12Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.1/1621261208243/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.1/1621261208243/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.1/1621261208243/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.1/1621261208243/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.1/1621261208243/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.1/1621261208243/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.1/1621261208243/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.1/1621261208243/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.1/1621261208243",
+            "fallbackAssetUri": "https://manuelalabor.gallery.vsassets.io/_apis/public/gallery/publisher/manuelalabor/extension/rxjs-debugging-for-vs-code/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2021-05-17T14:01:15.813Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.0/1621259937280/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.0/1621259937280/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.0/1621259937280/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.0/1621259937280/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.0/1621259937280/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.0/1621259937280/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.56.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.1.0/1621259937280",
+            "fallbackAssetUri": "https://manuelalabor.gallery.vsassets.io/_apis/public/gallery/publisher/manuelalabor/extension/rxjs-debugging-for-vs-code/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2021-11-25T08:34:37.917Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.0.9/1637829140553/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.0.9/1637829140553/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.0.9/1637829140553/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.0.9/1637829140553/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.0.9/1637829140553/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.0.9/1637829140553/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.0.9/1637829140553/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.0.9/1637829140553/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/swissmanu/rxjs-debugging-for-vscode.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.61.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://manuelalabor.gallerycdn.vsassets.io/extensions/manuelalabor/rxjs-debugging-for-vs-code/0.0.9/1637829140553",
+            "fallbackAssetUri": "https://manuelalabor.gallery.vsassets.io/_apis/public/gallery/publisher/manuelalabor/extension/rxjs-debugging-for-vs-code/0.0.9/assetbyname"
+        }
+    ],
+    "categories": [
+        "Debuggers"
+    ],
+    "tags": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 5266.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 2.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 2.1462488129154798
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.5318138651471985
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 1066.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.502670607757727
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 47.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

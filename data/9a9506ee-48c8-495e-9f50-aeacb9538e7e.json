@@ -1,0 +1,835 @@
+{
+    "publisher": {
+        "publisherId": "3f25d277-00ed-4e9e-badf-8537ab025260",
+        "publisherName": "gpanneti",
+        "displayName": "Guillaume PANNETIER",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "9a9506ee-48c8-495e-9f50-aeacb9538e7e",
+    "extensionName": "css2inlinestyle",
+    "displayName": "CSS2InlineStyle",
+    "flags": "validated, public",
+    "lastUpdated": "2018-02-23T09:07:18.84Z",
+    "publishedDate": "2017-06-01T10:49:10.48Z",
+    "releaseDate": "2017-06-01T10:49:10.48Z",
+    "shortDescription": "A simple extension to convert CSS to inline style (and the inverse) that you can use on your React application.",
+    "versions": [
+        {
+            "version": "1.2.3",
+            "flags": "validated",
+            "lastUpdated": "2018-02-23T09:07:29.11Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.3/1519376838901/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.3/1519376838901/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.3/1519376838901/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.3/1519376838901/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.3/1519376838901/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.3/1519376838901/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.12.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.3/1519376838901",
+            "fallbackAssetUri": "https://gpanneti.gallery.vsassets.io/_apis/public/gallery/publisher/gpanneti/extension/css2inlinestyle/1.2.3/assetbyname"
+        },
+        {
+            "version": "1.2.2",
+            "flags": "validated",
+            "lastUpdated": "2018-02-23T09:06:26.077Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.2/1519376776200/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.2/1519376776200/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.2/1519376776200/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.2/1519376776200/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.2/1519376776200/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.2/1519376776200/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.12.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.2/1519376776200",
+            "fallbackAssetUri": "https://gpanneti.gallery.vsassets.io/_apis/public/gallery/publisher/gpanneti/extension/css2inlinestyle/1.2.2/assetbyname"
+        },
+        {
+            "version": "1.2.1",
+            "flags": "validated",
+            "lastUpdated": "2018-01-04T10:07:00.76Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.1/1515060368497/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.1/1515060368497/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.1/1515060368497/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.1/1515060368497/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.1/1515060368497/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.1/1515060368497/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.12.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.1/1515060368497",
+            "fallbackAssetUri": "https://gpanneti.gallery.vsassets.io/_apis/public/gallery/publisher/gpanneti/extension/css2inlinestyle/1.2.1/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2017-11-22T13:41:47.043Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.0/1511358107701/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.0/1511358107701/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.0/1511358107701/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.0/1511358107701/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.0/1511358107701/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.0/1511358107701/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.12.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.2.0/1511358107701",
+            "fallbackAssetUri": "https://gpanneti.gallery.vsassets.io/_apis/public/gallery/publisher/gpanneti/extension/css2inlinestyle/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.7",
+            "flags": "validated",
+            "lastUpdated": "2017-06-07T12:05:29.7Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.7/1496837128691/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.7/1496837128691/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.7/1496837128691/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.7/1496837128691/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.7/1496837128691/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.12.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.7/1496837128691",
+            "fallbackAssetUri": "https://gpanneti.gallery.vsassets.io/_apis/public/gallery/publisher/gpanneti/extension/css2inlinestyle/1.1.7/assetbyname"
+        },
+        {
+            "version": "1.1.6",
+            "flags": "validated",
+            "lastUpdated": "2017-06-01T13:08:59.58Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.6/1496322538064/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.6/1496322538064/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.6/1496322538064/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.6/1496322538064/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.6/1496322538064/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.12.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.6/1496322538064",
+            "fallbackAssetUri": "https://gpanneti.gallery.vsassets.io/_apis/public/gallery/publisher/gpanneti/extension/css2inlinestyle/1.1.6/assetbyname"
+        },
+        {
+            "version": "1.1.5",
+            "flags": "validated",
+            "lastUpdated": "2017-06-01T12:50:32.327Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.5/1496321430433/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.5/1496321430433/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.5/1496321430433/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.5/1496321430433/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.5/1496321430433/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.12.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.5/1496321430433",
+            "fallbackAssetUri": "https://gpanneti.gallery.vsassets.io/_apis/public/gallery/publisher/gpanneti/extension/css2inlinestyle/1.1.5/assetbyname"
+        },
+        {
+            "version": "1.1.4",
+            "flags": "validated",
+            "lastUpdated": "2017-06-01T12:26:46.95Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.4/1496320005327/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.4/1496320005327/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.4/1496320005327/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.4/1496320005327/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.4/1496320005327/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.12.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.4/1496320005327",
+            "fallbackAssetUri": "https://gpanneti.gallery.vsassets.io/_apis/public/gallery/publisher/gpanneti/extension/css2inlinestyle/1.1.4/assetbyname"
+        },
+        {
+            "version": "1.1.3",
+            "flags": "validated",
+            "lastUpdated": "2017-06-01T12:09:33.69Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.3/1496318973463/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.3/1496318973463/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.3/1496318973463/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.3/1496318973463/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.3/1496318973463/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/gpanneti/css2inlinestyle.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.12.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.3/1496318973463",
+            "fallbackAssetUri": "https://gpanneti.gallery.vsassets.io/_apis/public/gallery/publisher/gpanneti/extension/css2inlinestyle/1.1.3/assetbyname"
+        },
+        {
+            "version": "1.1.2",
+            "flags": "validated",
+            "lastUpdated": "2017-06-01T11:30:12.23Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.2/1496316611474/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.2/1496316611474/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.2/1496316611474/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.2/1496316611474/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.2/1496316611474/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://css2inlinestyle.visualstudio.com/_git/CSS2InlineStyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://css2inlinestyle.visualstudio.com/_git/CSS2InlineStyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://css2inlinestyle.visualstudio.com/_git/CSS2InlineStyle"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.12.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.2/1496316611474",
+            "fallbackAssetUri": "https://gpanneti.gallery.vsassets.io/_apis/public/gallery/publisher/gpanneti/extension/css2inlinestyle/1.1.2/assetbyname"
+        },
+        {
+            "version": "1.1.1",
+            "flags": "validated",
+            "lastUpdated": "2017-06-01T11:22:53.187Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.1/1496316172512/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.1/1496316172512/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.1/1496316172512/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.1/1496316172512/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.1/1496316172512/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.12.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.1/1496316172512",
+            "fallbackAssetUri": "https://gpanneti.gallery.vsassets.io/_apis/public/gallery/publisher/gpanneti/extension/css2inlinestyle/1.1.1/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2017-06-01T11:03:00.807Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.0/1496314979689/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.0/1496314979689/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.0/1496314979689/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.0/1496314979689/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.0/1496314979689/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.12.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.1.0/1496314979689",
+            "fallbackAssetUri": "https://gpanneti.gallery.vsassets.io/_apis/public/gallery/publisher/gpanneti/extension/css2inlinestyle/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2017-06-01T10:51:04.863Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.0.0/1496314263919/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.0.0/1496314263919/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.0.0/1496314263919/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.0.0/1496314263919/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.0.0/1496314263919/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.12.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/1.0.0/1496314263919",
+            "fallbackAssetUri": "https://gpanneti.gallery.vsassets.io/_apis/public/gallery/publisher/gpanneti/extension/css2inlinestyle/1.0.0/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2017-06-01T10:49:10.797Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/0.0.1/1496314149916/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/0.0.1/1496314149916/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/0.0.1/1496314149916/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/0.0.1/1496314149916/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/0.0.1/1496314149916/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.12.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.EnableMarketplaceQnA",
+                    "value": "true"
+                }
+            ],
+            "assetUri": "https://gpanneti.gallerycdn.vsassets.io/extensions/gpanneti/css2inlinestyle/0.0.1/1496314149916",
+            "fallbackAssetUri": "https://gpanneti.gallery.vsassets.io/_apis/public/gallery/publisher/gpanneti/extension/css2inlinestyle/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Snippets",
+        "Formatters"
+    ],
+    "tags": [
+        "converter",
+        "css",
+        "inline",
+        "javascript",
+        "react",
+        "style"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 1766.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 2.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 0.7361268403171007
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.11325028312570783
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 469.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.502670607757727
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 52.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

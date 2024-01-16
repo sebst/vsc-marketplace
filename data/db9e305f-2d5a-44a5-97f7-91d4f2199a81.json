@@ -1,0 +1,2618 @@
+{
+    "publisher": {
+        "publisherId": "59f372a7-86a5-4352-ba0d-b8ac1e60f927",
+        "publisherName": "fcrespo82",
+        "displayName": "Fernando Crespo",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "db9e305f-2d5a-44a5-97f7-91d4f2199a81",
+    "extensionName": "markdown-table-formatter",
+    "displayName": "Markdown Table Formatter",
+    "flags": "validated, public",
+    "lastUpdated": "2023-08-12T03:31:18.523Z",
+    "publishedDate": "2018-02-23T18:41:44.66Z",
+    "releaseDate": "2018-02-23T18:41:44.66Z",
+    "shortDescription": "A (not so) simple markdown plugin to format tables and other table related features.",
+    "versions": [
+        {
+            "version": "3.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-08-12T03:31:18.523Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/3.0.0/1691810863171/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/3.0.0/1691810863171/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/3.0.0/1691810863171/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/3.0.0/1691810863171/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/3.0.0/1691810863171/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/3.0.0/1691810863171/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/3.0.0/1691810863171/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/3.0.0/1691810863171/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/3.0.0/1691810863171/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.72.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/3.0.0/1691810863171",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/3.0.0/assetbyname"
+        },
+        {
+            "version": "2.2.4",
+            "flags": "validated",
+            "lastUpdated": "2021-10-25T01:56:21.69Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.4/1635126840397/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.4/1635126840397/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.4/1635126840397/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.4/1635126840397/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.4/1635126840397/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.4/1635126840397/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.4/1635126840397/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.4/1635126840397/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.4/1635126840397",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.2.4/assetbyname"
+        },
+        {
+            "version": "2.2.3",
+            "flags": "validated",
+            "lastUpdated": "2021-08-31T23:09:18.833Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.3/1630451221083/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.3/1630451221083/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.3/1630451221083/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.3/1630451221083/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.3/1630451221083/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.3/1630451221083/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.3/1630451221083/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.3/1630451221083",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.2.3/assetbyname"
+        },
+        {
+            "version": "2.2.2",
+            "flags": "validated",
+            "lastUpdated": "2021-08-26T02:19:30.553Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.2/1629944233375/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.2/1629944233375/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.2/1629944233375/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.2/1629944233375/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.2/1629944233375/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.2/1629944233375/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.2/1629944233375/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.2/1629944233375",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.2.2/assetbyname"
+        },
+        {
+            "version": "2.2.1",
+            "flags": "validated",
+            "lastUpdated": "2021-08-25T21:47:27.91Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.1/1629927910367/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.1/1629927910367/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.1/1629927910367/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.1/1629927910367/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.1/1629927910367/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.1/1629927910367/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.1/1629927910367/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.1/1629927910367",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.2.1/assetbyname"
+        },
+        {
+            "version": "2.2.0",
+            "flags": "validated",
+            "lastUpdated": "2021-07-27T23:03:51.573Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.0/1627426894080/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.0/1627426894080/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.0/1627426894080/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.0/1627426894080/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.0/1627426894080/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.0/1627426894080/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.0/1627426894080/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.2.0/1627426894080",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.2.0/assetbyname"
+        },
+        {
+            "version": "2.1.8",
+            "flags": "validated",
+            "lastUpdated": "2021-05-13T12:24:42.02Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.8/1620908544142/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.8/1620908544142/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.8/1620908544142/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.8/1620908544142/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.8/1620908544142/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.8/1620908544142/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.8/1620908544142/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.8/1620908544142",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.1.8/assetbyname"
+        },
+        {
+            "version": "2.1.7",
+            "flags": "validated",
+            "lastUpdated": "2021-04-29T18:29:43.793Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.7/1619720845183/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.7/1619720845183/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.7/1619720845183/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.7/1619720845183/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.7/1619720845183/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.7/1619720845183/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.7/1619720845183/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.7/1619720845183",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.1.7/assetbyname"
+        },
+        {
+            "version": "2.1.6",
+            "flags": "validated",
+            "lastUpdated": "2021-04-27T16:58:11.637Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.6/1619542552591/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.6/1619542552591/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.6/1619542552591/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.6/1619542552591/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.6/1619542552591/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.6/1619542552591/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.6/1619542552591/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.6/1619542552591",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.1.6/assetbyname"
+        },
+        {
+            "version": "2.1.5",
+            "flags": "validated",
+            "lastUpdated": "2021-04-27T01:14:17.357Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.5/1619485919000/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.5/1619485919000/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.5/1619485919000/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.5/1619485919000/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.5/1619485919000/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.5/1619485919000/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.5/1619485919000/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.5/1619485919000",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.1.5/assetbyname"
+        },
+        {
+            "version": "2.1.4",
+            "flags": "validated",
+            "lastUpdated": "2021-03-05T23:05:21.66Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.4/1614985380893/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.4/1614985380893/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.4/1614985380893/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.4/1614985380893/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.4/1614985380893/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.4/1614985380893/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.4/1614985380893/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.4/1614985380893",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.1.4/assetbyname"
+        },
+        {
+            "version": "2.1.3",
+            "flags": "validated",
+            "lastUpdated": "2020-08-14T13:04:32.907Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.3/1597410133920/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.3/1597410133920/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.3/1597410133920/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.3/1597410133920/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.3/1597410133920/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.3/1597410133920/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.3/1597410133920/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.3/1597410133920",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.1.3/assetbyname"
+        },
+        {
+            "version": "2.1.2",
+            "flags": "validated",
+            "lastUpdated": "2020-08-13T03:54:14.723Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.2/1597290716207/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.2/1597290716207/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.2/1597290716207/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.2/1597290716207/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.2/1597290716207/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.2/1597290716207/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.2/1597290716207/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.2/1597290716207",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.1.2/assetbyname"
+        },
+        {
+            "version": "2.1.1",
+            "flags": "validated",
+            "lastUpdated": "2020-08-03T02:07:51.19Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.1/1596420332011/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.1/1596420332011/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.1/1596420332011/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.1/1596420332011/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.1/1596420332011/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.1/1596420332011/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.1/1596420332011/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.1/1596420332011",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.1.1/assetbyname"
+        },
+        {
+            "version": "2.1.0",
+            "flags": "validated",
+            "lastUpdated": "2020-07-16T04:21:54.76Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.0/1594873178324/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.0/1594873178324/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.0/1594873178324/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.0/1594873178324/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.0/1594873178324/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.0/1594873178324/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.0/1594873178324/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.1.0/1594873178324",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.1.0/assetbyname"
+        },
+        {
+            "version": "2.0.5",
+            "flags": "validated",
+            "lastUpdated": "2020-07-09T16:32:21.003Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.5/1594312204458/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.5/1594312204458/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.5/1594312204458/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.5/1594312204458/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.5/1594312204458/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.5/1594312204458/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.5/1594312204458/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.5/1594312204458",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.0.5/assetbyname"
+        },
+        {
+            "version": "2.0.4",
+            "flags": "validated",
+            "lastUpdated": "2020-04-10T02:28:56.233Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.4/1586485599856/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.4/1586485599856/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.4/1586485599856/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.4/1586485599856/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.4/1586485599856/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.4/1586485599856/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.4/1586485599856/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.4/1586485599856",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.0.4/assetbyname"
+        },
+        {
+            "version": "2.0.3",
+            "flags": "validated",
+            "lastUpdated": "2020-01-24T21:31:44.37Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.3/1579901363887/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.3/1579901363887/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.3/1579901363887/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.3/1579901363887/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.3/1579901363887/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.3/1579901363887/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.3/1579901363887/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.3/1579901363887",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.0.3/assetbyname"
+        },
+        {
+            "version": "2.0.2",
+            "flags": "validated",
+            "lastUpdated": "2019-11-27T19:57:28.103Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.2/1574884510994/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.2/1574884510994/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.2/1574884510994/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.2/1574884510994/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.2/1574884510994/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.2/1574884510994/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.2/1574884510994/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.2/1574884510994",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.0.2/assetbyname"
+        },
+        {
+            "version": "2.0.1",
+            "flags": "validated",
+            "lastUpdated": "2019-11-27T19:34:02.02Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.1/1574883104739/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.1/1574883104739/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.1/1574883104739/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.1/1574883104739/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.1/1574883104739/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.1/1574883104739/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.1/1574883104739/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.1/1574883104739",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.0.1/assetbyname"
+        },
+        {
+            "version": "2.0.0",
+            "flags": "validated",
+            "lastUpdated": "2019-11-22T14:40:59.56Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.0/1574433521799/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.0/1574433521799/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.0/1574433521799/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.0/1574433521799/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.0/1574433521799/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.0/1574433521799/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.0/1574433521799/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.34.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/2.0.0/1574433521799",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/2.0.0/assetbyname"
+        },
+        {
+            "version": "1.4.3",
+            "flags": "validated",
+            "lastUpdated": "2019-05-13T18:22:47.237Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.3/1557771623073/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.3/1557771623073/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.3/1557771623073/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.3/1557771623073/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.3/1557771623073/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.3/1557771623073/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.3/1557771623073/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.3/1557771623073",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/1.4.3/assetbyname"
+        },
+        {
+            "version": "1.4.1",
+            "flags": "validated",
+            "lastUpdated": "2019-01-30T21:24:21.96Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.1/1548883271811/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.1/1548883271811/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.1/1548883271811/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.1/1548883271811/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.1/1548883271811/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.1/1548883271811/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.1/1548883271811/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.1/1548883271811",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/1.4.1/assetbyname"
+        },
+        {
+            "version": "1.4.0",
+            "flags": "validated",
+            "lastUpdated": "2018-11-07T19:05:29.8Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.0/1541617387893/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.0/1541617387893/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.0/1541617387893/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.0/1541617387893/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.0/1541617387893/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.0/1541617387893/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.0/1541617387893/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.4.0/1541617387893",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/1.4.0/assetbyname"
+        },
+        {
+            "version": "1.3.3",
+            "flags": "validated",
+            "lastUpdated": "2018-10-09T19:34:29.87Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.3/1539113527449/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.3/1539113527449/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.3/1539113527449/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.3/1539113527449/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.3/1539113527449/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.3/1539113527449/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.3/1539113527449/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.3/1539113527449",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/1.3.3/assetbyname"
+        },
+        {
+            "version": "1.3.2",
+            "flags": "validated",
+            "lastUpdated": "2018-07-19T16:52:14.303Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.2/1532018975448/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.2/1532018975448/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.2/1532018975448/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.2/1532018975448/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.2/1532018975448/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.2/1532018975448/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.2/1532018975448/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.2/1532018975448",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/1.3.2/assetbyname"
+        },
+        {
+            "version": "1.3.1",
+            "flags": "validated",
+            "lastUpdated": "2018-07-19T16:51:49.697Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.1/1532018951729/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.1/1532018951729/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.1/1532018951729/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.1/1532018951729/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.1/1532018951729/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.1/1532018951729/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.1/1532018951729/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.1/1532018951729",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/1.3.1/assetbyname"
+        },
+        {
+            "version": "1.3.0",
+            "flags": "validated",
+            "lastUpdated": "2018-05-03T18:52:11.78Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.0/1525373519878/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.0/1525373519878/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.0/1525373519878/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.0/1525373519878/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.0/1525373519878/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.0/1525373519878/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.0/1525373519878/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.3.0/1525373519878",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/1.3.0/assetbyname"
+        },
+        {
+            "version": "1.2.1",
+            "flags": "validated",
+            "lastUpdated": "2018-05-02T20:43:15.633Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.2.1/1525293783343/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.2.1/1525293783343/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.2.1/1525293783343/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.2.1/1525293783343/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.2.1/1525293783343/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.2.1/1525293783343/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.2.1/1525293783343/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.2.1/1525293783343",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/1.2.1/assetbyname"
+        },
+        {
+            "version": "1.2.0",
+            "flags": "validated",
+            "lastUpdated": "2018-02-26T17:15:14.757Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.2.0/1519665306024/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.2.0/1519665306024/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.2.0/1519665306024/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.2.0/1519665306024/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.2.0/1519665306024/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.2.0/1519665306024",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/1.2.0/assetbyname"
+        },
+        {
+            "version": "1.1.0",
+            "flags": "validated",
+            "lastUpdated": "2018-02-26T17:14:43.787Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.1.0/1519665274731/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.1.0/1519665274731/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.1.0/1519665274731/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.1.0/1519665274731/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.1.0/1519665274731/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.1.0/1519665274731",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/1.1.0/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2018-02-26T16:51:27.027Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.0.1/1519663878591/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.0.1/1519663878591/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.0.1/1519663878591/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.0.1/1519663878591/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.0.1/1519663878591/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.0.1/1519663878591",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2018-02-23T18:43:51.39Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.0.0/1519411304785/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.0.0/1519411304785/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.0.0/1519411304785/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.0.0/1519411304785/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/fcrespo82/vscode-markdown-table-formatter"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.20.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://fcrespo82.gallerycdn.vsassets.io/extensions/fcrespo82/markdown-table-formatter/1.0.0/1519411304785",
+            "fallbackAssetUri": "https://fcrespo82.gallery.vsassets.io/_apis/public/gallery/publisher/fcrespo82/extension/markdown-table-formatter/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Formatters"
+    ],
+    "tags": [
+        "formatter",
+        "keybindings",
+        "markdown",
+        "rmd",
+        "table"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 84931.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 4.199999809265137
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 15.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0023552964729435318
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 1.1529176235058587
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.31089913442854616
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 208982.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.281281777282791
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 443.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

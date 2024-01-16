@@ -1,0 +1,673 @@
+{
+    "publisher": {
+        "publisherId": "4c8db167-9f55-479d-a1fd-ace5700d31b6",
+        "publisherName": "disable-copilot-comment-completions",
+        "displayName": "disable-copilot-comment-completions",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "535e28de-ba0c-4964-a4e5-53c92ff2d620",
+    "extensionName": "disable-copilot-comment-completions",
+    "displayName": "Disable Copilot Completions in Scopes",
+    "flags": "validated, public",
+    "lastUpdated": "2023-04-06T19:52:00.317Z",
+    "publishedDate": "2022-03-20T23:12:08.083Z",
+    "releaseDate": "2022-03-20T23:12:08.083Z",
+    "shortDescription": "Prevents GitHub Copilot from providing Inline Suggestions when user-defined criteria is met",
+    "versions": [
+        {
+            "version": "2.0.0",
+            "flags": "validated",
+            "lastUpdated": "2023-04-06T19:52:00.313Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/2.0.0/1680810479726/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/2.0.0/1680810479726/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/2.0.0/1680810479726/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/2.0.0/1680810479726/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/2.0.0/1680810479726/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/2.0.0/1680810479726/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/2.0.0/1680810479726/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/2.0.0/1680810479726/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/2.0.0/1680810479726/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.77.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "draivin.hscopes"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/2.0.0/1680810479726",
+            "fallbackAssetUri": "https://disable-copilot-comment-completions.gallery.vsassets.io/_apis/public/gallery/publisher/disable-copilot-comment-completions/extension/disable-copilot-comment-completions/2.0.0/assetbyname"
+        },
+        {
+            "version": "1.0.2",
+            "flags": "validated",
+            "lastUpdated": "2022-06-30T23:15:41.4Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.2/1656630799382/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.2/1656630799382/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.2/1656630799382/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.2/1656630799382/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.2/1656630799382/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.2/1656630799382/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.2/1656630799382/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.2/1656630799382/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.2/1656630799382/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.68.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "draivin.hscopes"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.2/1656630799382",
+            "fallbackAssetUri": "https://disable-copilot-comment-completions.gallery.vsassets.io/_apis/public/gallery/publisher/disable-copilot-comment-completions/extension/disable-copilot-comment-completions/1.0.2/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2022-06-30T23:11:44.12Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.1/1656630436148/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.1/1656630436148/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.1/1656630436148/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.1/1656630436148/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.1/1656630436148/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.1/1656630436148/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.68.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "draivin.hscopes"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/1.0.1/1656630436148",
+            "fallbackAssetUri": "https://disable-copilot-comment-completions.gallery.vsassets.io/_apis/public/gallery/publisher/disable-copilot-comment-completions/extension/disable-copilot-comment-completions/1.0.1/assetbyname"
+        },
+        {
+            "version": "0.1.2",
+            "flags": "validated",
+            "lastUpdated": "2022-03-20T23:57:02.45Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.2/1647820481963/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.2/1647820481963/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.2/1647820481963/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.2/1647820481963/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.2/1647820481963/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.2/1647820481963/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.2/1647820481963/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.2/1647820481963/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.65.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "draivin.hscopes"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.2/1647820481963",
+            "fallbackAssetUri": "https://disable-copilot-comment-completions.gallery.vsassets.io/_apis/public/gallery/publisher/disable-copilot-comment-completions/extension/disable-copilot-comment-completions/0.1.2/assetbyname"
+        },
+        {
+            "version": "0.1.1",
+            "flags": "validated",
+            "lastUpdated": "2022-03-20T23:45:47.327Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.1/1647819807594/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.1/1647819807594/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.1/1647819807594/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.1/1647819807594/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.1/1647819807594/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.1/1647819807594/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.1/1647819807594/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.1/1647819807594/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.65.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "draivin.hscopes"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.1/1647819807594",
+            "fallbackAssetUri": "https://disable-copilot-comment-completions.gallery.vsassets.io/_apis/public/gallery/publisher/disable-copilot-comment-completions/extension/disable-copilot-comment-completions/0.1.1/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2022-03-20T23:21:15.533Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.0/1647818337981/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.0/1647818337981/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.0/1647818337981/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.0/1647818337981/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.0/1647818337981/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.0/1647818337981/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.0/1647818337981/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.0/1647818337981/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.65.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "draivin.hscopes"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.1.0/1647818337981",
+            "fallbackAssetUri": "https://disable-copilot-comment-completions.gallery.vsassets.io/_apis/public/gallery/publisher/disable-copilot-comment-completions/extension/disable-copilot-comment-completions/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2022-03-20T23:14:25.62Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.0.1/1647817928113/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.0.1/1647817928113/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.0.1/1647817928113/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.0.1/1647817928113/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.0.1/1647817928113/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.0.1/1647817928113/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/jamesonknutson/disable-copilot-comment-completions.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.65.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "draivin.hscopes"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://disable-copilot-comment-completions.gallerycdn.vsassets.io/extensions/disable-copilot-comment-completions/disable-copilot-comment-completions/0.0.1/1647817928113",
+            "fallbackAssetUri": "https://disable-copilot-comment-completions.gallery.vsassets.io/_apis/public/gallery/publisher/disable-copilot-comment-completions/extension/disable-copilot-comment-completions/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 1132.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 4.875
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 8.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 4.681978798586572
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.325088339222615
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 329.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.612891516282929
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 30.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

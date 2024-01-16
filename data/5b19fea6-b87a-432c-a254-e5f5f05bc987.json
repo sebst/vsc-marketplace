@@ -1,0 +1,955 @@
+{
+    "publisher": {
+        "publisherId": "0f6eb148-2445-416c-8036-62283c1a4b2b",
+        "publisherName": "IceCraftStudio",
+        "displayName": "IceCraft Studio",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "5b19fea6-b87a-432c-a254-e5f5f05bc987",
+    "extensionName": "insert-molang-file",
+    "displayName": "Insert Molang File [Minecraft Bedrock]",
+    "flags": "validated, public",
+    "lastUpdated": "2024-01-10T22:00:04.843Z",
+    "publishedDate": "2021-09-11T18:54:27.59Z",
+    "releaseDate": "2021-09-11T18:54:27.59Z",
+    "shortDescription": "This extension lets you use '.molang' files when working on larger scripts and easily insert them as a single-line string into Minecraft Bedrock addon files.",
+    "versions": [
+        {
+            "version": "2.4.0",
+            "flags": "validated",
+            "lastUpdated": "2024-01-10T22:00:04.843Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.4.0/1704923821821/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.4.0/1704923821821/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.4.0/1704923821821/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.4.0/1704923821821/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.4.0/1704923821821/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.4.0/1704923821821/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.4.0/1704923821821/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.4.0/1704923821821/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.4.0/1704923821821/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.4.0/1704923821821",
+            "fallbackAssetUri": "https://icecraftstudio.gallery.vsassets.io/_apis/public/gallery/publisher/IceCraftStudio/extension/insert-molang-file/2.4.0/assetbyname"
+        },
+        {
+            "version": "2.3.1",
+            "flags": "validated",
+            "lastUpdated": "2023-11-09T20:14:21.5Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.1/1699560718387/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.1/1699560718387/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.1/1699560718387/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.1/1699560718387/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.1/1699560718387/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.1/1699560718387/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.1/1699560718387/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.1/1699560718387/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.1/1699560718387/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.1/1699560718387",
+            "fallbackAssetUri": "https://icecraftstudio.gallery.vsassets.io/_apis/public/gallery/publisher/IceCraftStudio/extension/insert-molang-file/2.3.1/assetbyname"
+        },
+        {
+            "version": "2.3.0",
+            "flags": "validated",
+            "lastUpdated": "2023-11-09T19:48:28.827Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.0/1699559163924/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.0/1699559163924/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.0/1699559163924/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.0/1699559163924/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.0/1699559163924/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.0/1699559163924/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.0/1699559163924/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.0/1699559163924/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.0/1699559163924/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.3.0/1699559163924",
+            "fallbackAssetUri": "https://icecraftstudio.gallery.vsassets.io/_apis/public/gallery/publisher/IceCraftStudio/extension/insert-molang-file/2.3.0/assetbyname"
+        },
+        {
+            "version": "2.2.0",
+            "flags": "validated",
+            "lastUpdated": "2023-03-01T22:29:54.64Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.2.0/1677709553610/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.2.0/1677709553610/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.2.0/1677709553610/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.2.0/1677709553610/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.2.0/1677709553610/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.2.0/1677709553610/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.2.0/1677709553610/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.2.0/1677709553610/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.2.0/1677709553610/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/IceCraft-Studio/Insert-Molang-File-VSC-Ext.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.76.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.2.0/1677709553610",
+            "fallbackAssetUri": "https://icecraftstudio.gallery.vsassets.io/_apis/public/gallery/publisher/IceCraftStudio/extension/insert-molang-file/2.2.0/assetbyname"
+        },
+        {
+            "version": "2.1.1",
+            "flags": "validated",
+            "lastUpdated": "2021-12-19T12:27:24.837Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.1/1639916706365/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.1/1639916706365/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.1/1639916706365/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.1/1639916706365/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.1/1639916706365/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.1/1639916706365/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.1/1639916706365/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.1/1639916706365/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.1/1639916706365/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "BlockceptionLtd.blockceptionvscodeminecraftbedrockdevelopmentextension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.1/1639916706365",
+            "fallbackAssetUri": "https://icecraftstudio.gallery.vsassets.io/_apis/public/gallery/publisher/IceCraftStudio/extension/insert-molang-file/2.1.1/assetbyname"
+        },
+        {
+            "version": "2.1.0",
+            "flags": "validated",
+            "lastUpdated": "2021-09-23T18:27:18.803Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.0/1632421501929/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.0/1632421501929/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.0/1632421501929/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.0/1632421501929/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.0/1632421501929/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.0/1632421501929/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.0/1632421501929/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "BlockceptionLtd.blockceptionvscodeminecraftbedrockdevelopmentextension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.1.0/1632421501929",
+            "fallbackAssetUri": "https://icecraftstudio.gallery.vsassets.io/_apis/public/gallery/publisher/IceCraftStudio/extension/insert-molang-file/2.1.0/assetbyname"
+        },
+        {
+            "version": "2.0.0",
+            "flags": "validated",
+            "lastUpdated": "2021-09-23T00:13:42.99Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.0.0/1632355884157/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.0.0/1632355884157/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.0.0/1632355884157/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.0.0/1632355884157/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.0.0/1632355884157/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.0.0/1632355884157/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.0.0/1632355884157/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "BlockceptionLtd.blockceptionvscodeminecraftbedrockdevelopmentextension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/2.0.0/1632355884157",
+            "fallbackAssetUri": "https://icecraftstudio.gallery.vsassets.io/_apis/public/gallery/publisher/IceCraftStudio/extension/insert-molang-file/2.0.0/assetbyname"
+        },
+        {
+            "version": "1.0.3",
+            "flags": "validated",
+            "lastUpdated": "2021-09-14T16:57:03.393Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.3/1631638486066/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.3/1631638486066/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.3/1631638486066/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.3/1631638486066/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.3/1631638486066/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.3/1631638486066/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.3/1631638486066/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "BlockceptionLtd.blockceptionvscodeminecraftbedrockdevelopmentextension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.3/1631638486066",
+            "fallbackAssetUri": "https://icecraftstudio.gallery.vsassets.io/_apis/public/gallery/publisher/IceCraftStudio/extension/insert-molang-file/1.0.3/assetbyname"
+        },
+        {
+            "version": "1.0.2",
+            "flags": "validated",
+            "lastUpdated": "2021-09-12T11:06:53.813Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.2/1631444676381/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.2/1631444676381/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.2/1631444676381/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.2/1631444676381/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.2/1631444676381/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.2/1631444676381/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.2/1631444676381/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "BlockceptionLtd.blockceptionvscodeminecraftbedrockdevelopmentextension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.2/1631444676381",
+            "fallbackAssetUri": "https://icecraftstudio.gallery.vsassets.io/_apis/public/gallery/publisher/IceCraftStudio/extension/insert-molang-file/1.0.2/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2021-09-11T18:56:44.943Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.0/1631386467596/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.0/1631386467596/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.0/1631386467596/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.0/1631386467596/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.0/1631386467596/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.0/1631386467596/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.0/1631386467596/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/PavelDobCZ23/Insert-Molang-File-VSCode-Extension-.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.41.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": "BlockceptionLtd.blockceptionvscodeminecraftbedrockdevelopmentextension"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://icecraftstudio.gallerycdn.vsassets.io/extensions/icecraftstudio/insert-molang-file/1.0.0/1631386467596",
+            "fallbackAssetUri": "https://icecraftstudio.gallery.vsassets.io/_apis/public/gallery/publisher/IceCraftStudio/extension/insert-molang-file/1.0.0/assetbyname"
+        }
+    ],
+    "categories": [
+        "Programming Languages"
+    ],
+    "tags": [
+        "insert-file",
+        "json",
+        "jsonc",
+        "minecraft",
+        "minecraft-json",
+        "minecraft-molang",
+        "molang"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 1237.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 3.4761519805982215
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.7275666936135812
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 685.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 51.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

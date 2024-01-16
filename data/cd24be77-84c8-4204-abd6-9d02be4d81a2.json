@@ -1,0 +1,915 @@
+{
+    "publisher": {
+        "publisherId": "64a4ead8-7874-4dab-8923-6825416e8757",
+        "publisherName": "Virtual-Labs",
+        "displayName": "Virtual-Labs",
+        "flags": "verified",
+        "domain": null,
+        "isDomainVerified": false
+    },
+    "extensionId": "cd24be77-84c8-4204-abd6-9d02be4d81a2",
+    "extensionName": "virtual-labs-experiment-authoring-environment",
+    "displayName": "Virtual Labs Experiment Authoring Environment",
+    "flags": "validated, public",
+    "lastUpdated": "2023-09-25T19:22:42.877Z",
+    "publishedDate": "2023-05-11T16:51:05.707Z",
+    "releaseDate": "2023-05-11T16:51:05.707Z",
+    "shortDescription": "A VS Code extension to handle all the common tasks invovled in virtual labs experiment development.",
+    "versions": [
+        {
+            "version": "0.0.9",
+            "flags": "validated",
+            "lastUpdated": "2023-09-25T19:22:42.877Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.9/1695669509031/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.9/1695669509031/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.9/1695669509031/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.9/1695669509031/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.9/1695669509031/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.9/1695669509031/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.9/1695669509031/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.9/1695669509031/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.9/1695669509031/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/tree/main#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.9/1695669509031",
+            "fallbackAssetUri": "https://virtual-labs.gallery.vsassets.io/_apis/public/gallery/publisher/Virtual-Labs/extension/virtual-labs-experiment-authoring-environment/0.0.9/assetbyname"
+        },
+        {
+            "version": "0.0.8",
+            "flags": "validated",
+            "lastUpdated": "2023-09-11T14:44:49.12Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.8/1694443220594/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.8/1694443220594/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.8/1694443220594/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.8/1694443220594/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.8/1694443220594/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.8/1694443220594/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.8/1694443220594/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.8/1694443220594/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.8/1694443220594/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/tree/main#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.8/1694443220594",
+            "fallbackAssetUri": "https://virtual-labs.gallery.vsassets.io/_apis/public/gallery/publisher/Virtual-Labs/extension/virtual-labs-experiment-authoring-environment/0.0.8/assetbyname"
+        },
+        {
+            "version": "0.0.7",
+            "flags": "validated",
+            "lastUpdated": "2023-06-11T17:09:12.827Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.7/1686503069073/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.7/1686503069073/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.7/1686503069073/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.7/1686503069073/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.7/1686503069073/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.7/1686503069073/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.7/1686503069073/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.7/1686503069073/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.7/1686503069073/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/tree/main#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.7/1686503069073",
+            "fallbackAssetUri": "https://virtual-labs.gallery.vsassets.io/_apis/public/gallery/publisher/Virtual-Labs/extension/virtual-labs-experiment-authoring-environment/0.0.7/assetbyname"
+        },
+        {
+            "version": "0.0.6",
+            "flags": "validated",
+            "lastUpdated": "2023-05-27T07:50:08.523Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.6/1685173522792/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.6/1685173522792/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.6/1685173522792/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.6/1685173522792/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.6/1685173522792/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.6/1685173522792/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.6/1685173522792/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.6/1685173522792/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.6/1685173522792/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/tree/main#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.6/1685173522792",
+            "fallbackAssetUri": "https://virtual-labs.gallery.vsassets.io/_apis/public/gallery/publisher/Virtual-Labs/extension/virtual-labs-experiment-authoring-environment/0.0.6/assetbyname"
+        },
+        {
+            "version": "0.0.5",
+            "flags": "validated",
+            "lastUpdated": "2023-05-27T07:23:13.04Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.5/1685171907357/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.5/1685171907357/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.5/1685171907357/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.5/1685171907357/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.5/1685171907357/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.5/1685171907357/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.5/1685171907357/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.5/1685171907357/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.5/1685171907357/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/tree/main#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.5/1685171907357",
+            "fallbackAssetUri": "https://virtual-labs.gallery.vsassets.io/_apis/public/gallery/publisher/Virtual-Labs/extension/virtual-labs-experiment-authoring-environment/0.0.5/assetbyname"
+        },
+        {
+            "version": "0.0.4",
+            "flags": "validated",
+            "lastUpdated": "2023-05-27T07:01:39.717Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.4/1685170614668/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.4/1685170614668/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.4/1685170614668/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.4/1685170614668/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.4/1685170614668/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.4/1685170614668/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.4/1685170614668/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.4/1685170614668/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.4/1685170614668/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/tree/main#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.4/1685170614668",
+            "fallbackAssetUri": "https://virtual-labs.gallery.vsassets.io/_apis/public/gallery/publisher/Virtual-Labs/extension/virtual-labs-experiment-authoring-environment/0.0.4/assetbyname"
+        },
+        {
+            "version": "0.0.3",
+            "flags": "validated",
+            "lastUpdated": "2023-05-18T17:46:03.28Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.3/1684431714271/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.3/1684431714271/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.3/1684431714271/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.3/1684431714271/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.3/1684431714271/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.3/1684431714271/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.3/1684431714271/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.3/1684431714271/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.3/1684431714271/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/tree/main#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.3/1684431714271",
+            "fallbackAssetUri": "https://virtual-labs.gallery.vsassets.io/_apis/public/gallery/publisher/Virtual-Labs/extension/virtual-labs-experiment-authoring-environment/0.0.3/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2023-05-18T12:21:02.393Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.2/1684412206062/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.2/1684412206062/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.2/1684412206062/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.2/1684412206062/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.2/1684412206062/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.2/1684412206062/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.2/1684412206062/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.2/1684412206062/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.2/1684412206062/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/tree/main#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.2/1684412206062",
+            "fallbackAssetUri": "https://virtual-labs.gallery.vsassets.io/_apis/public/gallery/publisher/Virtual-Labs/extension/virtual-labs-experiment-authoring-environment/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2023-05-11T16:55:18.917Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.1/1683823867143/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.1/1683823867143/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.1/1683823867143/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.1/1683823867143/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.1/1683823867143/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.1/1683823867143/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.1/1683823867143/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.1/1683823867143/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.1/1683823867143/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin/tree/main#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/virtual-labs/tool-vscode-plugin.git#main"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.74.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://virtual-labs.gallerycdn.vsassets.io/extensions/virtual-labs/virtual-labs-experiment-authoring-environment/0.0.1/1683823867143",
+            "fallbackAssetUri": "https://virtual-labs.gallery.vsassets.io/_apis/public/gallery/publisher/Virtual-Labs/extension/virtual-labs-experiment-authoring-environment/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 113.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.0
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 11.607142857142858
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 1.7857142857142856
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 109.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.403204729309272
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 16.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}

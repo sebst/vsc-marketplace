@@ -1,0 +1,1556 @@
+{
+    "publisher": {
+        "publisherId": "ce311c06-a2b7-469e-a0dd-319e3a3d9d25",
+        "publisherName": "eliostruyf",
+        "displayName": "Elio Struyf",
+        "flags": "verified",
+        "domain": "https://eliostruyf.com",
+        "isDomainVerified": true
+    },
+    "extensionId": "285c010b-e677-44c3-a08e-14c193534356",
+    "extensionName": "vscode-typescript-exportallmodules",
+    "displayName": "TypeScript Barrel Generator",
+    "flags": "validated, public",
+    "lastUpdated": "2023-09-11T13:10:54.533Z",
+    "publishedDate": "2019-06-07T07:55:09.463Z",
+    "releaseDate": "2019-06-07T07:55:09.463Z",
+    "shortDescription": "VSCode extension which generates a barrel `index.ts` file with all the module exports from the current directory.",
+    "versions": [
+        {
+            "version": "2.7.0",
+            "flags": "validated",
+            "lastUpdated": "2023-09-11T13:10:54.533Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.7.0/1694437703436/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.7.0/1694437703436/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.7.0/1694437703436/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.7.0/1694437703436/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.7.0/1694437703436/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.7.0/1694437703436/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.7.0/1694437703436/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.7.0/1694437703436/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.7.0/1694437703436/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#011627"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.7.0/1694437703436",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/2.7.0/assetbyname"
+        },
+        {
+            "version": "2.6.0",
+            "flags": "validated",
+            "lastUpdated": "2023-02-19T13:51:03.433Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.6.0/1676814378884/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.6.0/1676814378884/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.6.0/1676814378884/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.6.0/1676814378884/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.6.0/1676814378884/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.6.0/1676814378884/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.6.0/1676814378884/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.6.0/1676814378884/Microsoft.VisualStudio.Services.VSIXPackage"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixSignature",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.6.0/1676814378884/Microsoft.VisualStudio.Services.VsixSignature"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#011627"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Content.Pricing",
+                    "value": "Free"
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.6.0/1676814378884",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/2.6.0/assetbyname"
+        },
+        {
+            "version": "2.5.0",
+            "flags": "validated",
+            "lastUpdated": "2022-07-11T07:43:33.29Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.5.0/1657525142012/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.5.0/1657525142012/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.5.0/1657525142012/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.5.0/1657525142012/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.5.0/1657525142012/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.5.0/1657525142012/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.5.0/1657525142012/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.5.0/1657525142012/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#011627"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.5.0/1657525142012",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/2.5.0/assetbyname"
+        },
+        {
+            "version": "2.4.1",
+            "flags": "validated",
+            "lastUpdated": "2022-06-20T13:34:02.67Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.1/1655731897170/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.1/1655731897170/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.1/1655731897170/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.1/1655731897170/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.1/1655731897170/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.1/1655731897170/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.1/1655731897170/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.1/1655731897170/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#011627"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.1/1655731897170",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/2.4.1/assetbyname"
+        },
+        {
+            "version": "2.4.0",
+            "flags": "validated",
+            "lastUpdated": "2022-06-20T12:45:17.49Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.0/1655728975346/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.0/1655728975346/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.0/1655728975346/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.0/1655728975346/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.0/1655728975346/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.0/1655728975346/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.0/1655728975346/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.0/1655728975346/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#011627"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.4.0/1655728975346",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/2.4.0/assetbyname"
+        },
+        {
+            "version": "2.3.2",
+            "flags": "validated",
+            "lastUpdated": "2022-06-20T11:53:15.253Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.2/1655725849392/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.2/1655725849392/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.2/1655725849392/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.2/1655725849392/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.2/1655725849392/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.2/1655725849392/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.2/1655725849392/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.2/1655725849392/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#011627"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.2/1655725849392",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/2.3.2/assetbyname"
+        },
+        {
+            "version": "2.3.1",
+            "flags": "validated",
+            "lastUpdated": "2022-02-07T10:00:35.39Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.1/1644227893609/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.1/1644227893609/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.1/1644227893609/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.1/1644227893609/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.1/1644227893609/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.1/1644227893609/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.1/1644227893609/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.1/1644227893609/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#011627"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.1/1644227893609",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/2.3.1/assetbyname"
+        },
+        {
+            "version": "2.3.0",
+            "flags": "validated",
+            "lastUpdated": "2022-02-07T08:10:33.45Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.0/1644221271277/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.0/1644221271277/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.0/1644221271277/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.0/1644221271277/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.0/1644221271277/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.0/1644221271277/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.0/1644221271277/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.0/1644221271277/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#011627"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules/issues"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules#readme"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules.git"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.3.0/1644221271277",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/2.3.0/assetbyname"
+        },
+        {
+            "version": "2.2.0",
+            "flags": "validated",
+            "lastUpdated": "2021-06-11T07:15:49.993Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.2.0/1623395606790/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.2.0/1623395606790/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.2.0/1623395606790/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.2.0/1623395606790/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.2.0/1623395606790/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.2.0/1623395606790/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.2.0/1623395606790/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.2.0/1623395606790/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#011627"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.2.0/1623395606790",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/2.2.0/assetbyname"
+        },
+        {
+            "version": "2.1.0",
+            "flags": "validated",
+            "lastUpdated": "2020-10-15T07:37:52.533Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.1.0/1602747332796/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.1.0/1602747332796/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.1.0/1602747332796/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.1.0/1602747332796/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.1.0/1602747332796/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.1.0/1602747332796/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.1.0/1602747332796/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.1.0/1602747332796/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#011627"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.1.0/1602747332796",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/2.1.0/assetbyname"
+        },
+        {
+            "version": "2.0.1",
+            "flags": "validated",
+            "lastUpdated": "2020-06-08T10:22:37.74Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.1/1591611616201/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.1/1591611616201/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.1/1591611616201/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.1/1591611616201/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.1/1591611616201/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.1/1591611616201/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.1/1591611616201/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.1/1591611616201/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#011627"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.1/1591611616201",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/2.0.1/assetbyname"
+        },
+        {
+            "version": "2.0.0",
+            "flags": "validated",
+            "lastUpdated": "2020-06-08T10:07:46.1Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.0/1591610724221/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.0/1591610724221/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.0/1591610724221/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.0/1591610724221/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.0/1591610724221/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.0/1591610724221/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.0/1591610724221/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.0/1591610724221/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#011627"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/2.0.0/1591610724221",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/2.0.0/assetbyname"
+        },
+        {
+            "version": "1.0.1",
+            "flags": "validated",
+            "lastUpdated": "2020-06-04T07:18:29.967Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.1/1591254969353/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.1/1591254969353/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.1/1591254969353/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.1/1591254969353/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.1/1591254969353/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.1/1591254969353/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.1/1591254969353/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.1/1591254969353/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#011627"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.1/1591254969353",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/1.0.1/assetbyname"
+        },
+        {
+            "version": "1.0.0",
+            "flags": "validated",
+            "lastUpdated": "2020-06-02T17:05:40.92Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.0/1591117401884/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.0/1591117401884/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.0/1591117401884/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.0/1591117401884/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.0/1591117401884/Microsoft.VisualStudio.Services.Icons.Default"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.0/1591117401884/Microsoft.VisualStudio.Services.Icons.Small"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.0/1591117401884/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.0/1591117401884/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Color",
+                    "value": "#011627"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Branding.Theme",
+                    "value": "dark"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/1.0.0/1591117401884",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/1.0.0/assetbyname"
+        },
+        {
+            "version": "0.1.0",
+            "flags": "validated",
+            "lastUpdated": "2020-05-30T09:02:26.71Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.1.0/1590829208624/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.1.0/1590829208624/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.1.0/1590829208624/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.1.0/1590829208624/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.1.0/1590829208624/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.1.0/1590829208624/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://github.com:estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com:estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com:estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.1.0/1590829208624",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/0.1.0/assetbyname"
+        },
+        {
+            "version": "0.0.2",
+            "flags": "validated",
+            "lastUpdated": "2019-06-07T08:08:14.85Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.0.2/1559894755477/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.0.2/1559894755477/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.0.2/1559894755477/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.0.2/1559894755477/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.0.2/1559894755477/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.0.2/1559894755477/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://github.com:estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com:estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com:estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.0.2/1559894755477",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/0.0.2/assetbyname"
+        },
+        {
+            "version": "0.0.1",
+            "flags": "validated",
+            "lastUpdated": "2019-06-07T07:57:26.453Z",
+            "files": [
+                {
+                    "assetType": "Microsoft.VisualStudio.Code.Manifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.0.1/1559894109469/Microsoft.VisualStudio.Code.Manifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Changelog",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.0.1/1559894109469/Microsoft.VisualStudio.Services.Content.Changelog"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.0.1/1559894109469/Microsoft.VisualStudio.Services.Content.Details"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.Content.License",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.0.1/1559894109469/Microsoft.VisualStudio.Services.Content.License"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VsixManifest",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.0.1/1559894109469/Microsoft.VisualStudio.Services.VsixManifest"
+                },
+                {
+                    "assetType": "Microsoft.VisualStudio.Services.VSIXPackage",
+                    "source": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.0.1/1559894109469/Microsoft.VisualStudio.Services.VSIXPackage"
+                }
+            ],
+            "properties": [
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Repository",
+                    "value": "https://github.com:estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com:estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com:estruyf/vscode-typescript-exportallmodules"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.35.0"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                },
+                {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                }
+            ],
+            "assetUri": "https://eliostruyf.gallerycdn.vsassets.io/extensions/eliostruyf/vscode-typescript-exportallmodules/0.0.1/1559894109469",
+            "fallbackAssetUri": "https://eliostruyf.gallery.vsassets.io/_apis/public/gallery/publisher/eliostruyf/extension/vscode-typescript-exportallmodules/0.0.1/assetbyname"
+        }
+    ],
+    "categories": [
+        "Other"
+    ],
+    "tags": [
+        "barrel",
+        "export",
+        "TypeScript"
+    ],
+    "statistics": [
+        {
+            "statisticName": "install",
+            "value": 23117.0
+        },
+        {
+            "statisticName": "averagerating",
+            "value": 5.0
+        },
+        {
+            "statisticName": "ratingcount",
+            "value": 7.0
+        },
+        {
+            "statisticName": "trendingdaily",
+            "value": 0.004333506673600278
+        },
+        {
+            "statisticName": "trendingmonthly",
+            "value": 3.033454671520194
+        },
+        {
+            "statisticName": "trendingweekly",
+            "value": 0.9057028947824579
+        },
+        {
+            "statisticName": "updateCount",
+            "value": 26111.0
+        },
+        {
+            "statisticName": "weightedRating",
+            "value": 4.6489439584172185
+        },
+        {
+            "statisticName": "downloadCount",
+            "value": 104.0
+        }
+    ],
+    "installationTargets": [
+        {
+            "target": "Microsoft.VisualStudio.Code",
+            "targetVersion": ""
+        }
+    ],
+    "deploymentType": 0
+}
